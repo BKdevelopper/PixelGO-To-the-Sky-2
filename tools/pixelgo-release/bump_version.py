@@ -6,8 +6,9 @@ Usage :
   python tools/pixelgo-release/bump_version.py 4.2    -> 4.2
 
 Met à jour VERSION, le titre de la fenêtre (FancyMenu), le titre du changelog
-du menu (lang en/fr), ajoute une section au CHANGELOG.md puis régénère
-manifest.json et MODLIST.md.
+du menu (lang en/fr), archive le changelog FancyMenu de l'ancienne version dans
+docs/changelogs/<ancienne>/ et en démarre un vide, ajoute une section au
+CHANGELOG.md puis régénère manifest.json et MODLIST.md.
 """
 import re
 import subprocess
@@ -18,6 +19,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 VERSION_FILE = ROOT / "VERSION"
 # (fichier, motif contenant la version) : le groupe 1 est conservé, la version remplacée.
+MENU_CHANGELOG_DIR = ROOT / "config/fancymenu/assets/changelog"
+MENU_PLACEHOLDER = {
+    "fr": "*Pas encore de nouveautés pour cette version.*\n",
+    "en": "*Nothing new in this version yet.*\n",
+}
 VERSION_SPOTS = [
     ("config/fancymenu/options.txt", r"(custom_window_title = '.*?: v)\d+\.\d+"),
     ("kubejs/assets/pixelgo/lang/fr_fr.json", r'("pixelgo\.menu\.changelog_title": "[^"]*?v)\d+\.\d+'),
@@ -43,6 +49,18 @@ def replace_in_file(rel_path, pattern, version):
     return path, new_text
 
 
+def archive_menu_changelog(old_version):
+    """Copie changelog_<lang>.md dans docs/changelogs/<old>/menu_<lang>.md, puis le vide."""
+    archive_dir = ROOT / "docs/changelogs" / old_version
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    for lang, placeholder in MENU_PLACEHOLDER.items():
+        source = MENU_CHANGELOG_DIR / f"changelog_{lang}.md"
+        target = archive_dir / f"menu_{lang}.md"
+        if not target.exists():
+            target.write_bytes(source.read_bytes())
+        source.write_text(placeholder, encoding="utf-8")
+
+
 def add_changelog_section(version):
     path = ROOT / "CHANGELOG.md"
     text = path.read_text(encoding="utf-8")
@@ -64,6 +82,7 @@ def main():
     for path, text in updates:
         path.write_bytes(text.encode("utf-8"))
     VERSION_FILE.write_text(version + "\n", encoding="utf-8")
+    archive_menu_changelog(current)
     add_changelog_section(version)
     subprocess.run([sys.executable, str(Path(__file__).with_name("modlist.py"))], check=True)
     print(f"v{current} -> v{version}")

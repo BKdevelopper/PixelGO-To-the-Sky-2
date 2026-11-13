@@ -225,6 +225,8 @@ ServerEvents.recipes(event => {
    *   extendedcrafting:ender_star           <- 1 nether_star (Ender Crafter)
    *   extendedcrafting:enhanced_ender_ingot <- ender_star
    *   extendedcrafting:crystaltine_ingot    <- chaîne crystaltine, tainted
+   *     (depuis le 13/11/2026 le lingot se fait avec des émeraudes, voir
+   *     plus bas : la chaîne crystaltine ne dépend plus de l'étoile)
    *
    * Avec 14 ender_star en bordure, il fallait donc 14 étoiles du Nether pour
    * en produire 1. Les trois ont été remplacés par des matériaux dont AUCUNE
@@ -236,8 +238,8 @@ ServerEvents.recipes(event => {
    *   D colonne  ->  end_steel_ingot       (safe)
    *
    * Règle à retenir : dans Extended Crafting, tout ce qui touche à
-   * `crystaltine`, `ender_star` ou `enhanced_ender` dépend d'une étoile du
-   * Nether et ne peut donc JAMAIS servir à en fabriquer une.
+   * `ender_star` ou `enhanced_ender` dépend d'une étoile du Nether et ne
+   * peut donc JAMAIS servir à en fabriquer une.
    */
   event.custom({
     type: 'extendedcrafting:shaped_table',
@@ -263,6 +265,15 @@ ServerEvents.recipes(event => {
     },
     result: { id: 'minecraft:nether_star', count: 1 }
   })
+
+  // Lingot de crystaltine : les 2 étoiles du Nether de la recette d'origine
+  // (table étendue) sont remplacées par 2 émeraudes. Les catalyseurs et
+  // composants de crystaltine gardent leurs recettes d'origine.
+  event.replaceInput(
+    { id: 'extendedcrafting:crystaltine_ingot' },
+    'minecraft:nether_star',
+    'minecraft:emerald'
+  )
 
   // Essence créative (Mystical Agradditions).
   event.custom({

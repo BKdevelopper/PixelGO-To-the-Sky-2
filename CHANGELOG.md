@@ -8,3 +8,4 @@
 - Loot : Origin Ball retirée, bases de Poké Ball ajoutées (tables de matériaux de ball).
 - L'osmium brut se cuit au four / haut fourneau.
 - Loot : les lingots de netherite deviennent 3 à 4 débris de netherite (coffres, Battle Tower, sacs Treasure Bags, drops de Pokémon).
+- Lingot de crystaltine (Extended Crafting) : les 2 étoiles du Nether de la recette remplacées par 2 émeraudes.

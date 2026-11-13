@@ -14,6 +14,7 @@
 - Objets créatifs retirés des Sacs mystère.
 - Objets en netherite des Sacs mystère, remplacés par leur version en diamant.
 - Revente en boutique des objets des Sacs mystère.
+- Étoiles du Nether de la recette du lingot de crystaltine, remplacées par des émeraudes.
 
 ## Nouveautés
 

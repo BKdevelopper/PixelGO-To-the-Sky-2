@@ -14,6 +14,7 @@
 - Creative items removed from Mystery Bags.
 - Netherite items in Mystery Bags, replaced by their diamond version.
 - Selling Mystery Bag items to shops.
+- Nether Stars in the Crystaltine Ingot recipe, replaced by emeralds.
 
 ## New
 

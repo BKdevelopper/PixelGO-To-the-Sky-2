@@ -211,6 +211,26 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "mekanismgenerators:heat_generator"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "cyclic:generator_food"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "exdeorum:mechanical_sieve"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "exdeorum:mechanical_hammer"
         }
       ]
     }

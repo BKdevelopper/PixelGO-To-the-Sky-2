@@ -1,5 +1,19 @@
 **League, Expeditions & Rival**
 
+## Added content
+
+- Power generators in Mystery Bags.
+- Automatic sieves and hammers in Mystery Bags.
+- Poké Ball bases (wooden, iron, aluminum, silver, platinum) in loot.
+- Raw osmium can be smelted in a furnace.
+
+## Removed content
+
+- Origin Ball removed from loot.
+- Creative items removed from Mystery Bags.
+- Netherite items in Mystery Bags, replaced by their diamond version.
+- Selling Mystery Bag items to shops.
+
 ## New
 
 - **Windhaven**: new default starting island, a floating village. Sakura is still available.

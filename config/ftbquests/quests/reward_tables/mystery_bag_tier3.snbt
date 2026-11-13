@@ -1,240 +1,39 @@
 {
-	icon: {
-		components: {
-			"treasurebags:bag_type": "pixelgo:tier3"
-		}
-		id: "treasurebags:treasure_bag"
-	}
+	icon: { components: { "treasurebags:bag_type": "pixelgo:tier3" }, id: "treasurebags:treasure_bag" }
 	id: "35F9CD865CAC479B"
 	loot_size: 8
 	order_index: 17
 	rewards: [
-		{
-			id: "6BD6CAB06895B6DA"
-			item: {
-				count: 1
-				id: "enderstorage:ender_tank"
-			}
-			weight: 312.5f
-		}
-		{
-			id: "6B40ADB1244DC0FE"
-			item: {
-				count: 1
-				id: "constructionwand:diamond_wand"
-			}
-			weight: 375.0f
-		}
-		{
-			id: "2FF544F99E257B58"
-			item: {
-				count: 1
-				id: "havencobblegens:gold_cobble_gen"
-			}
-			weight: 312.5f
-		}
-		{
-			id: "1E1BA0989EAE6F68"
-			item: {
-				count: 1
-				id: "pixelmon:cloning_machine"
-			}
-			weight: 187.5f
-		}
-		{
-			id: "1D254AF5F4E4F131"
-			item: {
-				count: 1
-				id: "ironfurnaces:diamond_furnace"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "79F2257343BF283F"
-			item: {
-				count: 1
-				id: "mekanismgenerators:advanced_solar_generator"
-			}
-			weight: 312.5f
-		}
-		{
-			id: "4B7D10CEEFACDE2E"
-			item: {
-				count: 1
-				id: "mysticalagriculture:supremium_farmland"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "54F4789F682592EE"
-			item: {
-				count: 1
-				id: "powerpots:power_pot_2"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "412743E6EB56AB8E"
-			item: {
-				count: 1
-				id: "enderstorage:ender_chest"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "4A6B26523265FA5A"
-			item: {
-				count: 1
-				id: "pipez:advanced_upgrade"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "60FE79512C8F5718"
-			item: {
-				count: 1
-				id: "refinedstorage:crafting_grid"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "7B9B17CF51650DD5"
-			item: {
-				count: 1
-				id: "mekanism:elite_fluid_tank"
-			}
-			weight: 312.5f
-		}
-		{
-			id: "6EA46A9D71527BDA"
-			item: {
-				count: 1
-				id: "cyclic:solidifier"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "5B034901037C8C1A"
-			item: {
-				count: 1
-				id: "excompressum:auto_hammer"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "6831DC7658E96354"
-			item: {
-				count: 1
-				id: "excompressum:auto_compressed_hammer"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "64F7EE85794CF348"
-			item: {
-				count: 1
-				id: "sophisticatedbackpacks:advanced_magnet_upgrade"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "4CCF41C111D8007A"
-			item: {
-				components: {
-					"treasurebags:bag_type": "pixelgo:tier3"
-				}
-				count: 1
-				id: "treasurebags:treasure_bag"
-			}
-			weight: 125.0f
-		}
-		{
-			id: "0D7AB963AC5C74B5"
-			item: {
-				count: 1
-				id: "sophisticatedbackpacks:gold_backpack"
-			}
-			weight: 312.5f
-		}
-		{
-			id: "4DA15DA3090D5E81"
-			item: {
-				count: 1
-				id: "refinedstorage:16k_storage_disk"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "73D26EC27A030197"
-			item: {
-				count: 1
-				id: "sophisticatedbackpacks:stack_upgrade_tier_3"
-			}
-			weight: 312.5f
-		}
-		{
-			id: "5AF8D73B7A0EF9FF"
-			item: {
-				count: 1
-				id: "refinedstorage:controller"
-			}
-			weight: 312.5f
-		}
-		{
-			id: "242E984FC3E3806D"
-			item: {
-				count: 1
-				id: "cyclic:melter"
-			}
-			weight: 312.5f
-		}
-		{
-			id: "3CF190F94C1706DF"
-			item: {
-				count: 1
-				id: "exdeorum:netherite_mesh"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "7C0220E8A823F314"
-			item: {
-				count: 1
-				id: "excompressum:compressed_diamond_hammer"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "7C3443138262C61D"
-			item: {
-				count: 1
-				id: "itemcollectors:advanced_collector"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "13E11B28CD1406E1"
-			item: {
-				count: 1
-				id: "mekanism:basic_energy_cube"
-			}
-			weight: 250.0f
-		}
-		{
-			id: "11289CB4DD70F7F8"
-			item: {
-				count: 1
-				id: "sophisticatedstorage:diamond_chest"
-			}
-			weight: 312.5f
-		}
-		{
-			id: "62154425F3776CD1"
-			item: {
-				count: 1
-				id: "kubejs:mega_key"
-			}
-			weight: 250.0f
-		}
+		{ id: "6BD6CAB06895B6DA", item: { count: 1, id: "enderstorage:ender_tank" }, weight: 284.091f }
+		{ id: "6B40ADB1244DC0FE", item: { count: 1, id: "constructionwand:diamond_wand" }, weight: 340.909f }
+		{ id: "2FF544F99E257B58", item: { count: 1, id: "havencobblegens:gold_cobble_gen" }, weight: 284.091f }
+		{ id: "1E1BA0989EAE6F68", item: { count: 1, id: "pixelmon:cloning_machine" }, weight: 170.455f }
+		{ id: "1D254AF5F4E4F131", item: { count: 1, id: "ironfurnaces:diamond_furnace" }, weight: 227.273f }
+		{ id: "79F2257343BF283F", item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }, weight: 284.091f }
+		{ id: "4B7D10CEEFACDE2E", item: { count: 1, id: "mysticalagriculture:supremium_farmland" }, weight: 227.273f }
+		{ id: "54F4789F682592EE", item: { count: 1, id: "powerpots:power_pot_2" }, weight: 227.273f }
+		{ id: "412743E6EB56AB8E", item: { count: 1, id: "enderstorage:ender_chest" }, weight: 227.273f }
+		{ id: "4A6B26523265FA5A", item: { count: 1, id: "pipez:advanced_upgrade" }, weight: 227.273f }
+		{ id: "60FE79512C8F5718", item: { count: 1, id: "refinedstorage:crafting_grid" }, weight: 227.273f }
+		{ id: "7B9B17CF51650DD5", item: { count: 1, id: "mekanism:elite_fluid_tank" }, weight: 284.091f }
+		{ id: "6EA46A9D71527BDA", item: { count: 1, id: "cyclic:solidifier" }, weight: 227.273f }
+		{ id: "5B034901037C8C1A", item: { count: 1, id: "excompressum:auto_hammer" }, weight: 227.273f }
+		{ id: "6831DC7658E96354", item: { count: 1, id: "excompressum:auto_compressed_hammer" }, weight: 227.273f }
+		{ id: "64F7EE85794CF348", item: { count: 1, id: "sophisticatedbackpacks:advanced_magnet_upgrade" }, weight: 227.273f }
+		{ id: "4CCF41C111D8007A", item: { components: { "treasurebags:bag_type": "pixelgo:tier3" }, count: 1, id: "treasurebags:treasure_bag" }, weight: 113.636f }
+		{ id: "0D7AB963AC5C74B5", item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }, weight: 284.091f }
+		{ id: "4DA15DA3090D5E81", item: { count: 1, id: "refinedstorage:16k_storage_disk" }, weight: 227.273f }
+		{ id: "73D26EC27A030197", item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_3" }, weight: 284.091f }
+		{ id: "5AF8D73B7A0EF9FF", item: { count: 1, id: "refinedstorage:controller" }, weight: 284.091f }
+		{ id: "242E984FC3E3806D", item: { count: 1, id: "cyclic:melter" }, weight: 284.091f }
+		{ id: "0A9B3519B5977AE4", item: { count: 1, id: "exdeorum:diamond_mesh" }, weight: 227.273f }
+		{ id: "7C0220E8A823F314", item: { count: 1, id: "excompressum:compressed_diamond_hammer" }, weight: 227.273f }
+		{ id: "7C3443138262C61D", item: { count: 1, id: "itemcollectors:advanced_collector" }, weight: 227.273f }
+		{ id: "13E11B28CD1406E1", item: { count: 1, id: "mekanism:basic_energy_cube" }, weight: 227.273f }
+		{ id: "11289CB4DD70F7F8", item: { count: 1, id: "sophisticatedstorage:diamond_chest" }, weight: 284.091f }
+		{ id: "62154425F3776CD1", item: { count: 1, id: "kubejs:mega_key" }, weight: 227.273f }
+		{ id: "1CFE344152775E7A", item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }, weight: 227.273f }
+		{ id: "159C6BC8C8432BE5", item: { count: 1, id: "cyclic:generator_item" }, weight: 227.273f }
+		{ id: "017228B79BA57891", item: { count: 1, id: "excompressum:auto_heavy_sieve" }, weight: 227.273f }
 	]
 }

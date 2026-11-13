@@ -11,6 +11,13 @@
   "shop.pixelgo_shop.shopkeeper.wild.spawn_1": "Marchand ambulant · Pierres d'évolution",
   "shop.pixelgo_shop.shopkeeper.wild.spawn_2_1": "Marchand ambulant · Blocs de pension",
   "shop.pixelgo_shop.shopkeeper.wild.spawn_2_2": "Marchand ambulant · Blocs de pension",
+  "quest.complete_all.title.1": "&lBienvenue",
+  "quest.extended_crafting.description.26": "&7Le &a&lQuantum Compressor&r&7 sert uniquement à fabriquer les &d&lSingularities&r&7.",
+  "quest.fossils.description.3": "&7Insère des fossiles et patiente un moment.",
+  "quest.fossils.description.4": "&7Il y a &f&l15&r&7 fossiles à découvrir dans le monde, alors pars explorer",
+  "quest.mystical_agriculture.title.13": "Armure Supremium",
+  "quest.mystical_agriculture.description.48": "&7Fabrique une &a&lSupremium Armor&r&7.",
+  "quest.sinnoh.description.15": "&7Fais un clic droit sur un &a&lTimespace Altar&r&7 avec les Chaînes rouges pour l'activer",
   "pixelgo.npc.ores": "Minerais",
   "pixelgo.npc.ores.greeting": "Minerais bruts, lingots, gemmes et leurs blocs.",
   "pixelgo.npc.ores.goodbye": "Attention à la lave.",
@@ -178,12 +185,5 @@
   "pixelgo.npc.pixelmon_blocks": "Décoration · Blocs Pokémon",
   "pixelgo.npc.pixelmon_blocks.greeting": "Bois de baie, pierre de temple, lettres Zarbi et enseignes.",
   "pixelgo.npc.pixelmon_blocks.goodbye": "Construisez quelque chose de légendaire.",
-  "shop.pixelgo_shop.shopkeeper.35_decoration.pixelmon_blocks": "Décoration · Blocs Pokémon",
-  "quest.complete_all.title.1": "&lBienvenue",
-  "quest.extended_crafting.description.26": "&7Le &a&lQuantum Compressor&r&7 sert uniquement à fabriquer les &d&lSingularities&r&7.",
-  "quest.fossils.description.3": "&7Insère des fossiles et patiente un moment.",
-  "quest.fossils.description.4": "&7Il y a &f&l15&r&7 fossiles à découvrir dans le monde, alors pars explorer",
-  "quest.mystical_agriculture.title.13": "Armure Supremium",
-  "quest.mystical_agriculture.description.48": "&7Fabrique une &a&lSupremium Armor&r&7.",
-  "quest.sinnoh.description.15": "&7Fais un clic droit sur un &a&lTimespace Altar&r&7 avec les Chaînes rouges pour l'activer"
+  "shop.pixelgo_shop.shopkeeper.35_decoration.pixelmon_blocks": "Décoration · Blocs Pokémon"
 }

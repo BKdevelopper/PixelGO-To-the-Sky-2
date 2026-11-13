@@ -262,6 +262,21 @@ for (const [s, list] of added) {
   if (!s.keep) list.sort((a, b) => a.e.buyPrice - b.e.buyPrice || a.i - b.i);
   s.items.push(...list.map(x => x.e));
 }
+/* Objets des Mystery Bags : achetables mais jamais revendus (demande du 2026-11-13). Lu dans les
+ * tables des bags (kubejs/data/loot/loot_table/tier1..4.json, écrites par pixelgo-loot/bags.mjs) :
+ * prix de revente 0, que Pixelmon et pixelgosell (/pixelsell) ignorent. Une entrée de bag avec
+ * composants (couvercle de ball…) ne vise que cette variante. */
+const BAG_SELL_OK = new Set(['minecraft:diamond']); // ressource de base : reste revendable
+const bagItems = [];
+for (const t of [1, 2, 3, 4]) {
+  const bag = JSON.parse(fs.readFileSync(path.join(ROOT, 'kubejs', 'data', 'loot', 'loot_table', `tier${t}.json`), 'utf8'));
+  for (const p of bag.pools) for (const e of p.entries) if (e.type === 'minecraft:item' && !BAG_SELL_OK.has(e.name))
+    bagItems.push({ id: e.name, components: e.functions?.find(f => f.function === 'minecraft:set_components')?.components });
+}
+const fromBag = (it) => bagItems.some(b => b.id === it.id && (!b.components || JSON.stringify(b.components) === JSON.stringify(it.components)));
+const noSell = [];
+for (const s of SHOPS) for (const x of s.items) if (x.sellPrice > 0 && fromBag(x.item)) { x.sellPrice = 0; noSell.push(x.item.id); }
+
 // une catégorie à un seul marchand porte le nom de la catégorie ; sinon « Catégorie · Marchand »
 const perDir = {}; for (const s of SHOPS) perDir[s.dir] = (perDir[s.dir] || 0) + 1;
 const title = (s, L) => perDir[s.dir] > 1 ? `${s.cat[L]} · ${L ? s.fr : s.en}` : (L ? s.fr : s.en);
@@ -309,6 +324,7 @@ for (const [code, file] of [['en', 'en_us.json'], ['fr', 'fr_fr.json']]) {
 
 console.log(`Export : ${exportFile}`);
 console.log(report.join('\n'));
+console.log(`Objets des Mystery Bags non revendables : ${noSell.length} (${[...new Set(noSell)].join(", ")})`);
 if (skipped.length) console.log('Absents de Minecraft 1.21.1, écartés :\n  ' + skipped.join('\n  '));
 console.log(`${changed.length} changement(s) ${DRY ? 'à faire' : 'faits'}`);
 for (const ch of changed) console.log('  ' + ch);

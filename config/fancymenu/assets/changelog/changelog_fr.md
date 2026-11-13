@@ -1,5 +1,19 @@
 **Ligue, Expéditions & Rival**
 
+## Contenu ajouté
+
+- Générateurs d'énergie dans les Sacs mystère.
+- Tamis et marteaux automatiques dans les Sacs mystère.
+- Bases de Poké Ball (bois, fer, aluminium, argent, platine) dans le loot.
+- L'osmium brut se cuit au four.
+
+## Contenu retiré
+
+- Origin Ball retirée du loot.
+- Objets créatifs retirés des Sacs mystère.
+- Objets en netherite des Sacs mystère, remplacés par leur version en diamant.
+- Revente en boutique des objets des Sacs mystère.
+
 ## Nouveautés
 
 - **Windhaven** : nouvelle île de départ par défaut, un village flottant. L'île Sakura reste disponible.

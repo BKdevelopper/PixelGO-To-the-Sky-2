@@ -336,6 +336,26 @@
           "type": "minecraft:item",
           "weight": 50,
           "name": "pixelmon:new_running_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "mekanismgenerators:bio_generator"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "cyclic:generator_fuel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "excompressum:auto_sieve"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "excompressum:auto_hammer"
         }
       ]
     }

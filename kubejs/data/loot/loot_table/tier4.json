@@ -21,11 +21,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
-          "name": "extendedcrafting:ultimate_singularity"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 60,
           "name": "pipez:ultimate_upgrade"
         },
@@ -147,7 +142,7 @@
         {
           "type": "minecraft:item",
           "weight": 50,
-          "name": "excompressum:compressed_netherite_hammer"
+          "name": "excompressum:compressed_diamond_hammer"
         },
         {
           "type": "minecraft:item",
@@ -192,13 +187,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
-          "name": "mysticalagradditions:creative_essence"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 50,
-          "name": "ironfurnaces:netherite_furnace"
+          "name": "ironfurnaces:diamond_furnace"
         },
         {
           "type": "minecraft:item",
@@ -222,6 +212,21 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "cyclic:generator_fluid"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "excompressum:auto_heavy_sieve"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "excompressum:auto_compressed_hammer"
         }
       ]
     }

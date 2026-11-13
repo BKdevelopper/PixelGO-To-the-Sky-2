@@ -1,248 +1,39 @@
 {
-	icon: {
-		components: {
-			"treasurebags:bag_type": "pixelgo:tier1"
-		}
-		id: "treasurebags:treasure_bag"
-	}
+	icon: { components: { "treasurebags:bag_type": "pixelgo:tier1" }, id: "treasurebags:treasure_bag" }
 	id: "69B9BEFD6E061705"
-	loot_size: 8
+	loot_size: 7
 	order_index: 15
 	rewards: [
-		{
-			id: "59B46F1C1DD592EE"
-			item: {
-				count: 1
-				id: "pixelmon:white_poke_bag"
-			}
-			weight: 173.077f
-		}
-		{
-			id: "343650545D091CCA"
-			item: {
-				count: 1
-				id: "mysticalagriculture:infusion_crystal"
-			}
-			weight: 173.077f
-		}
-		{
-			id: "20F6652253902F82"
-			item: {
-				count: 1
-				id: "mekanism:basic_fluid_tank"
-			}
-			weight: 173.077f
-		}
-		{
-			id: "6DE744FF6C03D8E5"
-			item: {
-				count: 1
-				id: "botanypots:terracotta_hopper_botany_pot"
-			}
-			weight: 230.769f
-		}
-		{
-			id: "6029695459244A6A"
-			item: {
-				count: 1
-				id: "waystones:waystone"
-			}
-			weight: 230.769f
-		}
-		{
-			count: 8
-			id: "79C0BD494C356079"
-			item: {
-				count: 1
-				id: "refinedstorage:cable"
-			}
-			random_bonus: 8
-			weight: 57.692f
-		}
-		{
-			id: "1CEB3D7FD27D2134"
-			item: {
-				count: 1
-				id: "excompressum:compressed_iron_hammer"
-			}
-			weight: 115.385f
-		}
-		{
-			id: "5D50D5B73B640104"
-			item: {
-				count: 1
-				id: "exdeorum:iron_mesh"
-			}
-			weight: 230.769f
-		}
-		{
-			id: "75FB72F3B3EF5720"
-			item: {
-				count: 1
-				id: "sophisticatedstorage:iron_chest"
-			}
-			weight: 230.769f
-		}
-		{
-			id: "24271DCBEF0C8480"
-			item: {
-				count: 1
-				id: "mekanismgenerators:solar_generator"
-			}
-			weight: 173.077f
-		}
-		{
-			id: "6992E4CB0CF5ADAE"
-			item: {
-				count: 1
-				id: "pipez:energy_pipe"
-			}
-			weight: 403.846f
-		}
-		{
-			id: "06739D605F2DE787"
-			item: {
-				count: 1
-				id: "sophisticatedbackpacks:backpack"
-			}
-			weight: 288.462f
-		}
-		{
-			id: "5A2FD58ACA60BB07"
-			item: {
-				count: 1
-				id: "pixelgoitems:size_randomizer"
-			}
-			weight: 461.538f
-		}
-		{
-			id: "2A15DE4CF0932367"
-			item: {
-				count: 1
-				id: "pixelgoitems:random_iv"
-			}
-			weight: 230.769f
-		}
-		{
-			count: 2
-			id: "43F05220EA186428"
-			item: {
-				count: 1
-				id: "storagedrawers:iron_storage_upgrade"
-			}
-			random_bonus: 1
-			weight: 288.462f
-		}
-		{
-			id: "7F6EA8330E5F9F17"
-			item: {
-				count: 1
-				id: "pipez:item_pipe"
-			}
-			weight: 403.846f
-		}
-		{
-			id: "7870F44E7BD5E90F"
-			item: {
-				count: 1
-				id: "refinedstorage:1k_storage_disk"
-			}
-			weight: 173.077f
-		}
-		{
-			id: "41D4C71C90899716"
-			item: {
-				count: 1
-				id: "pipez:wrench"
-			}
-			weight: 403.846f
-		}
-		{
-			id: "7AE8718DC80CC48D"
-			item: {
-				count: 1
-				id: "ironfurnaces:copper_furnace"
-			}
-			weight: 346.154f
-		}
-		{
-			id: "18B05F38A4D69A61"
-			item: {
-				count: 1
-				id: "havencobblegens:wooden_cobble_gen"
-			}
-			weight: 403.846f
-		}
-		{
-			id: "7C68D43841DF9A02"
-			item: {
-				components: {
-					"treasurebags:bag_type": "pixelgo:tier1"
-				}
-				count: 1
-				id: "treasurebags:treasure_bag"
-			}
-			weight: 115.385f
-		}
-		{
-			id: "13235DC15EF4871C"
-			item: {
-				count: 1
-				id: "projecte:white_alchemical_bag"
-			}
-			weight: 173.077f
-		}
-		{
-			id: "4F20E0215B10F60F"
-			item: {
-				count: 1
-				id: "cyclic:hopper"
-			}
-			weight: 403.846f
-		}
-		{
-			count: 2
-			id: "101D6587C8BCF537"
-			item: {
-				count: 1
-				id: "kubejs:random_egg"
-			}
-			random_bonus: 1
-			weight: 403.846f
-		}
-		{
-			id: "47E01AE0E71BA898"
-			item: {
-				count: 1
-				id: "storagedrawers:oak_full_drawers_1"
-			}
-			weight: 403.846f
-		}
-		{
-			count: 2
-			id: "2E0FB84A2125A672"
-			item: {
-				components: {
-					"pixelmon:poke_ball": "nest_ball"
-				}
-				count: 1
-				id: "pixelmon:poke_ball_lid"
-			}
-			random_bonus: 1
-			weight: 403.846f
-		}
-		{
-			count: 2
-			id: "0A21F30CC95DF20C"
-			item: {
-				components: {
-					"pixelmon:poke_ball": "great_ball"
-				}
-				count: 1
-				id: "pixelmon:poke_ball_lid"
-			}
-			random_bonus: 1
-			weight: 403.846f
-		}
+		{ id: "59B46F1C1DD592EE", item: { count: 1, id: "pixelmon:white_poke_bag" }, weight: 156.25f }
+		{ id: "343650545D091CCA", item: { count: 1, id: "mysticalagriculture:infusion_crystal" }, weight: 156.25f }
+		{ id: "20F6652253902F82", item: { count: 1, id: "mekanism:basic_fluid_tank" }, weight: 156.25f }
+		{ id: "6DE744FF6C03D8E5", item: { count: 1, id: "botanypots:terracotta_hopper_botany_pot" }, weight: 208.333f }
+		{ id: "6029695459244A6A", item: { count: 1, id: "waystones:waystone" }, weight: 208.333f }
+		{ count: 8, id: "79C0BD494C356079", item: { count: 1, id: "refinedstorage:cable" }, random_bonus: 8, weight: 52.083f }
+		{ id: "1CEB3D7FD27D2134", item: { count: 1, id: "excompressum:compressed_iron_hammer" }, weight: 104.167f }
+		{ id: "5D50D5B73B640104", item: { count: 1, id: "exdeorum:iron_mesh" }, weight: 208.333f }
+		{ id: "75FB72F3B3EF5720", item: { count: 1, id: "sophisticatedstorage:iron_chest" }, weight: 208.333f }
+		{ id: "24271DCBEF0C8480", item: { count: 1, id: "mekanismgenerators:solar_generator" }, weight: 156.25f }
+		{ id: "6992E4CB0CF5ADAE", item: { count: 1, id: "pipez:energy_pipe" }, weight: 364.583f }
+		{ id: "06739D605F2DE787", item: { count: 1, id: "sophisticatedbackpacks:backpack" }, weight: 260.417f }
+		{ id: "5A2FD58ACA60BB07", item: { count: 1, id: "pixelgoitems:size_randomizer" }, weight: 416.667f }
+		{ id: "2A15DE4CF0932367", item: { count: 1, id: "pixelgoitems:random_iv" }, weight: 208.333f }
+		{ count: 2, id: "43F05220EA186428", item: { count: 1, id: "storagedrawers:iron_storage_upgrade" }, random_bonus: 1, weight: 260.417f }
+		{ id: "7F6EA8330E5F9F17", item: { count: 1, id: "pipez:item_pipe" }, weight: 364.583f }
+		{ id: "7870F44E7BD5E90F", item: { count: 1, id: "refinedstorage:1k_storage_disk" }, weight: 156.25f }
+		{ id: "41D4C71C90899716", item: { count: 1, id: "pipez:wrench" }, weight: 364.583f }
+		{ id: "7AE8718DC80CC48D", item: { count: 1, id: "ironfurnaces:copper_furnace" }, weight: 312.5f }
+		{ id: "18B05F38A4D69A61", item: { count: 1, id: "havencobblegens:wooden_cobble_gen" }, weight: 364.583f }
+		{ id: "7C68D43841DF9A02", item: { components: { "treasurebags:bag_type": "pixelgo:tier1" }, count: 1, id: "treasurebags:treasure_bag" }, weight: 104.167f }
+		{ id: "13235DC15EF4871C", item: { count: 1, id: "projecte:white_alchemical_bag" }, weight: 156.25f }
+		{ id: "4F20E0215B10F60F", item: { count: 1, id: "cyclic:hopper" }, weight: 364.583f }
+		{ count: 2, id: "101D6587C8BCF537", item: { count: 1, id: "kubejs:random_egg" }, random_bonus: 1, weight: 364.583f }
+		{ id: "47E01AE0E71BA898", item: { count: 1, id: "storagedrawers:oak_full_drawers_1" }, weight: 364.583f }
+		{ count: 2, id: "2E0FB84A2125A672", item: { components: { "pixelmon:poke_ball": "nest_ball" }, count: 1, id: "pixelmon:poke_ball_lid" }, random_bonus: 1, weight: 364.583f }
+		{ count: 2, id: "0A21F30CC95DF20C", item: { components: { "pixelmon:poke_ball": "great_ball" }, count: 1, id: "pixelmon:poke_ball_lid" }, random_bonus: 1, weight: 364.583f }
+		{ id: "4FAA6916C5555ABE", item: { count: 1, id: "mekanismgenerators:heat_generator" }, weight: 208.333f }
+		{ id: "1FA03F0DF0C15F6D", item: { count: 1, id: "cyclic:generator_food" }, weight: 208.333f }
+		{ id: "20250A2BB4925D58", item: { count: 1, id: "exdeorum:mechanical_sieve" }, weight: 156.25f }
+		{ id: "4C7C39B11F4E4A3E", item: { count: 1, id: "exdeorum:mechanical_hammer" }, weight: 156.25f }
 	]
 }

@@ -145,7 +145,7 @@ for (const [t, entries, airW] of CANDY) {
 const BALLS_T1 = ['poke_ball', 'premier_ball', 'heal_ball', 'net_ball', 'nest_ball', 'friend_ball'];
 const BALLS_T2 = ['great_ball', 'dive_ball', 'dusk_ball', 'repeat_ball', 'timer_ball', 'luxury_ball', 'level_ball', 'lure_ball', 'moon_ball', 'love_ball', 'fast_ball', 'heavy_ball'];
 const BALLS_T3 = ['ultra_ball', 'quick_ball', 'safari_ball', 'sport_ball', 'dream_ball'];
-const BALLS_T4 = ['beast_ball', 'cherish_ball', 'gs_ball', 'origin_ball'];
+const BALLS_T4 = ['beast_ball', 'cherish_ball', 'gs_ball']; // origin_ball retirée du loot (2026-11-13, demande)
 const BALLS_ANCIENT = ['ancient_poke_ball', 'ancient_great_ball', 'ancient_ultra_ball', 'ancient_heavy_ball', 'feather_ball', 'wing_ball', 'jet_ball', 'leaden_ball', 'gigaton_ball'];
 // PixelGO Balls (pixelballs-*.jar) registers 20 more variants of the same component.
 // Names taken from its data/pixelmon/pokeballs/*.json ("name" field), so they are exact.
@@ -188,10 +188,18 @@ put('pixelmon/pokeballs_prime.json', table([pool(1, [
 ])]));
 
 // --- ball crafting materials
-put('pixelmon/pokeballmaterials_t1.json', table([pool(uni(1, 2), keep('ballmat1', [
+put('pixelmon/pokeballmaterials_t1.json', table([pool(uni(1, 2), [...keep('ballmat1', [
   'red_apricorn', 'yellow_apricorn', 'green_apricorn', 'blue_apricorn', 'pink_apricorn', 'white_apricorn', 'black_apricorn',
-].map(px)).map((n) => item(n, 1, [cnt(2, 6)])))]));
+].map(px)).map((n) => item(n, 1, [cnt(2, 6)])),
+  // bases de Poké Ball (2026-11-13, demande) : avec les couvercles du loot, de quoi assembler des balls.
+  // Hors catalogue (aucune table ne les avait) : ids vérifiés dans le jar Pixelmon (recipe/pokeball/base).
+  ...[px('wooden_base')].map((n) => item(n, 2, [cnt(2, 4)])),
+  ...[px('iron_base')].map((n) => item(n, 1, [cnt(1, 3)])),
+])]));
 put('pixelmon/pokeballmaterials_t2.json', table([pool(1, [
+  ...[px('aluminum_base')].map((n) => item(n, 3, [cnt(1, 3)])),
+  ...[px('silver_base')].map((n) => item(n, 2, [cnt(1, 3)])),
+  ...[px('platinum_base')].map((n) => item(n, 1, [cnt(1, 2)])),
   ...keep('ballmat2', ['aluminum_ingot', 'silver_ingot'].map(px)).map((n) => item(n, 4, [cnt(2, 5)])),
   ...keep('ballmat2', ['poke_ball_lid'].map(px)).map((n) => item(n, 2, [cnt(1, 3)])),
   ...keep('ballmat2', ['platinum_ingot'].map(px)).map((n) => item(n, 1, [cnt(1, 2)])),

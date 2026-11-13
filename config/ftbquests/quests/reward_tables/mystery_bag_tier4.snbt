@@ -1,220 +1,33 @@
 {
-	icon: {
-		components: {
-			"treasurebags:bag_type": "pixelgo:tier4"
-		}
-		id: "treasurebags:treasure_bag"
-	}
+	icon: { components: { "treasurebags:bag_type": "pixelgo:tier4" }, id: "treasurebags:treasure_bag" }
 	id: "2630170C5B28C9BD"
 	loot_size: 7
 	order_index: 18
 	rewards: [
-		{
-			id: "0B8ECC2CAB50FB31"
-			item: {
-				count: 1
-				id: "mekanism:ultimate_energy_cube"
-			}
-			weight: 520.833f
-		}
-		{
-			id: "206D64B858B347ED"
-			item: {
-				count: 1
-				id: "sophisticatedbackpacks:inception_upgrade"
-			}
-			weight: 312.5f
-		}
-		{
-			id: "67CE511BAD8211A3"
-			item: {
-				count: 1
-				id: "extendedcrafting:ultimate_singularity"
-			}
-			weight: 208.333f
-		}
-		{
-			id: "5A778D0F41C39881"
-			item: {
-				count: 1
-				id: "pipez:ultimate_upgrade"
-			}
-			weight: 625.0f
-		}
-		{
-			id: "51CF956C3919E7EB"
-			item: {
-				count: 1
-				id: "pipez:infinity_upgrade"
-			}
-			weight: 312.5f
-		}
-		{
-			id: "6E972E87E5DEDD01"
-			item: {
-				count: 1
-				id: "pixelgoitems:add_iv_atk"
-			}
-			random_bonus: 1
-			weight: 72.917f
-		}
-		{
-			id: "1CB1C29C71264755"
-			item: {
-				count: 1
-				id: "pixelgoitems:add_iv_def"
-			}
-			random_bonus: 1
-			weight: 72.917f
-		}
-		{
-			id: "736998328484411F"
-			item: {
-				count: 1
-				id: "pixelgoitems:add_iv_hp"
-			}
-			random_bonus: 1
-			weight: 72.917f
-		}
-		{
-			id: "3AB18132D52D1753"
-			item: {
-				count: 1
-				id: "pixelgoitems:add_iv_spatk"
-			}
-			random_bonus: 1
-			weight: 72.917f
-		}
-		{
-			id: "5AEA19186633EE34"
-			item: {
-				count: 1
-				id: "pixelgoitems:add_iv_spd"
-			}
-			random_bonus: 1
-			weight: 62.5f
-		}
-		{
-			id: "0749FB6E90D76453"
-			item: {
-				count: 1
-				id: "pixelgoitems:add_iv_spdef"
-			}
-			random_bonus: 1
-			weight: 62.5f
-		}
-		{
-			id: "1B45E57258AC281B"
-			item: {
-				count: 1
-				id: "pixelgoitems:random_ev"
-			}
-			random_bonus: 1
-			weight: 416.667f
-		}
-		{
-			id: "10073E78E2EC815D"
-			item: {
-				count: 1
-				id: "havencobblegens:diamond_cobble_gen"
-			}
-			weight: 520.833f
-		}
-		{
-			id: "46FA37F538665290"
-			item: {
-				count: 1
-				id: "excompressum:compressed_netherite_hammer"
-			}
-			weight: 520.833f
-		}
-		{
-			count: 3
-			id: "53608EC51843F748"
-			item: {
-				count: 1
-				id: "minecraft:diamond"
-			}
-			random_bonus: 2
-			weight: 312.5f
-		}
-		{
-			id: "253022AC18A527E5"
-			item: {
-				count: 1
-				id: "powerpots:power_pot_3"
-			}
-			weight: 416.667f
-		}
-		{
-			id: "7D494A8AD61E19E3"
-			item: {
-				count: 1
-				id: "refinedstorage:64k_storage_disk"
-			}
-			weight: 208.333f
-		}
-		{
-			id: "645D8F7D3FBE90D9"
-			item: {
-				count: 1
-				id: "sophisticatedbackpacks:stack_upgrade_tier_4"
-			}
-			weight: 520.833f
-		}
-		{
-			id: "2BD3B095808D8DF9"
-			item: {
-				components: {
-					"treasurebags:bag_type": "pixelgo:tier4"
-				}
-				count: 1
-				id: "treasurebags:treasure_bag"
-			}
-			weight: 208.333f
-		}
-		{
-			id: "7BD22F1F3FCFD814"
-			item: {
-				count: 1
-				id: "mysticalagradditions:creative_essence"
-			}
-			weight: 312.5f
-		}
-		{
-			id: "5D844080D06C2FC0"
-			item: {
-				count: 1
-				id: "ironfurnaces:netherite_furnace"
-			}
-			weight: 520.833f
-		}
-		{
-			id: "027135EE221B3CC9"
-			item: {
-				count: 1
-				id: "mysticalagradditions:insanium_farmland"
-			}
-			weight: 520.833f
-		}
-		{
-			id: "4FD288636FD4E536"
-			item: {
-				count: 1
-				id: "minecraft:nether_star"
-			}
-			weight: 312.5f
-		}
-		{
-			id: "30837D30A1F3E4D0"
-			item: {
-				components: {
-					"pixelmon:poke_ball": "master_ball"
-				}
-				count: 1
-				id: "pixelmon:poke_ball"
-			}
-			weight: 312.5f
-		}
+		{ id: "0B8ECC2CAB50FB31", item: { count: 1, id: "mekanism:ultimate_energy_cube" }, weight: 457.317f }
+		{ id: "206D64B858B347ED", item: { count: 1, id: "sophisticatedbackpacks:inception_upgrade" }, weight: 274.39f }
+		{ id: "5A778D0F41C39881", item: { count: 1, id: "pipez:ultimate_upgrade" }, weight: 548.78f }
+		{ id: "51CF956C3919E7EB", item: { count: 1, id: "pipez:infinity_upgrade" }, weight: 274.39f }
+		{ id: "6E972E87E5DEDD01", item: { count: 1, id: "pixelgoitems:add_iv_atk" }, random_bonus: 1, weight: 64.024f }
+		{ id: "1CB1C29C71264755", item: { count: 1, id: "pixelgoitems:add_iv_def" }, random_bonus: 1, weight: 64.024f }
+		{ id: "736998328484411F", item: { count: 1, id: "pixelgoitems:add_iv_hp" }, random_bonus: 1, weight: 64.024f }
+		{ id: "3AB18132D52D1753", item: { count: 1, id: "pixelgoitems:add_iv_spatk" }, random_bonus: 1, weight: 64.024f }
+		{ id: "5AEA19186633EE34", item: { count: 1, id: "pixelgoitems:add_iv_spd" }, random_bonus: 1, weight: 54.878f }
+		{ id: "0749FB6E90D76453", item: { count: 1, id: "pixelgoitems:add_iv_spdef" }, random_bonus: 1, weight: 54.878f }
+		{ id: "1B45E57258AC281B", item: { count: 1, id: "pixelgoitems:random_ev" }, random_bonus: 1, weight: 365.854f }
+		{ id: "10073E78E2EC815D", item: { count: 1, id: "havencobblegens:diamond_cobble_gen" }, weight: 457.317f }
+		{ id: "574D46F5332FA8B5", item: { count: 1, id: "excompressum:compressed_diamond_hammer" }, weight: 457.317f }
+		{ count: 3, id: "53608EC51843F748", item: { count: 1, id: "minecraft:diamond" }, random_bonus: 2, weight: 274.39f }
+		{ id: "253022AC18A527E5", item: { count: 1, id: "powerpots:power_pot_3" }, weight: 365.854f }
+		{ id: "7D494A8AD61E19E3", item: { count: 1, id: "refinedstorage:64k_storage_disk" }, weight: 182.927f }
+		{ id: "645D8F7D3FBE90D9", item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_4" }, weight: 457.317f }
+		{ id: "2BD3B095808D8DF9", item: { components: { "treasurebags:bag_type": "pixelgo:tier4" }, count: 1, id: "treasurebags:treasure_bag" }, weight: 182.927f }
+		{ id: "7BAD9F5DCD571686", item: { count: 1, id: "ironfurnaces:diamond_furnace" }, weight: 457.317f }
+		{ id: "027135EE221B3CC9", item: { count: 1, id: "mysticalagradditions:insanium_farmland" }, weight: 457.317f }
+		{ id: "4FD288636FD4E536", item: { count: 1, id: "minecraft:nether_star" }, weight: 274.39f }
+		{ id: "30837D30A1F3E4D0", item: { components: { "pixelmon:poke_ball": "master_ball" }, count: 1, id: "pixelmon:poke_ball" }, weight: 274.39f }
+		{ id: "60B0A858ECB79D6E", item: { count: 1, id: "cyclic:generator_fluid" }, weight: 457.317f }
+		{ id: "1E46BC8A22299B15", item: { count: 1, id: "excompressum:auto_heavy_sieve" }, weight: 457.317f }
+		{ id: "5D488160619D9CCA", item: { count: 1, id: "excompressum:auto_compressed_hammer" }, weight: 457.317f }
 	]
 }

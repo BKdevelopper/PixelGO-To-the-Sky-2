@@ -18,6 +18,9 @@
  *  coupons de l'ancienne version deviennent les PixelGO Items qui font la même chose, et les
  *  objets de Pokéhaan Craft (Trading Sim, Healer, Laptop) leurs équivalents PixelGO Items.
  *  Les Poké Balls deviennent des couvercles (lids.mjs), sauf la Master Ball qui n'en a pas.
+ *  2026-11-13 (demande) : générateurs d'énergie et tamis / marteaux automatiques ajoutés, objets
+ *  créatifs retirés, objets en netherite passés en diamant. Les objets des bags ne se revendent
+ *  pas en boutique (pixelgo-shop/categories.mjs lit ces tables et met leur prix de revente à 0).
  *
  *  Réécrit les 4 tables en entier (idempotent), puis les tables de récompense FTB.
  *    node tools/pixelgo-loot/bags.mjs --dry
@@ -76,7 +79,12 @@ const BAGS_DEF = {
     I('kubejs:random_egg', 70, [2, 3]),
     I('storagedrawers:oak_full_drawers_1', 70),
     LID('nest_ball', 70, [2, 3]),                            // Giga Ball (bonus sur les petits Pokémon)
-    LID('great_ball', 70, [2, 3])                            // Nature Ball (pas d'équivalent : la Super Ball, comme avant)
+    LID('great_ball', 70, [2, 3]),                           // Nature Ball (pas d'équivalent : la Super Ball, comme avant)
+    // ajouts du 2026-11-13 : génération d'énergie + tamis / marteau automatiques
+    I('mekanismgenerators:heat_generator', 40),
+    I('cyclic:generator_food', 40),
+    I('exdeorum:mechanical_sieve', 30),
+    I('exdeorum:mechanical_hammer', 30)
   ],
   tier2: [
     I('pixelgoitems:trading_sim', 50),                       // pokehaancraftadd:trading_sim
@@ -107,7 +115,12 @@ const BAGS_DEF = {
     ...EV_LIDS(70, [2, 3]),                                  // EV Ball (max 1 EV) -> les 6 EV Balls, poids partagé
     I('cookingforblockheads:sink', 50),
     I('projecte:aeternalis_fuel', 40),                       // projectexpansion:violet_fuel (mod retiré du pack)
-    I('pixelmon:new_running_boots', 50)
+    I('pixelmon:new_running_boots', 50),
+    // ajouts du 2026-11-13 : génération d'énergie + tamis / marteau automatiques
+    I('mekanismgenerators:bio_generator', 40),
+    I('cyclic:generator_fuel', 40),
+    I('excompressum:auto_sieve', 30),
+    I('excompressum:auto_hammer', 30)
   ],
   tier3: [
     I('enderstorage:ender_tank', 50),
@@ -132,35 +145,42 @@ const BAGS_DEF = {
     I('sophisticatedbackpacks:stack_upgrade_tier_3', 50),
     I('refinedstorage:controller', 50),                      // projecte:relay_mk3
     I('cyclic:melter', 50),                                  // thermal:machine_crucible (fond les objets en fluide)
-    I('exdeorum:netherite_mesh', 40),                        // exnihilosequentia:mesh_emerald (cran au-dessus du diamant)
+    I('exdeorum:diamond_mesh', 40),                          // exnihilosequentia:mesh_emerald ; netherite -> diamant (2026-11-13)
     I('excompressum:compressed_diamond_hammer', 40),         // excompressum:compressed_hammer_diamond
     I('itemcollectors:advanced_collector', 40),
     I('mekanism:basic_energy_cube', 40),
     I('sophisticatedstorage:diamond_chest', 50),             // ironchest:diamond_chest
-    I('kubejs:mega_key', 40)
+    I('kubejs:mega_key', 40),
+    // ajouts du 2026-11-13 : génération d'énergie + tamis automatique
+    I('mekanismgenerators:gas_burning_generator', 40),
+    I('cyclic:generator_item', 40),
+    I('excompressum:auto_heavy_sieve', 40)
   ],
   tier4: [
     I('mekanism:ultimate_energy_cube', 50),
     I('sophisticatedbackpacks:inception_upgrade', 30),
     // the_ultimate_ingot : retiré le 2026-11-09 (il a désormais une recette, 30_tech.js)
-    I('extendedcrafting:ultimate_singularity', 20),
+    // extendedcrafting:ultimate_singularity et mysticalagradditions:creative_essence : objets créatifs, retirés le 2026-11-13
     I('pipez:ultimate_upgrade', 60),
     I('pipez:infinity_upgrade', 30),
     // storagedrawers:creative_storage_upgrade : retiré le 2026-11-09 (trop fort, masqué dans JEI)
     ...ADD_IV(40, [1, 2]),                                   // coupon « IV-Max » -> les 6 Add IV, poids partagé
     I('pixelgoitems:random_ev', 40, [1, 2]),                 // coupon « EV-Max » (refait les EV)
     I('havencobblegens:diamond_cobble_gen', 50),             // cobblefordays:tier_5
-    I('excompressum:compressed_netherite_hammer', 50),       // excompressum:compressed_hammer_netherite
+    I('excompressum:compressed_diamond_hammer', 50),         // excompressum:compressed_hammer_netherite ; netherite -> diamant (2026-11-13)
     I('minecraft:diamond', 30, [3, 5]),                      // ironfurnaces:million_furnace (Rainbow Furnace), remplacé le 2026-11-08
     I('powerpots:power_pot_3', 40),                          // ftb-power-pots:power_pot_mk3
     I('refinedstorage:64k_storage_disk', 20),                // projectexpansion:pink_power_flower
     I('sophisticatedbackpacks:stack_upgrade_tier_4', 50),
     BAG(4, 20),                                              // kubejs:lootbox_4
-    I('mysticalagradditions:creative_essence', 30),
-    I('ironfurnaces:netherite_furnace', 50),
+    I('ironfurnaces:diamond_furnace', 50),                   // netherite -> diamant (2026-11-13)
     I('mysticalagradditions:insanium_farmland', 50),
     I('minecraft:nether_star', 30),
-    I('pixelmon:poke_ball', 30, null, { components: { 'pixelmon:poke_ball': 'master_ball' } }) // sans couvercle : reste une ball
+    I('pixelmon:poke_ball', 30, null, { components: { 'pixelmon:poke_ball': 'master_ball' } }), // sans couvercle : reste une ball
+    // ajouts du 2026-11-13 : génération d'énergie + tamis / marteau automatiques
+    I('cyclic:generator_fluid', 50),
+    I('excompressum:auto_heavy_sieve', 50),
+    I('excompressum:auto_compressed_hammer', 50)
   ]
 };
 /* Nombre de tirages par ouverture (2026-11-08) : 5 à 10 stacks, plus de pool « vanilla_chests ».

@@ -23,6 +23,8 @@ ServerEvents.recipes(event => {
   ;['lead', 'tin', 'osmium', 'uranium'].forEach(metal => {
     rm(`mekanism:processing/${metal}/ingot/from_ore_blasting`)
     rm(`mekanism:processing/${metal}/ingot/from_ore_smelting`)
+    // Exception (2026-11-13, demande) : l'osmium brut se cuit au four / haut fourneau.
+    if (metal === 'osmium') return
     rm(`mekanism:processing/${metal}/ingot/from_raw_blasting`)
     rm(`mekanism:processing/${metal}/ingot/from_raw_smelting`)
   })

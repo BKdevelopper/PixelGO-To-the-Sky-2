@@ -1,331 +1,46 @@
 {
-	icon: {
-		components: {
-			"treasurebags:bag_type": "pixelgo:tier2"
-		}
-		id: "treasurebags:treasure_bag"
-	}
+	icon: { components: { "treasurebags:bag_type": "pixelgo:tier2" }, id: "treasurebags:treasure_bag" }
 	id: "11908650BA0F9E9D"
 	loot_size: 8
 	order_index: 16
 	rewards: [
-		{
-			id: "5E95EFE9F6F2232E"
-			item: {
-				count: 1
-				id: "pixelgoitems:trading_sim"
-			}
-			weight: 284.091f
-		}
-		{
-			id: "2FA957C2A3FDBF7D"
-			item: {
-				count: 1
-				id: "pixelgoitems:healer"
-			}
-			weight: 284.091f
-		}
-		{
-			id: "12F6F1E1943ACAB1"
-			item: {
-				count: 1
-				id: "cyclic:tank"
-			}
-			weight: 170.455f
-		}
-		{
-			id: "5B597BAE5C22E10F"
-			item: {
-				count: 1
-				id: "powerpots:power_pot_1"
-			}
-			weight: 227.273f
-		}
-		{
-			id: "04439E4E49B26B3C"
-			item: {
-				count: 1
-				id: "pixelgoitems:laptop"
-			}
-			weight: 227.273f
-		}
-		{
-			id: "0C3E1F74EB4893AE"
-			item: {
-				count: 1
-				id: "refinedstorage:disk_drive"
-			}
-			weight: 56.818f
-		}
-		{
-			id: "300628CDCD05FB3E"
-			item: {
-				count: 1
-				id: "excompressum:compressed_golden_hammer"
-			}
-			weight: 170.455f
-		}
-		{
-			id: "3394F358E703876C"
-			item: {
-				count: 1
-				id: "exdeorum:diamond_mesh"
-			}
-			weight: 227.273f
-		}
-		{
-			id: "15FA2BC709181ADF"
-			item: {
-				count: 1
-				id: "sophisticatedstorage:gold_chest"
-			}
-			weight: 227.273f
-		}
-		{
-			id: "2015F0BD27E7A380"
-			item: {
-				count: 1
-				id: "mekanismgenerators:wind_generator"
-			}
-			weight: 170.455f
-		}
-		{
-			id: "71ECB83F2884C038"
-			item: {
-				count: 1
-				id: "mysticalagriculture:infusion_pedestal"
-			}
-			weight: 227.273f
-		}
-		{
-			id: "34838033D4C39C1C"
-			item: {
-				count: 1
-				id: "sophisticatedbackpacks:iron_backpack"
-			}
-			weight: 284.091f
-		}
-		{
-			count: 2
-			id: "02023E11A80E812A"
-			item: {
-				count: 1
-				id: "pixelgoitems:size_randomizer"
-			}
-			random_bonus: 1
-			weight: 454.545f
-		}
-		{
-			count: 2
-			id: "7D995211A6EAE457"
-			item: {
-				count: 1
-				id: "pixelgoitems:random_iv"
-			}
-			random_bonus: 1
-			weight: 227.273f
-		}
-		{
-			count: 2
-			id: "46BDF39277162FCE"
-			item: {
-				count: 1
-				id: "storagedrawers:gold_storage_upgrade"
-			}
-			random_bonus: 1
-			weight: 284.091f
-		}
-		{
-			id: "2C0DFB74942760C7"
-			item: {
-				count: 1
-				id: "refinedstorage:4k_storage_disk"
-			}
-			weight: 170.455f
-		}
-		{
-			id: "3DD64F42DD2E9659"
-			item: {
-				count: 1
-				id: "sophisticatedbackpacks:stack_upgrade_tier_2"
-			}
-			weight: 284.091f
-		}
-		{
-			id: "5FBE8335800E05AD"
-			item: {
-				count: 1
-				id: "ironfurnaces:gold_furnace"
-			}
-			weight: 284.091f
-		}
-		{
-			id: "1B12F53A30818ECC"
-			item: {
-				count: 1
-				id: "havencobblegens:stone_cobble_gen"
-			}
-			weight: 284.091f
-		}
-		{
-			id: "1C417DFEBA7B163E"
-			item: {
-				components: {
-					"treasurebags:bag_type": "pixelgo:tier2"
-				}
-				count: 1
-				id: "treasurebags:treasure_bag"
-			}
-			weight: 113.636f
-		}
-		{
-			id: "0EC06214FA2D8981"
-			item: {
-				count: 1
-				id: "pipez:improved_upgrade"
-			}
-			weight: 227.273f
-		}
-		{
-			id: "178CCED5B5A39530"
-			item: {
-				count: 1
-				id: "cyclic:hopper_gold"
-			}
-			weight: 397.727f
-		}
-		{
-			count: 3
-			id: "4D42FC63FAAD1944"
-			item: {
-				count: 1
-				id: "kubejs:random_egg"
-			}
-			random_bonus: 2
-			weight: 397.727f
-		}
-		{
-			id: "7EC21E362B6B11ED"
-			item: {
-				count: 1
-				id: "mekanism:basic_energy_cube"
-			}
-			weight: 227.273f
-		}
-		{
-			count: 2
-			id: "67246110483FBE2A"
-			item: {
-				components: {
-					"pixelmon:poke_ball": "ultra_ball"
-				}
-				count: 1
-				id: "pixelmon:poke_ball_lid"
-			}
-			random_bonus: 1
-			weight: 397.727f
-		}
-		{
-			count: 2
-			id: "2F4014B4525EBBF1"
-			item: {
-				components: {
-					"pixelmon:poke_ball": "ev_atk_ball"
-				}
-				count: 1
-				id: "pixelmon:poke_ball_lid"
-			}
-			random_bonus: 1
-			weight: 68.182f
-		}
-		{
-			count: 2
-			id: "7EBC5BA22AB3F6CD"
-			item: {
-				components: {
-					"pixelmon:poke_ball": "ev_def_ball"
-				}
-				count: 1
-				id: "pixelmon:poke_ball_lid"
-			}
-			random_bonus: 1
-			weight: 68.182f
-		}
-		{
-			count: 2
-			id: "49D7F11774374051"
-			item: {
-				components: {
-					"pixelmon:poke_ball": "ev_hp_ball"
-				}
-				count: 1
-				id: "pixelmon:poke_ball_lid"
-			}
-			random_bonus: 1
-			weight: 68.182f
-		}
-		{
-			count: 2
-			id: "182EB165CE7294A3"
-			item: {
-				components: {
-					"pixelmon:poke_ball": "ev_spatk_ball"
-				}
-				count: 1
-				id: "pixelmon:poke_ball_lid"
-			}
-			random_bonus: 1
-			weight: 68.182f
-		}
-		{
-			count: 2
-			id: "1466EFD6F0629B3C"
-			item: {
-				components: {
-					"pixelmon:poke_ball": "ev_spd_ball"
-				}
-				count: 1
-				id: "pixelmon:poke_ball_lid"
-			}
-			random_bonus: 1
-			weight: 62.5f
-		}
-		{
-			count: 2
-			id: "6BA5CE2AAD0B58AC"
-			item: {
-				components: {
-					"pixelmon:poke_ball": "ev_spdef_ball"
-				}
-				count: 1
-				id: "pixelmon:poke_ball_lid"
-			}
-			random_bonus: 1
-			weight: 62.5f
-		}
-		{
-			id: "643AE566F9385B2D"
-			item: {
-				count: 1
-				id: "cookingforblockheads:sink"
-			}
-			weight: 284.091f
-		}
-		{
-			id: "3FC4326CF6E57CCB"
-			item: {
-				count: 1
-				id: "projecte:aeternalis_fuel"
-			}
-			weight: 227.273f
-		}
-		{
-			id: "7AD20B2F28251FCD"
-			item: {
-				count: 1
-				id: "pixelmon:new_running_boots"
-			}
-			weight: 284.091f
-		}
+		{ id: "5E95EFE9F6F2232E", item: { count: 1, id: "pixelgoitems:trading_sim" }, weight: 256.849f }
+		{ id: "2FA957C2A3FDBF7D", item: { count: 1, id: "pixelgoitems:healer" }, weight: 256.849f }
+		{ id: "12F6F1E1943ACAB1", item: { count: 1, id: "cyclic:tank" }, weight: 154.11f }
+		{ id: "5B597BAE5C22E10F", item: { count: 1, id: "powerpots:power_pot_1" }, weight: 205.479f }
+		{ id: "04439E4E49B26B3C", item: { count: 1, id: "pixelgoitems:laptop" }, weight: 205.479f }
+		{ id: "0C3E1F74EB4893AE", item: { count: 1, id: "refinedstorage:disk_drive" }, weight: 51.37f }
+		{ id: "300628CDCD05FB3E", item: { count: 1, id: "excompressum:compressed_golden_hammer" }, weight: 154.11f }
+		{ id: "3394F358E703876C", item: { count: 1, id: "exdeorum:diamond_mesh" }, weight: 205.479f }
+		{ id: "15FA2BC709181ADF", item: { count: 1, id: "sophisticatedstorage:gold_chest" }, weight: 205.479f }
+		{ id: "2015F0BD27E7A380", item: { count: 1, id: "mekanismgenerators:wind_generator" }, weight: 154.11f }
+		{ id: "71ECB83F2884C038", item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }, weight: 205.479f }
+		{ id: "34838033D4C39C1C", item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }, weight: 256.849f }
+		{ count: 2, id: "02023E11A80E812A", item: { count: 1, id: "pixelgoitems:size_randomizer" }, random_bonus: 1, weight: 410.959f }
+		{ count: 2, id: "7D995211A6EAE457", item: { count: 1, id: "pixelgoitems:random_iv" }, random_bonus: 1, weight: 205.479f }
+		{ count: 2, id: "46BDF39277162FCE", item: { count: 1, id: "storagedrawers:gold_storage_upgrade" }, random_bonus: 1, weight: 256.849f }
+		{ id: "2C0DFB74942760C7", item: { count: 1, id: "refinedstorage:4k_storage_disk" }, weight: 154.11f }
+		{ id: "3DD64F42DD2E9659", item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_2" }, weight: 256.849f }
+		{ id: "5FBE8335800E05AD", item: { count: 1, id: "ironfurnaces:gold_furnace" }, weight: 256.849f }
+		{ id: "1B12F53A30818ECC", item: { count: 1, id: "havencobblegens:stone_cobble_gen" }, weight: 256.849f }
+		{ id: "1C417DFEBA7B163E", item: { components: { "treasurebags:bag_type": "pixelgo:tier2" }, count: 1, id: "treasurebags:treasure_bag" }, weight: 102.74f }
+		{ id: "0EC06214FA2D8981", item: { count: 1, id: "pipez:improved_upgrade" }, weight: 205.479f }
+		{ id: "178CCED5B5A39530", item: { count: 1, id: "cyclic:hopper_gold" }, weight: 359.589f }
+		{ count: 3, id: "4D42FC63FAAD1944", item: { count: 1, id: "kubejs:random_egg" }, random_bonus: 2, weight: 359.589f }
+		{ id: "7EC21E362B6B11ED", item: { count: 1, id: "mekanism:basic_energy_cube" }, weight: 205.479f }
+		{ count: 2, id: "67246110483FBE2A", item: { components: { "pixelmon:poke_ball": "ultra_ball" }, count: 1, id: "pixelmon:poke_ball_lid" }, random_bonus: 1, weight: 359.589f }
+		{ count: 2, id: "2F4014B4525EBBF1", item: { components: { "pixelmon:poke_ball": "ev_atk_ball" }, count: 1, id: "pixelmon:poke_ball_lid" }, random_bonus: 1, weight: 61.644f }
+		{ count: 2, id: "7EBC5BA22AB3F6CD", item: { components: { "pixelmon:poke_ball": "ev_def_ball" }, count: 1, id: "pixelmon:poke_ball_lid" }, random_bonus: 1, weight: 61.644f }
+		{ count: 2, id: "49D7F11774374051", item: { components: { "pixelmon:poke_ball": "ev_hp_ball" }, count: 1, id: "pixelmon:poke_ball_lid" }, random_bonus: 1, weight: 61.644f }
+		{ count: 2, id: "182EB165CE7294A3", item: { components: { "pixelmon:poke_ball": "ev_spatk_ball" }, count: 1, id: "pixelmon:poke_ball_lid" }, random_bonus: 1, weight: 61.644f }
+		{ count: 2, id: "1466EFD6F0629B3C", item: { components: { "pixelmon:poke_ball": "ev_spd_ball" }, count: 1, id: "pixelmon:poke_ball_lid" }, random_bonus: 1, weight: 56.507f }
+		{ count: 2, id: "6BA5CE2AAD0B58AC", item: { components: { "pixelmon:poke_ball": "ev_spdef_ball" }, count: 1, id: "pixelmon:poke_ball_lid" }, random_bonus: 1, weight: 56.507f }
+		{ id: "643AE566F9385B2D", item: { count: 1, id: "cookingforblockheads:sink" }, weight: 256.849f }
+		{ id: "3FC4326CF6E57CCB", item: { count: 1, id: "projecte:aeternalis_fuel" }, weight: 205.479f }
+		{ id: "7AD20B2F28251FCD", item: { count: 1, id: "pixelmon:new_running_boots" }, weight: 256.849f }
+		{ id: "6CE93C60A18C413C", item: { count: 1, id: "mekanismgenerators:bio_generator" }, weight: 205.479f }
+		{ id: "476C0642B9D105E7", item: { count: 1, id: "cyclic:generator_fuel" }, weight: 205.479f }
+		{ id: "1C2A59D1CD6E235F", item: { count: 1, id: "excompressum:auto_sieve" }, weight: 154.11f }
+		{ id: "1D90A330439EBEC1", item: { count: 1, id: "excompressum:auto_hammer" }, weight: 154.11f }
 	]
 }

@@ -128,7 +128,7 @@
         {
           "type": "minecraft:item",
           "weight": 40,
-          "name": "exdeorum:netherite_mesh"
+          "name": "exdeorum:diamond_mesh"
         },
         {
           "type": "minecraft:item",
@@ -154,6 +154,21 @@
           "type": "minecraft:item",
           "weight": 40,
           "name": "kubejs:mega_key"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "mekanismgenerators:gas_burning_generator"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "cyclic:generator_item"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "excompressum:auto_heavy_sieve"
         }
       ]
     }

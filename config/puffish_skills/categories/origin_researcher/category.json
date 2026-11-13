@@ -1,0 +1,24 @@
+{
+  "title": {
+    "translate": "pixelgo_origins.tree.researcher.title",
+    "fallback": "Research Lab",
+    "color": "#C38BFF",
+    "bold": true
+  },
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "pixelmon:pokedex"
+    }
+  },
+  "background": {
+    "texture": "minecraft:textures/block/white_concrete.png",
+    "width": 16,
+    "height": 16,
+    "position": "tile"
+  },
+  "starting_points": 1,
+  "unlocked_by_default": false,
+  "erase_on_death": false,
+  "exclusive_root": false
+}

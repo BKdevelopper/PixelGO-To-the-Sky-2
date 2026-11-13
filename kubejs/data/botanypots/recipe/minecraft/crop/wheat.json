@@ -1,0 +1,18 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "minecraft:wheat",
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "minecraft:wheat",
+            "count": 1
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+#PixelGO - NPC | Rival Codex interface
+[codex]
+	#Enable the animated holographic effects (scanlines, pulses).
+	animations = true
+	#Opacity of the darkened backdrop behind the codex, in percent.
+	# Default: 80
+	# Range: 0 ~ 100
+	backdropOpacity = 80

@@ -1,0 +1,48 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "PixelGO Gates",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "The last rank is "
+      },
+      {
+        "text": "DEMON",
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": ": twenty eight level "
+      },
+      {
+        "text": "100",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " Legendaries. One natural Gate in "
+      },
+      {
+        "text": "200",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": ". "
+      },
+      {
+        "text": "Clear one and you have finished this modpack.",
+        "color": "gold",
+        "bold": true
+      }
+    ]
+  },
+  "cycle_time": 9000
+}

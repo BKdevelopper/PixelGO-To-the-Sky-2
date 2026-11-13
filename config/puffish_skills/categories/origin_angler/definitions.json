@@ -1,0 +1,709 @@
+{
+  "root": {
+    "title": {
+      "translate": "pixelgo_origins.tree.angler.root.title",
+      "fallback": "Cast Off",
+      "color": "#5AB8FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_fishing_luck",
+          "with": [
+            "3"
+          ],
+          "fallback": "-3%% fishing wait",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.angler.root.flavor",
+      "fallback": "Patience is a kind of bait.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:old_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fishing_luck",
+          "value": 3,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "bait_box": {
+    "title": {
+      "translate": "pixelgo_origins.tree.angler.bait_box.title",
+      "fallback": "Bait Box",
+      "color": "#5AB8FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_fishing_luck",
+          "with": [
+            "3"
+          ],
+          "fallback": "-3%% fishing wait",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:old_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fishing_luck",
+          "value": 3,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "lucky_lure": {
+    "title": {
+      "translate": "pixelgo_origins.tree.angler.lucky_lure.title",
+      "fallback": "Lucky Lure",
+      "color": "#5AB8FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_fishing_luck",
+          "with": [
+            "4"
+          ],
+          "fallback": "-4%% fishing wait",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:good_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fishing_luck",
+          "value": 4,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "reel_master": {
+    "title": {
+      "translate": "pixelgo_origins.tree.angler.reel_master.title",
+      "fallback": "Reel Master",
+      "color": "#5AB8FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_fishing_luck",
+          "with": [
+            "5"
+          ],
+          "fallback": "-5%% fishing wait",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:super_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fishing_luck",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "old_salt": {
+    "title": {
+      "translate": "pixelgo_origins.tree.angler.old_salt.title",
+      "fallback": "Old Salt",
+      "color": "#5AB8FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_fishing_luck",
+          "with": [
+            "8"
+          ],
+          "fallback": "-8%% fishing wait",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_drop_luck",
+          "with": [
+            "6"
+          ],
+          "fallback": "+6%% chance to double Pokémon drops",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.angler.old_salt.flavor",
+      "fallback": "Specialisation: fishing.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:super_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fishing_luck",
+          "value": 8,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "beachcomber": {
+    "title": {
+      "translate": "pixelgo_origins.tree.angler.beachcomber.title",
+      "fallback": "Beachcomber",
+      "color": "#5AB8FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokeloot_luck",
+          "with": [
+            "6"
+          ],
+          "fallback": "+6%% chance to double Poké Loot",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "net_haul": {
+    "title": {
+      "translate": "pixelgo_origins.tree.angler.net_haul.title",
+      "fallback": "Net Haul",
+      "color": "#5AB8FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_drop_luck",
+          "with": [
+            "6"
+          ],
+          "fallback": "+6%% chance to double Pokémon drops",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "dive_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "sunken_treasure": {
+    "title": {
+      "translate": "pixelgo_origins.tree.angler.sunken_treasure.title",
+      "fallback": "Sunken Treasure",
+      "color": "#5AB8FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokeloot_luck",
+          "with": [
+            "8"
+          ],
+          "fallback": "+8%% chance to double Poké Loot",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:heart_scale"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "pearl_diver": {
+    "title": {
+      "translate": "pixelgo_origins.tree.angler.pearl_diver.title",
+      "fallback": "Pearl Diver",
+      "color": "#5AB8FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokeloot_luck",
+          "with": [
+            "10"
+          ],
+          "fallback": "+10%% chance to double Poké Loot",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_drop_luck",
+          "with": [
+            "10"
+          ],
+          "fallback": "+10%% chance to double Pokémon drops",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.angler.pearl_diver.flavor",
+      "fallback": "Specialisation: treasures.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:big_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 10,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "current_rider": {
+    "title": {
+      "translate": "pixelgo_origins.tree.angler.current_rider.title",
+      "fallback": "Current Rider",
+      "color": "#5AB8FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.neoforge_swim_speed",
+          "with": [
+            "15"
+          ],
+          "fallback": "+15%% swim speed",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "neoforge:swim_speed",
+          "value": 0.15,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "divers_grip": {
+    "title": {
+      "translate": "pixelgo_origins.tree.angler.divers_grip.title",
+      "fallback": "Diver's Grip",
+      "color": "#5AB8FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_player_submerged_mining_speed",
+          "with": [
+            "50"
+          ],
+          "fallback": "+50%% underwater mining speed",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:prismarine_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.submerged_mining_speed",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "tidal_rush": {
+    "title": {
+      "translate": "pixelgo_origins.tree.angler.tidal_rush.title",
+      "fallback": "Tidal Rush",
+      "color": "#5AB8FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.neoforge_swim_speed",
+          "with": [
+            "15"
+          ],
+          "fallback": "+15%% swim speed",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "neoforge:swim_speed",
+          "value": 0.15,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "ocean_blessing": {
+    "title": {
+      "translate": "pixelgo_origins.tree.angler.ocean_blessing.title",
+      "fallback": "Ocean's Blessing",
+      "color": "#5AB8FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.tree.angler.ocean_blessing.power",
+          "fallback": "Dolphin's Grace and Night Vision while in water.",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_fishing_luck",
+          "with": [
+            "5"
+          ],
+          "fallback": "-5%% fishing wait",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.angler.ocean_blessing.flavor",
+      "fallback": "The sea gives back to those who respect it.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:conduit"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 3,
+    "required_spent_points": 12,
+    "rewards": [
+      {
+        "type": "neofishcompat:unlock_power",
+        "data": {
+          "power": "pixelgo_origins:angler_ocean_blessing"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fishing_luck",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  }
+}

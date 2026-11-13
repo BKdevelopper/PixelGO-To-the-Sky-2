@@ -1,0 +1,112 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:m_exp_candy",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:rare_candy",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:pixelmon/evoitems",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:special/vouchers",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:pixelmon/mints",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:pixelmon/helditems",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:gimmicks/megastones",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:pixelmon/gems",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:pixelmon/fossils",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:special/summons",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 250
+        }
+      ]
+    }
+  ]
+}

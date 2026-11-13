@@ -1,0 +1,706 @@
+{
+  "root": {
+    "title": {
+      "translate": "pixelgo_origins.tree.medic.root.title",
+      "fallback": "Triage",
+      "color": "#7FE0C8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_party_vitality",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1%% party HP per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.medic.root.flavor",
+      "fallback": "Your Pokémon are fighting fit!",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:potion"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 1,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "first_aid": {
+    "title": {
+      "translate": "pixelgo_origins.tree.medic.first_aid.title",
+      "fallback": "First Aid",
+      "color": "#7FE0C8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_party_vitality",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1%% party HP per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:potion"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "field_dressing": {
+    "title": {
+      "translate": "pixelgo_origins.tree.medic.field_dressing.title",
+      "fallback": "Field Dressing",
+      "color": "#7FE0C8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_party_vitality",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2%% party HP per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:hyper_potion"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "intensive_care": {
+    "title": {
+      "translate": "pixelgo_origins.tree.medic.intensive_care.title",
+      "fallback": "Intensive Care",
+      "color": "#7FE0C8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_party_vitality",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2%% party HP per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:full_restore"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "chief_medic": {
+    "title": {
+      "translate": "pixelgo_origins.tree.medic.chief_medic.title",
+      "fallback": "Chief Medic",
+      "color": "#7FE0C8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_party_vitality",
+          "with": [
+            "4"
+          ],
+          "fallback": "+4%% party HP per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.medic.chief_medic.flavor",
+      "fallback": "Specialisation: healing.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:leftovers"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 4,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "comfort": {
+    "title": {
+      "translate": "pixelgo_origins.tree.medic.comfort.title",
+      "fallback": "Comfort",
+      "color": "#7FE0C8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:oran_berry"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "kind_care": {
+    "title": {
+      "translate": "pixelgo_origins.tree.medic.kind_care.title",
+      "fallback": "Kind Care",
+      "color": "#7FE0C8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:sitrus_berry"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "trust": {
+    "title": {
+      "translate": "pixelgo_origins.tree.medic.trust.title",
+      "fallback": "Trust",
+      "color": "#7FE0C8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:soothe_bell"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "heart_of_gold": {
+    "title": {
+      "translate": "pixelgo_origins.tree.medic.heart_of_gold.title",
+      "fallback": "Heart of Gold",
+      "color": "#7FE0C8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "3"
+          ],
+          "fallback": "+3 friendship per aura pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_party_vitality",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1%% party HP per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.medic.heart_of_gold.flavor",
+      "fallback": "Specialisation: friendship.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:lum_berry"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 3,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "healthy_habits": {
+    "title": {
+      "translate": "pixelgo_origins.tree.medic.healthy_habits.title",
+      "fallback": "Healthy Habits",
+      "color": "#7FE0C8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_max_health",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2 max health",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "protective_gear": {
+    "title": {
+      "translate": "pixelgo_origins.tree.medic.protective_gear.title",
+      "fallback": "Protective Gear",
+      "color": "#7FE0C8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_armor",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2 armor",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "fresh_milk": {
+    "title": {
+      "translate": "pixelgo_origins.tree.medic.fresh_milk.title",
+      "fallback": "Fresh Milk",
+      "color": "#7FE0C8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_max_health",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2 max health",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:moomoo_milk"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "healing_aura": {
+    "title": {
+      "translate": "pixelgo_origins.tree.medic.healing_aura.title",
+      "fallback": "Healing Aura",
+      "color": "#7FE0C8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.tree.medic.healing_aura.power",
+          "fallback": "Permanent Regeneration I.",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_party_vitality",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2%% party HP per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.medic.healing_aura.flavor",
+      "fallback": "Nobody faints on your watch.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:leftovers"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 3,
+    "required_spent_points": 12,
+    "rewards": [
+      {
+        "type": "neofishcompat:unlock_power",
+        "data": {
+          "power": "pixelgo_origins:medic_healing_aura"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  }
+}

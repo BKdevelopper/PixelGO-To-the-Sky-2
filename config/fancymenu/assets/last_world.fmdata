@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/vixga/curseforge/minecraft/Instances/My dream/saves/New World (2)
+}
+

@@ -1,0 +1,1552 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.trs_gen8",
+                  "message": "pixelgo.npc.trs_gen8.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 0
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 1
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 2
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 3
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 4
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 5
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 6
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 7
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 8
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 9
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 10
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 11
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 12
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 13
+                          }
+                        }
+                      },
+                      "buyPrice": 27,
+                      "sellPrice": 8.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 14
+                          }
+                        }
+                      },
+                      "buyPrice": 27,
+                      "sellPrice": 8.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 15
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 16
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 17
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 18
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 19
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 20
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 21
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 22
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 23
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 24
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 25
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 26
+                          }
+                        }
+                      },
+                      "buyPrice": 27,
+                      "sellPrice": 8.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 27
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 28
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 29
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 30
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 31
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 32
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 33
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 34
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 35
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 36
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 37
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 38
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 39
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 40
+                          }
+                        }
+                      },
+                      "buyPrice": 27,
+                      "sellPrice": 8.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 41
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 42
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 43
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 44
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 45
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 46
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 47
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 48
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 49
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 50
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 51
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 52
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 53
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 54
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 55
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 56
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 57
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 58
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 59
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 60
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 61
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 62
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 63
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 64
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 65
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 66
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 67
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 68
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 69
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 70
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 71
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 72
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 73
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 74
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 75
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 76
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 77
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 78
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 79
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 80
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 81
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 82
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 83
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 84
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 85
+                          }
+                        }
+                      },
+                      "buyPrice": 27,
+                      "sellPrice": 8.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 86
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 87
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 88
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 89
+                          }
+                        }
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 90
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 91
+                          }
+                        }
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 92
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 93
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 94
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 95
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 96
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 97
+                          }
+                        }
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 98
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tr_gen8",
+                        "count": 1,
+                        "components": {
+                          "minecraft:custom_data": {
+                            "tm": 99
+                          }
+                        }
+                      },
+                      "buyPrice": 63,
+                      "sellPrice": 18.9
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.trs_gen8",
+                  "message": "pixelgo.npc.trs_gen8.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.trs_gen8",
+        "color": "#FF55FF",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

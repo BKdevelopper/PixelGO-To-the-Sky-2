@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "name": "pixelgo_tier",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t1",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t2",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "incendium:pipeline/base/junk",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "incendium:pipeline/base/common",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "incendium:pipeline/base/uncommon",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "incendium:pipeline/base/rare",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

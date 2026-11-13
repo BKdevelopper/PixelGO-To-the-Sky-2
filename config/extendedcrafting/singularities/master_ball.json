@@ -1,0 +1,11 @@
+{
+  "name": "Master Ball",
+  "colors": [
+    "ae37ed",
+    "dd20be"
+  ],
+  "materialCount": 64,
+  "ingredient": {
+    "item": "projecte:rm_furnace"
+  }
+}

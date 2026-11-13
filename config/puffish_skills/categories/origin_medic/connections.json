@@ -1,0 +1,70 @@
+{
+  "normal": {
+    "unidirectional": [
+      [
+        "root",
+        "first_aid"
+      ],
+      [
+        "first_aid",
+        "field_dressing"
+      ],
+      [
+        "field_dressing",
+        "intensive_care"
+      ],
+      [
+        "intensive_care",
+        "chief_medic"
+      ],
+      [
+        "root",
+        "comfort"
+      ],
+      [
+        "comfort",
+        "kind_care"
+      ],
+      [
+        "kind_care",
+        "trust"
+      ],
+      [
+        "trust",
+        "heart_of_gold"
+      ],
+      [
+        "root",
+        "healthy_habits"
+      ],
+      [
+        "healthy_habits",
+        "protective_gear"
+      ],
+      [
+        "protective_gear",
+        "fresh_milk"
+      ],
+      [
+        "chief_medic",
+        "healing_aura"
+      ],
+      [
+        "heart_of_gold",
+        "healing_aura"
+      ],
+      [
+        "fresh_milk",
+        "healing_aura"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": [
+      [
+        "chief_medic",
+        "heart_of_gold"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.stats_and_levels",
+                  "message": "pixelgo.npc.stats_and_levels.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "pixelmon:macho_brace",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:power_weight",
+                        "count": 1
+                      },
+                      "buyPrice": 250,
+                      "sellPrice": 75
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:power_bracer",
+                        "count": 1
+                      },
+                      "buyPrice": 250,
+                      "sellPrice": 75
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:power_belt",
+                        "count": 1
+                      },
+                      "buyPrice": 250,
+                      "sellPrice": 75
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:power_lens",
+                        "count": 1
+                      },
+                      "buyPrice": 250,
+                      "sellPrice": 75
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:power_band",
+                        "count": 1
+                      },
+                      "buyPrice": 250,
+                      "sellPrice": 75
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:power_anklet",
+                        "count": 1
+                      },
+                      "buyPrice": 250,
+                      "sellPrice": 75
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:exp_share",
+                        "count": 1
+                      },
+                      "buyPrice": 1440,
+                      "sellPrice": 432
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:lucky_egg",
+                        "count": 1
+                      },
+                      "buyPrice": 5400,
+                      "sellPrice": 1620
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.stats_and_levels",
+                  "message": "pixelgo.npc.stats_and_levels.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.stats_and_levels",
+        "color": "#FF55FF",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

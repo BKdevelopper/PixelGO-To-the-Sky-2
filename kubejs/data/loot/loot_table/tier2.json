@@ -1,0 +1,343 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "name": "utils",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "pixelgoitems:trading_sim"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "pixelgoitems:healer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "cyclic:tank"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "powerpots:power_pot_1"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "pixelgoitems:laptop"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "refinedstorage:disk_drive"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "excompressum:compressed_golden_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "exdeorum:diamond_mesh"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "sophisticatedstorage:gold_chest"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "mekanismgenerators:wind_generator"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "mysticalagriculture:infusion_pedestal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "sophisticatedbackpacks:iron_backpack"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 80,
+          "name": "pixelgoitems:size_randomizer",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "pixelgoitems:random_iv",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "storagedrawers:gold_storage_upgrade",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "refinedstorage:4k_storage_disk"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "sophisticatedbackpacks:stack_upgrade_tier_2"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "ironfurnaces:gold_furnace"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "havencobblegens:stone_cobble_gen"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "treasurebags:treasure_bag",
+          "functions": [
+            {
+              "function": "treasurebags:set_bag_type",
+              "bag_type": "pixelgo:tier2"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "pipez:improved_upgrade"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "cyclic:hopper_gold"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "kubejs:random_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "mekanism:basic_energy_cube"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "ultra_ball"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "ev_atk_ball"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "ev_def_ball"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "ev_hp_ball"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "ev_spatk_ball"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 11,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "ev_spd_ball"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 11,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "ev_spdef_ball"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "cookingforblockheads:sink"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "projecte:aeternalis_fuel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "pixelmon:new_running_boots"
+        }
+      ]
+    }
+  ]
+}

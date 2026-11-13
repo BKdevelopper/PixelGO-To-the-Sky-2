@@ -1,0 +1,24 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "pixelmon:apricorn_plant_black",
+  "input": {
+    "item": "pixelmon:black_apricorn"
+  },
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "pixelmon:black_apricorn",
+            "count": 1
+          }
+        }
+      ]
+    }
+  ]
+}

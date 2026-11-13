@@ -1,0 +1,70 @@
+{
+  "normal": {
+    "unidirectional": [
+      [
+        "root",
+        "bait_box"
+      ],
+      [
+        "bait_box",
+        "lucky_lure"
+      ],
+      [
+        "lucky_lure",
+        "reel_master"
+      ],
+      [
+        "reel_master",
+        "old_salt"
+      ],
+      [
+        "root",
+        "beachcomber"
+      ],
+      [
+        "beachcomber",
+        "net_haul"
+      ],
+      [
+        "net_haul",
+        "sunken_treasure"
+      ],
+      [
+        "sunken_treasure",
+        "pearl_diver"
+      ],
+      [
+        "root",
+        "current_rider"
+      ],
+      [
+        "current_rider",
+        "divers_grip"
+      ],
+      [
+        "divers_grip",
+        "tidal_rush"
+      ],
+      [
+        "old_salt",
+        "ocean_blessing"
+      ],
+      [
+        "pearl_diver",
+        "ocean_blessing"
+      ],
+      [
+        "tidal_rush",
+        "ocean_blessing"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": [
+      [
+        "old_salt",
+        "pearl_diver"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "name": "pixelgo_tier",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t3",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t4",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t5",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 27,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "incendium:sanctum/potions"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Controls",
+    "color": "white",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "M",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " opens the FTB Chunks map, "
+      },
+      {
+        "text": "J",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " opens JourneyMap, and "
+      },
+      {
+        "text": "B",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " drops a waypoint where you stand."
+      }
+    ]
+  },
+  "cycle_time": 7000
+}

@@ -1,0 +1,24 @@
+#Cog & Capture XP Bridge settings.
+#All values are vanilla Minecraft XP points. Set a value to 0 to disable that reward.
+[rewards]
+	#Vanilla XP awarded for each wild Pokemon defeated.
+	# Default: 10
+	# Range: 0 ~ 100000
+	wildPokemonXP = 10
+	#Vanilla XP awarded for each NPC Trainer Pokemon defeated.
+	# Default: 15
+	# Range: 0 ~ 100000
+	trainerPokemonXP = 15
+	#Bonus vanilla XP awarded once when the player wins an NPC Trainer battle.
+	# Default: 10
+	# Range: 0 ~ 100000
+	trainerVictoryBonusXP = 10
+	#Vanilla XP awarded for each player-owned Pokemon defeated in PvP. Default 0 disables PvP XP.
+	# Default: 0
+	# Range: 0 ~ 100000
+	playerPokemonXP = 0
+	#Vanilla XP awarded when a player manually kills a Pokemon entity outside a Pixelmon battle.
+	#Direct melee and player-fired projectile kills count. Environmental or non-player kills do not.
+	# Default: 10
+	# Range: 0 ~ 100000
+	manualPokemonKillXP = 10

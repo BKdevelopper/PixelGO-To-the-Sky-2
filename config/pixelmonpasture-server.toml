@@ -1,0 +1,69 @@
+[production]
+	#Fallback production time in seconds for producers without a species-specific value.
+	# Default: 1200
+	# Range: 5 ~ 86400
+	defaultProductionTime = 1200
+
+[wooloo]
+	#Production time in seconds.
+	# Default: 1200
+	# Range: 5 ~ 86400
+	productionTime = 1200
+	#Items produced per completed cycle.
+	# Default: 6
+	# Range: 1 ~ 64
+	minOutput = 6
+	#Items produced per completed cycle.
+	# Default: 8
+	# Range: 1 ~ 64
+	maxOutput = 8
+
+[dubwool]
+	#Production time in seconds.
+	# Default: 1200
+	# Range: 5 ~ 86400
+	productionTime = 1200
+	#Items produced per completed cycle.
+	# Default: 6
+	# Range: 1 ~ 64
+	minOutput = 6
+	#Items produced per completed cycle.
+	# Default: 8
+	# Range: 1 ~ 64
+	maxOutput = 8
+
+[mareep]
+	#Production time in seconds.
+	# Default: 1200
+	# Range: 5 ~ 86400
+	productionTime = 1200
+	#Items produced per completed cycle.
+	# Default: 1
+	# Range: 1 ~ 64
+	minOutput = 1
+	#Items produced per completed cycle.
+	# Default: 1
+	# Range: 1 ~ 64
+	maxOutput = 1
+
+[miltank]
+	#Production time in seconds.
+	# Default: 1200
+	# Range: 5 ~ 86400
+	productionTime = 1200
+
+[camerupt]
+	#Production time in seconds.
+	# Default: 1200
+	# Range: 5 ~ 86400
+	productionTime = 1200
+
+[eggs]
+	#Production time in seconds.
+	# Default: 1200
+	# Range: 5 ~ 86400
+	productionTime = 1200
+	#Wheat seeds consumed for each egg production cycle.
+	# Default: 1
+	# Range: 1 ~ 64
+	seedsPerCycle = 1

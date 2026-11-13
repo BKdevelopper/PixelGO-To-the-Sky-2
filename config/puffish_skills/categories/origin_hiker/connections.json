@@ -1,0 +1,70 @@
+{
+  "normal": {
+    "unidirectional": [
+      [
+        "root",
+        "amber_hunter"
+      ],
+      [
+        "amber_hunter",
+        "strata_reading"
+      ],
+      [
+        "strata_reading",
+        "paleontologist"
+      ],
+      [
+        "paleontologist",
+        "fossil_expert"
+      ],
+      [
+        "root",
+        "prospector"
+      ],
+      [
+        "prospector",
+        "rock_sifter"
+      ],
+      [
+        "rock_sifter",
+        "relic_seeker"
+      ],
+      [
+        "relic_seeker",
+        "treasure_delver"
+      ],
+      [
+        "root",
+        "strong_arms"
+      ],
+      [
+        "strong_arms",
+        "rock_climber"
+      ],
+      [
+        "rock_climber",
+        "tunneler"
+      ],
+      [
+        "fossil_expert",
+        "stone_heart"
+      ],
+      [
+        "treasure_delver",
+        "stone_heart"
+      ],
+      [
+        "tunneler",
+        "stone_heart"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": [
+      [
+        "fossil_expert",
+        "treasure_delver"
+      ]
+    ]
+  }
+}

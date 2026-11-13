@@ -1,0 +1,1404 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.pixelmon_blocks",
+                  "message": "pixelgo.npc.pixelmon_blocks.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "pixelmon:poke_dirt",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_berry_wood_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_berry_wood_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_berry_wood_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_berry_wood_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_berry_wood_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_berry_wood_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dusty_ruins_wall",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:temple_brick_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:temple_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:poke_grass",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:ruins_wall",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_berry_wood_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_berry_wood_planks",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_berry_wood_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_berry_wood_planks",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_berry_wood_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_berry_wood_planks",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_berry_wood_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_berry_wood_planks",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_berry_wood_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_berry_wood_planks",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_berry_wood_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_berry_wood_planks",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:poke_sand",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:sandy_grass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_blank",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_underscore",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:temple_block",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:temple_brick",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_blank",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:outside_wall",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_berry_wood_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_berry_wood_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_berry_wood_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_berry_wood_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_berry_wood_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_berry_wood_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_berry_wood_fence",
+                        "count": 1
+                      },
+                      "buyPrice": 3.33,
+                      "sellPrice": 1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_berry_wood_fence",
+                        "count": 1
+                      },
+                      "buyPrice": 3.33,
+                      "sellPrice": 1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_berry_wood_fence",
+                        "count": 1
+                      },
+                      "buyPrice": 3.33,
+                      "sellPrice": 1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_berry_wood_fence",
+                        "count": 1
+                      },
+                      "buyPrice": 3.33,
+                      "sellPrice": 1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_berry_wood_fence",
+                        "count": 1
+                      },
+                      "buyPrice": 3.33,
+                      "sellPrice": 1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_berry_wood_fence",
+                        "count": 1
+                      },
+                      "buyPrice": 3.33,
+                      "sellPrice": 1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:poke_sand_corner1",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:poke_sand_corner2",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:poke_sand_corner3",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:poke_sand_corner4",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:poke_sand_side1",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:poke_sand_side2",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:poke_sand_side3",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:poke_sand_side4",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:inside_wall",
+                        "count": 1
+                      },
+                      "buyPrice": 3.67,
+                      "sellPrice": 1.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:inside_wall_moulding",
+                        "count": 1
+                      },
+                      "buyPrice": 3.67,
+                      "sellPrice": 1.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_berry_wood_door",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_berry_wood_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_berry_wood_door",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_berry_wood_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_berry_wood_door",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_berry_wood_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_berry_wood_door",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_berry_wood_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_berry_wood_door",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_berry_wood_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_berry_wood_door",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_berry_wood_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:temple_brick_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 4.5,
+                      "sellPrice": 1.35
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:temple_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 4.5,
+                      "sellPrice": 1.35
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_a",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_comma",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:shingles",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:shingles_corner1",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:shingles_corner2",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:temple_pillar_fractured",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:wooden_flooring",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_berry_wood_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_berry_wood_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_berry_wood_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_berry_wood_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_berry_wood_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_berry_wood_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_b",
+                        "count": 1
+                      },
+                      "buyPrice": 7,
+                      "sellPrice": 2.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_c",
+                        "count": 1
+                      },
+                      "buyPrice": 7,
+                      "sellPrice": 2.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_e",
+                        "count": 1
+                      },
+                      "buyPrice": 7,
+                      "sellPrice": 2.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_i",
+                        "count": 1
+                      },
+                      "buyPrice": 7,
+                      "sellPrice": 2.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_k",
+                        "count": 1
+                      },
+                      "buyPrice": 7,
+                      "sellPrice": 2.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_berry_wood_fence_gate",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_berry_wood_fence_gate",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_berry_wood_fence_gate",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_berry_wood_fence_gate",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_berry_wood_fence_gate",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_berry_wood_fence_gate",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_a",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_b",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_c",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_d",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_e",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_exclaim",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_f",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_g",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_h",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_i",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_j",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_k",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_l",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_m",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_n",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_o",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_p",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_q",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_question",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_r",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_s",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_t",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_u",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_v",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_w",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_x",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_y",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unown_block_z",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_d",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_f",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_h",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_j",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_l",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_m",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_o",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_s",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_stop",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_u",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:temple_pillar",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_g",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_n",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_p",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_r",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_t",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_v",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_w",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_x",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_z",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_q",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:braille_block_y",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:poke_center_sign",
+                        "count": 1
+                      },
+                      "buyPrice": 137,
+                      "sellPrice": 41.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:poke_mart_sign",
+                        "count": 1
+                      },
+                      "buyPrice": 138,
+                      "sellPrice": 41.4
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.pixelmon_blocks",
+                  "message": "pixelgo.npc.pixelmon_blocks.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.pixelmon_blocks",
+        "color": "#D2A679",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

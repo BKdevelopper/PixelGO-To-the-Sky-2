@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"categories": [
+		"pixelgo",
+		"origin_ranger",
+		"origin_researcher",
+		"origin_battler",
+		"origin_breeder",
+		"origin_medic",
+		"origin_angler",
+		"origin_botanist",
+		"origin_hiker",
+		"origin_scavenger"
+	],
+	"show_warnings": true
+}

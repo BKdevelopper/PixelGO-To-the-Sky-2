@@ -1,0 +1,11 @@
+{
+  "name": "EMC",
+  "colors": [
+    "c90076",
+    "6a329f"
+  ],
+  "materialCount": 128,
+  "ingredient": {
+    "item": "projecte:red_matter_block"
+  }
+}

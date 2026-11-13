@@ -1,0 +1,35 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Dimension Timer",
+    "color": "dark_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Eating a "
+      },
+      {
+        "text": "Golden Apple",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " adds "
+      },
+      {
+        "text": "30 seconds",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " to the run in progress. Eat one before you set off and the bonus waits for you."
+      }
+    ]
+  },
+  "cycle_time": 7000
+}

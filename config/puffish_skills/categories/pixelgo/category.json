@@ -1,0 +1,26 @@
+{
+  "title": {
+    "text": "Trainer’s Path",
+    "color": "#69D2FF",
+    "bold": true
+  },
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "pixelmon:poke_ball",
+      "components": {
+        "pixelmon:poke_ball": "poke_ball"
+      }
+    }
+  },
+  "background": {
+    "texture": "minecraft:textures/block/polished_deepslate.png",
+    "width": 16,
+    "height": 16,
+    "position": "tile"
+  },
+  "starting_points": 1,
+  "unlocked_by_default": true,
+  "erase_on_death": false,
+  "exclusive_root": false
+}

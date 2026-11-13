@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:raid_pass",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:poke_egg",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:raid_voucher",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:radiant_voucher",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

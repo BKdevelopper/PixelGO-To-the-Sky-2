@@ -1,0 +1,68 @@
+{
+  "root": {
+    "definition": "root",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "spoils": {
+    "definition": "spoils",
+    "x": -72,
+    "y": -42
+  },
+  "scrounger": {
+    "definition": "scrounger",
+    "x": -72,
+    "y": -88
+  },
+  "looter": {
+    "definition": "looter",
+    "x": -72,
+    "y": -134
+  },
+  "master_thief": {
+    "definition": "master_thief",
+    "x": -72,
+    "y": -184
+  },
+  "lock_sense": {
+    "definition": "lock_sense",
+    "x": 72,
+    "y": -42
+  },
+  "hidden_stash": {
+    "definition": "hidden_stash",
+    "x": 72,
+    "y": -88
+  },
+  "vault_breaker": {
+    "definition": "vault_breaker",
+    "x": 72,
+    "y": -134
+  },
+  "loot_baron": {
+    "definition": "loot_baron",
+    "x": 72,
+    "y": -184
+  },
+  "soft_steps": {
+    "definition": "soft_steps",
+    "x": 0,
+    "y": -50
+  },
+  "quick_escape": {
+    "definition": "quick_escape",
+    "x": 0,
+    "y": -96
+  },
+  "lucky_charm": {
+    "definition": "lucky_charm",
+    "x": 0,
+    "y": -142
+  },
+  "shadow_cloak": {
+    "definition": "shadow_cloak",
+    "x": 0,
+    "y": -214
+  }
+}

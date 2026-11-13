@@ -1,0 +1,24 @@
+{
+  "id": "Glalie",
+  "spawnInfos": [
+    {
+      "spec": "species:Glalie",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ],
+        "minY": 120
+      },
+      "rarity": 0.5
+    }
+  ]
+}

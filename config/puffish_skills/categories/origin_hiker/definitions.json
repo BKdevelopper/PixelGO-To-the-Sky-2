@@ -1,0 +1,686 @@
+{
+  "root": {
+    "title": {
+      "translate": "pixelgo_origins.tree.hiker.root.title",
+      "fallback": "Pickaxe Calluses",
+      "color": "#C9A66B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_fossil_luck",
+          "with": [
+            "3"
+          ],
+          "fallback": "+3 in 10,000 fossil chance per stone",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.hiker.root.flavor",
+      "fallback": "Rocks have stories. You just listen.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fossil_luck",
+          "value": 3,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "amber_hunter": {
+    "title": {
+      "translate": "pixelgo_origins.tree.hiker.amber_hunter.title",
+      "fallback": "Amber Hunter",
+      "color": "#C9A66B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_fossil_luck",
+          "with": [
+            "3"
+          ],
+          "fallback": "+3 in 10,000 fossil chance per stone",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:old_amber"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fossil_luck",
+          "value": 3,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "strata_reading": {
+    "title": {
+      "translate": "pixelgo_origins.tree.hiker.strata_reading.title",
+      "fallback": "Strata Reading",
+      "color": "#C9A66B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_fossil_luck",
+          "with": [
+            "4"
+          ],
+          "fallback": "+4 in 10,000 fossil chance per stone",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:dome_fossil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fossil_luck",
+          "value": 4,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "paleontologist": {
+    "title": {
+      "translate": "pixelgo_origins.tree.hiker.paleontologist.title",
+      "fallback": "Paleontologist",
+      "color": "#C9A66B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_fossil_luck",
+          "with": [
+            "5"
+          ],
+          "fallback": "+5 in 10,000 fossil chance per stone",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:helix_fossil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fossil_luck",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "fossil_expert": {
+    "title": {
+      "translate": "pixelgo_origins.tree.hiker.fossil_expert.title",
+      "fallback": "Fossil Expert",
+      "color": "#C9A66B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_fossil_luck",
+          "with": [
+            "10"
+          ],
+          "fallback": "+10 in 10,000 fossil chance per stone",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.hiker.fossil_expert.flavor",
+      "fallback": "Specialisation: fossils.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:fossil_display"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fossil_luck",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "prospector": {
+    "title": {
+      "translate": "pixelgo_origins.tree.hiker.prospector.title",
+      "fallback": "Prospector",
+      "color": "#C9A66B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokeloot_luck",
+          "with": [
+            "6"
+          ],
+          "fallback": "+6%% chance to double Poké Loot",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:nugget"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "rock_sifter": {
+    "title": {
+      "translate": "pixelgo_origins.tree.hiker.rock_sifter.title",
+      "fallback": "Rock Sifter",
+      "color": "#C9A66B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_drop_luck",
+          "with": [
+            "6"
+          ],
+          "fallback": "+6%% chance to double Pokémon drops",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:big_nugget"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "relic_seeker": {
+    "title": {
+      "translate": "pixelgo_origins.tree.hiker.relic_seeker.title",
+      "fallback": "Relic Seeker",
+      "color": "#C9A66B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokeloot_luck",
+          "with": [
+            "8"
+          ],
+          "fallback": "+8%% chance to double Poké Loot",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:relic_gold"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "treasure_delver": {
+    "title": {
+      "translate": "pixelgo_origins.tree.hiker.treasure_delver.title",
+      "fallback": "Treasure Delver",
+      "color": "#C9A66B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokeloot_luck",
+          "with": [
+            "12"
+          ],
+          "fallback": "+12%% chance to double Poké Loot",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_drop_luck",
+          "with": [
+            "8"
+          ],
+          "fallback": "+8%% chance to double Pokémon drops",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.hiker.treasure_delver.flavor",
+      "fallback": "Specialisation: treasures.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:star_piece"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 12,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "strong_arms": {
+    "title": {
+      "translate": "pixelgo_origins.tree.hiker.strong_arms.title",
+      "fallback": "Strong Arms",
+      "color": "#C9A66B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_player_block_break_speed",
+          "with": [
+            "10"
+          ],
+          "fallback": "+10%% mining speed",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "rock_climber": {
+    "title": {
+      "translate": "pixelgo_origins.tree.hiker.rock_climber.title",
+      "fallback": "Rock Climber",
+      "color": "#C9A66B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_step_height",
+          "with": [
+            "0.5"
+          ],
+          "fallback": "+0.5 step height",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ladder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.step_height",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "tunneler": {
+    "title": {
+      "translate": "pixelgo_origins.tree.hiker.tunneler.title",
+      "fallback": "Tunneler",
+      "color": "#C9A66B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_player_block_break_speed",
+          "with": [
+            "15"
+          ],
+          "fallback": "+15%% mining speed",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "stone_heart": {
+    "title": {
+      "translate": "pixelgo_origins.tree.hiker.stone_heart.title",
+      "fallback": "Stone Heart",
+      "color": "#C9A66B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.tree.hiker.stone_heart.power",
+          "fallback": "Permanent Haste I.",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_fossil_luck",
+          "with": [
+            "5"
+          ],
+          "fallback": "+5 in 10,000 fossil chance per stone",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.hiker.stone_heart.flavor",
+      "fallback": "The mountain made you. Now you shape it.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 3,
+    "required_spent_points": 12,
+    "rewards": [
+      {
+        "type": "neofishcompat:unlock_power",
+        "data": {
+          "power": "pixelgo_origins:hiker_stone_heart"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fossil_luck",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  }
+}

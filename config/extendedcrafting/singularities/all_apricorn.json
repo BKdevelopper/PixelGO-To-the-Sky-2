@@ -1,0 +1,11 @@
+{
+  "name": "All Apricorn",
+  "colors": [
+    "ffffff",
+    "ffffff"
+  ],
+  "materialCount": 2500,
+  "ingredient": {
+    "tag": "pixelmon:apricorns"
+  }
+}

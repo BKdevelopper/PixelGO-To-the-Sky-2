@@ -1,0 +1,70 @@
+{
+  "normal": {
+    "unidirectional": [
+      [
+        "root",
+        "incubation"
+      ],
+      [
+        "incubation",
+        "brooding"
+      ],
+      [
+        "brooding",
+        "nursery"
+      ],
+      [
+        "nursery",
+        "hatchery_master"
+      ],
+      [
+        "root",
+        "lullaby"
+      ],
+      [
+        "lullaby",
+        "gentle_touch"
+      ],
+      [
+        "gentle_touch",
+        "comfort_food"
+      ],
+      [
+        "comfort_food",
+        "best_friends"
+      ],
+      [
+        "root",
+        "clean_pens"
+      ],
+      [
+        "clean_pens",
+        "family_ties"
+      ],
+      [
+        "family_ties",
+        "busy_days"
+      ],
+      [
+        "hatchery_master",
+        "twin_clutch"
+      ],
+      [
+        "best_friends",
+        "twin_clutch"
+      ],
+      [
+        "busy_days",
+        "twin_clutch"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": [
+      [
+        "hatchery_master",
+        "best_friends"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,706 @@
+{
+  "root": {
+    "title": {
+      "translate": "pixelgo_origins.tree.battler.root.title",
+      "fallback": "Warm-Up",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_experience",
+          "with": [
+            "4"
+          ],
+          "fallback": "+4%% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_ev_gain",
+          "with": [
+            "4"
+          ],
+          "fallback": "+4%% EVs after battle",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.battler.root.flavor",
+      "fallback": "Ten laps before breakfast.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:macho_brace"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 4,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:ev_gain",
+          "value": 4,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "sparring": {
+    "title": {
+      "translate": "pixelgo_origins.tree.battler.sparring.title",
+      "fallback": "Sparring",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_experience",
+          "with": [
+            "6"
+          ],
+          "fallback": "+6%% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:xs_exp_candy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "gauntlet": {
+    "title": {
+      "translate": "pixelgo_origins.tree.battler.gauntlet.title",
+      "fallback": "Gauntlet",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_experience",
+          "with": [
+            "8"
+          ],
+          "fallback": "+8%% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:s_exp_candy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "champion_pace": {
+    "title": {
+      "translate": "pixelgo_origins.tree.battler.champion_pace.title",
+      "fallback": "Champion's Pace",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_experience",
+          "with": [
+            "10"
+          ],
+          "fallback": "+10%% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:l_exp_candy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "exp_mastery": {
+    "title": {
+      "translate": "pixelgo_origins.tree.battler.exp_mastery.title",
+      "fallback": "Exp. Mastery",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_experience",
+          "with": [
+            "20"
+          ],
+          "fallback": "+20%% Pokémon experience",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.battler.exp_mastery.flavor",
+      "fallback": "Specialisation: experience.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:exp_share"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 20,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "protein_diet": {
+    "title": {
+      "translate": "pixelgo_origins.tree.battler.protein_diet.title",
+      "fallback": "Protein Diet",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_ev_gain",
+          "with": [
+            "8"
+          ],
+          "fallback": "+8%% EVs after battle",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:protein"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:ev_gain",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "iron_regimen": {
+    "title": {
+      "translate": "pixelgo_origins.tree.battler.iron_regimen.title",
+      "fallback": "Iron Regimen",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_ev_gain",
+          "with": [
+            "10"
+          ],
+          "fallback": "+10%% EVs after battle",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:iron"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:ev_gain",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "heavy_load": {
+    "title": {
+      "translate": "pixelgo_origins.tree.battler.heavy_load.title",
+      "fallback": "Heavy Load",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_ev_gain",
+          "with": [
+            "12"
+          ],
+          "fallback": "+12%% EVs after battle",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:macho_brace"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:ev_gain",
+          "value": 12,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "effort_specialist": {
+    "title": {
+      "translate": "pixelgo_origins.tree.battler.effort_specialist.title",
+      "fallback": "Effort Specialist",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_ev_gain",
+          "with": [
+            "25"
+          ],
+          "fallback": "+25%% EVs after battle",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.battler.effort_specialist.flavor",
+      "fallback": "Specialisation: EVs.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:power_weight"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:ev_gain",
+          "value": 25,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "tough_skin": {
+    "title": {
+      "translate": "pixelgo_origins.tree.battler.tough_skin.title",
+      "fallback": "Tough Skin",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_max_health",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2 max health",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "hard_hitter": {
+    "title": {
+      "translate": "pixelgo_origins.tree.battler.hard_hitter.title",
+      "fallback": "Hard Hitter",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_attack_damage",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 attack damage",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "unshakable": {
+    "title": {
+      "translate": "pixelgo_origins.tree.battler.unshakable.title",
+      "fallback": "Unshakable",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_knockback_resistance",
+          "with": [
+            "15"
+          ],
+          "fallback": "+15%% knockback resistance",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_max_health",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2 max health",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.15,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "fighting_spirit": {
+    "title": {
+      "translate": "pixelgo_origins.tree.battler.fighting_spirit.title",
+      "fallback": "Fighting Spirit",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.tree.battler.fighting_spirit.power",
+          "fallback": "Permanent Strength I.",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_ev_gain",
+          "with": [
+            "10"
+          ],
+          "fallback": "+10%% EVs after battle",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.battler.fighting_spirit.flavor",
+      "fallback": "Never back down.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:xl_exp_candy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 3,
+    "required_spent_points": 12,
+    "rewards": [
+      {
+        "type": "neofishcompat:unlock_power",
+        "data": {
+          "power": "pixelgo_origins:battler_spirit"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:ev_gain",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ]
+  }
+}

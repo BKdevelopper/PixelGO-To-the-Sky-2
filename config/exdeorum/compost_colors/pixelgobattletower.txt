@@ -1,0 +1,5 @@
+// Compost colors for pixelgobattletower. You may add your own colors, change existing ones, or remove colors that aren't needed.
+solaris_trophy, #feb900
+tidal_trophy, #26ccdd
+tower_locator, #9a8352
+umbral_trophy, #b148c3

@@ -1,0 +1,7 @@
+minecraft:overworld
+minecraft:the_end
+minecraft:the_nether
+pixelmon:ultra_space
+pixelgo_dungeon:dungeon
+pixelmon:debug
+overworldmirror:overworld

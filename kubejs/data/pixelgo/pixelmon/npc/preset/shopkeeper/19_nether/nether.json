@@ -1,0 +1,628 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.nether",
+                  "message": "pixelgo.npc.nether.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "minecraft:magma_block",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:nether_sprouts",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:netherite_upgrade_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 1500,
+                      "sellPrice": 450
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:respawn_anchor",
+                        "count": 1
+                      },
+                      "buyPrice": 204,
+                      "sellPrice": 61.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:basalt",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:polished_basalt",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:smooth_basalt",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blackstone",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blackstone_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blackstone_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blackstone_wall",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:chiseled_polished_blackstone",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:gilded_blackstone",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:polished_blackstone",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:polished_blackstone_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:polished_blackstone_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:polished_blackstone_wall",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cracked_polished_blackstone_bricks",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:polished_blackstone_brick_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:polished_blackstone_brick_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:polished_blackstone_brick_wall",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:polished_blackstone_bricks",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:crimson_fungus",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:crimson_nylium",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:crimson_roots",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:nether_wart",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:nether_wart_block",
+                        "count": 1
+                      },
+                      "buyPrice": 18,
+                      "sellPrice": 5.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:warped_fungus",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:warped_nylium",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:warped_roots",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:warped_wart_block",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:crying_obsidian",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:obsidian",
+                        "count": 1
+                      },
+                      "buyPrice": 25,
+                      "sellPrice": 7.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:quartz_block",
+                        "count": 1
+                      },
+                      "buyPrice": 12,
+                      "sellPrice": 3.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:chiseled_quartz_block",
+                        "count": 1
+                      },
+                      "buyPrice": 12,
+                      "sellPrice": 3.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:quartz",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:nether_quartz_ore",
+                        "count": 1
+                      },
+                      "buyPrice": 7,
+                      "sellPrice": 2.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:quartz_bricks",
+                        "count": 1
+                      },
+                      "buyPrice": 12,
+                      "sellPrice": 3.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:quartz_pillar",
+                        "count": 1
+                      },
+                      "buyPrice": 12,
+                      "sellPrice": 3.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:quartz_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:quartz_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 18,
+                      "sellPrice": 5.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:smooth_quartz",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:smooth_quartz_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 6.5,
+                      "sellPrice": 1.95
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:smooth_quartz_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 19.5,
+                      "sellPrice": 5.85
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:netherrack",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:soul_sand",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:soul_soil",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.nether",
+                  "message": "pixelgo.npc.nether.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.nether",
+        "color": "#C0392B",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

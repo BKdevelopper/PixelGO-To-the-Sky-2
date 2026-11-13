@@ -1,0 +1,6 @@
+{
+  "type": "neoorigins:attribute_modifier",
+  "attribute": "pixelgo:fossil_luck",
+  "amount": 2,
+  "operation": "add_value"
+}

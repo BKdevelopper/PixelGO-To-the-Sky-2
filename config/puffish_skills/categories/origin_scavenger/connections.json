@@ -1,0 +1,70 @@
+{
+  "normal": {
+    "unidirectional": [
+      [
+        "root",
+        "spoils"
+      ],
+      [
+        "spoils",
+        "scrounger"
+      ],
+      [
+        "scrounger",
+        "looter"
+      ],
+      [
+        "looter",
+        "master_thief"
+      ],
+      [
+        "root",
+        "lock_sense"
+      ],
+      [
+        "lock_sense",
+        "hidden_stash"
+      ],
+      [
+        "hidden_stash",
+        "vault_breaker"
+      ],
+      [
+        "vault_breaker",
+        "loot_baron"
+      ],
+      [
+        "root",
+        "soft_steps"
+      ],
+      [
+        "soft_steps",
+        "quick_escape"
+      ],
+      [
+        "quick_escape",
+        "lucky_charm"
+      ],
+      [
+        "master_thief",
+        "shadow_cloak"
+      ],
+      [
+        "loot_baron",
+        "shadow_cloak"
+      ],
+      [
+        "lucky_charm",
+        "shadow_cloak"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": [
+      [
+        "master_thief",
+        "loot_baron"
+      ]
+    ]
+  }
+}

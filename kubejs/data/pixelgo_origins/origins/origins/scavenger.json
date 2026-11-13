@@ -1,0 +1,42 @@
+{
+  "name": "origins.pixelgo_origins.scavenger.name",
+  "description": "origins.pixelgo_origins.scavenger.description",
+  "icon": "pixelmon:amulet_coin",
+  "impact": "medium",
+  "order": 9,
+  "powers": [
+    "pixelgo_origins:scavenger_sticky_fingers",
+    "pixelgo_origins:scavenger_lock_picker",
+    "pixelgo_origins:scavenger_night_eyes",
+    "pixelgo_origins:scavenger_frail",
+    "pixelgo_origins:scavenger_skill_tree"
+  ],
+  "upgrades": [],
+  "tier_powers": [
+    {
+      "tier": 1,
+      "add": [
+        "pixelgo_origins:scavenger_evolution_1"
+      ],
+      "remove": []
+    },
+    {
+      "tier": 2,
+      "add": [
+        "pixelgo_origins:scavenger_evolution_2"
+      ],
+      "remove": [
+        "pixelgo_origins:scavenger_evolution_1"
+      ]
+    },
+    {
+      "tier": 3,
+      "add": [
+        "pixelgo_origins:scavenger_evolution_3"
+      ],
+      "remove": [
+        "pixelgo_origins:scavenger_evolution_2"
+      ]
+    }
+  ]
+}

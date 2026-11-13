@@ -1,0 +1,91 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "PixelGO Gates",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Nine ranks: "
+      },
+      {
+        "text": "E",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " > "
+      },
+      {
+        "text": "D",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " > "
+      },
+      {
+        "text": "C",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " > "
+      },
+      {
+        "text": "B",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " > "
+      },
+      {
+        "text": "A",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " > "
+      },
+      {
+        "text": "S",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " > "
+      },
+      {
+        "text": "SS",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " > "
+      },
+      {
+        "text": "SSS",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " > "
+      },
+      {
+        "text": "DEMON",
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": ". The rank decides everything."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

@@ -1,0 +1,80 @@
+#How Battle Tower Trainers scale to the player who challenges them.
+[scaling]
+	#Which level of the player's party the Trainers copy.
+	#HIGHEST - the strongest Pokemon in the party (default)
+	#AVERAGE - the party average
+	#LEAD    - the Pokemon in the first slot
+	#FIXED   - always use fallbackLevel
+	#Allowed Values: HIGHEST, AVERAGE, LEAD, FIXED
+	levelMode = "HIGHEST"
+	#Level used when the player has no Pokemon at all (or in FIXED mode).
+	# Default: 50
+	# Range: 1 ~ 100
+	fallbackLevel = 50
+	#Trainers are never weaker than this.
+	# Default: 5
+	# Range: 1 ~ 100
+	minLevel = 5
+	#Trainers are never stronger than this.
+	# Default: 100
+	# Range: 1 ~ 100
+	maxLevel = 100
+	#Extra levels added per floor above the first (0 = every floor matches the player exactly).
+	# Default: 0
+	# Range: 0 ~ 10
+	levelPerFloor = 0
+	#Extra levels added per tower index (Solaris = 0, Tidal = 1x, Umbral = 2x).
+	# Default: 0
+	# Range: 0 ~ 10
+	levelPerTower = 0
+	#Re-roll each Trainer Pokemon's moveset after scaling so the moves fit the new level.
+	rerollMoves = true
+	#Tell the player, in chat, which level the Trainer scaled to.
+	announceScaling = true
+
+#Rewards and progress tracking.
+[rewards]
+	#Show a progress message (x/28) after every Trainer defeated.
+	announceProgress = true
+	#Hand out the tower trophy item when all 28 Trainers of a tower are beaten.
+	giveTrophies = true
+
+#Client side display options.
+[display]
+	#Add 'Awarded by <Trainer>' and the tower / floor to every badge tooltip.
+	badgeTooltips = true
+
+#What happens to a Trainer once they have been beaten.
+[defeat]
+	#Make a Trainer disappear from their floor once they lose a battle.
+	#Trainers are spawned a single time, so a Trainer who vanishes is gone
+	#for good: that corner of the floor stays empty and the 20 hour cooldown
+	#never comes into play. Turn this off to keep the old behaviour where the
+	#Trainer stays and can be challenged again the next day.
+	vanishOnDefeat = true
+	#Ticks to wait before the Trainer puffs away (20 ticks = 1 second).
+	#The delay lets the badge, the money and the victory dialogue go through first.
+	# Default: 20
+	# Range: 0 ~ 200
+	vanishDelayTicks = 20
+
+#The Pokemon League on the high peaks: twelve Champions and the Rival.
+[league]
+	#Extra levels every League Champion gets over the player's own level.
+	#0 keeps the League exactly as demanding as a Battle Tower floor;
+	#the Champions already run flawless IVs, full EV spreads, held items
+	#and hand built movesets, so a bonus here bites hard.
+	# Default: 0
+	# Range: 0 ~ 20
+	championLevelBonus = 0
+	#Extra levels for the Rival at the head of the nave.
+	# Default: 0
+	# Range: 0 ~ 20
+	rivalLevelBonus = 0
+	#Require all twelve Champions to be beaten before the Rival will battle.
+	#Off by default: with defeat.vanishOnDefeat on, a Champion beaten by one
+	#player is gone for everybody, so on a shared world this gate can lock
+	#the Rival away from a second player for good.
+	rivalNeedsAllChampions = false
+	#Print the Poke Dollar reward in chat after beating a Champion.
+	announceReward = true

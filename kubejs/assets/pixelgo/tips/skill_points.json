@@ -1,0 +1,43 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pokemon",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "The skill tree costs "
+      },
+      {
+        "text": "133",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " points and you will only ever earn "
+      },
+      {
+        "text": "101",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": ". "
+      },
+      {
+        "text": "You cannot take everything",
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": " - and each branch ends in pairs that lock each other out."
+      }
+    ]
+  },
+  "cycle_time": 9000
+}

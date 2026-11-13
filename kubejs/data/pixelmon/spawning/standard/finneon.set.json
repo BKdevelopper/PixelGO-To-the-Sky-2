@@ -1,0 +1,27 @@
+{
+  "id": "Finneon",
+  "spawnInfos": [
+    {
+      "spec": "species:Finneon",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 19,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "terralith:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "#pixelmon:spawning/beaches",
+          "biomeswevegone:lush_stacks"
+        ]
+      },
+      "rarity": 250
+    }
+  ]
+}

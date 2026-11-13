@@ -1,0 +1,218 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "name": "utils",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "pixelmon:white_poke_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "mysticalagriculture:infusion_crystal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "mekanism:basic_fluid_tank"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "botanypots:terracotta_hopper_botany_pot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "waystones:waystone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "refinedstorage:cable",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "excompressum:compressed_iron_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "exdeorum:iron_mesh"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "sophisticatedstorage:iron_chest"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "mekanismgenerators:solar_generator"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "pipez:energy_pipe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "sophisticatedbackpacks:backpack"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 80,
+          "name": "pixelgoitems:size_randomizer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "pixelgoitems:random_iv"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "storagedrawers:iron_storage_upgrade",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "pipez:item_pipe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "refinedstorage:1k_storage_disk"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "pipez:wrench"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "name": "ironfurnaces:copper_furnace"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "havencobblegens:wooden_cobble_gen"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "treasurebags:treasure_bag",
+          "functions": [
+            {
+              "function": "treasurebags:set_bag_type",
+              "bag_type": "pixelgo:tier1"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "projecte:white_alchemical_bag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "cyclic:hopper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "kubejs:random_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "storagedrawers:oak_full_drawers_1"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "nest_ball"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "pixelmon:poke_ball_lid",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "great_ball"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

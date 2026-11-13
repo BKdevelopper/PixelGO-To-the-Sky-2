@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "pixelgo_minions:enchanted_diamond_block"
+    },
+    "E": {
+      "item": "pixelgo_minions:polished_pumpkin"
+    },
+    "T": {
+      "item": "pixelgo_minions:advanced_gardening_axe"
+    }
+  },
+  "pattern": [
+    "CEC",
+    "ETE",
+    "CEC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pixelgo_minions:sculptor_axe"
+  }
+}

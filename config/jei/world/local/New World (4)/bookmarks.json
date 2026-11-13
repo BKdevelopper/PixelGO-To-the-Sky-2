@@ -1,0 +1,8 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:dirt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pixelmon:green_apricorn"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"extendedcrafting:kjs/nether_star","recipeType":"extendedcrafting:elite_crafting","bookmarkType":"RECIPE"},
+  {"recipe":"extendedcrafting:kjs/projecte_philosophers_stone","recipeType":"extendedcrafting:ultimate_crafting","bookmarkType":"RECIPE"},
+  {"recipe":"minecraft:kjs/sophisticatedstorage_survival_infinity_upgrade","recipeType":"minecraft:smithing","bookmarkType":"RECIPE"}
+]

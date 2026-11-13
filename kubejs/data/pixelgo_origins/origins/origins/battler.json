@@ -1,0 +1,42 @@
+{
+  "name": "origins.pixelgo_origins.battler.name",
+  "description": "origins.pixelgo_origins.battler.description",
+  "icon": "pixelmon:macho_brace",
+  "impact": "medium",
+  "order": 3,
+  "powers": [
+    "pixelgo_origins:battler_drills",
+    "pixelgo_origins:battler_intense_training",
+    "pixelgo_origins:battler_iron_fists",
+    "pixelgo_origins:battler_impatient",
+    "pixelgo_origins:battler_skill_tree"
+  ],
+  "upgrades": [],
+  "tier_powers": [
+    {
+      "tier": 1,
+      "add": [
+        "pixelgo_origins:battler_evolution_1"
+      ],
+      "remove": []
+    },
+    {
+      "tier": 2,
+      "add": [
+        "pixelgo_origins:battler_evolution_2"
+      ],
+      "remove": [
+        "pixelgo_origins:battler_evolution_1"
+      ]
+    },
+    {
+      "tier": 3,
+      "add": [
+        "pixelgo_origins:battler_evolution_3"
+      ],
+      "remove": [
+        "pixelgo_origins:battler_evolution_2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+#How the "filter" list below is applied.
+#BLACKLIST - every shop is available except the ones listed in "filter".
+#WHITELIST - only the shops listed in "filter" are available.
+#Allowed Values: BLACKLIST, WHITELIST
+mode = "BLACKLIST"
+#Shop keys to filter, for example "pixelmon:shopkeeper/pokemart/tm_1".
+#A shop's key is the grey line at the bottom of its tooltip in the Portable Shop screen,
+#and every key is written to the log on each data pack load.
+#"*" matches any run of characters, so "pixelmon:shopkeeper/pokemart/*" filters the whole
+#Poke Mart family. The namespace is optional: "shopkeeper/pokemart/tm_1" works too.
+#Changes apply the next time a player opens the Portable Shop, no restart needed.
+filter = ["pixelmon:shopkeeper/daycare/evostones_1", "pixelmon:shopkeeper/wild/*"]
+#Hide the shops Pixelmon itself provides, keeping only the ones added by data packs.
+#false - every shop is offered, Pixelmon's own included.
+#true  - only shops outside the "pixelmon" namespace are offered, which is what a
+#        server that defines its own shops usually wants.
+#This wins over "mode" and "filter": a Pixelmon shop stays hidden even when whitelisted.
+#Changes apply the next time a player opens the Portable Shop, no restart needed.
+disable_pixelmon_shops = true
+#Write what the shops charge and pay for an item at the bottom of its tooltip,
+#the way ProjectE shows an item's EMC.
+#The figures come from the same shops the Portable Shop offers, so "disable_pixelmon_shops",
+#"mode" and "filter" apply here too: a hidden shop does not advertise its prices.
+#An item is quoted the cheapest purchase price and the best resale price among those shops.
+#Connected players are sent the new prices as soon as this file is saved.
+show_item_prices = true

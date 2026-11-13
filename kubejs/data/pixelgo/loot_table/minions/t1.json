@@ -1,0 +1,343 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "minion",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:cobblestone_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:coal_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:gravel_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:sand_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:clay_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:wheat_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:carrot_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:potato_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:oak_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:birch_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:spruce_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:chicken_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:cow_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:pig_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:sheep_minion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:cobblestone_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:coal_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:gravel_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:sand_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:clay_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:wheat_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:carrot_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:potato_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:oak_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:birch_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:spruce_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:chicken_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:cow_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:pig_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:sheep_minion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:2}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "pixelgo:minions/t1"
+}

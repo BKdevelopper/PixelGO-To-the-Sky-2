@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "pixelgo_minions:enchanted_cobblestone"
+    },
+    "R": {
+      "item": "pixelgo_minions:enchanted_redstone_dust"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "C C",
+    "CRC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pixelgo_minions:compactor"
+  }
+}

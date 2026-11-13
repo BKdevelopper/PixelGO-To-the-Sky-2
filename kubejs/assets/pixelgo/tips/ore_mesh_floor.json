@@ -1,0 +1,59 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Sieve & Hammer",
+    "color": "gold",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Pixelmon ores - "
+      },
+      {
+        "text": "bauxite",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "silicon",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "silver",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "platinum",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " - come from gravel, sand and crushed deepslate, and never below the "
+      },
+      {
+        "text": "iron mesh",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

@@ -1,0 +1,2 @@
+// Compost colors for craftingtransmutationtablet. You may add your own colors, change existing ones, or remove colors that aren't needed.
+crafting_transmutation_tablet, #cd8365

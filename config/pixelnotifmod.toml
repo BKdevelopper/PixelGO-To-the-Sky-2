@@ -1,0 +1,593 @@
+#Pixel Notifications
+#Every message below is rendered on the server, so players do not need the mod
+#installed to read them. Run /pixelnotif reload after editing.
+["Pokemon Notification Settings"]
+	#Enable shiny Pokémon spawn notifications
+	enableShinyNotifications = true
+	#Enable legendary Pokémon spawn notifications
+	enableLegendaryNotifications = true
+	#Enable boss Pokémon spawn notifications
+	enableBossNotifications = true
+	#Enable Ultra Beast spawn notifications
+	enableUltraBeastNotifications = true
+
+["Detection Range Settings"]
+	#Notification detection range (blocks), default is 120 blocks
+	# Default: 120
+	# Range: 10 ~ 500
+	notificationRange = 120
+
+["Special Event Notification Settings"]
+	#Enable Zygarde Cell/Core spawn notifications
+	enableZygardeNotifications = true
+	#Enable Master Ball reward chest notifications
+	enableMasterChestNotifications = false
+	#Enable legendary den spawn notifications
+	enableDenNotifications = true
+	#Lowest star level worth announcing.
+	#0 announces every raid. 4 announces 4-star raids and above, and stays
+	#silent for 1, 2 and 3.
+	#Star levels are set by your raid datapack, so how high they go depends
+	#on your setup.
+	# Default: 0
+	# Range: 0 ~ 10
+	minRaidStars = 0
+	#Enable Ultra Wormhole notifications
+	enableWormholeNotifications = true
+
+#How notifications look and sound.
+[presentation]
+	#Prefix put in front of every notification. Empty string for none.
+	#Supports the same colour syntax as the message formats.
+	chatPrefix = "<gradient:#F2C94C:#EB5757>&l[PixelNotif]&r</gradient> "
+	#Play a sound alongside the chat line.
+	soundsEnabled = true
+	#Sound volume (1.0 = normal).
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	soundVolume = 0.6
+	#Sound pitch (1.0 = normal).
+	# Default: 1.0
+	# Range: 0.5 ~ 2.0
+	soundPitch = 1.0
+	#Report the centre of the chunk instead of the exact block.
+	#A light discouragement against using notifications to pinpoint spawns
+	#without going to look for them.
+	hideExactPosition = false
+	#Show the Pokémon's sprite when hovering its name in chat.
+	#The sprite is drawn as a font glyph, so it appears on its own - no
+	#frame, no title, no counter.
+	#The glyphs come from this mod's assets, so a player sees them if they
+	#have the mod client-side, or if the server sends them the pack in
+	#PixelNotifSprites.zip (resource-pack= in server.properties).
+	#A player with neither sees an empty box, so turn this off on a server
+	#that cannot ship the pack.
+	showSpriteOnHover = true
+
+#What clicking the coordinates does.
+#The mod is server-side only and cannot detect a player's minimap, so each
+#player picks their own with /pixelnotif waypoint <mode>. This is the default
+#for players who never chose.
+#  copy     - copy the coordinates to the clipboard (works on any client)
+#  xaero    - drop a waypoint in Xaero's Minimap / World Map
+#  share    - print the [x:.., y:.., z:.., dim:..] form VoxelMap and
+#             JourneyMap turn into a waypoint link
+#  teleport - suggest a /tp command (staff)
+#  none     - plain text
+[waypoint]
+	defaultMode = "copy"
+	#Tooltip shown in 'copy' mode.
+	hoverCopy = "&7Click to copy these coordinates"
+	#Tooltip shown in 'xaero' mode.
+	hoverCreate = "&7Click to create a waypoint"
+	#Tooltip shown in 'teleport' mode.
+	hoverTeleport = "&7Click to prepare a teleport command"
+
+#Told to the same players who saw the spawn, so an announced Pokémon does not
+#just quietly vanish. Only Pokémon that were announced are followed.
+[followUp]
+	#Announce when an announced Pokémon is caught.
+	enableCaught = true
+	#Announce when an announced Pokémon is defeated in battle.
+	enableDefeated = true
+	#Announce when an announced Pokémon despawns on its own.
+	enableDespawned = true
+	#Placeholders: %pokemon% %player% %category%
+	caughtFormat = "&a✔ &f%pokemon% &awas caught by &f%player%&a!"
+	#Placeholders: %pokemon% %player% %category%
+	defeatedFormat = "&c✖ &f%pokemon% &cwas defeated by &f%player%&c!"
+	#Placeholders: %pokemon% %category%
+	despawnedFormat = "&7✖ &f%pokemon% &7despawned."
+
+#Master Ball chests have no spawn event, so nearby chunks are scanned instead.
+#Both values are a direct trade of responsiveness against server load - the
+#defaults check a 64-block area every 3 seconds per player.
+[chestScanning]
+	#Ticks between two scans for one player (20 ticks = 1 second).
+	# Default: 60
+	# Range: 20 ~ 1200
+	intervalTicks = 60
+	#Chunk radius scanned around the player. Cost grows with the square of
+	#this value: 4 covers 81 chunks, 8 covers 289.
+	# Default: 4
+	# Range: 1 ~ 8
+	chunkRadius = 4
+
+#One block per kind of notification. The master switches further up still
+#apply - turning shiny notifications off there silences every shiny category.
+[messages]
+
+	[messages.shiny]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&e✦ &e&l[Shiny] &r&f%pokemon% &espawned near &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:entity.experience_orb.pickup"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: -1
+		# Range: -1 ~ 5000
+		range = -1
+
+	[messages.legendary]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&6★ &d&l[Legendary] &r&f%pokemon% &dappeared in the &a%biome% &dat &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:ui.toast.challenge_complete"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: -1
+		# Range: -1 ~ 5000
+		range = -1
+
+	[messages.boss]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&c☠ &c&l[Boss] &r%tier% &f%pokemon% &cappeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:entity.ender_dragon.growl"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: -1
+		# Range: -1 ~ 5000
+		range = -1
+
+	[messages.ultra_beast]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&5✧ &5&l[Ultra Beast] &r&f%pokemon% &5broke through in the &a%biome% &5at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:entity.elder_guardian.curse"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: -1
+		# Range: -1 ~ 5000
+		range = -1
+
+	[messages.shiny_legendary]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&6✦★ &6&l[Shiny Legendary] &r&f%pokemon% &6appeared in the &a%biome% &6at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:ui.toast.challenge_complete"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: -1
+		# Range: -1 ~ 5000
+		range = -1
+
+	[messages.shiny_boss]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&d✦☠ &d&l[Shiny Boss] &r%tier% &f%pokemon% &dappeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:entity.ender_dragon.growl"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: -1
+		# Range: -1 ~ 5000
+		range = -1
+
+	[messages.shiny_ultra_beast]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&5✦✧ &5&l[Shiny Ultra Beast] &r&f%pokemon% &5broke through at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:entity.elder_guardian.curse"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: -1
+		# Range: -1 ~ 5000
+		range = -1
+
+	[messages.raid]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&c⚔ &c&l[Raid] &r%stars% &f%pokemon% &cappeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:entity.ender_dragon.growl"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.raid_shiny]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&e✦⚔ &e&l[Shiny Raid] &r%stars% &f%pokemon% &eappeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:ui.toast.challenge_complete"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.raid_legendary]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&b❤ &b&l[Raid Legendary] &r%stars% &f%pokemon% &bappeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:ui.toast.challenge_complete"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.raid_ultra_beast]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&5✧ &5&l[Raid Ultra Beast] &r%stars% &f%pokemon% &5appeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:entity.elder_guardian.curse"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.raid_shiny_legendary]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&6✦❤ &6&l[Shiny Raid Legendary] &r%stars% &f%pokemon% &6appeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:ui.toast.challenge_complete"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.raid_shiny_ultra_beast]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&5✦✧ &5&l[Shiny Raid Ultra Beast] &r%stars% &f%pokemon% &5appeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:entity.elder_guardian.curse"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.raid_legendary_ultra_beast]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&d❤✧ &d&l[Raid Legendary Ultra Beast] &r%stars% &f%pokemon% &dappeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:entity.elder_guardian.curse"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.tera_raid]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&b◆ &b&l[Tera Raid] &r%stars% &f%pokemon% %tera% &bappeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:block.amethyst_block.chime"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.tera_raid_shiny]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&e✦◆ &e&l[Shiny Tera Raid] &r%stars% &f%pokemon% %tera% &eappeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:ui.toast.challenge_complete"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.tera_raid_legendary]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&6❤◆ &6&l[Tera Raid Legendary] &r%stars% &f%pokemon% %tera% &6appeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:ui.toast.challenge_complete"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.tera_raid_ultra_beast]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&5✧◆ &5&l[Tera Raid Ultra Beast] &r%stars% &f%pokemon% %tera% &5appeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:entity.elder_guardian.curse"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.tera_raid_shiny_legendary]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&6✦❤◆ &6&l[Shiny Tera Raid Legendary] &r%stars% &f%pokemon% %tera% &6appeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:ui.toast.challenge_complete"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.tera_raid_shiny_ultra_beast]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&5✦✧◆ &5&l[Shiny Tera Raid Ultra Beast] &r%stars% &f%pokemon% %tera% &5appeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:entity.elder_guardian.curse"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.tera_raid_legendary_ultra_beast]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&d❤✧◆ &d&l[Tera Raid Legendary Ultra Beast] &r%stars% &f%pokemon% %tera% &dappeared at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:entity.elder_guardian.curse"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: 0
+		# Range: -1 ~ 5000
+		range = 0
+
+	[messages.zygarde_cell]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&a❖ &a&l[Zygarde Cell] &r&adiscovered at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:block.note_block.chime"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: -1
+		# Range: -1 ~ 5000
+		range = -1
+
+	[messages.zygarde_core]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&5❖ &5&l[Zygarde Core] &r&5discovered at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:block.note_block.chime"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: -1
+		# Range: -1 ~ 5000
+		range = -1
+
+	[messages.ultra_wormhole]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&5✺ &5&l[Ultra Wormhole] &r&5opened in the &a%biome% &5at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "minecraft:block.portal.trigger"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: -1
+		# Range: -1 ~ 5000
+		range = -1
+
+	[messages.master_chest]
+		#Send this notification at all.
+		enabled = true
+		#Chat line for this notification.
+		#Colours: &a-&f, &0-&9, &l bold, &o italic, &n underline, &r reset,
+		#         &#RRGGBB for 24-bit colour, <gradient:#A:#B>text</gradient>.
+		#Placeholders: %pokemon% %coords% %x% %y% %z% %biome% %world%
+		#              %level% %tier% %stars%
+		#%coords% is the clickable part - what a click does is up to each
+		#player (/pixelnotif waypoint).
+		format = "&d✤ &d&l[Master Ball Chest] &r&dis located at &b%coords%"
+		#Sound played to the recipients. Empty string for silence.
+		sound = "pixelmon:pixelmon.block.pokelootobtained"
+		#Who receives it, in blocks.
+		#-1 = use notificationRange,  0 = the whole server,  >0 = that radius.
+		# Default: -1
+		# Range: -1 ~ 5000
+		range = -1

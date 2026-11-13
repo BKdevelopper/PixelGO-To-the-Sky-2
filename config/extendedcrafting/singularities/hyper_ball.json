@@ -1,0 +1,11 @@
+{
+  "name": "Hyper Ball",
+  "colors": [
+    "6f7e8e",
+    "f5ce37"
+  ],
+  "materialCount": 4000,
+  "ingredient": {
+    "item": "pixelmon:platinum_base"
+  }
+}

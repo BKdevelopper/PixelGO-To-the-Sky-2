@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "pixelgo_minions:enchanted_nether_wart"
+    },
+    "T": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MTM",
+    "MMM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pixelgo_minions:nether_wart_cutter"
+  }
+}

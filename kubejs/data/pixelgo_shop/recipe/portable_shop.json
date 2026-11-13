@@ -1,0 +1,37 @@
+{
+  "//": [
+    "Boutique Portable — l'accès au marché, donc le cœur des étapes 1 et 2.",
+    "",
+    "L'ancienne recette demandait 4 lingots d'aluminium et du silicium, deux",
+    "bruts de Pixelmon qui ne s'obtiennent qu'au tamis. Depuis que le tamisage",
+    "des minerais est passé derrière le Certificat de récolte (15_farm_gate.js),",
+    "elle serait devenue inaccessible pendant les quinze premières heures — et",
+    "avec elle toute l'étape 2, puisqu'on n'aurait plus pu ACHETER d'outils.",
+    "",
+    "Elle est donc refaite en produits de ferme : du papier (canne à sucre) et",
+    "un sceau de récolte, soit 160 unités d'une culture. C'est le premier",
+    "jalon de la partie — on cultive, puis le marché s'ouvre.",
+    "",
+    "VENDRE, lui, n'a jamais eu besoin de cet objet : /pixelsell et le bouton",
+    "de l'inventaire Pixelmon lisent l'index global des boutiques."
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "PPP",
+    "PSP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:oak_log"
+    },
+    "S": {
+      "tag": "pixelgo:farm_seal"
+    }
+  },
+  "result": {
+    "id": "pixelgo_shop:portable_shop",
+    "count": 1
+  }
+}

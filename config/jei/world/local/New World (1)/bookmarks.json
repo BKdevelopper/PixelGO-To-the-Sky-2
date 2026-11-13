@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"recipe":["pixelgo_minions:jei/minion/cobblestone_1",{"category":"misc","type":"pixelgo_minions:enchanted"}],"recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":["pixelgo_minions:jei/minion/cobblestone_12",{"category":"misc","type":"pixelgo_minions:enchanted"}],"recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]

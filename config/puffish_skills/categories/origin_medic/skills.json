@@ -1,0 +1,68 @@
+{
+  "root": {
+    "definition": "root",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "first_aid": {
+    "definition": "first_aid",
+    "x": -72,
+    "y": -42
+  },
+  "field_dressing": {
+    "definition": "field_dressing",
+    "x": -72,
+    "y": -88
+  },
+  "intensive_care": {
+    "definition": "intensive_care",
+    "x": -72,
+    "y": -134
+  },
+  "chief_medic": {
+    "definition": "chief_medic",
+    "x": -72,
+    "y": -184
+  },
+  "comfort": {
+    "definition": "comfort",
+    "x": 72,
+    "y": -42
+  },
+  "kind_care": {
+    "definition": "kind_care",
+    "x": 72,
+    "y": -88
+  },
+  "trust": {
+    "definition": "trust",
+    "x": 72,
+    "y": -134
+  },
+  "heart_of_gold": {
+    "definition": "heart_of_gold",
+    "x": 72,
+    "y": -184
+  },
+  "healthy_habits": {
+    "definition": "healthy_habits",
+    "x": 0,
+    "y": -50
+  },
+  "protective_gear": {
+    "definition": "protective_gear",
+    "x": 0,
+    "y": -96
+  },
+  "fresh_milk": {
+    "definition": "fresh_milk",
+    "x": 0,
+    "y": -142
+  },
+  "healing_aura": {
+    "definition": "healing_aura",
+    "x": 0,
+    "y": -214
+  }
+}

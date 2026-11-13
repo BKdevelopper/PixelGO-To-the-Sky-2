@@ -1,0 +1,1092 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.enchanted_goods",
+                  "message": "pixelgo.npc.enchanted_goods.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_cactus",
+                        "count": 1
+                      },
+                      "buyPrice": 160,
+                      "sellPrice": 48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_dandelion",
+                        "count": 1
+                      },
+                      "buyPrice": 160,
+                      "sellPrice": 48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_poisonous_potato",
+                        "count": 1
+                      },
+                      "buyPrice": 160,
+                      "sellPrice": 48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_poppy",
+                        "count": 1
+                      },
+                      "buyPrice": 160,
+                      "sellPrice": 48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_rotten_flesh",
+                        "count": 1
+                      },
+                      "buyPrice": 160,
+                      "sellPrice": 48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_seeds",
+                        "count": 1
+                      },
+                      "buyPrice": 160,
+                      "sellPrice": 48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_sugar",
+                        "count": 1
+                      },
+                      "buyPrice": 160,
+                      "sellPrice": 48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_sugar_cane",
+                        "count": 1
+                      },
+                      "buyPrice": 160,
+                      "sellPrice": 48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_cobblestone",
+                        "count": 1
+                      },
+                      "buyPrice": 160,
+                      "sellPrice": 48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_sand",
+                        "count": 1
+                      },
+                      "buyPrice": 160,
+                      "sellPrice": 48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_red_sand",
+                        "count": 1
+                      },
+                      "buyPrice": 160,
+                      "sellPrice": 48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_hard_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 160,
+                      "sellPrice": 48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_cactus_green",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_carrot",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_cocoa_beans",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_egg",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_potato",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_rabbit_hide",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_string",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_wheat",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_melon_slice",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_nether_wart",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_blackstone",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_end_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_ice",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_flint",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_glowstone_dust",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_baked_potato",
+                        "count": 1
+                      },
+                      "buyPrice": 480,
+                      "sellPrice": 144
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_pufferfish",
+                        "count": 1
+                      },
+                      "buyPrice": 480,
+                      "sellPrice": 144
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_raw_cod",
+                        "count": 1
+                      },
+                      "buyPrice": 480,
+                      "sellPrice": 144
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_raw_rabbit",
+                        "count": 1
+                      },
+                      "buyPrice": 480,
+                      "sellPrice": 144
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_tropical_fish",
+                        "count": 1
+                      },
+                      "buyPrice": 480,
+                      "sellPrice": 144
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_brown_mushroom",
+                        "count": 1
+                      },
+                      "buyPrice": 480,
+                      "sellPrice": 144
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_red_mushroom",
+                        "count": 1
+                      },
+                      "buyPrice": 480,
+                      "sellPrice": 144
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_clay_ball",
+                        "count": 1
+                      },
+                      "buyPrice": 480,
+                      "sellPrice": 144
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_copper_ingot",
+                        "count": 1
+                      },
+                      "buyPrice": 480,
+                      "sellPrice": 144
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_nether_quartz",
+                        "count": 1
+                      },
+                      "buyPrice": 480,
+                      "sellPrice": 144
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_redstone_dust",
+                        "count": 1
+                      },
+                      "buyPrice": 480,
+                      "sellPrice": 144
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_cooked_cod",
+                        "count": 1
+                      },
+                      "buyPrice": 640,
+                      "sellPrice": 192
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_cooked_rabbit",
+                        "count": 1
+                      },
+                      "buyPrice": 640,
+                      "sellPrice": 192
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_raw_salmon",
+                        "count": 1
+                      },
+                      "buyPrice": 640,
+                      "sellPrice": 192
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_brown_mushroom_block",
+                        "count": 1
+                      },
+                      "buyPrice": 640,
+                      "sellPrice": 192
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_red_mushroom_block",
+                        "count": 1
+                      },
+                      "buyPrice": 640,
+                      "sellPrice": 192
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_snow_block",
+                        "count": 1
+                      },
+                      "buyPrice": 640,
+                      "sellPrice": 192
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_bone",
+                        "count": 1
+                      },
+                      "buyPrice": 800,
+                      "sellPrice": 240
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_cooked_salmon",
+                        "count": 1
+                      },
+                      "buyPrice": 800,
+                      "sellPrice": 240
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_feather",
+                        "count": 1
+                      },
+                      "buyPrice": 800,
+                      "sellPrice": 240
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_raw_chicken",
+                        "count": 1
+                      },
+                      "buyPrice": 800,
+                      "sellPrice": 240
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_raw_mutton",
+                        "count": 1
+                      },
+                      "buyPrice": 800,
+                      "sellPrice": 240
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_spider_eye",
+                        "count": 1
+                      },
+                      "buyPrice": 800,
+                      "sellPrice": 240
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_mycelium",
+                        "count": 1
+                      },
+                      "buyPrice": 800,
+                      "sellPrice": 240
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_coal",
+                        "count": 1
+                      },
+                      "buyPrice": 800,
+                      "sellPrice": 240
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_lapis_lazuli",
+                        "count": 1
+                      },
+                      "buyPrice": 800,
+                      "sellPrice": 240
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_bread",
+                        "count": 1
+                      },
+                      "buyPrice": 960,
+                      "sellPrice": 288
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_cooked_mutton",
+                        "count": 1
+                      },
+                      "buyPrice": 960,
+                      "sellPrice": 288
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_pumpkin",
+                        "count": 1
+                      },
+                      "buyPrice": 960,
+                      "sellPrice": 288
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_raw_beef",
+                        "count": 1
+                      },
+                      "buyPrice": 1120,
+                      "sellPrice": 336
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_raw_porkchop",
+                        "count": 1
+                      },
+                      "buyPrice": 1120,
+                      "sellPrice": 336
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_cooked_porkchop",
+                        "count": 1
+                      },
+                      "buyPrice": 1280,
+                      "sellPrice": 384
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_leather",
+                        "count": 1
+                      },
+                      "buyPrice": 1280,
+                      "sellPrice": 384
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 1280,
+                      "sellPrice": 384
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_glowstone",
+                        "count": 1
+                      },
+                      "buyPrice": 1280,
+                      "sellPrice": 384
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_oak_log",
+                        "count": 1
+                      },
+                      "buyPrice": 1280,
+                      "sellPrice": 384
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_spruce_log",
+                        "count": 1
+                      },
+                      "buyPrice": 1280,
+                      "sellPrice": 384
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_birch_log",
+                        "count": 1
+                      },
+                      "buyPrice": 1280,
+                      "sellPrice": 384
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_jungle_log",
+                        "count": 1
+                      },
+                      "buyPrice": 1280,
+                      "sellPrice": 384
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_acacia_log",
+                        "count": 1
+                      },
+                      "buyPrice": 1280,
+                      "sellPrice": 384
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_dark_oak_log",
+                        "count": 1
+                      },
+                      "buyPrice": 1280,
+                      "sellPrice": 384
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_charcoal",
+                        "count": 1
+                      },
+                      "buyPrice": 1440,
+                      "sellPrice": 432
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_gunpowder",
+                        "count": 1
+                      },
+                      "buyPrice": 1600,
+                      "sellPrice": 480
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_rabbit_foot",
+                        "count": 1
+                      },
+                      "buyPrice": 1600,
+                      "sellPrice": 480
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_slimeball",
+                        "count": 1
+                      },
+                      "buyPrice": 1600,
+                      "sellPrice": 480
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_quartz_block",
+                        "count": 1
+                      },
+                      "buyPrice": 1920,
+                      "sellPrice": 576
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_blaze_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 2400,
+                      "sellPrice": 720
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_iron_ingot",
+                        "count": 1
+                      },
+                      "buyPrice": 2400,
+                      "sellPrice": 720
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_ender_pearl",
+                        "count": 1
+                      },
+                      "buyPrice": 2560,
+                      "sellPrice": 768
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_melon",
+                        "count": 1
+                      },
+                      "buyPrice": 2880,
+                      "sellPrice": 864
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_hay_bale",
+                        "count": 1
+                      },
+                      "buyPrice": 2880,
+                      "sellPrice": 864
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_packed_ice",
+                        "count": 1
+                      },
+                      "buyPrice": 2880,
+                      "sellPrice": 864
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_magma_cream",
+                        "count": 1
+                      },
+                      "buyPrice": 4000,
+                      "sellPrice": 1200
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_obsidian",
+                        "count": 1
+                      },
+                      "buyPrice": 4000,
+                      "sellPrice": 1200
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_copper_block",
+                        "count": 1
+                      },
+                      "buyPrice": 4320,
+                      "sellPrice": 1296
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_redstone_block",
+                        "count": 1
+                      },
+                      "buyPrice": 4320,
+                      "sellPrice": 1296
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_prismarine_shard",
+                        "count": 1
+                      },
+                      "buyPrice": 4800,
+                      "sellPrice": 1440
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_blaze_rod",
+                        "count": 1
+                      },
+                      "buyPrice": 4800,
+                      "sellPrice": 1440
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_prismarine_crystals",
+                        "count": 1
+                      },
+                      "buyPrice": 6400,
+                      "sellPrice": 1920
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_coal_block",
+                        "count": 1
+                      },
+                      "buyPrice": 7200,
+                      "sellPrice": 2160
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_lapis_lazuli_block",
+                        "count": 1
+                      },
+                      "buyPrice": 7200,
+                      "sellPrice": 2160
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_lava_bucket",
+                        "count": 1
+                      },
+                      "buyPrice": 8000,
+                      "sellPrice": 2400
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_golden_carrot",
+                        "count": 1
+                      },
+                      "buyPrice": 8852.8,
+                      "sellPrice": 2655.84
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_mithril",
+                        "count": 1
+                      },
+                      "buyPrice": 9600,
+                      "sellPrice": 2880
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_gold_ingot",
+                        "count": 1
+                      },
+                      "buyPrice": 9600,
+                      "sellPrice": 2880
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_ghast_tear",
+                        "count": 1
+                      },
+                      "buyPrice": 12800,
+                      "sellPrice": 3840
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_slime_block",
+                        "count": 1
+                      },
+                      "buyPrice": 14400,
+                      "sellPrice": 4320
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_emerald",
+                        "count": 1
+                      },
+                      "buyPrice": 16000,
+                      "sellPrice": 4800
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_iron_block",
+                        "count": 1
+                      },
+                      "buyPrice": 21600,
+                      "sellPrice": 6480
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_netherite_scrap",
+                        "count": 1
+                      },
+                      "buyPrice": 24000,
+                      "sellPrice": 7200
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_red_sand_cube",
+                        "count": 1
+                      },
+                      "buyPrice": 25600,
+                      "sellPrice": 7680
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_diamond",
+                        "count": 1
+                      },
+                      "buyPrice": 44800,
+                      "sellPrice": 13440
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_sponge",
+                        "count": 1
+                      },
+                      "buyPrice": 48000,
+                      "sellPrice": 14400
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_wet_sponge",
+                        "count": 1
+                      },
+                      "buyPrice": 48000,
+                      "sellPrice": 14400
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_gold_block",
+                        "count": 1
+                      },
+                      "buyPrice": 86400,
+                      "sellPrice": 25920
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_mycelium_cube",
+                        "count": 1
+                      },
+                      "buyPrice": 128000,
+                      "sellPrice": 38400
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_emerald_block",
+                        "count": 1
+                      },
+                      "buyPrice": 144000,
+                      "sellPrice": 43200
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:enchanted_diamond_block",
+                        "count": 1
+                      },
+                      "buyPrice": 403200,
+                      "sellPrice": 120960
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.enchanted_goods",
+                  "message": "pixelgo.npc.enchanted_goods.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.enchanted_goods",
+        "color": "#00AA00",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

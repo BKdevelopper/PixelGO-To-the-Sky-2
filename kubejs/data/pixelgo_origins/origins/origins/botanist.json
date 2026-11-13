@@ -1,0 +1,41 @@
+{
+  "name": "origins.pixelgo_origins.botanist.name",
+  "description": "origins.pixelgo_origins.botanist.description",
+  "icon": "pixelmon:green_apricorn",
+  "impact": "low",
+  "order": 7,
+  "powers": [
+    "pixelgo_origins:botanist_gardener_touch",
+    "pixelgo_origins:botanist_growth_aura",
+    "pixelgo_origins:botanist_flammable",
+    "pixelgo_origins:botanist_skill_tree"
+  ],
+  "upgrades": [],
+  "tier_powers": [
+    {
+      "tier": 1,
+      "add": [
+        "pixelgo_origins:botanist_evolution_1"
+      ],
+      "remove": []
+    },
+    {
+      "tier": 2,
+      "add": [
+        "pixelgo_origins:botanist_evolution_2"
+      ],
+      "remove": [
+        "pixelgo_origins:botanist_evolution_1"
+      ]
+    },
+    {
+      "tier": 3,
+      "add": [
+        "pixelgo_origins:botanist_evolution_3"
+      ],
+      "remove": [
+        "pixelgo_origins:botanist_evolution_2"
+      ]
+    }
+  ]
+}

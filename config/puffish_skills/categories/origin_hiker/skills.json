@@ -1,0 +1,68 @@
+{
+  "root": {
+    "definition": "root",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "amber_hunter": {
+    "definition": "amber_hunter",
+    "x": -72,
+    "y": -42
+  },
+  "strata_reading": {
+    "definition": "strata_reading",
+    "x": -72,
+    "y": -88
+  },
+  "paleontologist": {
+    "definition": "paleontologist",
+    "x": -72,
+    "y": -134
+  },
+  "fossil_expert": {
+    "definition": "fossil_expert",
+    "x": -72,
+    "y": -184
+  },
+  "prospector": {
+    "definition": "prospector",
+    "x": 72,
+    "y": -42
+  },
+  "rock_sifter": {
+    "definition": "rock_sifter",
+    "x": 72,
+    "y": -88
+  },
+  "relic_seeker": {
+    "definition": "relic_seeker",
+    "x": 72,
+    "y": -134
+  },
+  "treasure_delver": {
+    "definition": "treasure_delver",
+    "x": 72,
+    "y": -184
+  },
+  "strong_arms": {
+    "definition": "strong_arms",
+    "x": 0,
+    "y": -50
+  },
+  "rock_climber": {
+    "definition": "rock_climber",
+    "x": 0,
+    "y": -96
+  },
+  "tunneler": {
+    "definition": "tunneler",
+    "x": 0,
+    "y": -142
+  },
+  "stone_heart": {
+    "definition": "stone_heart",
+    "x": 0,
+    "y": -214
+  }
+}

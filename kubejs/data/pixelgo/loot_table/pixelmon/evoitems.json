@@ -1,0 +1,120 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:dragon_scale",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:kings_rock",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:metal_coat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:dubious_disc",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:deep_sea_scale",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:deep_sea_tooth",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:electirizer",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:magmarizer",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:oval_stone",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:protector",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:reaper_cloth",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:prism_scale",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:sachet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:whipped_dream",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:chipped_pot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:cracked_pot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:sweet_apple",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:tart_apple",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:galarica_cuff",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:galarica_wreath",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:razor_claw",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:razor_fang",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "pixelgo_minions:polished_pumpkin"
+    },
+    "T": {
+      "item": "pixelgo_minions:basic_gardening_axe"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MTM",
+    "MMM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pixelgo_minions:advanced_gardening_axe"
+  }
+}

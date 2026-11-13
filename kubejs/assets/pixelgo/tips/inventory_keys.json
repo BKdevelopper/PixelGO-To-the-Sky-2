@@ -1,0 +1,35 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Controls",
+    "color": "white",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Middle click sorts any inventory, anywhere. "
+      },
+      {
+        "text": "[",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "]",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " move a whole inventory in or out of a container."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

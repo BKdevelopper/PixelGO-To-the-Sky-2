@@ -1,0 +1,412 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.discs",
+                  "message": "pixelgo.npc.discs.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_11",
+                        "count": 1
+                      },
+                      "buyPrice": 100,
+                      "sellPrice": 30
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_13",
+                        "count": 1
+                      },
+                      "buyPrice": 100,
+                      "sellPrice": 30
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_5",
+                        "count": 1
+                      },
+                      "buyPrice": 162,
+                      "sellPrice": 48.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:disc_fragment_5",
+                        "count": 1
+                      },
+                      "buyPrice": 18,
+                      "sellPrice": 5.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_blocks",
+                        "count": 1
+                      },
+                      "buyPrice": 110,
+                      "sellPrice": 33
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_cat",
+                        "count": 1
+                      },
+                      "buyPrice": 100,
+                      "sellPrice": 30
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_chirp",
+                        "count": 1
+                      },
+                      "buyPrice": 110,
+                      "sellPrice": 33
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_creator",
+                        "count": 1
+                      },
+                      "buyPrice": 130,
+                      "sellPrice": 39
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_far",
+                        "count": 1
+                      },
+                      "buyPrice": 110,
+                      "sellPrice": 33
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_mall",
+                        "count": 1
+                      },
+                      "buyPrice": 110,
+                      "sellPrice": 33
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_mellohi",
+                        "count": 1
+                      },
+                      "buyPrice": 120,
+                      "sellPrice": 36
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_creator_music_box",
+                        "count": 1
+                      },
+                      "buyPrice": 140,
+                      "sellPrice": 42
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_otherside",
+                        "count": 1
+                      },
+                      "buyPrice": 140,
+                      "sellPrice": 42
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_pigstep",
+                        "count": 1
+                      },
+                      "buyPrice": 100,
+                      "sellPrice": 30
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_precipice",
+                        "count": 1
+                      },
+                      "buyPrice": 130,
+                      "sellPrice": 39
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_relic",
+                        "count": 1
+                      },
+                      "buyPrice": 150,
+                      "sellPrice": 45
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_stal",
+                        "count": 1
+                      },
+                      "buyPrice": 110,
+                      "sellPrice": 33
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_strad",
+                        "count": 1
+                      },
+                      "buyPrice": 110,
+                      "sellPrice": 33
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_wait",
+                        "count": 1
+                      },
+                      "buyPrice": 130,
+                      "sellPrice": 39
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:music_disc_ward",
+                        "count": 1
+                      },
+                      "buyPrice": 110,
+                      "sellPrice": 33
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.discs",
+                  "message": "pixelgo.npc.discs.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.discs",
+        "color": "#FF55FF",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

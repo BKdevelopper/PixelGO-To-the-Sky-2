@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "pixelgo_minions:enchanted_golden_carrot"
+    },
+    "T": {
+      "item": "minecraft:diamond_shovel"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MTM",
+    "MMM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pixelgo_minions:carrot_shovel"
+  }
+}

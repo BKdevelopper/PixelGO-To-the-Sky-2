@@ -1,0 +1,1229 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pixelgo_items"
+	group: "1A3BB00B8761BF8C"
+	icon: {
+		id: "pixelgoitems:shiny_swapper"
+	}
+	id: "49C15F1BCFDF9047"
+	images: [ ]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "pixelgoitems:shiny_swapper"
+			}
+			id: "25CFC06ED24E1567"
+			rewards: [
+				{
+					count: 2
+					id: "398635842BF4D311"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "245EB224D3DA7DB5"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "49FA2308575F943E"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "0EE57E4DF0C0B6B4"
+			rewards: [
+				{
+					count: 2
+					id: "461D16CBE8995DCB"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "58405959237F9843"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "6F25228121A931F6"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FE86C577FEAF4DA"
+				item: { count: 1, id: "pixelgoitems:healer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EE57E4DF0C0B6B4"]
+			id: "16EC14824B62B0B4"
+			rewards: [
+				{
+					count: 12
+					id: "675988BDD1DA4567"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2BAA8C3E2C5217EB"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "1DC80C74369E2EFF"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "493FEB3021591CCC"
+				item: { count: 1, id: "pixelgoitems:upgraded_healer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "2A7388CCA52419C7"
+			rewards: [
+				{
+					count: 4
+					id: "5980CF77B0494FD9"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5D9936E5BCB3E215"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40E2F593700C62C3"
+				item: { count: 1, id: "pixelgoitems:laptop" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "277F9F466A09345E"
+			rewards: [
+				{
+					count: 4
+					id: "520A3997AD58AC95"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "41F6B72C05E0B3D2"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BE5E4E8B01A8A1C"
+				item: { count: 1, id: "pixelgoitems:trading_sim" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "218E227A6F9B2D76"
+			rewards: [
+				{
+					count: 2
+					id: "28AFE4E5FC2C19D3"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5F8DD7A3F6EACEDF"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "427EE700D647B69A"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "031175E409027DC7"
+				item: { count: 1, id: "pixelgoitems:gym_finder" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "650DBC148CF5C3D5"
+			rewards: [
+				{
+					count: 20
+					id: "410C90203E5FB8C9"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "686A4C94E6A3F61B"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "1363FD98A89316FD"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7315DDB3D3C8A30D"
+				item: { count: 1, id: "pixelgoitems:enchanted_egg" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "6B5B24AF253DD622"
+			rewards: [
+				{
+					count: 12
+					id: "3E5161B275FFD4F7"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5BF6EE373D43E9B9"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "5B1172543DD0CBCC"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25122F20ADE00F86"
+				item: { count: 1, id: "pixelgoitems:old_chisel" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "17760B5A37D26878"
+			rewards: [
+				{
+					count: 12
+					id: "5C37909D884937D9"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "01282FFCC4351EB8"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "46C5C423CE9D5EDE"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04CAE825E131F954"
+				item: { count: 1, id: "pixelgoitems:max_raid_summoner" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "25615836ED4700A3"
+			rewards: [
+				{
+					count: 12
+					id: "046435CFFCA8AC6F"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1F30E858BE400A18"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "2AE279690A7D3365"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47E7EF46F109AD56"
+				item: { count: 1, id: "pixelgoitems:tera_raid_summoner" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "45211AB7698853B0"
+			rewards: [
+				{
+					count: 2
+					id: "2B8EC7AF4429348B"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "4088207CA66A346F"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "798FCCD6D6AEC777"
+				item: { count: 1, id: "pixelgoitems:add_ev_hp" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "055F178CDAED8DFA"
+			rewards: [
+				{
+					count: 2
+					id: "3D424021CCE3C7BD"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "06D6B00D988855A2"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4DF3207DF4C3D40F"
+				item: { count: 1, id: "pixelgoitems:add_ev_atk" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "0E6C89D4391CB595"
+			rewards: [
+				{
+					count: 2
+					id: "419024E0766DFE44"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "300221749EA59D1A"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "788D08995A6E7F80"
+				item: { count: 1, id: "pixelgoitems:add_ev_def" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "17CFB32EA8A0D470"
+			rewards: [
+				{
+					count: 2
+					id: "10BFCA97CE7B9440"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "761E07C526872C28"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43436CCB61DC86B8"
+				item: { count: 1, id: "pixelgoitems:add_ev_spatk" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "18CE3A99CA27FB52"
+			rewards: [
+				{
+					count: 2
+					id: "304A5B4AA3D6BC63"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "65CC83A48AFBA0FF"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6271FA81F6388136"
+				item: { count: 1, id: "pixelgoitems:add_ev_spdef" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "038D838449EA1EE0"
+			rewards: [
+				{
+					count: 2
+					id: "57F78142D1C03EC9"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "1E9F87657E5CD79E"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6831893961698511"
+				item: { count: 1, id: "pixelgoitems:add_ev_spd" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "151A8682A3D91F7A"
+			rewards: [
+				{
+					count: 2
+					id: "06832A8F4FCFF4A8"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "26E35D615EB9239B"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "08FE07BCB1C723FF"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33B89F21A4D41489"
+				item: { count: 1, id: "pixelgoitems:random_ev" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "40C92395703F453A"
+			rewards: [
+				{
+					count: 2
+					id: "21E8095402444FCC"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5A6C18EE59112963"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C23FF84BF871B24"
+				item: { count: 1, id: "pixelgoitems:add_iv_hp" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "7872AAD460DDE3A0"
+			rewards: [
+				{
+					count: 2
+					id: "3BCFEFE310DDB5E1"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "034FEFA3BDA85AD3"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0793239F3F43611C"
+				item: { count: 1, id: "pixelgoitems:add_iv_atk" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "21C832AAA161CC94"
+			rewards: [
+				{
+					count: 2
+					id: "7CCA900A25CC120B"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "08731DBE1D1FF4BE"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69AE563691AA26CA"
+				item: { count: 1, id: "pixelgoitems:add_iv_def" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "67E453B0D4655A85"
+			rewards: [
+				{
+					count: 2
+					id: "78C39F0848C0ED56"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0B8EF64CFB4BCEB4"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06A78E2380EFBCE9"
+				item: { count: 1, id: "pixelgoitems:add_iv_spatk" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "095EC68E45E39527"
+			rewards: [
+				{
+					count: 2
+					id: "3F96D26A4E68A863"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4B658979D83124B4"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78C4E77C8B44E149"
+				item: { count: 1, id: "pixelgoitems:add_iv_spdef" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "3D9FFDC8AECA5C38"
+			rewards: [
+				{
+					count: 2
+					id: "59021C4BCA750862"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7E2A6C8E353A0400"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E3FD031ADB2BDDF"
+				item: { count: 1, id: "pixelgoitems:add_iv_spd" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "12BE887D52761FFE"
+			rewards: [
+				{
+					count: 8
+					id: "7D0D321298824BCE"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "450AEF343A52B137"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35FD713EB8060A6E"
+				item: { count: 1, id: "pixelgoitems:random_iv" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "6CD5D7AEF33DA2B2"
+			rewards: [
+				{
+					count: 4
+					id: "18FB7D6D28AE0E8C"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4C9D74B39D9A71B0"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27DAB96F9E072286"
+				item: { count: 1, id: "pixelgoitems:random_level" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "5186CA03AE8B5D04"
+			rewards: [
+				{
+					count: 4
+					id: "04BE5F413AA74D4C"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "091467F872C0ACB4"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13F85748CB03E2B8"
+				item: { count: 1, id: "pixelgoitems:size_randomizer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "1D891789353BF774"
+			rewards: [
+				{
+					count: 16
+					id: "2536566F0539645C"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "108DC8212F0C1B95"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CCCDB78D172DE07"
+				item: { count: 1, id: "pixelgoitems:skin_swapper" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "171D4BBCD7CA2EAA"
+			rewards: [
+				{
+					count: 83
+					id: "15DBA2F744833D67"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6C9EF5DF49F9AF7C"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28E0BA4954E55120"
+				item: { count: 1, id: "pixelgoitems:shiny_swapper" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "3BCEAD2FA7D45AB1"
+			rewards: [
+				{
+					count: 4
+					id: "36ACBFAC6CBB1DFD"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4DFB1C4897DB44E7"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E242BE77100D815"
+				item: { count: 1, id: "pixelgoitems:random_fossil" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "68CE9B07A6390D42"
+			rewards: [
+				{
+					count: 2
+					id: "172FF044D3B60DD4"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "3ECEE05A60E71FC4"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1581D0628CB937BF"
+				item: { count: 1, id: "pixelgoitems:ash_hat" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "06E272874388BEDB"
+			rewards: [
+				{
+					count: 2
+					id: "4C04A8D2CB8995BD"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "17E6F094E090CFEB"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B980A5E69F5D1C8"
+				item: { count: 1, id: "pixelgoitems:ash_chest" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "0F9740B355E0BD15"
+			rewards: [
+				{
+					count: 2
+					id: "1D9D00D1E9B70EC3"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "519C9081B1CED692"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31E2F3D816F8E96A"
+				item: { count: 1, id: "pixelgoitems:ash_legs" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "5FE9F45ACBCC10DF"
+			rewards: [
+				{
+					count: 2
+					id: "5DC533D296741419"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0E0091DB0E8946"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54E4617E878B3C72"
+				item: { count: 1, id: "pixelgoitems:ash_feet" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "55FD97852DFF8A03"
+			rewards: [
+				{
+					count: 2
+					id: "4CEFDB5CE6ECA75D"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "4C594D6732E95C18"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "072AA22D4AA01617"
+				item: { count: 1, id: "pixelgoitems:misty_hat" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 7.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "34937318A4279675"
+			rewards: [
+				{
+					count: 2
+					id: "762280BC3B6E01E5"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "6C7898DCFD78BB17"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22277871A9BAD584"
+				item: { count: 1, id: "pixelgoitems:misty_chest" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "10B945281C33CBB9"
+			rewards: [
+				{
+					count: 2
+					id: "14CB4433B4727390"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "4EDA81C9242F257B"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57DF5637E1CDB1CE"
+				item: { count: 1, id: "pixelgoitems:misty_legs" }
+				type: "item"
+			}]
+			x: 9.75d
+			y: 7.0d
+		}
+		{
+			dependencies: ["25CFC06ED24E1567"]
+			hide_dependency_lines: true
+			id: "63E7B704FB382735"
+			rewards: [
+				{
+					count: 2
+					id: "62D488C9DB32CACA"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "77240B77988A4D9A"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B187E35B679B193"
+				item: { count: 1, id: "pixelgoitems:misty_feet" }
+				type: "item"
+			}]
+			x: 11.25d
+			y: 7.0d
+		}
+	]
+}

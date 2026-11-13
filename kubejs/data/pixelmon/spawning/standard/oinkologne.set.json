@@ -1,0 +1,23 @@
+{
+  "id": "Oinkologne",
+  "spawnInfos": [
+    {
+      "spec": "species:Oinkologne",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 18,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 50
+    }
+  ]
+}

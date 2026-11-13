@@ -1,0 +1,8 @@
+// Compost colors for havencobblegens. You may add your own colors, change existing ones, or remove colors that aren't needed.
+cobble_gen_upgrade_diamond, #eaffff
+cobble_gen_upgrade_emerald, #e0fff1
+cobble_gen_upgrade_gold, #feffed
+cobble_gen_upgrade_iron, #fbffff
+cobble_gen_upgrade_netherite, #e4ffed
+cobble_gen_upgrade_stone, #ebfff5
+cobble_gen_upgrade_wooden, #eefff1

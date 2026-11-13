@@ -1,0 +1,40 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Skyblock",
+    "color": "green",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "There is no terrain and no ore anywhere in this world.",
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": " Everything you will ever own comes out of your island, through the "
+      },
+      {
+        "text": "sieve",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " and the "
+      },
+      {
+        "text": "crucible",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

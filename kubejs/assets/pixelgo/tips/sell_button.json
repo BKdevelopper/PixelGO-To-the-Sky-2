@@ -1,0 +1,35 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "PokeDollars",
+    "color": "gold",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "There is a "
+      },
+      {
+        "text": "Sell",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " button on your inventory screen. Same thing as "
+      },
+      {
+        "text": "/pixelsell all",
+        "color": "aqua",
+        "bold": true
+      },
+      {
+        "text": ", one click."
+      }
+    ]
+  },
+  "cycle_time": 6000
+}

@@ -1,0 +1,14 @@
+{
+  "bag_color": "#FF1E88E5",
+  "bag_overlay_color": "#FF90CAF9",
+  "bag_string_color": "#FF0D47A1",
+  "display_name": {
+    "text": "Mystery Rare Bag",
+    "color": "blue"
+  },
+  "drops_from_groups": [],
+  "group": "pixelgo",
+  "loot_table": "loot:tier2",
+  "rarity": "uncommon",
+  "visible": true
+}

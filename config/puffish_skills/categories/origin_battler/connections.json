@@ -1,0 +1,70 @@
+{
+  "normal": {
+    "unidirectional": [
+      [
+        "root",
+        "sparring"
+      ],
+      [
+        "sparring",
+        "gauntlet"
+      ],
+      [
+        "gauntlet",
+        "champion_pace"
+      ],
+      [
+        "champion_pace",
+        "exp_mastery"
+      ],
+      [
+        "root",
+        "protein_diet"
+      ],
+      [
+        "protein_diet",
+        "iron_regimen"
+      ],
+      [
+        "iron_regimen",
+        "heavy_load"
+      ],
+      [
+        "heavy_load",
+        "effort_specialist"
+      ],
+      [
+        "root",
+        "tough_skin"
+      ],
+      [
+        "tough_skin",
+        "hard_hitter"
+      ],
+      [
+        "hard_hitter",
+        "unshakable"
+      ],
+      [
+        "exp_mastery",
+        "fighting_spirit"
+      ],
+      [
+        "effort_specialist",
+        "fighting_spirit"
+      ],
+      [
+        "unshakable",
+        "fighting_spirit"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": [
+      [
+        "exp_mastery",
+        "effort_specialist"
+      ]
+    ]
+  }
+}

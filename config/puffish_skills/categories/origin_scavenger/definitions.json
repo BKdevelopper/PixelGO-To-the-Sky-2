@@ -1,0 +1,706 @@
+{
+  "root": {
+    "title": {
+      "translate": "pixelgo_origins.tree.scavenger.root.title",
+      "fallback": "Pickpocket",
+      "color": "#8C7AE6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_drop_luck",
+          "with": [
+            "3"
+          ],
+          "fallback": "+3%% chance to double Pokémon drops",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokeloot_luck",
+          "with": [
+            "3"
+          ],
+          "fallback": "+3%% chance to double Poké Loot",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.scavenger.root.flavor",
+      "fallback": "Finders keepers.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:nugget"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 3,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 3,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "spoils": {
+    "title": {
+      "translate": "pixelgo_origins.tree.scavenger.spoils.title",
+      "fallback": "Spoils",
+      "color": "#8C7AE6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_drop_luck",
+          "with": [
+            "5"
+          ],
+          "fallback": "+5%% chance to double Pokémon drops",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:nugget"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "scrounger": {
+    "title": {
+      "translate": "pixelgo_origins.tree.scavenger.scrounger.title",
+      "fallback": "Scrounger",
+      "color": "#8C7AE6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_drop_luck",
+          "with": [
+            "6"
+          ],
+          "fallback": "+6%% chance to double Pokémon drops",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:big_nugget"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "looter": {
+    "title": {
+      "translate": "pixelgo_origins.tree.scavenger.looter.title",
+      "fallback": "Looter",
+      "color": "#8C7AE6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_drop_luck",
+          "with": [
+            "8"
+          ],
+          "fallback": "+8%% chance to double Pokémon drops",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:amulet_coin"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "master_thief": {
+    "title": {
+      "translate": "pixelgo_origins.tree.scavenger.master_thief.title",
+      "fallback": "Master Thief",
+      "color": "#8C7AE6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_drop_luck",
+          "with": [
+            "16"
+          ],
+          "fallback": "+16%% chance to double Pokémon drops",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.scavenger.master_thief.flavor",
+      "fallback": "Specialisation: Pokémon drops.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:relic_gold"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 16,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "lock_sense": {
+    "title": {
+      "translate": "pixelgo_origins.tree.scavenger.lock_sense.title",
+      "fallback": "Lock Sense",
+      "color": "#8C7AE6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokeloot_luck",
+          "with": [
+            "5"
+          ],
+          "fallback": "+5%% chance to double Poké Loot",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tripwire_hook"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "hidden_stash": {
+    "title": {
+      "translate": "pixelgo_origins.tree.scavenger.hidden_stash.title",
+      "fallback": "Hidden Stash",
+      "color": "#8C7AE6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokeloot_luck",
+          "with": [
+            "6"
+          ],
+          "fallback": "+6%% chance to double Poké Loot",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:star_piece"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "vault_breaker": {
+    "title": {
+      "translate": "pixelgo_origins.tree.scavenger.vault_breaker.title",
+      "fallback": "Vault Breaker",
+      "color": "#8C7AE6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokeloot_luck",
+          "with": [
+            "8"
+          ],
+          "fallback": "+8%% chance to double Poké Loot",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:comet_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "loot_baron": {
+    "title": {
+      "translate": "pixelgo_origins.tree.scavenger.loot_baron.title",
+      "fallback": "Loot Baron",
+      "color": "#8C7AE6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokeloot_luck",
+          "with": [
+            "16"
+          ],
+          "fallback": "+16%% chance to double Poké Loot",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.scavenger.loot_baron.flavor",
+      "fallback": "Specialisation: Poké Loot.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:rare_pokestop"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 16,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "soft_steps": {
+    "title": {
+      "translate": "pixelgo_origins.tree.scavenger.soft_steps.title",
+      "fallback": "Soft Steps",
+      "color": "#8C7AE6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_player_sneaking_speed",
+          "with": [
+            "15"
+          ],
+          "fallback": "+15%% sneaking speed",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sneaking_speed",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "quick_escape": {
+    "title": {
+      "translate": "pixelgo_origins.tree.scavenger.quick_escape.title",
+      "fallback": "Quick Escape",
+      "color": "#8C7AE6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_movement_speed",
+          "with": [
+            "4"
+          ],
+          "fallback": "+4%% movement speed",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.04,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "lucky_charm": {
+    "title": {
+      "translate": "pixelgo_origins.tree.scavenger.lucky_charm.title",
+      "fallback": "Lucky Charm",
+      "color": "#8C7AE6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_luck",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 luck",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "shadow_cloak": {
+    "title": {
+      "translate": "pixelgo_origins.tree.scavenger.shadow_cloak.title",
+      "fallback": "Shadow Cloak",
+      "color": "#8C7AE6",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.tree.scavenger.shadow_cloak.power",
+          "fallback": "Invisible while standing in darkness (light 4 or less).",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_drop_luck",
+          "with": [
+            "6"
+          ],
+          "fallback": "+6%% chance to double Pokémon drops",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokeloot_luck",
+          "with": [
+            "6"
+          ],
+          "fallback": "+6%% chance to double Poké Loot",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.scavenger.shadow_cloak.flavor",
+      "fallback": "Now you see me...",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 3,
+    "required_spent_points": 12,
+    "rewards": [
+      {
+        "type": "neofishcompat:unlock_power",
+        "data": {
+          "power": "pixelgo_origins:scavenger_shadow_cloak"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 6,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ]
+  }
+}

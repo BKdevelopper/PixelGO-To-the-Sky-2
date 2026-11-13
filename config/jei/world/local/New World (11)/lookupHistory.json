@@ -1,0 +1,9 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"kubejs:purple_ticket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:pink_ticket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:orange_ticket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:magenta_ticket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:yellow_ticket"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pixelgoitems:shiny_swapper"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

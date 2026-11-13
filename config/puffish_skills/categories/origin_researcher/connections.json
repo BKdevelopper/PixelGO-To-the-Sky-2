@@ -1,0 +1,70 @@
+{
+  "normal": {
+    "unidirectional": [
+      [
+        "root",
+        "spectrometer"
+      ],
+      [
+        "spectrometer",
+        "colour_theory"
+      ],
+      [
+        "colour_theory",
+        "prism_lens"
+      ],
+      [
+        "prism_lens",
+        "shiny_thesis"
+      ],
+      [
+        "root",
+        "lecture"
+      ],
+      [
+        "lecture",
+        "seminar"
+      ],
+      [
+        "seminar",
+        "peer_review"
+      ],
+      [
+        "peer_review",
+        "doctorate"
+      ],
+      [
+        "root",
+        "lucky_sample"
+      ],
+      [
+        "lucky_sample",
+        "biometrics"
+      ],
+      [
+        "biometrics",
+        "research_grant"
+      ],
+      [
+        "shiny_thesis",
+        "eureka"
+      ],
+      [
+        "doctorate",
+        "eureka"
+      ],
+      [
+        "research_grant",
+        "eureka"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": [
+      [
+        "shiny_thesis",
+        "doctorate"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoorigins:attribute_modifier",
+  "attribute": "pixelgo:party_vitality",
+  "amount": 1,
+  "operation": "add_value"
+}

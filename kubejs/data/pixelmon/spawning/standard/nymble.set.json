@@ -1,0 +1,23 @@
+{
+  "id": "Nymble",
+  "spawnInfos": [
+    {
+      "spec": "species:Nymble",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 150
+    }
+  ]
+}

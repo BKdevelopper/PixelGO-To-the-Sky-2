@@ -1,0 +1,16 @@
+// Compost colors for pixelgo_npc. You may add your own colors, change existing ones, or remove colors that aren't needed.
+rival_beacon, #3789b2
+rival_codex, #295b7d
+rival_medal_10, #84f2bb
+rival_medal_100, #f4738e
+rival_medal_20, #5fdcc8
+rival_medal_30, #5ccafb
+rival_medal_40, #669bfb
+rival_medal_50, #a182fb
+rival_medal_60, #cd7cfb
+rival_medal_70, #f078b2
+rival_medal_80, #f49773
+rival_medal_90, #f4dc84
+rival_medal_omega, #ebf1fe
+rival_radar, #224e6f
+rival_wanted_poster, #e7caa2

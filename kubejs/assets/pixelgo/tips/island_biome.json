@@ -1,0 +1,35 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pokemon",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Your island is "
+      },
+      {
+        "text": "one",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " biome. The "
+      },
+      {
+        "text": "PokeNav",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " is how you find out what that biome will, and will not, ever give you."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

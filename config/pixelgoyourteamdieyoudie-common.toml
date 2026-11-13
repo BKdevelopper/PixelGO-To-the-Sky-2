@@ -1,0 +1,167 @@
+#General behaviour of the team wipe rule.
+[general]
+	#Master switch for the team wipe rule. When false PixelGO never touches the player.
+	#The aggression and no-fleeing features have their own switches below.
+	enabled = true
+	#How often every online trainer is swept for a wiped party, in ticks.
+	#Faints and battle endings are always checked immediately; this is only the safety net
+	#that catches party changes PixelGO cannot hear about (poison, commands, other mods).
+	# Default: 20
+	# Range: 1 ~ 1200
+	checkIntervalTicks = 20
+	#Ticks of immunity granted after logging in, respawning or surviving with a totem.
+	#Gives the party storage time to load and the trainer time to reach a healer.
+	#20 ticks = 1 second.
+	# Default: 100
+	# Range: 0 ~ 72000
+	gracePeriodTicks = 100
+	#Hold the killing blow until the Pixelmon battle is over.
+	#Recommended: dropping a trainer mid-battle can leave the battle screen hanging.
+	waitForBattleToEnd = true
+	#Ignore eggs when looking at the party.
+	#true: a party of nothing but eggs is treated as empty and is never lethal.
+	#false: eggs count as party members that can never fight, so they will not save you.
+	ignoreEggs = true
+	#Apply the rule to trainers in creative mode.
+	affectCreativePlayers = false
+	#Apply the rule to trainers in spectator mode.
+	affectSpectatorPlayers = false
+	#Suppress Pixelmon's own blackout handling (the partyFaintRespawn game rule),
+	#so a wiped party is resolved by PixelGO alone instead of both mods at once.
+	cancelPixelmonBlackout = true
+
+#The second chance a held totem buys when the party goes down.
+[totem]
+	#Let a totem held in either hand save the trainer from a team wipe.
+	enabled = true
+	#Items accepted as a totem, by registry id. Only counts while held in a hand.
+	totemItems = ["minecraft:totem_of_undying"]
+	#Remove one totem from the stack when it saves the trainer.
+	consumeTotem = true
+	#HP restored to the revived Pokemon. Capped at that Pokemon's max HP.
+	# Default: 1
+	# Range: 1 ~ 10000
+	healAmount = 1
+	#false: only the first fainted Pokemon in the party gets back up.
+	#true: every fainted Pokemon in the party gets back up.
+	healWholeTeam = false
+	#Also clear the status condition of the Pokemon brought back up.
+	clearStatusConditions = true
+	#Play the vanilla totem animation and sound.
+	playTotemEffect = true
+	#Tell the trainer in chat which Pokemon the totem brought back.
+	sendChatMessage = true
+
+#What happens once a trainer has gone down.
+[respawn]
+	#Fully heal the party when the trainer respawns.
+	#Turning this off is brutal: the party is still wiped on respawn, so the trainer dies
+	#again as soon as the grace period runs out.
+	healPartyOnRespawn = true
+
+#Pokemon that come out of a vanilla Monster Spawner block are made hostile.
+#Naturally spawned Pokemon are never touched by this section.
+[aggression]
+	#Force Pokemon spawned by a Monster Spawner block to be AGGRESSIVE.
+	enabled = true
+	#Which species this applies to. Accepts English names or Pokedex numbers,
+	#for example ["Zubat", "Gengar", "94"]. Case does not matter.
+	#Leave the list EMPTY to make every Pokemon out of a spawner aggressive.
+	#Unknown entries are reported in the server log on startup.
+	species = []
+	#Blocks within which an affected Pokemon actively locks onto the nearest trainer,
+	#on top of Pixelmon's own aggression AI. This is what makes them noticeably nastier,
+	#and it keeps working even if Pixelmon's own 'enableWildAggression' setting is off.
+	#Set to 0 to leave targeting entirely to Pixelmon.
+	# Default: 16.0
+	# Range: 0.0 ~ 128.0
+	forceTargetRadius = 16.0
+	#How often an affected Pokemon looks for a trainer to lock onto, in ticks.
+	#Lower reacts faster and costs more; 20 ticks = 1 second.
+	# Default: 20
+	# Range: 5 ~ 200
+	retargetIntervalTicks = 20
+	#Leave boss Pokemon alone. Bosses already have their own behaviour and rewards.
+	skipBossPokemon = true
+
+#Running away from a fight.
+[battle]
+	#Block the Run button. Covers both wild battles and forfeiting a trainer battle,
+	#since Pixelmon routes both through the same action.
+	preventFleeing = true
+	#Tell the trainer in chat why nothing happened when they pressed Run.
+	sendBlockedMessage = true
+	#Let trainers in creative or spectator mode run away anyway, so staff can leave a
+	#battle they only joined to test or moderate.
+	allowFleeingInCreative = true
+
+#Trainer NPCs start the fight themselves as soon as they see a trainer.
+#Only NPCs that carry a party and know how to battle are touched: shopkeepers,
+#tutors and nurses have no battle interaction and are left alone.
+[trainers]
+	#Let trainer NPCs challenge a player on sight instead of waiting to be clicked.
+	enabled = true
+	#Blocks within which a trainer NPC notices a player. This is the range it starts
+	#walking over from; the challenge itself goes out at 'challengeRadius'.
+	# Default: 16.0
+	# Range: 0.0 ~ 64.0
+	sightRadius = 16.0
+	#Blocks within which the battle actually starts. Set it equal to 'sightRadius' to
+	#have trainers challenge from as far as they can see.
+	# Default: 6.0
+	# Range: 0.0 ~ 64.0
+	challengeRadius = 6.0
+	#Width of the cone the trainer can see, in degrees, measured around the way it faces.
+	#360 means it notices a player standing anywhere around it, which is the safe choice
+	#for NPCs that never turn. 120 gives the classic 'do not walk in front of them' feel.
+	# Default: 360.0
+	# Range: 1.0 ~ 360.0
+	viewAngle = 360.0
+	#Require a clear line of sight, so a wall or a door hides the player.
+	requireLineOfSight = true
+	#How often a trainer NPC looks around, in ticks. Lower reacts faster and costs more;
+	#20 ticks = 1 second.
+	# Default: 10
+	# Range: 1 ~ 200
+	checkIntervalTicks = 10
+	#Seconds a trainer leaves that player alone after a battle with them has ended.
+	#Without a cooldown a beaten trainer re-challenges the moment the battle screen closes.
+	#The cooldown is stored on the NPC, so it survives a restart. Set to 0 for no mercy.
+	# Default: 300
+	# Range: 0 ~ 604800
+	battleCooldownSeconds = 300
+	#Ticks a trainer waits before trying again after a challenge it sent out did not turn
+	#into a battle. Mostly covers the half second Pixelmon takes to open the fight.
+	# Default: 100
+	# Range: 20 ~ 1200
+	retryDelayTicks = 100
+	#Leave players in creative mode alone.
+	skipCreativePlayers = true
+	#Leave players in spectator mode alone.
+	skipSpectatorPlayers = true
+	#Only challenge a player who still has a Pokemon that can fight.
+	#Turning this off means a trainer can corner someone with a wiped party, which under
+	#the team wipe rule is simply an execution.
+	requireAblePokemon = true
+	#Turn the trainer towards the player it spotted.
+	facePlayer = true
+	#Walk the trainer over to the player it spotted. NPCs marked immovable, and NPCs
+	#built without a movement AI, stay where they are regardless.
+	walkToPlayer = false
+	#Movement speed multiplier used while walking over to a player.
+	# Default: 0.6
+	# Range: 0.1 ~ 2.0
+	walkSpeed = 0.6
+	#Check the conditions on the NPC's own battle interaction before challenging,
+	#so its cooldowns, permissions and 'already beaten' checks still apply.
+	#Off by default: those conditions are written for a player who clicked the NPC, and a
+	#condition that reads something only a real click provides makes the trainer passive.
+	respectInteractionConditions = false
+	#Also challenge NPCs that carry a party but have no battle interaction at all.
+	#Those fights use the default battle rules instead of anything the NPC was built with.
+	challengeNPCsWithoutBattleInteraction = false
+	#Tell the player in chat which trainer just spotted them.
+	sendChallengeMessage = true
+	#NPC names that stay peaceful, matched against the name shown above their head.
+	#Case does not matter. Use it to keep gym leaders, nurses and quest givers clickable.
+	excludedNames = []

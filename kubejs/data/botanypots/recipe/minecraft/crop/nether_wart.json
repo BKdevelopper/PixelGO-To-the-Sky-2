@@ -1,0 +1,21 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "minecraft:nether_wart",
+  "soil": {
+    "tag": "botanypots:soil/soul_sand"
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "minecraft:nether_wart",
+            "count": 1
+          }
+        }
+      ]
+    }
+  ]
+}

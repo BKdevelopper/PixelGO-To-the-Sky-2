@@ -1,0 +1,698 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "expeditions"
+	group: "1A3BB00B8761BF8C"
+	icon: {
+		id: "pixelgo_expedition:expedition_station"
+	}
+	id: "2C5D8E1F7A30F011"
+	images: [ ]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "pixelgo_expedition:expedition_station"
+			}
+			id: "2746683AF7A5FE7A"
+			rewards: [
+				{
+					count: 2
+					id: "7B5CFFD256AE9FD7"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "05F214DE25330B88"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3232D215093B2BA9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2746683AF7A5FE7A"]
+			id: "01EB60F586597B2B"
+			rewards: [
+				{
+					id: "78314A2BD435F941"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "52E613138F2AAF04"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "46FB330A0E5614E1"
+				item: { count: 1, id: "pixelgo_expedition:expedition_station" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["01EB60F586597B2B"]
+			id: "5B6B08874B2968BF"
+			rewards: [
+				{
+					id: "2FD611946A5F5DF8"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "03BF84427C262C80"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "7C03B0A77C5ED1E9"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier1"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_expedition:completed_1"
+				criterion: ""
+				id: "3B0BC5FF3F949EA6"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B6B08874B2968BF"]
+			icon: {
+				components: {
+					"pixelmon:poke_ball": "poke_ball"
+				}
+				id: "pixelmon:poke_ball"
+			}
+			id: "1AC5B3A4889A600B"
+			rewards: [
+				{
+					id: "6F120BD72B813645"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0FD86F34F1DA641D"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "247CC8E2055BEFB6"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier1"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_expedition:complete_poke_ball"
+				criterion: ""
+				id: "3A952105FBA06949"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1AC5B3A4889A600B"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "pixelmon:great_ball"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "649C31F8F61E3C19"
+			rewards: [
+				{
+					count: 4
+					id: "629E27971DEC57E2"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6893852C2FFE08C9"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "68A84A7BA21DE121"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier1"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_expedition:complete_great_ball"
+				criterion: ""
+				id: "50F81AF87A17BA33"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["649C31F8F61E3C19"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "pixelmon:ultra_ball"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "2230D3A276FC4589"
+			rewards: [
+				{
+					count: 12
+					id: "3CC286FE70A67D26"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "536B2262343C1971"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "37D4FD278A62C303"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "4883172E875EEBFB"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier2"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_expedition:complete_ultra_ball"
+				criterion: ""
+				id: "4DE59BA5364582E7"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2230D3A276FC4589"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "pixelmon:beast_ball"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "0013F6A93BD4F277"
+			rewards: [
+				{
+					count: 29
+					id: "0C53AEE2D8EBE528"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "614EAB49A36A1752"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "7C11EB4336C7B13D"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier3"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "79EA4EA010DA2AE6"
+					loot_tier: 1b
+					play_sound: true
+					type: "pixelgoquests:pokeloot"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_expedition:complete_beast_ball"
+				criterion: ""
+				id: "4C7263EDCC4E387E"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0013F6A93BD4F277"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "pixelmon:master_ball"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "29604FAF7E0E3543"
+			rewards: [
+				{
+					count: 62
+					id: "2785289EF53D4CAC"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "034E3B9B58315124"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "5E41E3BBD14007AB"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "22CBC897C99BF836"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier4"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "2A95BAB9D0473EAB"
+					loot_tier: 2b
+					play_sound: true
+					type: "pixelgoquests:pokeloot"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				advancement: "pixelgo_expedition:complete_master_ball"
+				criterion: ""
+				id: "050DDFC7100DDA7A"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5B6B08874B2968BF"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "2B354156F5C095B8"
+			rewards: [
+				{
+					count: 4
+					id: "5D4DC4D0BC7D02F6"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "784F3D63367DF94C"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "4F246CDB129898BC"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier1"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_expedition:completed_10"
+				criterion: ""
+				id: "2EB9AB144106FC8A"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2B354156F5C095B8"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "0E98188750BBCEF7"
+			rewards: [
+				{
+					count: 12
+					id: "6DC1FC9A2BDE0A87"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "554EA3D694D7EC2C"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "02837DBA19232CE5"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "6DCFEADF5150698E"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier2"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_expedition:completed_25"
+				criterion: ""
+				id: "6947F5B06FA88D76"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0E98188750BBCEF7"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "7244D2CEF7C40B9D"
+			rewards: [
+				{
+					count: 25
+					id: "028C8BC807C7A503"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "38FE125ED3E8B481"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier3"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_expedition:completed_50"
+				criterion: ""
+				id: "23AE7028AB328ACD"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7244D2CEF7C40B9D"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "601A0297D198E97D"
+			rewards: [
+				{
+					count: 62
+					id: "4EEDFC5C231EF423"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "56892D512286554B"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "1898D335898C414B"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "531D16A6522412A3"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier4"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "16CB92341101E1B1"
+					loot_tier: 2b
+					play_sound: true
+					type: "pixelgoquests:pokeloot"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				advancement: "pixelgo_expedition:completed_100"
+				criterion: ""
+				id: "69B1E0FFD1337086"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2746683AF7A5FE7A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "pixelmon:protein"
+			}
+			id: "3FA19479EFE7B368"
+			optional: true
+			tasks: [{
+				id: "709388BD9B4533E7"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2746683AF7A5FE7A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "4B76E98F7B362BF5"
+			optional: true
+			tasks: [{
+				id: "158FD073DC67A255"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2746683AF7A5FE7A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:iron_pickaxe"
+			}
+			id: "44F7641378F72219"
+			optional: true
+			tasks: [{
+				id: "388C24709C2996E5"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2746683AF7A5FE7A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:blaze_powder"
+			}
+			id: "09B3CC5C9409E4C2"
+			optional: true
+			tasks: [{
+				id: "355CDA9F1AB77D22"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2746683AF7A5FE7A"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"pixelmon:poke_ball": "poke_ball"
+				}
+				id: "pixelmon:poke_ball"
+			}
+			id: "625004EB4ECD5C83"
+			optional: true
+			tasks: [{
+				id: "3FFE6AE57E5DD839"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2746683AF7A5FE7A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "084083E0D73501DF"
+			optional: true
+			tasks: [{
+				id: "5684A5AC81139A0A"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2746683AF7A5FE7A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "pixelmon:fire_gem"
+			}
+			id: "165A3EBD152717EE"
+			optional: true
+			tasks: [{
+				id: "3377A23B11A3BE41"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+	]
+}

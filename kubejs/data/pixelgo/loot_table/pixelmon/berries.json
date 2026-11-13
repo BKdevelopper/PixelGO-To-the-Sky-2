@@ -1,0 +1,414 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:oran_berry",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:pecha_berry",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:cheri_berry",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:chesto_berry",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:rawst_berry",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:aspear_berry",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:leppa_berry",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:persim_berry",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:lum_berry",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:sitrus_berry",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:kelpsy_berry",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:hondew_berry",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:grepa_berry",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:qualot_berry",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:pomeg_berry",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:tamato_berry",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:occa_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:passho_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:wacan_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:rindo_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:yache_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:chople_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:kebia_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:shuca_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:coba_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:payapa_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:tanga_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:charti_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:kasib_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:haban_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:colbur_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:babiri_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:chilan_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:roseli_berry",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:liechi_berry",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:ganlon_berry",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:salac_berry",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:petaya_berry",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:apicot_berry",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:lansat_berry",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:starf_berry",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:micle_berry",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:custap_berry",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:jaboca_berry",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:rowap_berry",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:enigma_berry",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:kee_berry",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:maranga_berry",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

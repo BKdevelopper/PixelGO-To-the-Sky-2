@@ -1,0 +1,43 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "PokeDollars",
+    "color": "gold",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "The "
+      },
+      {
+        "text": "Nickel",
+        "color": "gold",
+        "bold": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "Dime",
+        "color": "gold",
+        "bold": true
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "Poke Coin",
+        "color": "gold",
+        "bold": true
+      },
+      {
+        "text": " you find in chests are pure treasure. Sell them - nothing in the pack crafts with them."
+      }
+    ]
+  },
+  "cycle_time": 7000
+}

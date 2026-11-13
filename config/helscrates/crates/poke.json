@@ -1,0 +1,646 @@
+{
+  "display_name": "Poke Crate",
+  "animation_type": "spin",
+  "key_item": {
+    "custom_name": "Poke Crate Key",
+    "glow": true,
+    "description": "Opens only the most Basic crate.",
+    "rarity": "common",
+    "cooldown_seconds": 7.5
+  },
+  "block": {
+    "light_level": 5
+  },
+  "gui": {
+    "backgroundTexture": "helscrates:textures/gui/backgrounds/poke.png",
+    "useScanlines": true,
+    "panelBaseColor": "0xFFB71C1C",
+    "panelInnerColor": "0xE8FFFFFF",
+    "borderOuterColor": "0x80D32F2F",
+    "borderInnerColor": "0x66000000",
+    "scanlineColor": "0xD32F2F"
+  },
+  "rewards": [
+    {
+      "type": "item",
+      "id": "pixelmon:poke_ball[pixelmon:poke_ball=poke_ball]",
+      "count": 12,
+      "weight": 130,
+      "display_name": "Poké Balls"
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:poke_ball[pixelmon:poke_ball=great_ball]",
+      "count": 5,
+      "weight": 95,
+      "display_name": "Great Balls"
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:poke_ball[pixelmon:poke_ball=exp_xs_ball]",
+      "count": 2,
+      "weight": 40,
+      "display_name": {
+        "text": "EXP XS Ball",
+        "color": "aqua",
+        "bold": true
+      }
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:potion",
+      "count": 8,
+      "weight": 105
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:xs_exp_candy",
+      "count": 8,
+      "weight": 95
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:oran_berry",
+      "count": 10,
+      "weight": 85
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:red_apricorn",
+      "count": 8,
+      "weight": 80
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:revive",
+      "count": 2,
+      "weight": 55
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:fire_stone",
+      "count": 1,
+      "weight": 35,
+      "display_name": {
+        "text": "Evolution Stone",
+        "color": "gold",
+        "bold": true
+      }
+    },
+    {
+      "type": "item",
+      "id": "minecraft:iron_ingot",
+      "count": 24,
+      "weight": 100
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:rare_candy",
+      "count": 3,
+      "weight": 50
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:exp_share",
+      "count": 1,
+      "weight": 25,
+      "display_name": {
+        "text": "Exp. Share",
+        "color": "green",
+        "bold": true
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Bulbasaur",
+      "level": 14,
+      "weight": 30,
+      "display_name": "Seed Sentinel",
+      "data": {
+        "ability": "Overgrow",
+        "held_item": "pixelmon:oran_berry",
+        "moves": [
+          "Vine Whip",
+          "Leech Seed",
+          "Sleep Powder",
+          "Take Down"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Charmander",
+      "level": 14,
+      "weight": 30,
+      "display_name": "Ember Cub",
+      "data": {
+        "ability": "Blaze",
+        "held_item": "pixelmon:oran_berry",
+        "moves": [
+          "Ember",
+          "Dragon Breath",
+          "Smokescreen",
+          "Scary Face"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Squirtle",
+      "level": 14,
+      "weight": 30,
+      "display_name": "Shell Scout",
+      "data": {
+        "ability": "Torrent",
+        "held_item": "pixelmon:oran_berry",
+        "moves": [
+          "Water Gun",
+          "Bite",
+          "Withdraw",
+          "Rapid Spin"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Pikachu",
+      "level": 16,
+      "weight": 22,
+      "display_name": "Sparkplug",
+      "data": {
+        "ability": "Static",
+        "held_item": "pixelmon:sitrus_berry",
+        "moves": [
+          "Thunderbolt",
+          "Quick Attack",
+          "Iron Tail",
+          "Double Team"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Eevee",
+      "level": 15,
+      "weight": 20,
+      "display_name": "Wildcard",
+      "data": {
+        "ability": "Adaptability",
+        "moves": [
+          "Quick Attack",
+          "Bite",
+          "Swift",
+          "Baby-Doll Eyes"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Growlithe",
+      "level": 14,
+      "weight": 26,
+      "display_name": "Coalfang",
+      "data": {
+        "ability": "Intimidate",
+        "moves": [
+          "Flame Wheel",
+          "Bite",
+          "Roar",
+          "Take Down"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Machop",
+      "level": 14,
+      "weight": 26,
+      "display_name": "Gym Rat",
+      "data": {
+        "ability": "Guts",
+        "held_item": "pixelmon:muscle_band",
+        "moves": [
+          "Karate Chop",
+          "Low Kick",
+          "Seismic Toss",
+          "Foresight"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Gastly",
+      "level": 14,
+      "weight": 22,
+      "display_name": "Whisper",
+      "data": {
+        "ability": "Levitate",
+        "moves": [
+          "Lick",
+          "Hypnosis",
+          "Night Shade",
+          "Confuse Ray"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Zubat",
+      "level": 12,
+      "weight": 28,
+      "display_name": "Echo",
+      "data": {
+        "ability": "InnerFocus",
+        "moves": [
+          "Wing Attack",
+          "Bite",
+          "Supersonic",
+          "Confuse Ray"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Pidgey",
+      "level": 12,
+      "weight": 28,
+      "display_name": "Gale",
+      "data": {
+        "ability": "KeenEye",
+        "moves": [
+          "Gust",
+          "Quick Attack",
+          "Sand Attack",
+          "Twister"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Magikarp",
+      "level": 10,
+      "weight": 18,
+      "display_name": "Future Tyrant",
+      "data": {
+        "ability": "Rattled",
+        "held_item": "pixelmon:focus_band",
+        "moves": [
+          "Splash",
+          "Tackle",
+          "Flail"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Meowth",
+      "level": 13,
+      "weight": 12,
+      "display_name": "Garfield",
+      "data": {
+        "ability": "Pickup",
+        "moves": [
+          "Pay Day",
+          "Bite",
+          "Fake Out",
+          "Screech"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Psyduck",
+      "level": 13,
+      "weight": 12,
+      "display_name": "Daffy",
+      "data": {
+        "ability": "Damp",
+        "moves": [
+          "Confusion",
+          "Water Gun",
+          "Disable",
+          "Zen Headbutt"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Cyndaquil",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Calcifer",
+      "data": {
+        "ability": "Blaze",
+        "moves": [
+          "Ember",
+          "Quick Attack",
+          "Smokescreen",
+          "Flame Wheel"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Totodile",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Tick-Tock",
+      "data": {
+        "ability": "Torrent",
+        "moves": [
+          "Water Gun",
+          "Bite",
+          "Scary Face",
+          "Crunch"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Torchic",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Chicken Little",
+      "data": {
+        "ability": "Blaze",
+        "moves": [
+          "Ember",
+          "Peck",
+          "Quick Attack",
+          "Sand Attack"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Mudkip",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Gill",
+      "data": {
+        "ability": "Torrent",
+        "moves": [
+          "Water Gun",
+          "Mud-Slap",
+          "Bide",
+          "Foresight"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Turtwig",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Master Oogway",
+      "data": {
+        "ability": "Overgrow",
+        "moves": [
+          "Razor Leaf",
+          "Withdraw",
+          "Curse",
+          "Bite"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Piplup",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Mumble",
+      "data": {
+        "ability": "Torrent",
+        "moves": [
+          "Bubble Beam",
+          "Peck",
+          "Whirlpool",
+          "Charm"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Tepig",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Babe",
+      "data": {
+        "ability": "Blaze",
+        "moves": [
+          "Ember",
+          "Odor Sleuth",
+          "Defense Curl",
+          "Flame Charge"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Oshawott",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Rango",
+      "data": {
+        "ability": "Torrent",
+        "moves": [
+          "Water Gun",
+          "Razor Shell",
+          "Focus Energy",
+          "Fury Cutter"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Fennekin",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Robin Hood",
+      "data": {
+        "ability": "Blaze",
+        "moves": [
+          "Ember",
+          "Howl",
+          "Flame Charge",
+          "Psybeam"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Froakie",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Kermit",
+      "data": {
+        "ability": "Torrent",
+        "moves": [
+          "Water Pulse",
+          "Quick Attack",
+          "Lick",
+          "Smokescreen"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Rowlet",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Hedwig",
+      "data": {
+        "ability": "Overgrow",
+        "moves": [
+          "Leafage",
+          "Peck",
+          "Astonish",
+          "Foresight"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Litten",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Simba",
+      "data": {
+        "ability": "Blaze",
+        "moves": [
+          "Ember",
+          "Lick",
+          "Fire Fang",
+          "Bite"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Scorbunny",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Roger Rabbit",
+      "data": {
+        "ability": "Blaze",
+        "moves": [
+          "Ember",
+          "Quick Attack",
+          "Double Kick",
+          "Flame Charge"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Sobble",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Bubbles",
+      "data": {
+        "ability": "Torrent",
+        "moves": [
+          "Water Gun",
+          "Bind",
+          "Water Pulse",
+          "Growl"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Sprigatito",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Puss in Boots",
+      "data": {
+        "ability": "Overgrow",
+        "moves": [
+          "Leafage",
+          "Bite",
+          "Quick Attack",
+          "Magical Leaf"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Fuecoco",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Louis",
+      "data": {
+        "ability": "Blaze",
+        "moves": [
+          "Ember",
+          "Bite",
+          "Incinerate",
+          "Round"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Quaxly",
+      "level": 14,
+      "weight": 11,
+      "display_name": "Donald",
+      "data": {
+        "ability": "Torrent",
+        "moves": [
+          "Water Gun",
+          "Wing Attack",
+          "Aqua Jet",
+          "Double Hit"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Charizard",
+      "level": 50,
+      "weight": 4,
+      "display_name": "Inferno King",
+      "data": {
+        "palette": "zombie",
+        "ability": "Blaze",
+        "held_item": "pixelmon:charcoal",
+        "moves": [
+          "Flamethrower",
+          "Air Slash",
+          "Dragon Claw",
+          "Roost"
+        ]
+      }
+    },
+    {
+      "type": "command",
+      "command": "experience add %player% 80 points",
+      "display": "80 XP",
+      "weight": 70
+    },
+    {
+      "type": "command",
+      "command": "give %player% minecraft:emerald 3",
+      "display": "3 Emeralds",
+      "weight": 45
+    }
+  ],
+  "reward_count": {
+    "min": 2,
+    "max": 3
+  },
+  "guaranteed_rewards": [
+    {
+      "type": "item",
+      "id": "pixelmon:poke_ball[pixelmon:poke_ball=poke_ball]",
+      "count": 16,
+      "weight": 1,
+      "display_name": {
+        "text": "Starter Pack",
+        "color": "red",
+        "bold": true
+      }
+    }
+  ]
+}

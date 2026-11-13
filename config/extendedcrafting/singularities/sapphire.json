@@ -1,0 +1,10 @@
+{
+  "name": "Sapphire",
+  "colors": [
+    "4281ca",
+    "4281ca"
+  ],
+  "ingredient": {
+    "item": "pixelmon:sapphire"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "pixelgo_minions:enchanted_diamond_block"
+    },
+    "E": {
+      "item": "pixelgo_minions:box_of_seeds"
+    },
+    "T": {
+      "item": "pixelgo_minions:advanced_gardening_hoe"
+    }
+  },
+  "pattern": [
+    "CEC",
+    "ETE",
+    "CEC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pixelgo_minions:greatest_tilling_hoe"
+  }
+}

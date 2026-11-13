@@ -1,0 +1,229 @@
+{
+  "expiryHours": 72,
+  "entries": [
+    {
+      "item": "minecraft:coal",
+      "buySingle": 8,
+      "buyStack": 460,
+      "sellSingle": 1,
+      "sellStack": 70,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "buySingle": 12,
+      "buyStack": 690,
+      "sellSingle": 1,
+      "sellStack": 70,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "buySingle": 8,
+      "buyStack": 460,
+      "sellSingle": 1,
+      "sellStack": 70,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "buySingle": 20,
+      "buyStack": 1150,
+      "sellSingle": 2,
+      "sellStack": 140,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:redstone",
+      "buySingle": 6,
+      "buyStack": 345,
+      "sellSingle": 1,
+      "sellStack": 70,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "buySingle": 8,
+      "buyStack": 460,
+      "sellSingle": 1,
+      "sellStack": 70,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:emerald",
+      "buySingle": 80,
+      "buyStack": 4600,
+      "sellSingle": 3,
+      "sellStack": 210,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:diamond",
+      "buySingle": 250,
+      "buyStack": 14400,
+      "sellSingle": 5,
+      "sellStack": 350,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:obsidian",
+      "buySingle": 40,
+      "buyStack": 2300,
+      "sellSingle": 2,
+      "sellStack": 140,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "buySingle": 350,
+      "buyStack": 20160,
+      "sellSingle": 5,
+      "sellStack": 350,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "buySingle": 120,
+      "buyStack": 1725,
+      "sellSingle": 4,
+      "sellStack": 70,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:string",
+      "buySingle": 10,
+      "buyStack": 575,
+      "sellSingle": 1,
+      "sellStack": 70,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:bone",
+      "buySingle": 8,
+      "buyStack": 460,
+      "sellSingle": 1,
+      "sellStack": 70,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "buySingle": 15,
+      "buyStack": 860,
+      "sellSingle": 1,
+      "sellStack": 90,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "buySingle": 25,
+      "buyStack": 1440,
+      "sellSingle": 2,
+      "sellStack": 140,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:leather",
+      "buySingle": 15,
+      "buyStack": 860,
+      "sellSingle": 1,
+      "sellStack": 70,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:feather",
+      "buySingle": 8,
+      "buyStack": 460,
+      "sellSingle": 1,
+      "sellStack": 70,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:quartz",
+      "buySingle": 15,
+      "buyStack": 860,
+      "sellSingle": 1,
+      "sellStack": 70,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "buySingle": 10,
+      "buyStack": 575,
+      "sellSingle": 1,
+      "sellStack": 70,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:ghast_tear",
+      "buySingle": 500,
+      "buyStack": 28800,
+      "sellSingle": 10,
+      "sellStack": 700,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:ancient_debris",
+      "buySingle": 750,
+      "buyStack": 43200,
+      "sellSingle": 12,
+      "sellStack": 840,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "buySingle": 900,
+      "buyStack": 51840,
+      "sellSingle": 15,
+      "sellStack": 1050,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "buySingle": 5000,
+      "buyStack": 288000,
+      "sellSingle": 75,
+      "sellStack": 5250,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:nether_star",
+      "buySingle": 7500,
+      "buyStack": 432000,
+      "sellSingle": 125,
+      "sellStack": 8750,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:beacon",
+      "buySingle": 10000,
+      "buyStack": 576000,
+      "sellSingle": 150,
+      "sellStack": 10500,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:shulker_shell",
+      "buySingle": 600,
+      "buyStack": 34560,
+      "sellSingle": 10,
+      "sellStack": 700,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "buySingle": 5000,
+      "buyStack": 5000,
+      "sellSingle": 75,
+      "sellStack": 75,
+      "maxStacks": 2
+    },
+    {
+      "item": "minecraft:elytra",
+      "buySingle": 15000,
+      "buyStack": 15000,
+      "sellSingle": 150,
+      "sellStack": 150,
+      "maxStacks": 2
+    }
+  ]
+}

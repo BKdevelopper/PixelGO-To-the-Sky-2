@@ -1,0 +1,900 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.redstone",
+                  "message": "pixelgo.npc.redstone.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "minecraft:daylight_detector",
+                        "count": 1
+                      },
+                      "buyPrice": 18,
+                      "sellPrice": 5.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dispenser",
+                        "count": 1
+                      },
+                      "buyPrice": 19,
+                      "sellPrice": 5.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dropper",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:lever",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:note_block",
+                        "count": 1
+                      },
+                      "buyPrice": 19,
+                      "sellPrice": 5.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:observer",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:piston",
+                        "count": 1
+                      },
+                      "buyPrice": 28,
+                      "sellPrice": 8.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:comparator",
+                        "count": 1
+                      },
+                      "buyPrice": 21,
+                      "sellPrice": 6.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:repeater",
+                        "count": 1
+                      },
+                      "buyPrice": 17,
+                      "sellPrice": 5.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:sticky_piston",
+                        "count": 1
+                      },
+                      "buyPrice": 38,
+                      "sellPrice": 11.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:target",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:trapped_chest",
+                        "count": 1
+                      },
+                      "buyPrice": 25,
+                      "sellPrice": 7.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:tripwire_hook",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:acacia_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:bamboo_button",
+                        "count": 1
+                      },
+                      "buyPrice": 4.5,
+                      "sellPrice": 1.35
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:birch_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cherry_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:crimson_button",
+                        "count": 1
+                      },
+                      "buyPrice": 3.33,
+                      "sellPrice": 1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dark_oak_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:jungle_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:mangrove_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oak_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:polished_blackstone_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:spruce_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:stone_button",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:warped_button",
+                        "count": 1
+                      },
+                      "buyPrice": 3.33,
+                      "sellPrice": 1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:acacia_door",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:bamboo_door",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:birch_door",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cherry_door",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:crimson_door",
+                        "count": 1
+                      },
+                      "buyPrice": 6.67,
+                      "sellPrice": 2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dark_oak_door",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:iron_door",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:jungle_door",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:mangrove_door",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oak_door",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:spruce_door",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:warped_door",
+                        "count": 1
+                      },
+                      "buyPrice": 6.67,
+                      "sellPrice": 2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:copper_door",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:exposed_copper_door",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oxidized_copper_door",
+                        "count": 1
+                      },
+                      "buyPrice": 12,
+                      "sellPrice": 3.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_copper_door",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_exposed_copper_door",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_oxidized_copper_door",
+                        "count": 1
+                      },
+                      "buyPrice": 14,
+                      "sellPrice": 4.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_weathered_copper_door",
+                        "count": 1
+                      },
+                      "buyPrice": 12,
+                      "sellPrice": 3.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:weathered_copper_door",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:acacia_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:bamboo_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:birch_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cherry_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:crimson_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 6.67,
+                      "sellPrice": 2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dark_oak_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:heavy_weighted_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:jungle_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_weighted_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 120,
+                      "sellPrice": 36
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:mangrove_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oak_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:polished_blackstone_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:spruce_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:stone_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:warped_pressure_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 6.67,
+                      "sellPrice": 2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:acacia_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:bamboo_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 13.5,
+                      "sellPrice": 4.05
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:birch_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cherry_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:crimson_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dark_oak_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:iron_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 60,
+                      "sellPrice": 18
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:jungle_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:mangrove_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 7.5,
+                      "sellPrice": 2.25
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oak_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:spruce_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:warped_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:copper_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:exposed_copper_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oxidized_copper_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_copper_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_exposed_copper_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_oxidized_copper_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 17,
+                      "sellPrice": 5.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_weathered_copper_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:weathered_copper_trapdoor",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.redstone",
+                  "message": "pixelgo.npc.redstone.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.redstone",
+        "color": "#FF4040",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

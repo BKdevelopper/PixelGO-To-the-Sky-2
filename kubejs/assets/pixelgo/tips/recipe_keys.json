@@ -1,0 +1,51 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Controls",
+    "color": "white",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Hover any item and press "
+      },
+      {
+        "text": "R",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " for "
+      },
+      {
+        "text": "how do I make this",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": ", or "
+      },
+      {
+        "text": "U",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " for "
+      },
+      {
+        "text": "what is this used for",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  "cycle_time": 7000
+}

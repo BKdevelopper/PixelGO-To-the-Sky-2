@@ -1,0 +1,96 @@
+#Every setting here applies during live ProjectE mapping. Use /reload or restart after changes.
+#Vanilla priority and essence exclusion require live mapping; cached maps are bypassed while either is enabled. Advanced contains technical limits and adapter lists.
+[general]
+	#Prefer verified vanilla material trees, including diamond gear, buckets, paper/sugar, gold nuggets and green dye; preserve custom EMC and item exceptions.
+	#Other vanilla repairs require a supported complete graph. Requires /reload or restart.
+	enabled = true
+	#Recover missing vanilla co-products while accounting for the complete output batch.
+	#Verified milk-bucket contents correction remains active while this or Prefer vanilla EMC is enabled.
+	repairCoProductSeedConflicts = true
+	#Use reviewed fallback recipes after native and PEI integrations decline them.
+	compatibilityProfiles = true
+
+#Optional item-family exclusions. Save, then /reload or restart to apply.
+[emcExclusions]
+	#Disable EMC for Mystical Agriculture crop, tier and fertilized essences, including pure essence storage blocks.
+	#Does not blacklist ingots, gems, upgrades or gear. Essence-dependent recipes need a complete independent price path; excluded ingredients are not free.
+	#Also suppresses explicit EMC for the excluded essences while enabled, without editing custom EMC files. Requires /reload or restart.
+	disableMysticalAgricultureEssenceEmc = false
+
+#Reviewed mod-specific fixes. Changed resources and custom datapacks stay authoritative.
+[compatibility]
+	#Repair verified MCD Nether stock ingredient syntax and Infinite Dimensions netherite slab recycling. Custom recipes remain authoritative.
+	repairReviewedStockRecipeSyntax = true
+	#Stock Oritech foundry: four gold plus four scrap per ingot; real machine and viewer inputs change.
+	harmonizeOritechNetheriteRecipe = true
+	#Stock Mekanism combining: three magenta dyes instead of four; no EMC price floor.
+	harmonizeMekanismMagentaRecipe = true
+	#Exclude automatic Inventory Pets netherite nugget recipe/tag EMC to avoid integer-rounding profit.
+	#Crafting and explicit custom roots remain available.
+	protectInventoryPetsNetheriteNuggets = true
+	#Repair reviewed EvilCraft 1.2.99 Spirit Furnace viewer synchronization after reload.
+	repairEvilCraftViewerReload = true
+
+#Optional item ID lists. ProjectE custom prices and zero values are preserved, except for explicitly enabled item exclusions.
+[overrides]
+	#Vanilla item IDs whose cheaper modded recipe paths may win. Example: minecraft:bread.
+	allowCheaperVanillaItems = []
+	#Keep these item IDs at their pre-Bridge calculated EMC during automatic rebalancing. Example: actuallyadditions:rice.
+	lockedItems = []
+
+#Technical settings; defaults suit ordinary use.
+[advanced]
+
+	#Limits for each graph solve and exact-input reuse.
+	[advanced.performance]
+		#Maximum milliseconds per live graph solve; unfinished graphs are not published.
+		# Default: 30000
+		# Range: 100 ~ 120000
+		maxGraphMillis = 5000
+		#Maximum conversion evaluations per solve; bounds cyclic or expanding work.
+		# Default: 20000000
+		# Range: 1000 ~ 20000000
+		maxGraphEvaluations = 2000000
+		#Reuse exact validated results, or freshly audit named recovery candidates; mapping and recipe sync still run.
+		reuseValidatedReconciliation = true
+		#Milliseconds for the reuse signature; recovery keeps its separate budget if this expires.
+		# Default: 1000
+		# Range: 100 ~ 5000
+		maxMemoKeyMillis = 1000
+
+	#Bounded vanilla repair; failed candidates roll back.
+	[advanced.reconciliation]
+		#Maximum extra milliseconds for vanilla reconciliation; retain the last validated result.
+		# Default: 60000
+		# Range: 100 ~ 60000
+		maxReconcileMillis = 7500
+		#Maximum extra graph solves for vanilla reconciliation.
+		# Default: 24
+		# Range: 2 ~ 256
+		maxReconcileSolves = 24
+		#Maximum increase for optional graph rebalancing; verified native recipe priorities use their complete costs.
+		# Default: 256
+		# Range: 1 ~ 1000000
+		maxRebalanceFactor = 256
+		#Maximum repair passes per vanilla item; prevents cyclic inflation.
+		# Default: 16
+		# Range: 1 ~ 128
+		maxRepairPasses = 16
+
+	#Separate work budget after replay preparation.
+	[advanced.coProducts]
+		#Maximum milliseconds for independently grounded co-product recovery.
+		# Default: 30000
+		# Range: 100 ~ 60000
+		maxCoProductRepairMillis = 7500
+		#Maximum graph solves for co-product recovery.
+		# Default: 12
+		# Range: 2 ~ 128
+		maxCoProductRepairSolves = 12
+
+	#Disable specific adapters only; ordinary users can leave both lists empty.
+	[advanced.adapters]
+		#Exact Java mapper class names to skip. Example: com.example.IncompatibleMapper.
+		disabledMappers = []
+		#Exact serializer IDs to skip in Bridge fallback only. Example: powah:energizing.
+		disabledProfileSerializers = []

@@ -1,0 +1,580 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.drops",
+                  "message": "pixelgo.npc.drops.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "minecraft:armadillo_scute",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:bee_nest",
+                        "count": 1
+                      },
+                      "buyPrice": 35,
+                      "sellPrice": 10.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blaze_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blaze_rod",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:bone",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:breeze_rod",
+                        "count": 1
+                      },
+                      "buyPrice": 70,
+                      "sellPrice": 21
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:creeper_head",
+                        "count": 1
+                      },
+                      "buyPrice": 1500,
+                      "sellPrice": 450
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:ender_pearl",
+                        "count": 1
+                      },
+                      "buyPrice": 16,
+                      "sellPrice": 4.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:feather",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:ghast_tear",
+                        "count": 1
+                      },
+                      "buyPrice": 80,
+                      "sellPrice": 24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:goat_horn",
+                        "count": 1
+                      },
+                      "buyPrice": 50,
+                      "sellPrice": 15
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:gunpowder",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:honey_block",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:honey_bottle",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:honeycomb",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:honeycomb_block",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:leather",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:magma_cream",
+                        "count": 1
+                      },
+                      "buyPrice": 25,
+                      "sellPrice": 7.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:nautilus_shell",
+                        "count": 1
+                      },
+                      "buyPrice": 80,
+                      "sellPrice": 24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:nether_star",
+                        "count": 1
+                      },
+                      "buyPrice": 3000,
+                      "sellPrice": 900
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:ominous_bottle",
+                        "count": 1
+                      },
+                      "buyPrice": 150,
+                      "sellPrice": 45
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:phantom_membrane",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:piglin_head",
+                        "count": 1
+                      },
+                      "buyPrice": 1500,
+                      "sellPrice": 450
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:rabbit_hide",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:rotten_flesh",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:skeleton_skull",
+                        "count": 1
+                      },
+                      "buyPrice": 1500,
+                      "sellPrice": 450
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:slime_block",
+                        "count": 1
+                      },
+                      "buyPrice": 90,
+                      "sellPrice": 27
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:slime_ball",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:spider_eye",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:string",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:turtle_scute",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:wind_charge",
+                        "count": 1
+                      },
+                      "buyPrice": 17.5,
+                      "sellPrice": 5.25
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:wither_rose",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:wither_skeleton_skull",
+                        "count": 1
+                      },
+                      "buyPrice": 600,
+                      "sellPrice": 180
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:zombie_head",
+                        "count": 1
+                      },
+                      "buyPrice": 1500,
+                      "sellPrice": 450
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:glow_ink_sac",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:ink_sac",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:ominous_trial_key",
+                        "count": 1
+                      },
+                      "buyPrice": 300,
+                      "sellPrice": 90
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:trial_key",
+                        "count": 1
+                      },
+                      "buyPrice": 100,
+                      "sellPrice": 30
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:rabbit_foot",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:totem_of_undying",
+                        "count": 1
+                      },
+                      "buyPrice": 1000,
+                      "sellPrice": 300
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.drops",
+                  "message": "pixelgo.npc.drops.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.drops",
+        "color": "#FF5555",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

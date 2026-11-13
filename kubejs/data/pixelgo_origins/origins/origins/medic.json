@@ -1,0 +1,42 @@
+{
+  "name": "origins.pixelgo_origins.medic.name",
+  "description": "origins.pixelgo_origins.medic.description",
+  "icon": "pixelmon:hyper_potion",
+  "impact": "low",
+  "order": 5,
+  "powers": [
+    "pixelgo_origins:medic_field_medicine",
+    "pixelgo_origins:medic_bedside_manner",
+    "pixelgo_origins:medic_quick_recovery",
+    "pixelgo_origins:medic_pacifist",
+    "pixelgo_origins:medic_skill_tree"
+  ],
+  "upgrades": [],
+  "tier_powers": [
+    {
+      "tier": 1,
+      "add": [
+        "pixelgo_origins:medic_evolution_1"
+      ],
+      "remove": []
+    },
+    {
+      "tier": 2,
+      "add": [
+        "pixelgo_origins:medic_evolution_2"
+      ],
+      "remove": [
+        "pixelgo_origins:medic_evolution_1"
+      ]
+    },
+    {
+      "tier": 3,
+      "add": [
+        "pixelgo_origins:medic_evolution_3"
+      ],
+      "remove": [
+        "pixelgo_origins:medic_evolution_2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+# © PixelmonMod 2012-2025
+
+# For assistance visit https://pixelmonmod.com/wiki/Config
+# 
+# A number that is multiplied to the default render distance (64) to produce a final render distance.
+render-distance-weight: 2.0
+# How far away levels and names of Pokémon can be seen when outside of battle. This setting is client-side.
+#    - 1: default (cloest)
+#    - 2: farther
+#    - 3: far (furthest)
+name-plate-range: 1
+# Whether or not wild Pokémon should show their level above their head.
+render-wild-levels: true
+# Whether to show wild Pokémon names on their nameplates.
+show-wild-names: true
+# If this option is enabled, Pokémon will be 30% larger than if the option was disabled.
+scale-models-up: true
+# Whether or not a Pokémon's attack target (F key by default) is shown on the screen.
+show-current-attack-target: true
+# Whether or not HP bars will be displayed above Pokémon.
+draw-health-bars: false
+# If true, attack effects are only displayed to players participating in or spectating a battle.
+only-show-attack-effects-to-battlers: false
+# If true, show percentage of opponent HP remaining
+advanced-battle-information: true
+# The range (in blocks) at which battle effects should be displayed to players if they are not in the battle.
+range-to-display-attack-animations: 40
+# Emissive textures add an additional effect that makes some Pokémon glow, but come with a significant performance penalty.
+emissive-textures: true
+# The distance in blocks to stop rendering emissive textures at.
+emissive-textures-distance: 32
+# The override render mode for Poké Balls in the player's hand. The options are:
+# 
+# - 'auto' - Uses the setting from 'global-render-type'.
+# - 'smooth' - Renders Poké Balls in smooth 3D.
+# - 'blocky' - Renders Poké Balls in blocky 3D
+# - 'sprite' - Renders Poké Balls as flat sprites.
+override-poke-balls3-d-in-hand-mode: auto
+# If set to true, all Pokémon will appear to every player in their wireframe mode, which renders their model as a connection of lines between their vertices.
+global-wire-frame: false
+# If set to true, all Pokémon will render their bones, and the names of the bones.
+show-bones: false
+# If set to false, Pokémon will not use animations to walk, fly, swim, or sway while idle.
+global-animation-toggle: true
+# If set to true, all Pokémon will appear to every player in their vertex mode, which renders only the vertices of their model.
+global-vertex-toggle: false
+# If set to true, all Pokémon will glow at max brightness, making it them easy to spot at night or underwater.
+global-emissive-toggle: false
+# The range (in blocks) in which a player can choose to spectate a battle.
+spectator-range-blocks: 10.0
+# Client-side tuning values for Tera den beam rendering.
+# These values control the Tera beam geometry, close-range visibility, ambient dust particles,
+# rising sparkle field, and larger flashing star accents.
+tera-den-beam:
+    # Number of dust particles emitted in each active-den particle burst.
+    # Higher values create a denser local particle effect, but increase client particle load.
+    particles-per-burst: 30
+    # Horizontal radius, in blocks, used when spawning active-den dust particles around the den center.
+    particle-spawn-radius: 0.75
+    # Minimum Y offset, in blocks, for active-den dust particle spawn positions.
+    particle-min-height: 0.08
+    # Additional random Y offset range, in blocks, for active-den dust particle spawn positions.
+    # A particle spawns between particle-min-height and particle-min-height + particle-height-range.
+    particle-height-range: 0.42
+    # Maximum random horizontal velocity component for active-den dust particles.
+    particle-horizontal-drift: 0.08
+    # Minimum upward velocity for active-den dust particles.
+    particle-min-rise: 0.05
+    # Additional random upward velocity range for active-den dust particles.
+    # A particle rises between particle-min-rise and particle-min-rise + particle-rise-range.
+    particle-rise-range: 0.05
+    # Minimum rendered Tera beam height, in blocks.
+    # The renderer still respects larger per-den beam lengths if configured on the den entity.
+    beam-height: 220.0
+    # Y offset, in blocks, where the Tera beam geometry starts above the den origin.
+    beam-bottom: 0.05000000074505806
+    # Width, in blocks, of the bright central Tera beam layer before animation pulse is applied.
+    beam-core-width: 0.41999998688697815
+    # Width, in blocks, of the medium Tera beam layer before animation pulse is applied.
+    beam-mid-width: 0.7200000286102295
+    # Width, in blocks, of the outer Tera beam glow layer before animation pulse is applied.
+    beam-outer-width: 1.4500000476837158
+    # Number of vertical subdivisions used for each Tera beam layer.
+    # Higher values make the vertical alpha fade smoother, but add more vertices.
+    beam-segments: 20
+    # Distance in blocks at which Tera den beams stop rendering when the player is close to the den.
+    # Set to 0 to always render Tera den beams.
+    hide-distance: 5.0
+    # Number of small stars rendered through the full height of the beam.
+    # Higher values make the beam more densely filled, but add more vertices.
+    rising-star-count: 1500
+    # Number of small stars rendered in the den-base emitter region.
+    # These stars constantly recycle through the lower beam to make the base feel active.
+    base-star-count: 640
+    # Number of larger six-point flash stars rendered at fixed seeded positions throughout the beam.
+    flash-star-count: 120
+    # Height, in blocks, of the lower base-emitter region for small stars.
+    base-star-height: 18.0
+    # Horizontal spread radius, in blocks, for the full-height small star field.
+    star-radius: 1.2000000476837158
+    # Horizontal spread radius, in blocks, for the lower base-emitter small stars.
+    base-star-radius: 1.75
+    # Minimum size for regular small stars.
+    star-min-size: 0.02500000037252903
+    # Random additional size range for regular small stars.
+    # A regular star size is star-min-size + random(0..star-size-range).
+    star-size-range: 0.054999999701976776
+    # Minimum size for larger six-point flash stars.
+    flash-star-min-size: 0.12999999523162842
+    # Random additional size range for larger six-point flash stars.
+    # A flash star size is flash-star-min-size + random(0..flash-star-size-range).
+    flash-star-size-range: 0.14000000059604645
+# If set to true, the player, while in battle, will be able to see Pokemon entities that are not participating in the battle.
+should-render-pokemon-outside-battle: false
+# If set to true, Minecraft Toasts will appear in order to give the player tutorial advice.
+should-send-toasts: false
+# If set to false, recurring potion particles that Pixelmon adds will no longer display. This is primarily for turning off the particles of the Avoidance effect.
+potion-particles-visible: true
+# If set to false, this will disable the beacon-style beams that appear when a player drops an item
+# and the pokeball shadow that appears underneath the item.
+dropped-item-beams-enabled: true
+# If set to false, this will remove the colors from the text on the HP widgets,
+# the text on the Dynamax Level slider, the text in the edit boxes for the Pokémon's moves,
+# the text for the stats affected by the Pokémon's nature, and the PokéPaste text on the PokéPaste tab.
+# This can also be enabled/disabled temporarily in-game by pressing the F1 key.
+pokemon-editor-extra-color-mode-enabled: true
+# The render type for the global render type. This can be set to either 'smooth', 'blocky', or 'sprite'.
+# This will not override the individual render types of Pokémon. If a Pokémon has a render type set, it will use that instead.
+# You can toggle this setting in-game pressing the F3 and R keys at the same time.
+global-render-type: smooth
+# The generations of TMs that will be displayed in the Pokedex TM section.
+# This is by default set to generation 9 only as there are a lot of TMs and it is not practical to display all of them.
+pokedex-t-m-generations:
+- 9

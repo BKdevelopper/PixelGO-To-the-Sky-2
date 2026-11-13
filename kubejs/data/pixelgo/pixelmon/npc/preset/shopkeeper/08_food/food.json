@@ -1,0 +1,628 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.food",
+                  "message": "pixelgo.npc.food.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "minecraft:beetroot",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:beetroot_soup",
+                        "count": 1
+                      },
+                      "buyPrice": 7.5,
+                      "sellPrice": 2.25
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:bread",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cake",
+                        "count": 1
+                      },
+                      "buyPrice": 205,
+                      "sellPrice": 61.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cookie",
+                        "count": 1
+                      },
+                      "buyPrice": 0.75,
+                      "sellPrice": 0.22
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dried_kelp",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dried_kelp_block",
+                        "count": 1
+                      },
+                      "buyPrice": 18,
+                      "sellPrice": 5.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:egg",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:glow_berries",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:hay_block",
+                        "count": 1
+                      },
+                      "buyPrice": 18,
+                      "sellPrice": 5.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:poisonous_potato",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:sugar",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:sweet_berries",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:wheat",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:apple",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:enchanted_golden_apple",
+                        "count": 1
+                      },
+                      "buyPrice": 500,
+                      "sellPrice": 150
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:golden_apple",
+                        "count": 1
+                      },
+                      "buyPrice": 490,
+                      "sellPrice": 147
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:beef",
+                        "count": 1
+                      },
+                      "buyPrice": 7,
+                      "sellPrice": 2.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cooked_beef",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:carrot",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:golden_carrot",
+                        "count": 1
+                      },
+                      "buyPrice": 55.33,
+                      "sellPrice": 16.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cooked_chicken",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:chicken",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:chorus_fruit",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:popped_chorus_fruit",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pufferfish",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:tropical_fish",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cooked_cod",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cod",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cooked_salmon",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:salmon",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:glistering_melon_slice",
+                        "count": 1
+                      },
+                      "buyPrice": 55.33,
+                      "sellPrice": 16.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:melon",
+                        "count": 1
+                      },
+                      "buyPrice": 18,
+                      "sellPrice": 5.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:melon_slice",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cooked_mutton",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:mutton",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cooked_porkchop",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:porkchop",
+                        "count": 1
+                      },
+                      "buyPrice": 7,
+                      "sellPrice": 2.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:baked_potato",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:potato",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pumpkin_pie",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cooked_rabbit",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:rabbit",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:fermented_spider_eye",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:mushroom_stew",
+                        "count": 1
+                      },
+                      "buyPrice": 7.5,
+                      "sellPrice": 2.25
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:rabbit_stew",
+                        "count": 1
+                      },
+                      "buyPrice": 13.5,
+                      "sellPrice": 4.05
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:suspicious_stew",
+                        "count": 1
+                      },
+                      "buyPrice": 8.5,
+                      "sellPrice": 2.55
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.food",
+                  "message": "pixelgo.npc.food.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.food",
+        "color": "#FFAA00",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

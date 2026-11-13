@@ -1,0 +1,43 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Controls",
+    "color": "white",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "On the FTB Chunks map, click a chunk to "
+      },
+      {
+        "text": "claim",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " it, then click again to "
+      },
+      {
+        "text": "force load",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " it. "
+      },
+      {
+        "text": "Force load the machine room, not the whole island",
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": " - you have a limited number."
+      }
+    ]
+  },
+  "cycle_time": 9000
+}

@@ -1,0 +1,27 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pokemon",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Leave "
+      },
+      {
+        "text": "shiny tracking",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " on in the Radar permanently. It costs nothing and it will save you hours."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

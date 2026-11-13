@@ -1,0 +1,1524 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.another_furniture",
+                  "message": "pixelgo.npc.another_furniture.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "another_furniture:acacia_shutter",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:birch_shutter",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:cherry_shutter",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:dark_oak_shutter",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:jungle_shutter",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:oak_shutter",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:spruce_shutter",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:mangrove_shutter",
+                        "count": 1
+                      },
+                      "buyPrice": 1.88,
+                      "sellPrice": 0.56
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:acacia_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:birch_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:cherry_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:dark_oak_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:jungle_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:oak_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:spruce_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:mangrove_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 2.25,
+                      "sellPrice": 0.68
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:acacia_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 2.33,
+                      "sellPrice": 0.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:birch_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 2.33,
+                      "sellPrice": 0.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:cherry_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 2.33,
+                      "sellPrice": 0.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:dark_oak_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 2.33,
+                      "sellPrice": 0.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:jungle_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 2.33,
+                      "sellPrice": 0.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:oak_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 2.33,
+                      "sellPrice": 0.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:spruce_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 2.33,
+                      "sellPrice": 0.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:crimson_shutter",
+                        "count": 1
+                      },
+                      "buyPrice": 2.51,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:warped_shutter",
+                        "count": 1
+                      },
+                      "buyPrice": 2.51,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:crimson_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:warped_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:acacia_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:acacia_table",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:birch_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:birch_table",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:cherry_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:cherry_table",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:dark_oak_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:dark_oak_table",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:jungle_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:jungle_table",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:oak_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:oak_table",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:spruce_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:spruce_table",
+                        "count": 1
+                      },
+                      "buyPrice": 2.67,
+                      "sellPrice": 0.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:mangrove_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 2.83,
+                      "sellPrice": 0.85
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:acacia_flower_box",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:birch_flower_box",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:cherry_flower_box",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:dark_oak_flower_box",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:jungle_flower_box",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:oak_flower_box",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:spruce_flower_box",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:mangrove_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 3.17,
+                      "sellPrice": 0.95
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:mangrove_table",
+                        "count": 1
+                      },
+                      "buyPrice": 3.17,
+                      "sellPrice": 0.95
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:bamboo_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 3.25,
+                      "sellPrice": 0.98
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:bamboo_shutter",
+                        "count": 1
+                      },
+                      "buyPrice": 3.38,
+                      "sellPrice": 1.01
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:crimson_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 3.66,
+                      "sellPrice": 1.1
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:warped_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 3.66,
+                      "sellPrice": 1.1
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:mangrove_flower_box",
+                        "count": 1
+                      },
+                      "buyPrice": 3.67,
+                      "sellPrice": 1.1
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:crimson_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:crimson_table",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:warped_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:warped_table",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:white_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 4.67,
+                      "sellPrice": 1.4
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:crimson_flower_box",
+                        "count": 1
+                      },
+                      "buyPrice": 4.78,
+                      "sellPrice": 1.43
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:warped_flower_box",
+                        "count": 1
+                      },
+                      "buyPrice": 4.78,
+                      "sellPrice": 1.43
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:bamboo_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 4.83,
+                      "sellPrice": 1.45
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:purple_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 4.92,
+                      "sellPrice": 1.48
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:magenta_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 4.96,
+                      "sellPrice": 1.49
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:blue_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:light_gray_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:orange_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:pink_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:red_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:yellow_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:light_blue_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5.11,
+                      "sellPrice": 1.53
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:bamboo_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 5.17,
+                      "sellPrice": 1.55
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:bamboo_table",
+                        "count": 1
+                      },
+                      "buyPrice": 5.17,
+                      "sellPrice": 1.55
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:cyan_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5.17,
+                      "sellPrice": 1.55
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:lime_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5.28,
+                      "sellPrice": 1.58
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:brown_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5.33,
+                      "sellPrice": 1.6
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:green_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5.33,
+                      "sellPrice": 1.6
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:white_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5.67,
+                      "sellPrice": 1.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:gray_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5.78,
+                      "sellPrice": 1.73
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:purple_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5.92,
+                      "sellPrice": 1.78
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:magenta_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 5.96,
+                      "sellPrice": 1.79
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:blue_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:light_gray_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:orange_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:pink_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:red_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:yellow_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:light_blue_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 6.11,
+                      "sellPrice": 1.83
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:cyan_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 6.17,
+                      "sellPrice": 1.85
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:lime_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 6.28,
+                      "sellPrice": 1.88
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:black_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 6.33,
+                      "sellPrice": 1.9
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:brown_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 6.33,
+                      "sellPrice": 1.9
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:green_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 6.33,
+                      "sellPrice": 1.9
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:bamboo_flower_box",
+                        "count": 1
+                      },
+                      "buyPrice": 6.33,
+                      "sellPrice": 1.9
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:gray_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 6.78,
+                      "sellPrice": 2.03
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:furniture_hammer",
+                        "count": 1
+                      },
+                      "buyPrice": 7,
+                      "sellPrice": 2.1
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:black_tall_stool",
+                        "count": 1
+                      },
+                      "buyPrice": 7.33,
+                      "sellPrice": 2.2
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:white_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 8.83,
+                      "sellPrice": 2.65
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:purple_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 9.58,
+                      "sellPrice": 2.87
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:magenta_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 9.71,
+                      "sellPrice": 2.91
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:blue_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 9.83,
+                      "sellPrice": 2.95
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:light_gray_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 9.83,
+                      "sellPrice": 2.95
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:orange_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 9.83,
+                      "sellPrice": 2.95
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:pink_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 9.83,
+                      "sellPrice": 2.95
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:red_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 9.83,
+                      "sellPrice": 2.95
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:yellow_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 9.83,
+                      "sellPrice": 2.95
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:white_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:light_blue_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 10.17,
+                      "sellPrice": 3.05
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:cyan_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 10.33,
+                      "sellPrice": 3.1
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:lime_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 10.67,
+                      "sellPrice": 3.2
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:purple_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 10.75,
+                      "sellPrice": 3.23
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:brown_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 10.83,
+                      "sellPrice": 3.25
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:green_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 10.83,
+                      "sellPrice": 3.25
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:magenta_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 10.88,
+                      "sellPrice": 3.26
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:blue_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:light_gray_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:orange_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:pink_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:red_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:yellow_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:white_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 11.33,
+                      "sellPrice": 3.4
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:light_blue_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 11.34,
+                      "sellPrice": 3.4
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:cyan_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 11.5,
+                      "sellPrice": 3.45
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:lime_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 11.84,
+                      "sellPrice": 3.55
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:brown_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 12,
+                      "sellPrice": 3.6
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:green_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 12,
+                      "sellPrice": 3.6
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:gray_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 12.17,
+                      "sellPrice": 3.65
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:magenta_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 12.21,
+                      "sellPrice": 3.66
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:blue_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 12.33,
+                      "sellPrice": 3.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:light_gray_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 12.33,
+                      "sellPrice": 3.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:orange_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 12.33,
+                      "sellPrice": 3.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:pink_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 12.33,
+                      "sellPrice": 3.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:purple_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 12.33,
+                      "sellPrice": 3.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:red_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 12.33,
+                      "sellPrice": 3.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:yellow_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 12.33,
+                      "sellPrice": 3.7
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:light_blue_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 12.67,
+                      "sellPrice": 3.8
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:cyan_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 12.83,
+                      "sellPrice": 3.85
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:lime_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 13.17,
+                      "sellPrice": 3.95
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:brown_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 13.33,
+                      "sellPrice": 4
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:green_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 13.33,
+                      "sellPrice": 4
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:gray_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 13.34,
+                      "sellPrice": 4
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:black_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 13.83,
+                      "sellPrice": 4.15
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:gray_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 14.67,
+                      "sellPrice": 4.4
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:black_sofa",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:acacia_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:birch_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:cherry_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:dark_oak_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:jungle_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:oak_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:spruce_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:service_bell",
+                        "count": 1
+                      },
+                      "buyPrice": 15.56,
+                      "sellPrice": 4.67
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:black_curtain",
+                        "count": 1
+                      },
+                      "buyPrice": 16.33,
+                      "sellPrice": 4.9
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:mangrove_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 18.5,
+                      "sellPrice": 5.55
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:crimson_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 24.32,
+                      "sellPrice": 7.3
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:warped_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 24.32,
+                      "sellPrice": 7.3
+                    },
+                    {
+                      "item": {
+                        "id": "another_furniture:bamboo_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 32.5,
+                      "sellPrice": 9.75
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.another_furniture",
+                  "message": "pixelgo.npc.another_furniture.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.another_furniture",
+        "color": "#D2A679",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

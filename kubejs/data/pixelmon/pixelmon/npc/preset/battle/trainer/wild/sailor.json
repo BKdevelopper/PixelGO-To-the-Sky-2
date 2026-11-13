@@ -1,0 +1,234 @@
+{
+  "interactions": {
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:hit_with_poke_ball",
+          "conditions": {
+            "player": {
+              "key": "pixelmon:player",
+              "type": "pixelmon:context_player"
+            },
+            "type": "pixelmon:can_battle"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Ahoy! You look like you could use a good battle to find your sea legs!",
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "player": {
+              "key": "pixelmon:player",
+              "type": "pixelmon:context_player"
+            },
+            "type": "pixelmon:can_battle"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Ahoy! You look like you could use a good battle to find your sea legs!",
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": {
+            "type": "pixelmon:logical_not",
+            "condition": {
+              "condition": {
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                },
+                "type": "pixelmon:can_battle"
+              },
+              "type": "pixelmon:interaction_condition"
+            }
+          },
+          "results": {
+            "value": [
+              {
+                "messages": [
+                  {
+                    "text": "You don't have any Pokémon that can battle!"
+                  }
+                ],
+                "type": "pixelmon:message_player"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:close_dialogue",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "type": "pixelmon:player_start_npc_battle"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:lose_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Ha ha! Looks like you're still a landlubber when it comes to battles!",
+                "fire_close_event": false,
+                "type": "pixelmon:open_dialogue"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        },
+        {
+          "event": "pixelmon:win_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "value": [
+              {
+                "title": "pixelmon.npc.dialogue.battle.trainer.wild",
+                "message": "Well blow me down! You're tougher than a Gyarados in a storm!",
+                "fire_close_event": false,
+                "type": "pixelmon:open_dialogue"
+              },
+              {
+                "money": 20,
+                "type": "pixelmon:give_money"
+              },
+              {
+                "type": "pixelmon:give_experience",
+                "exp": 25
+              },
+              {
+                "type": "pixelmon:trigger_interaction_event",
+                "event": "pixelmon:defeat_trainer"
+              }
+            ],
+            "type": "pixelmon:constant"
+          }
+        }
+      ]
+    },
+    "type": "pixelmon:constant"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelmon.npc.title.trainer.sailor",
+        "color": "#D4D4D4",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": false,
+      "immovable": false,
+      "nameplate": true,
+      "wild": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "options": [
+        "Wingull",
+        "Tentacool",
+        "Machop",
+        "Poliwag",
+        "Shellder",
+        "Krabby",
+        "Horsea",
+        "Staryu",
+        "Carvanha",
+        "Wailmer",
+        "Buizel",
+        "Dewpider"
+      ],
+      "min_selections": 1,
+      "max_selections": 4,
+      "type": "pixelmon:random_combination"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Huey",
+      "Edmond",
+      "Duncan",
+      "Barnacle",
+      "Elijah",
+      "Ernest",
+      "Philip",
+      "Stanly",
+      "Terrell",
+      "Tommy",
+      "Luther"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/sailor.png",
+            "fallback": "pixelmon:textures/steve/sailor.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/sailor2.png",
+            "fallback": "pixelmon:textures/steve/sailor2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:standard_npc",
+      "profession": "minecraft:fisherman"
+    }
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.transport",
+                  "message": "pixelgo.npc.transport.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "minecraft:elytra",
+                        "count": 1
+                      },
+                      "buyPrice": 3500,
+                      "sellPrice": 1050
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:saddle",
+                        "count": 1
+                      },
+                      "buyPrice": 39,
+                      "sellPrice": 11.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:acacia_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:acacia_chest_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 26,
+                      "sellPrice": 7.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:bamboo_raft",
+                        "count": 1
+                      },
+                      "buyPrice": 22.5,
+                      "sellPrice": 6.75
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:bamboo_chest_raft",
+                        "count": 1
+                      },
+                      "buyPrice": 38.5,
+                      "sellPrice": 11.55
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:birch_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:birch_chest_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 26,
+                      "sellPrice": 7.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cherry_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cherry_chest_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 26,
+                      "sellPrice": 7.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dark_oak_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dark_oak_chest_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 26,
+                      "sellPrice": 7.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:jungle_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:jungle_chest_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 26,
+                      "sellPrice": 7.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:mangrove_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 12.5,
+                      "sellPrice": 3.75
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:mangrove_chest_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 28.5,
+                      "sellPrice": 8.55
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oak_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oak_chest_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 26,
+                      "sellPrice": 7.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:spruce_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:spruce_chest_boat",
+                        "count": 1
+                      },
+                      "buyPrice": 26,
+                      "sellPrice": 7.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:minecart",
+                        "count": 1
+                      },
+                      "buyPrice": 75,
+                      "sellPrice": 22.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:chest_minecart",
+                        "count": 1
+                      },
+                      "buyPrice": 91,
+                      "sellPrice": 27.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:furnace_minecart",
+                        "count": 1
+                      },
+                      "buyPrice": 83,
+                      "sellPrice": 24.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:hopper_minecart",
+                        "count": 1
+                      },
+                      "buyPrice": 191,
+                      "sellPrice": 57.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:tnt_minecart",
+                        "count": 1
+                      },
+                      "buyPrice": 129,
+                      "sellPrice": 38.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:activator_rail",
+                        "count": 1
+                      },
+                      "buyPrice": 16,
+                      "sellPrice": 4.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:detector_rail",
+                        "count": 1
+                      },
+                      "buyPrice": 16.17,
+                      "sellPrice": 4.85
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:powered_rail",
+                        "count": 1
+                      },
+                      "buyPrice": 60.67,
+                      "sellPrice": 18.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:rail",
+                        "count": 1
+                      },
+                      "buyPrice": 5.69,
+                      "sellPrice": 1.71
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.transport",
+                  "message": "pixelgo.npc.transport.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.transport",
+        "color": "#5555FF",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

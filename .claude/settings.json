@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/tools/pixelgo-loot/hook-rewardtables.mjs\"",
+            "timeout": 60,
+            "statusMessage": "Syncing FTB reward tables with the Mystery Bags"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,340 @@
+[common]
+	#Poids relatif de ce tier dans le tirage du Sillage de Chance (voir la section
+	#[sillage_de_chance]) : quand un bloc du paquet est tire, la chance que ce soit CE tier
+	#est proportionnelle a ce nombre par rapport a la somme des poids de tous les tiers.
+	#N'est PAS une probabilite en soi (pas besoin de rester entre 0 et 1).
+	# Default: 0.005
+	# Range: 0.0 ~ 1000.0
+	tierWeight = 0.05
+	#Probabilite (entre 0.0 et 1.0) que le Pokemon obtenu soit une espece legendaire/mythique/Ultra-Chimere.
+	#Le niveau et les IV restent ceux de ce tier quoi qu'il arrive : seule l'espece change.
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	legendaryChance = 0.008
+	#Probabilite (entre 0.0 et 1.0) que le Pokemon obtenu soit shiny.
+	#Tiree independamment de legendaryChance : un Pokemon peut etre legendaire ET shiny a la fois.
+	# Default: 0.005
+	# Range: 0.0 ~ 1.0
+	shinyChance = 0.005
+	#Niveau minimum du Pokemon recompense par ce bloc.
+	# Default: 2
+	# Range: 1 ~ 100
+	levelMin = 1
+	#Niveau maximum du Pokemon recompense par ce bloc.
+	# Default: 12
+	# Range: 1 ~ 100
+	levelMax = 100
+	#IV minimum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 0
+	# Range: 0 ~ 31
+	ivMin = 0
+	#IV maximum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 15
+	# Range: 0 ~ 31
+	ivMax = 31
+
+[rare]
+	#Poids relatif de ce tier dans le tirage du Sillage de Chance (voir la section
+	#[sillage_de_chance]) : quand un bloc du paquet est tire, la chance que ce soit CE tier
+	#est proportionnelle a ce nombre par rapport a la somme des poids de tous les tiers.
+	#N'est PAS une probabilite en soi (pas besoin de rester entre 0 et 1).
+	# Default: 0.0015
+	# Range: 0.0 ~ 1000.0
+	tierWeight = 0.015
+	#Probabilite (entre 0.0 et 1.0) que le Pokemon obtenu soit une espece legendaire/mythique/Ultra-Chimere.
+	#Le niveau et les IV restent ceux de ce tier quoi qu'il arrive : seule l'espece change.
+	# Default: 0.04
+	# Range: 0.0 ~ 1.0
+	legendaryChance = 0.04
+	#Probabilite (entre 0.0 et 1.0) que le Pokemon obtenu soit shiny.
+	#Tiree independamment de legendaryChance : un Pokemon peut etre legendaire ET shiny a la fois.
+	# Default: 0.008
+	# Range: 0.0 ~ 1.0
+	shinyChance = 0.008
+	#Niveau minimum du Pokemon recompense par ce bloc.
+	# Default: 15
+	# Range: 1 ~ 100
+	levelMin = 15
+	#Niveau maximum du Pokemon recompense par ce bloc.
+	# Default: 30
+	# Range: 1 ~ 100
+	levelMax = 100
+	#IV minimum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 16
+	# Range: 0 ~ 31
+	ivMin = 16
+	#IV maximum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 25
+	# Range: 0 ~ 31
+	ivMax = 31
+
+[master]
+	#Poids relatif de ce tier dans le tirage du Sillage de Chance (voir la section
+	#[sillage_de_chance]) : quand un bloc du paquet est tire, la chance que ce soit CE tier
+	#est proportionnelle a ce nombre par rapport a la somme des poids de tous les tiers.
+	#N'est PAS une probabilite en soi (pas besoin de rester entre 0 et 1).
+	# Default: 6.0E-4
+	# Range: 0.0 ~ 1000.0
+	tierWeight = 0.001
+	#Probabilite (entre 0.0 et 1.0) que le Pokemon obtenu soit une espece legendaire/mythique/Ultra-Chimere.
+	#Le niveau et les IV restent ceux de ce tier quoi qu'il arrive : seule l'espece change.
+	# Default: 0.06
+	# Range: 0.0 ~ 1.0
+	legendaryChance = 0.06
+	#Probabilite (entre 0.0 et 1.0) que le Pokemon obtenu soit shiny.
+	#Tiree independamment de legendaryChance : un Pokemon peut etre legendaire ET shiny a la fois.
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	shinyChance = 0.01
+	#Niveau minimum du Pokemon recompense par ce bloc.
+	# Default: 35
+	# Range: 1 ~ 100
+	levelMin = 35
+	#Niveau maximum du Pokemon recompense par ce bloc.
+	# Default: 50
+	# Range: 1 ~ 100
+	levelMax = 100
+	#IV minimum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 26
+	# Range: 0 ~ 31
+	ivMin = 26
+	#IV maximum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 31
+	# Range: 0 ~ 31
+	ivMax = 31
+
+[shiny]
+	#Poids relatif de ce tier dans le tirage du Sillage de Chance (voir la section [sillage_de_chance]).
+	#N'est PAS une probabilite en soi (pas besoin de rester entre 0 et 1).
+	# Default: 3.0E-4
+	# Range: 0.0 ~ 1000.0
+	tierWeight = 0.001
+	#Probabilite (entre 0.0 et 1.0) que le Pokemon obtenu soit une espece legendaire/mythique/Ultra-Chimere.
+	#Le niveau et les IV restent ceux de ce tier quoi qu'il arrive : seule l'espece change.
+	#Ce bloc garantit toujours un Pokemon shiny (100%, non configurable) : ce tirage-la est independant de celui-ci.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	legendaryChance = 0.1
+	#Niveau minimum du Pokemon recompense par ce bloc.
+	# Default: 20
+	# Range: 1 ~ 100
+	levelMin = 20
+	#Niveau maximum du Pokemon recompense par ce bloc.
+	# Default: 70
+	# Range: 1 ~ 100
+	levelMax = 100
+	#IV minimum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 20
+	# Range: 0 ~ 31
+	ivMin = 20
+	#IV maximum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 31
+	# Range: 0 ~ 31
+	ivMax = 31
+
+[legendary]
+	#Poids relatif de ce tier dans le tirage du Sillage de Chance (voir la section [sillage_de_chance]).
+	#N'est PAS une probabilite en soi (pas besoin de rester entre 0 et 1).
+	# Default: 3.0E-4
+	# Range: 0.0 ~ 1000.0
+	tierWeight = 0.001
+	#Probabilite (entre 0.0 et 1.0) que le Pokemon obtenu soit shiny.
+	#Ce bloc garantit toujours une espece legendaire/mythique (100%, non configurable) : ce tirage-la est independant de celui-ci.
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	shinyChance = 0.02
+	#Niveau minimum du Pokemon recompense par ce bloc.
+	# Default: 50
+	# Range: 1 ~ 100
+	levelMin = 50
+	#Niveau maximum du Pokemon recompense par ce bloc.
+	# Default: 80
+	# Range: 1 ~ 100
+	levelMax = 100
+	#IV minimum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 28
+	# Range: 0 ~ 31
+	ivMin = 28
+	#IV maximum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 31
+	# Range: 0 ~ 31
+	ivMax = 31
+
+[boss]
+	#Poids relatif de ce tier dans le tirage du Sillage de Chance (voir la section [sillage_de_chance]).
+	#N'est PAS une probabilite en soi (pas besoin de rester entre 0 et 1).
+	# Default: 3.0E-4
+	# Range: 0.0 ~ 1000.0
+	tierWeight = 0.015
+	#Probabilite (entre 0.0 et 1.0) que le Pokemon obtenu soit une espece legendaire/mythique/Ultra-Chimere.
+	#Independant du tier boss tire plus bas : les deux tirages n'ont aucun lien entre eux.
+	# Default: 0.08
+	# Range: 0.0 ~ 1.0
+	legendaryChance = 0.08
+	#Probabilite (entre 0.0 et 1.0) que le Pokemon obtenu soit shiny.
+	# Default: 0.015
+	# Range: 0.0 ~ 1.0
+	shinyChance = 0.015
+	#Niveau minimum du Pokemon recompense par ce bloc.
+	# Default: 40
+	# Range: 1 ~ 100
+	levelMin = 40
+	#Niveau maximum du Pokemon recompense par ce bloc.
+	# Default: 70
+	# Range: 1 ~ 100
+	levelMax = 70
+	#IV minimum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 24
+	# Range: 0 ~ 31
+	ivMin = 24
+	#IV maximum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 31
+	# Range: 0 ~ 31
+	ivMax = 31
+	#Poids relatif du tier boss 'common' dans le tirage pondere (0 = ce tier ne sera jamais tire).
+	#Plus ce nombre est grand par rapport aux autres poids, plus ce tier a de chances d'etre tire.
+	# Default: 50
+	# Range: 0 ~ 1000
+	commonWeight = 50
+	#Poids relatif du tier boss 'uncommon' dans le tirage pondere.
+	# Default: 30
+	# Range: 0 ~ 1000
+	uncommonWeight = 30
+	#Poids relatif du tier boss 'rare' dans le tirage pondere.
+	# Default: 15
+	# Range: 0 ~ 1000
+	rareWeight = 15
+	#Poids relatif du tier boss 'epic' dans le tirage pondere.
+	# Default: 4
+	# Range: 0 ~ 1000
+	epicWeight = 4
+	#Poids relatif du tier boss 'legendary' dans le tirage pondere.
+	# Default: 1
+	# Range: 0 ~ 1000
+	legendaryWeight = 1
+	#Poids relatif du tier boss 'ultimate' dans le tirage pondere.
+	# Default: 1
+	# Range: 0 ~ 1000
+	ultimateWeight = 1
+
+[item]
+	#Poids relatif de ce tier dans le tirage du Sillage de Chance (voir la section [sillage_de_chance]).
+	#N'est PAS une probabilite en soi (pas besoin de rester entre 0 et 1). Sans rapport avec les 4
+	#poids commonWeight/uncommonWeight/rareWeight/veryRareWeight ci-dessous, qui choisissent
+	#l'item DONNE par ce bloc une fois casse, pas ce bloc lui-meme.
+	# Default: 0.003
+	# Range: 0.0 ~ 1000.0
+	tierWeight = 0.03
+	#Poids relatif du tier d'item 'Commun' dans le tirage pondere (0 = ce tier ne sera jamais tire).
+	#Plus ce nombre est grand par rapport aux autres poids, plus ce tier a de chances d'etre tire.
+	# Default: 60
+	# Range: 0 ~ 1000
+	commonWeight = 60
+	#Poids relatif du tier d'item 'Peu commun' dans le tirage pondere.
+	# Default: 30
+	# Range: 0 ~ 1000
+	uncommonWeight = 30
+	#Poids relatif du tier d'item 'Rare' dans le tirage pondere.
+	# Default: 8
+	# Range: 0 ~ 1000
+	rareWeight = 8
+	#Poids relatif du tier d'item 'Tres rare' dans le tirage pondere.
+	# Default: 2
+	# Range: 0 ~ 1000
+	veryRareWeight = 2
+	#Dans le tier 'Peu commun' uniquement : poids relatif de la categorie 'Mint de nature'
+	#(25 natures possibles, tirees ensuite a poids egal entre elles) par rapport aux AUTRES
+	#items concrets de ce tier, qui pesent chacun 1 (fixe, non configurable).
+	# Default: 1
+	# Range: 0 ~ 1000
+	uncommonMintWeight = 1
+
+[alternate_form]
+	#Poids relatif de ce tier dans le tirage du Sillage de Chance (voir la section [sillage_de_chance]).
+	#N'est PAS une probabilite en soi (pas besoin de rester entre 0 et 1).
+	# Default: 3.0E-4
+	# Range: 0.0 ~ 1000.0
+	tierWeight = 0.001
+	#Niveau minimum du Pokemon recompense par ce bloc.
+	# Default: 35
+	# Range: 1 ~ 100
+	levelMin = 35
+	#Niveau maximum du Pokemon recompense par ce bloc.
+	# Default: 50
+	# Range: 1 ~ 100
+	levelMax = 50
+	#IV minimum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 26
+	# Range: 0 ~ 31
+	ivMin = 26
+	#IV maximum (par statistique, de 0 a 31) du Pokemon recompense par ce bloc.
+	# Default: 31
+	# Range: 0 ~ 31
+	ivMax = 31
+	#Noms des palettes Pixelmon natives utilisables par ce bloc (une est tiree au hasard a chaque casse,
+	#puis une espece compatible avec cette palette precise est tiree parmi celles qui la supportent).
+	#La palette 'toxic' (Bulbizarre Toxique) est toujours ajoutee en plus de cette liste : inutile de l'y mettre.
+	palettes = ["strike", "spirit", "alter", "rainbow", "ashen", "pink", "valencian", "zombie", "drowned", "elf", "valentine", "christmas", "witch", "online", "summer", "spring", "autumn", "winter", "crystal", "creator", "alien", "halloween", "neon", "snow", "meta", "real", "blocky", "karp", "roasted", "tangela", "gingerbread", "cosmetic"]
+
+[sillage_de_chance]
+	#Tous les combien de blocs de distance REELLEMENT parcourue (un joueur immobile n'accumule
+	#jamais rien) un jet de probabilite de declenchement a lieu.
+	# Default: 75.0
+	# Range: 1.0 ~ 10000.0
+	checkpointDistanceBlocks = 75.0
+	#La probabilite de declenchement a chaque checkpoint = min(1.0, jauge / ce nombre).
+	#Palier garanti : une fois la jauge a ce niveau (ou au-dela), le declenchement suivant est
+	#certain (100%) -- un filet de securite pour eviter une secheresse infinie.
+	# Default: 12000.0
+	# Range: 1.0 ~ 1000000.0
+	guaranteedThresholdBlocks = 12000.0
+	#Fraction de la jauge conservee apres un declenchement REUSSI (au moins 1 bloc place) :
+	#la jauge n'est jamais remise a 0, seulement multipliee par ce nombre. Evite a la fois les
+	#declenchements rapproches ("paquets") et les secheresses trop dures apres un palier garanti.
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	gaugeRetentionFraction = 0.01
+	#Poids relatif d'obtenir exactement 1 bloc quand un declenchement a lieu.
+	# Default: 70
+	# Range: 0 ~ 1000
+	packSizeOneWeight = 70
+	#Poids relatif d'obtenir exactement 2 blocs quand un declenchement a lieu.
+	# Default: 25
+	# Range: 0 ~ 1000
+	packSizeTwoWeight = 25
+	#Poids relatif d'obtenir exactement 3 blocs quand un declenchement a lieu.
+	# Default: 18
+	# Range: 0 ~ 1000
+	packSizeThreeWeight = 18
+	#Duree (en minutes) apres laquelle le waypoint JourneyMap d'un bloc chanceux jamais casse
+	#est retire automatiquement (evite d'accumuler des waypoints fantomes). Le bloc lui-meme
+	#n'est PAS retire du monde : il reste cassable normalement, seul le waypoint expire.
+	# Default: 45
+	# Range: 1 ~ 100000
+	waypointTimeoutMinutes = 45
+	#Evenement qualificatif du bloc Jackpot : un paquet de taille 3 ou les 3 tirages de tier
+	#tombent sur Commun (deja tres rare avec les poids par defaut). Si cet evenement a lieu, ce
+	#pourcentage (0.0 a 1.0) decide si ca debouche sur un vrai Jackpot (1 bloc Jackpot pose a la
+	#place des 3 blocs Commun normaux) ou juste 3 blocs Commun comme d'habitude.
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	jackpotChanceOnTripleCommon = 0.6
+	#A l'interieur d'un Jackpot deja declenche (voir jackpotChanceOnTripleCommon ci-dessus) :
+	#ce pourcentage (0.0 a 1.0) decide si c'est un Super Jackpot (tout le contenu double, y
+	#compris un 2e Pokemon legendaire tire independamment) a la place d'un Jackpot normal.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	superJackpotChance = 0.2
+	#Pour un Jackpot NORMAL (pas Super) uniquement : poids relatif de l'option 'Pokemon
+	#legendaire shiny IV parfaits' parmi les 3 options possibles (une seule est donnee).
+	# Default: 1
+	# Range: 0 ~ 1000
+	jackpotOptionPokemonWeight = 1
+	#Poids relatif de l'option 'lot d'objets' (Master Ball, Rare Candy, etc.).
+	# Default: 1
+	# Range: 0 ~ 1000
+	jackpotOptionItemLotWeight = 1
+	#Poids relatif de l'option 'lot de 5 Lucky Blocks bonus'.
+	# Default: 1
+	# Range: 0 ~ 1000
+	jackpotOptionLuckyBlockLotWeight = 1

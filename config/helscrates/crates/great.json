@@ -1,0 +1,644 @@
+{
+  "display_name": "Great Crate",
+  "animation_type": "spin",
+  "key_item": {
+    "custom_name": "Great Crate Key",
+    "glow": true,
+    "rarity": "uncommon",
+    "description": "Opens only the Great crate.",
+    "cooldown_seconds": 7.5
+  },
+  "block": {
+    "light_level": 7
+  },
+  "gui": {
+    "backgroundTexture": "helscrates:textures/gui/backgrounds/great.png",
+    "useScanlines": true,
+    "panelBaseColor": "0xFF0D47A1",
+    "panelInnerColor": "0xE81565C0",
+    "borderOuterColor": "0x8042A5F5",
+    "borderInnerColor": "0x66000000",
+    "scanlineColor": "0x1565C0"
+  },
+  "rewards": [
+    {
+      "type": "item",
+      "id": "pixelmon:poke_ball[pixelmon:poke_ball=great_ball]",
+      "count": 10,
+      "weight": 115,
+      "display_name": "Great Balls"
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:poke_ball[pixelmon:poke_ball=ultra_ball]",
+      "count": 4,
+      "weight": 80,
+      "display_name": "Ultra Balls"
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:poke_ball[pixelmon:poke_ball=exp_s_ball]",
+      "count": 2,
+      "weight": 45,
+      "display_name": {
+        "text": "EXP S Ball",
+        "color": "aqua",
+        "bold": true
+      }
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:super_potion",
+      "count": 8,
+      "weight": 90
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:s_exp_candy",
+      "count": 8,
+      "weight": 85
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:sitrus_berry",
+      "count": 8,
+      "weight": 75
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:protein",
+      "count": 2,
+      "weight": 50,
+      "display_name": {
+        "text": "Vitamin",
+        "color": "light_purple",
+        "bold": true
+      }
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:thunder_stone",
+      "count": 1,
+      "weight": 40,
+      "display_name": {
+        "text": "Evolution Stone",
+        "color": "gold",
+        "bold": true
+      }
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:full_heal",
+      "count": 4,
+      "weight": 60
+    },
+    {
+      "type": "item",
+      "id": "minecraft:gold_ingot",
+      "count": 18,
+      "weight": 85
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:rare_candy",
+      "count": 6,
+      "weight": 65
+    },
+    {
+      "type": "item",
+      "id": "pixelmon:destiny_knot",
+      "count": 1,
+      "weight": 22,
+      "display_name": {
+        "text": "Destiny Knot",
+        "color": "light_purple",
+        "bold": true
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Eevee",
+      "level": 22,
+      "weight": 24,
+      "display_name": "Prism",
+      "data": {
+        "ability": "Adaptability",
+        "held_item": "pixelmon:sitrus_berry",
+        "moves": [
+          "Swift",
+          "Bite",
+          "Quick Attack",
+          "Copycat"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Growlithe",
+      "level": 22,
+      "weight": 24,
+      "display_name": "Blazehound",
+      "data": {
+        "ability": "FlashFire",
+        "moves": [
+          "Flame Wheel",
+          "Crunch",
+          "Agility",
+          "Roar"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Machoke",
+      "level": 24,
+      "weight": 20,
+      "display_name": "Ironhand",
+      "data": {
+        "ability": "NoGuard",
+        "held_item": "pixelmon:muscle_band",
+        "moves": [
+          "Karate Chop",
+          "Seismic Toss",
+          "Cross Chop",
+          "Bulk Up"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Kadabra",
+      "level": 22,
+      "weight": 20,
+      "display_name": "Mindbender",
+      "data": {
+        "ability": "MagicGuard",
+        "held_item": "pixelmon:twisted_spoon",
+        "moves": [
+          "Psybeam",
+          "Confusion",
+          "Recover",
+          "Reflect"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Haunter",
+      "level": 24,
+      "weight": 18,
+      "display_name": "Nightveil",
+      "data": {
+        "ability": "Levitate",
+        "moves": [
+          "Shadow Ball",
+          "Hypnosis",
+          "Dream Eater",
+          "Confuse Ray"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Shinx",
+      "level": 18,
+      "weight": 26,
+      "display_name": "Voltfang",
+      "data": {
+        "ability": "Intimidate",
+        "moves": [
+          "Spark",
+          "Bite",
+          "Roar",
+          "Charge"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Riolu",
+      "level": 20,
+      "weight": 18,
+      "display_name": "Apprentice",
+      "data": {
+        "ability": "InnerFocus",
+        "moves": [
+          "Force Palm",
+          "Quick Attack",
+          "Counter",
+          "Screech"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Dratini",
+      "level": 22,
+      "weight": 12,
+      "display_name": "Stormling",
+      "data": {
+        "ability": "MarvelScale",
+        "held_item": "pixelmon:dragon_scale",
+        "moves": [
+          "Dragon Breath",
+          "Twister",
+          "Aqua Tail",
+          "Agility"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Larvitar",
+      "level": 22,
+      "weight": 12,
+      "display_name": "Bedrock",
+      "data": {
+        "ability": "Guts",
+        "held_item": "pixelmon:muscle_band",
+        "moves": [
+          "Rock Slide",
+          "Bite",
+          "Screech",
+          "Sandstorm"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Gyarados",
+      "level": 35,
+      "weight": 6,
+      "display_name": "Tidewrath",
+      "data": {
+        "palette": "zombie",
+        "ability": "Intimidate",
+        "held_item": "pixelmon:mystic_water",
+        "moves": [
+          "Waterfall",
+          "Crunch",
+          "Dragon Dance",
+          "Ice Fang"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Scyther",
+      "level": 28,
+      "weight": 10,
+      "display_name": "Bladewing",
+      "data": {
+        "ability": "Technician",
+        "held_item": "pixelmon:metal_coat",
+        "moves": [
+          "X-Scissor",
+          "Aerial Ace",
+          "Swords Dance",
+          "Quick Attack"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Snorlax",
+      "level": 30,
+      "weight": 8,
+      "display_name": "Nap King",
+      "data": {
+        "ability": "ThickFat",
+        "held_item": "pixelmon:leftovers",
+        "moves": [
+          "Body Slam",
+          "Rest",
+          "Crunch",
+          "Yawn"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Primeape",
+      "level": 28,
+      "weight": 12,
+      "display_name": "King Kong",
+      "data": {
+        "ability": "VitalSpirit",
+        "held_item": "pixelmon:muscle_band",
+        "moves": [
+          "Cross Chop",
+          "Thrash",
+          "Rage",
+          "Screech"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Hitmonlee",
+      "level": 28,
+      "weight": 11,
+      "display_name": "Bruce Lee",
+      "data": {
+        "ability": "Limber",
+        "held_item": "pixelmon:black_belt",
+        "moves": [
+          "High Jump Kick",
+          "Mega Kick",
+          "Meditate",
+          "Double Kick"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Umbreon",
+      "level": 28,
+      "weight": 10,
+      "display_name": "Bagheera",
+      "data": {
+        "ability": "Synchronize",
+        "held_item": "pixelmon:leftovers",
+        "moves": [
+          "Dark Pulse",
+          "Moonlight",
+          "Confuse Ray",
+          "Feint Attack"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Espeon",
+      "level": 28,
+      "weight": 10,
+      "display_name": "Luna",
+      "data": {
+        "ability": "Synchronize",
+        "held_item": "pixelmon:twisted_spoon",
+        "moves": [
+          "Psybeam",
+          "Morning Sun",
+          "Swift",
+          "Confusion"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Sableye",
+      "level": 26,
+      "weight": 11,
+      "display_name": "Gollum",
+      "data": {
+        "ability": "KeenEye",
+        "moves": [
+          "Shadow Sneak",
+          "Fake Out",
+          "Night Shade",
+          "Detect"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Hariyama",
+      "level": 28,
+      "weight": 10,
+      "display_name": "Andre the Giant",
+      "data": {
+        "ability": "ThickFat",
+        "held_item": "pixelmon:muscle_band",
+        "moves": [
+          "Arm Thrust",
+          "Belly Drum",
+          "Vital Throw",
+          "Whirlwind"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Luxray",
+      "level": 28,
+      "weight": 11,
+      "display_name": "Scar",
+      "data": {
+        "ability": "Intimidate",
+        "moves": [
+          "Spark",
+          "Crunch",
+          "Roar",
+          "Swagger"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Staraptor",
+      "level": 28,
+      "weight": 10,
+      "display_name": "Hawkeye",
+      "data": {
+        "ability": "Intimidate",
+        "moves": [
+          "Aerial Ace",
+          "Close Combat",
+          "Double-Edge",
+          "Whirlwind"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Zoroark",
+      "level": 30,
+      "weight": 9,
+      "display_name": "Loki",
+      "data": {
+        "ability": "Illusion",
+        "moves": [
+          "Night Daze",
+          "Foul Play",
+          "Agility",
+          "Taunt"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Krookodile",
+      "level": 30,
+      "weight": 9,
+      "display_name": "Dundee",
+      "data": {
+        "ability": "Intimidate",
+        "moves": [
+          "Crunch",
+          "Earthquake",
+          "Dragon Claw",
+          "Torment"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Talonflame",
+      "level": 30,
+      "weight": 10,
+      "display_name": "Falcon",
+      "data": {
+        "ability": "FlameBody",
+        "held_item": "pixelmon:charcoal",
+        "moves": [
+          "Flame Charge",
+          "Aerial Ace",
+          "Roost",
+          "Tailwind"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Aegislash",
+      "level": 30,
+      "weight": 8,
+      "display_name": "Excalibur",
+      "data": {
+        "ability": "StanceChange",
+        "moves": [
+          "Sacred Sword",
+          "Shadow Sneak",
+          "Iron Head",
+          "King's Shield"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Mimikyu",
+      "level": 28,
+      "weight": 9,
+      "display_name": "Michael Myers",
+      "data": {
+        "ability": "Disguise",
+        "moves": [
+          "Shadow Claw",
+          "Play Rough",
+          "Shadow Sneak",
+          "Slash"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Lycanroc",
+      "level": 28,
+      "weight": 10,
+      "display_name": "Teen Wolf",
+      "data": {
+        "ability": "KeenEye",
+        "moves": [
+          "Rock Slide",
+          "Crunch",
+          "Accelerock",
+          "Howl"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Corviknight",
+      "level": 30,
+      "weight": 9,
+      "display_name": "Diablo",
+      "data": {
+        "ability": "Pressure",
+        "held_item": "pixelmon:leftovers",
+        "moves": [
+          "Brave Bird",
+          "Iron Head",
+          "Roost",
+          "Bulk Up"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Grimmsnarl",
+      "level": 30,
+      "weight": 9,
+      "display_name": "Shrek",
+      "data": {
+        "ability": "Prankster",
+        "moves": [
+          "Spirit Break",
+          "Darkest Lariat",
+          "Bulk Up",
+          "Fake Out"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Ceruledge",
+      "level": 30,
+      "weight": 8,
+      "display_name": "Ghost Rider",
+      "data": {
+        "ability": "FlashFire",
+        "moves": [
+          "Bitter Blade",
+          "Shadow Claw",
+          "Swords Dance",
+          "Night Slash"
+        ]
+      }
+    },
+    {
+      "type": "pokemon",
+      "species": "Pawmot",
+      "level": 28,
+      "weight": 10,
+      "display_name": "Jerry",
+      "data": {
+        "ability": "IronFist",
+        "moves": [
+          "Thunder Punch",
+          "Mach Punch",
+          "Nuzzle",
+          "Double Shock"
+        ]
+      }
+    },
+    {
+      "type": "command",
+      "command": "experience add %player% 200 points",
+      "display": "200 XP",
+      "weight": 60
+    },
+    {
+      "type": "command",
+      "command": "give %player% minecraft:emerald 8",
+      "display": "8 Emeralds",
+      "weight": 55
+    }
+  ],
+  "reward_count": {
+    "min": 2,
+    "max": 4
+  },
+  "guaranteed_rewards": [
+    {
+      "type": "item",
+      "id": "pixelmon:poke_ball[pixelmon:poke_ball=great_ball]",
+      "count": 12,
+      "weight": 1,
+      "display_name": {
+        "text": "Great Ball Bundle",
+        "color": "blue",
+        "bold": true
+      }
+    }
+  ]
+}

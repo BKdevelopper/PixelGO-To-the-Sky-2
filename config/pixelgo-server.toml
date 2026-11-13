@@ -1,0 +1,19 @@
+[spawning]
+	#Each extra shiny roll granted by the shiny_odds attribute succeeds with a 1 in N chance.
+	# Default: 4096
+	# Range: 1 ~ 1000000
+	shinyRollDenominator = 4096
+
+[auras]
+	#Interval, in ticks, between two passive party aura ticks (20 ticks = 1 second).
+	# Default: 600
+	# Range: 20 ~ 72000
+	auraIntervalTicks = 600
+	#Egg steps added per aura tick for each point of the egg_hatch_speed attribute.
+	# Default: 1
+	# Range: 1 ~ 1000
+	eggStepsPerPoint = 1
+
+[mining]
+	#Set to false to disable the Fossil Sense block breaking hook entirely.
+	fossilSenseEnabled = true

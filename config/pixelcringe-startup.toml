@@ -1,0 +1,11 @@
+[screens]
+	escapeMenuModifierPatch = true
+	worldLoadModifierPatch = true
+	serverConnectModifierPatch = true
+	mainMenuModifierPatch = true
+
+[discord]
+	forceDisableDiscordRpc = true
+
+[misc]
+	serverListPatch = true

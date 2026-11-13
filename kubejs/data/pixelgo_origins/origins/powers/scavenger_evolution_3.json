@@ -1,0 +1,6 @@
+{
+  "type": "neoorigins:attribute_modifier",
+  "attribute": "pixelgo:pokemon_drop_luck",
+  "amount": 12,
+  "operation": "add_value"
+}

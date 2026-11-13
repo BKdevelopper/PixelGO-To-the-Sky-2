@@ -1,0 +1,285 @@
+{
+  "properties": {
+    "type": "pixelmon:constant",
+    "value": {
+      "health": 20,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgobattletower.npc.t2_f4_2.title",
+        "color": "#CE93D8",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    }
+  },
+  "names": {
+    "values": [
+      "&#7E57C2&lNico Robin"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "party": {
+    "type": "pixelmon:constant",
+    "value": {
+      "specs": [
+        "Cradily lvl:50 nature:quiet ivhp:20 ivatk:20 ivdef:20 ivspatk:20 ivspdef:20 ivspd:20 evhp:45 evatk:45 evdef:45 evspatk:45 evspdef:45 evspd:45",
+        "Tangrowth lvl:50 nature:hasty ivhp:20 ivatk:20 ivdef:20 ivspatk:20 ivspdef:20 ivspd:20 evhp:45 evatk:45 evdef:45 evspatk:45 evspdef:45 evspd:45",
+        "Lilligant lvl:50 nature:modest ivhp:20 ivatk:20 ivdef:20 ivspatk:20 ivspdef:20 ivspd:20 evhp:45 evatk:45 evdef:45 evspatk:45 evspdef:45 evspd:45",
+        "Brambleghast lvl:50 nature:bold ivhp:20 ivatk:20 ivdef:20 ivspatk:20 ivspdef:20 ivspd:20 evhp:45 evatk:45 evdef:45 evspatk:45 evspdef:45 evspd:45"
+      ],
+      "type": "pixelmon:spec"
+    }
+  },
+  "models": {
+    "type": "pixelmon:constant",
+    "value": {
+      "slim": false,
+      "texture": "pixelgobattletower:textures/steve/nicorobin.png",
+      "type": "pixelmon:player"
+    }
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 12,
+      "swim": false
+    }
+  },
+  "interactions": {
+    "type": "pixelmon:constant",
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:can_battle",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:logical_not",
+                "condition": {
+                  "type": "pixelmon:interaction_condition",
+                  "condition": {
+                    "type": "pixelmon:on_cooldown",
+                    "player": {
+                      "key": "pixelmon:player",
+                      "type": "pixelmon:context_player"
+                    },
+                    "cooldown_key": "pixelgobattletower:t2_f4_2",
+                    "cooldown": 20,
+                    "unit": "HOURS"
+                  }
+                }
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelgobattletower.npc.t2_f4_2.title",
+                "message": "pixelgobattletower.npc.t2_f4_2.init"
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:on_cooldown",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                },
+                "cooldown_key": "pixelgobattletower:t2_f4_2",
+                "cooldown": 20,
+                "unit": "HOURS"
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:message_player",
+                "messages": [
+                  {
+                    "translate": "pixelgobattletower.npc.t2_f4_2.cool",
+                    "color": "#B2EBF2"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:logical_not",
+                "condition": {
+                  "type": "pixelmon:interaction_condition",
+                  "condition": {
+                    "type": "pixelmon:can_battle",
+                    "player": {
+                      "key": "pixelmon:player",
+                      "type": "pixelmon:context_player"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:message_player",
+                "messages": [
+                  {
+                    "translate": "pixelgobattletower.npc.unable",
+                    "color": "#FF8A80"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:close_dialogue",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:player_start_npc_battle"
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:lose_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelgobattletower.npc.t2_f4_2.title",
+                "message": "pixelgobattletower.npc.t2_f4_2.lose",
+                "fire_close_event": false
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:win_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelgobattletower.npc.t2_f4_2.title",
+                "message": "pixelgobattletower.npc.t2_f4_2.win",
+                "fire_close_event": false
+              },
+              {
+                "type": "pixelmon:give_money",
+                "money": 80
+              },
+              {
+                "type": "pixelmon:give_item",
+                "items": [
+                  {
+                    "id": "pixelmon:basic_badge",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "type": "pixelmon:set_cooldown",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                },
+                "key": "pixelgobattletower:t2_f4_2"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

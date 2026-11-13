@@ -1,0 +1,698 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "other"
+	group: "7E262B459587A2CB"
+	id: "08889B12E7DB92DC"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1DCED8D558956F2B"
+			rewards: [{
+				id: "458C025128ED73B5"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4902EAC1AD77FBCC"
+				item: { count: 1, id: "mysticalagradditions:creative_essence" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "25988304240A1A1C"
+			rewards: [{
+				id: "41D4A626FDCF3CA8"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "110A2F30D8ACDE06"
+				item: { count: 1, id: "extendedcrafting:ultimate_singularity" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "7FB062237713AAB4"
+			rewards: [{
+				id: "11F3FE20B2924BCA"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7E8A7FB09F13AB1A"
+				item: { count: 1, id: "extendedcrafting:the_ultimate_component" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"25988304240A1A1C"
+				"7FB062237713AAB4"
+			]
+			id: "63A43957BE762944"
+			rewards: [{
+				id: "4B50AC9C5C848800"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7E582C1040D5261B"
+				item: { count: 1, id: "extendedcrafting:the_ultimate_catalyst" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "50F3A045E7D2BBC5"
+			rewards: [{
+				id: "547A3EC5089EDCB0"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7E3A9C6E7E39F1C3"
+				item: { components: { "pixelmon:poke_ball": "master_ball" }, count: 1, id: "pixelmon:poke_ball" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "4BE36DCEC6067A12"
+			rewards: [{
+				id: "206D572DAFA4C027"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "061DBEBCF23DB70E"
+				item: { count: 1, id: "kubejs:random_egg" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			id: "1F5F0F59E6A3509D"
+			rewards: [
+				{
+					count: 16
+					id: "679D1DBE882AC010"
+					item: {
+						count: 1
+						id: "kubejs:random_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "4F4F77AA9B5C7717"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier4"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "43E25B6C28A5FB6D"
+				item: { count: 1, id: "pixelmongo:pokestop" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1F5F0F59E6A3509D"]
+			id: "3364D0D1BA957B0A"
+			rewards: [
+				{
+					id: "4D4C114B05584F5E"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "4FEF6E49FA13B93A"
+					item: {
+						count: 1
+						id: "pixelmon:xl_exp_candy"
+					}
+					type: "item"
+				}
+				{
+					id: "29E687D382D8F6C1"
+					item: {
+						count: 1
+						id: "pixelmon:gold_bottle_cap"
+					}
+					type: "item"
+				}
+				{
+					id: "7E5A51D7D9FDA0B8"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier4"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "1C589E961FA95063"
+				item: { count: 1, id: "pixelmon:common_pokestop" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3364D0D1BA957B0A"]
+			id: "0796D42523ABE2DB"
+			rewards: [
+				{
+					id: "2FBB7A80A3BBD9A6"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "495CD0260BEAD588"
+					item: {
+						count: 1
+						id: "pixelmon:xl_exp_candy"
+					}
+					type: "item"
+				}
+				{
+					id: "3ADBFAE731085947"
+					item: {
+						count: 1
+						id: "pixelmon:gold_bottle_cap"
+					}
+					type: "item"
+				}
+				{
+					id: "45C8472044C63411"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier4"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "046726E33195A5D1"
+				item: { count: 1, id: "pixelmon:rare_pokestop" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0796D42523ABE2DB"
+				"63A43957BE762944"
+			]
+			id: "0F8A4ED60CB0EBFD"
+			rewards: [
+				{
+					id: "1247794F7A8E82B1"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "210CE108558760BF"
+					item: {
+						count: 1
+						id: "pixelmon:xl_exp_candy"
+					}
+					type: "item"
+				}
+				{
+					id: "718905561951F7A9"
+					item: {
+						count: 1
+						id: "pixelmon:gold_bottle_cap"
+					}
+					type: "item"
+				}
+				{
+					id: "481F7A9E22AFB188"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier4"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "15F9EAFAFF2F083A"
+				item: { count: 1, id: "pixelmon:legendary_pokestop" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["63A43957BE762944"]
+			id: "1D5EBAA62DD3FBA3"
+			rewards: [{
+				id: "34EB2E1A9355500A"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "53352FA750557225"
+				item: { count: 1, id: "refinedstorage:creative_controller" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63A43957BE762944"]
+			id: "514A5EDB62F410A6"
+			rewards: [{
+				id: "04E29F4F5661F97D"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "71D337A246CDC77C"
+				item: { count: 1, id: "refinedstorage:creative_wireless_grid" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			id: "0AC7F39EF9DF822B"
+			rewards: [{
+				id: "17666CA00F683461"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "27423880FF59C55F"
+				item: { count: 1, id: "refinedstorage:creative_storage_disk" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "7712BCC830372E57"
+			rewards: [{
+				id: "72AE4351E28B69D3"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "28AFF4894E6A8468"
+				item: { count: 1, id: "extendedcrafting:the_ultimate_ingot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "4DF20722F71FD9A3"
+			rewards: [{
+				id: "45DEAF041DE8F37C"
+				item: {
+					components: {
+						"minecraft:rarity": "rare"
+						"silentlib:loot_container": {
+							loot_table: "loot:tier3"
+						}
+						"treasurebags:bag_type": "pixelgo:tier3"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5043A1A2E6F6984E"
+				item: { count: 1, id: "pipez:infinity_upgrade" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "148B77B29EE3325E"
+			rewards: [{
+				id: "428E92607B244203"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "68AD693023ADD833"
+				item: { count: 1, id: "mekanism:creative_fluid_tank" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "1CCE9D89FE19BAD3"
+			rewards: [{
+				id: "6E6C20548037F9E1"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "438DB702838A6AC2"
+				item: { count: 1, id: "constructionwand:infinity_wand" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			id: "716BCB7A6282E879"
+			rewards: [{
+				id: "49DD03E3508C0846"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3EE1B1DF68C018CC"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["716BCB7A6282E879"]
+			id: "3B4CFACEBCF0D146"
+			rewards: [{
+				id: "0C2AF2E4B5F3C13B"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "13FA1B874B74E659"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			id: "1A19CA31B432589A"
+			rewards: [{
+				id: "4BCD24AC43777E30"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "78BAB002A95E8BF5"
+				item: { count: 1, id: "ironfurnaces:million_furnace" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			id: "463206DFA7D7D6CA"
+			rewards: [{
+				id: "3A394205F641C920"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "285BC070CF1B6789"
+				item: { count: 1, id: "havencobblegens:creative_cobble_gen" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			id: "3869627927C1283F"
+			rewards: [{
+				id: "7B35A5DA270A581A"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "1279B7BE8D3C03C2"
+				item: { count: 1, id: "projecte:transmutation_tablet" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "7DB167FB8ECCA4FF"
+			rewards: [{
+				id: "215E69C75EE2C07B"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "00B6913AA062B6F0"
+				item: { count: 1, id: "projecte:gem_helmet" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			id: "39360AD91700CD97"
+			rewards: [{
+				id: "4F54631F7EDAF36C"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "41F1A80038C1D4F8"
+				item: { count: 1, id: "projecte:gem_chestplate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			id: "4EBEAD129C55D15E"
+			rewards: [{
+				id: "221FB69EF410D329"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "55106ED6A9203AAE"
+				item: { count: 1, id: "projecte:gem_leggings" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			id: "224E1DB4584BD8F6"
+			rewards: [{
+				id: "614D4FA698A3EC32"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "340CF740931CD5B9"
+				item: { count: 1, id: "projecte:gem_boots" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+	]
+}

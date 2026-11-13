@@ -1,0 +1,6 @@
+{
+  "type": "neoorigins:attribute_modifier",
+  "attribute": "pixelgo:harvest_yield",
+  "amount": 10,
+  "operation": "add_value"
+}

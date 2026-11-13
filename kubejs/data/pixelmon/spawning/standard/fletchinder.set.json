@@ -1,0 +1,26 @@
+{
+  "id": "Fletchinder",
+  "spawnInfos": [
+    {
+      "spec": "species:Fletchinder",
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 90
+    }
+  ]
+}

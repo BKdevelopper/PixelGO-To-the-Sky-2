@@ -1,0 +1,51 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "PixelGO Gates",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "A "
+      },
+      {
+        "text": "Gate",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " tears open near you about once a minute, between "
+      },
+      {
+        "text": "3",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "20",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " blocks away. Up to "
+      },
+      {
+        "text": "2",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " stay open at once, and an unused one closes after a Minecraft day."
+      }
+    ]
+  },
+  "cycle_time": 9000
+}

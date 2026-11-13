@@ -1,0 +1,282 @@
+{
+  "properties": {
+    "type": "pixelmon:constant",
+    "value": {
+      "health": 20,
+      "eyeHeight": 1.9,
+      "dimensions": {
+        "width": 0.65,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgobattletower.npc.lg_c01.title",
+        "color": "#FFD54F",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    }
+  },
+  "names": {
+    "values": [
+      "&#7E57C2&lBlue"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "party": {
+    "type": "pixelmon:constant",
+    "value": {
+      "specs": [
+        "Pidgeot lvl:70 ability:keeneye helditem:life_orb nature:timid ivhp:31 ivatk:31 ivdef:31 ivspatk:31 ivspdef:31 ivspd:31 evhp:4 evspatk:252 evspd:252 move1:hurricane move2:heat_wave move3:roost move4:u-turn",
+        "Alakazam lvl:70 ability:magicguard helditem:focus_sash nature:timid ivhp:31 ivatk:31 ivdef:31 ivspatk:31 ivspdef:31 ivspd:31 evhp:4 evspatk:252 evspd:252 move1:psychic move2:shadow_ball move3:focus_blast move4:nasty_plot",
+        "Rhydon lvl:70 ability:rockhead helditem:eviolite nature:adamant ivhp:31 ivatk:31 ivdef:31 ivspatk:31 ivspdef:31 ivspd:31 evhp:4 evatk:252 evspd:252 move1:earthquake move2:stone_edge move3:megahorn move4:swords_dance",
+        "Exeggutor lvl:70 ability:chlorophyll helditem:sitrus_berry nature:modest ivhp:31 ivatk:31 ivdef:31 ivspatk:31 ivspdef:31 ivspd:31 evhp:4 evspatk:252 evspd:252 move1:giga_drain move2:psychic move3:sleep_powder move4:leech_seed",
+        "Arcanine lvl:70 ability:intimidate helditem:life_orb nature:jolly ivhp:31 ivatk:31 ivdef:31 ivspatk:31 ivspdef:31 ivspd:31 evhp:4 evatk:252 evspd:252 move1:flare_blitz move2:extreme_speed move3:wild_charge move4:close_combat",
+        "Blastoise lvl:70 ability:torrent helditem:leftovers nature:timid ivhp:31 ivatk:31 ivdef:31 ivspatk:31 ivspdef:31 ivspd:31 evhp:4 evspatk:252 evspd:252 move1:hydro_pump move2:ice_beam move3:aura_sphere move4:rapid_spin"
+      ],
+      "type": "pixelmon:spec"
+    }
+  },
+  "models": {
+    "type": "pixelmon:constant",
+    "value": {
+      "slim": false,
+      "texture": "pixelgobattletower:textures/steve/blue.png",
+      "type": "pixelmon:player"
+    }
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 14,
+      "swim": false
+    }
+  },
+  "interactions": {
+    "type": "pixelmon:constant",
+    "value": {
+      "interactions": [
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:can_battle",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:logical_not",
+                "condition": {
+                  "type": "pixelmon:interaction_condition",
+                  "condition": {
+                    "type": "pixelmon:on_cooldown",
+                    "player": {
+                      "key": "pixelmon:player",
+                      "type": "pixelmon:context_player"
+                    },
+                    "cooldown_key": "pixelgobattletower:lg_c01",
+                    "cooldown": 20,
+                    "unit": "HOURS"
+                  }
+                }
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelgobattletower.npc.lg_c01.title",
+                "message": "pixelgobattletower.npc.lg_c01.init"
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:on_cooldown",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                },
+                "cooldown_key": "pixelgobattletower:lg_c01",
+                "cooldown": 20,
+                "unit": "HOURS"
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:message_player",
+                "messages": [
+                  {
+                    "translate": "pixelgobattletower.npc.lg_c01.cool",
+                    "color": "#FFF3C4"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:right_click",
+          "conditions": [
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:string_compare",
+                "first": {
+                  "value": "MAIN_HAND",
+                  "type": "pixelmon:constant_string"
+                },
+                "second": {
+                  "type": "pixelmon:hand_used"
+                }
+              }
+            },
+            {
+              "type": "pixelmon:interaction_condition",
+              "condition": {
+                "type": "pixelmon:logical_not",
+                "condition": {
+                  "type": "pixelmon:interaction_condition",
+                  "condition": {
+                    "type": "pixelmon:can_battle",
+                    "player": {
+                      "key": "pixelmon:player",
+                      "type": "pixelmon:context_player"
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:message_player",
+                "messages": [
+                  {
+                    "translate": "pixelgobattletower.npc.unable",
+                    "color": "#FF8A80"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:close_dialogue",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:player_start_npc_battle",
+                "ai_mode": "pixelmon:kingfisher",
+                "can_mega": true,
+                "can_dynamax": false,
+                "can_terastallize": false
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:lose_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelgobattletower.npc.lg_c01.title",
+                "message": "pixelgobattletower.npc.lg_c01.lose",
+                "fire_close_event": false
+              }
+            ]
+          }
+        },
+        {
+          "event": "pixelmon:win_battle",
+          "conditions": {
+            "type": "pixelmon:true"
+          },
+          "results": {
+            "type": "pixelmon:constant",
+            "value": [
+              {
+                "type": "pixelmon:open_dialogue",
+                "title": "pixelgobattletower.npc.lg_c01.title",
+                "message": "pixelgobattletower.npc.lg_c01.win",
+                "fire_close_event": false
+              },
+              {
+                "type": "pixelmon:give_money",
+                "money": 20000
+              },
+              {
+                "type": "pixelmon:set_cooldown",
+                "player": {
+                  "key": "pixelmon:player",
+                  "type": "pixelmon:context_player"
+                },
+                "key": "pixelgobattletower:lg_c01"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

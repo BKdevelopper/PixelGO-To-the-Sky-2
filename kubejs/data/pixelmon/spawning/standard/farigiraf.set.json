@@ -1,0 +1,23 @@
+{
+  "id": "Farigiraf",
+  "spawnInfos": [
+    {
+      "spec": "species:Farigiraf",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 10
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+# PixelGO - To the Sky 2 : on ignore tout à la racine, puis on autorise
+# uniquement ce qui fait partie du modpack (liste blanche).
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/CLAUDE.md
+!/CHANGELOG.md
+!/VERSION
+!/manifest.json
+!/MODLIST.md
+!/docs/
+!/tools/
+!/config/
+!/defaultconfigs/
+!/kubejs/
+!/fancymenu_data/
+!/patchouli_books/
+!/skyblockbuilder/
+!/resourcepacks/
+!/assets/
+!/.claude/
+!/servers.dat
+!/prices_1_21_*.json
+
+# Packs de ressources téléchargés par CurseForge (listés dans manifest.json)
+/resourcepacks/*
+!/resourcepacks/Pixelmons-faithful-x32.zip
+
+# Fichiers générés automatiquement par les mods
+*.bak
+*.bak.*
+*.log
+/config/emcbridge/recipe-trees.json
+/config/emcbridge/*report*.json
+/config/emcbridge/mapping-failures.json
+/config/fancymenu/user_variables.db
+
+# Local / temporaire
+/.claude/settings.local.json
+/_temp/
+node_modules/

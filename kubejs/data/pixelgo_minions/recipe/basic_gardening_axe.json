@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "pixelgo_minions:enchanted_pumpkin"
+    },
+    "T": {
+      "item": "pixelgo_minions:rookie_farming_axe"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MTM",
+    "MMM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pixelgo_minions:basic_gardening_axe"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "pixelmon.music.battle.wild": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_1",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.player": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_2",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.trainer": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_2",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.gym": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_2",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.boss": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_3",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.legendary": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_2",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.battle.raid": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "pixelmon:music/battle_music_3",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.music.pokecenter": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "pixelmon:music/pokecenter_waltz",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon.block.pokeballcapture": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "pixelmon:items/pokeball_capture",
+        "stream": false
+      }
+    ]
+  },
+  "pixelmon.block.pokeballcapturesuccess": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "pixelmon:items/pokeball_capture_success",
+        "stream": false
+      }
+    ]
+  },
+  "pixelmon.block.pc": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "pixelmon:blocks/pc",
+        "stream": false
+      }
+    ]
+  },
+  "pixelmon.block.healeractivate": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "pixelmon:blocks/healing_table_activate",
+        "stream": false
+      }
+    ]
+  }
+}

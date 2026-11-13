@@ -1,0 +1,32 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Skyblock",
+    "color": "green",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Do not throw your dirt away.",
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": " Cobblestone is infinite. Dirt is not, until the "
+      },
+      {
+        "text": "sieve",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " is running."
+      }
+    ]
+  },
+  "cycle_time": 7000
+}

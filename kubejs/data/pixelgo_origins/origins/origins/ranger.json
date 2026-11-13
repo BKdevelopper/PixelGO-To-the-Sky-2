@@ -1,0 +1,42 @@
+{
+  "name": "origins.pixelgo_origins.ranger.name",
+  "description": "origins.pixelgo_origins.ranger.description",
+  "icon": "pixelmon:poke_ball",
+  "impact": "medium",
+  "order": 1,
+  "powers": [
+    "pixelgo_origins:ranger_sure_throw",
+    "pixelgo_origins:ranger_light_stride",
+    "pixelgo_origins:ranger_feather_landing",
+    "pixelgo_origins:ranger_light_gear",
+    "pixelgo_origins:ranger_skill_tree"
+  ],
+  "upgrades": [],
+  "tier_powers": [
+    {
+      "tier": 1,
+      "add": [
+        "pixelgo_origins:ranger_evolution_1"
+      ],
+      "remove": []
+    },
+    {
+      "tier": 2,
+      "add": [
+        "pixelgo_origins:ranger_evolution_2"
+      ],
+      "remove": [
+        "pixelgo_origins:ranger_evolution_1"
+      ]
+    },
+    {
+      "tier": 3,
+      "add": [
+        "pixelgo_origins:ranger_evolution_3"
+      ],
+      "remove": [
+        "pixelgo_origins:ranger_evolution_2"
+      ]
+    }
+  ]
+}

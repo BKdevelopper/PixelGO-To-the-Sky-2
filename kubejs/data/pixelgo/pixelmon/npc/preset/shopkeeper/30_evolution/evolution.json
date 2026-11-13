@@ -1,0 +1,668 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.evolution",
+                  "message": "pixelgo.npc.evolution.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "pixelmon:black_augurite",
+                        "count": 1
+                      },
+                      "buyPrice": 26,
+                      "sellPrice": 7.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:sweet_strawberry",
+                        "count": 1
+                      },
+                      "buyPrice": 72,
+                      "sellPrice": 21.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:sweet_love",
+                        "count": 1
+                      },
+                      "buyPrice": 72,
+                      "sellPrice": 21.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:sweet_clover",
+                        "count": 1
+                      },
+                      "buyPrice": 72,
+                      "sellPrice": 21.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:sweet_flower",
+                        "count": 1
+                      },
+                      "buyPrice": 72,
+                      "sellPrice": 21.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:sweet_star",
+                        "count": 1
+                      },
+                      "buyPrice": 72,
+                      "sellPrice": 21.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:sweet_ribbon",
+                        "count": 1
+                      },
+                      "buyPrice": 72,
+                      "sellPrice": 21.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:sun_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 75.6,
+                      "sellPrice": 22.68
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:fire_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 75.6,
+                      "sellPrice": 22.68
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:water_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 75.6,
+                      "sellPrice": 22.68
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:moon_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 75.6,
+                      "sellPrice": 22.68
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:thunder_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 75.6,
+                      "sellPrice": 22.68
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:leaf_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 75.6,
+                      "sellPrice": 22.68
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dawn_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 75.6,
+                      "sellPrice": 22.68
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dusk_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 75.6,
+                      "sellPrice": 22.68
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:shiny_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 75.6,
+                      "sellPrice": 22.68
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:ice_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 75.6,
+                      "sellPrice": 22.68
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:ever_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 75.6,
+                      "sellPrice": 22.68
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:metal_coat",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:kings_rock",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dragon_scale",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:up_grade",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:protector",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:electirizer",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:magmarizer",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:reaper_cloth",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:razor_claw",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:razor_fang",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:prism_scale",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:deep_sea_tooth",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:deep_sea_scale",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:whipped_dream",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:sachet",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:oval_stone",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dubious_disc",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:linking_cord",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tart_apple",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:sweet_apple",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:syrupy_apple",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cracked_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:chipped_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:unremarkable_teacup",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:galarica_cuff",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:galarica_wreath",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:peat_block",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:metal_alloy",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:auspicious_armor",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:malicious_armor",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:leaders_crest",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:masterpiece_teacup",
+                        "count": 1
+                      },
+                      "buyPrice": 360,
+                      "sellPrice": 108
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:scroll_of_darkness",
+                        "count": 1
+                      },
+                      "buyPrice": 900,
+                      "sellPrice": 270
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:scroll_of_waters",
+                        "count": 1
+                      },
+                      "buyPrice": 900,
+                      "sellPrice": 270
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.evolution",
+                  "message": "pixelgo.npc.evolution.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.evolution",
+        "color": "#FFFF55",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

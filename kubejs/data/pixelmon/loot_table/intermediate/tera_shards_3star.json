@@ -1,0 +1,107 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:bug_tera_shard"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:dark_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:dragon_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:electric_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:fairy_tera_shard"    
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:fighting_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:fire_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:flying_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:ghost_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:grass_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:ground_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:ice_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:normal_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:poison_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:psychic_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:rock_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:steel_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:stellar_tera_shard"     
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pixelmon:water_tera_shard"     
+          }
+        ]
+      }
+    ]
+  }
+  
+  

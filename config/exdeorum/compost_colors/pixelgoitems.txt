@@ -1,0 +1,20 @@
+// Compost colors for pixelgoitems. You may add your own colors, change existing ones, or remove colors that aren't needed.
+add_ev_atk, #b8bcab
+add_ev_def, #b5c09d
+add_ev_hp, #ae8d9d
+add_ev_spatk, #68a5dc
+add_ev_spd, #b2acd2
+add_ev_spdef, #7dc6ae
+add_iv_atk, #c5c6b8
+add_iv_def, #c0cca5
+add_iv_hp, #b991a4
+add_iv_spatk, #6baceb
+add_iv_spd, #beb6e0
+add_iv_spdef, #83d2b6
+random_ev, #9b9396
+random_fossil, #fff7a0
+random_iv, #5fac9b
+random_level, #8aafb6
+shiny_swapper, #d6a5d6
+size_randomizer, #dacdd7
+skin_swapper, #709e6b

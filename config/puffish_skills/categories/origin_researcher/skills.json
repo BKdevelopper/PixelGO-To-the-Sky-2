@@ -1,0 +1,68 @@
+{
+  "root": {
+    "definition": "root",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "spectrometer": {
+    "definition": "spectrometer",
+    "x": -72,
+    "y": -42
+  },
+  "colour_theory": {
+    "definition": "colour_theory",
+    "x": -72,
+    "y": -88
+  },
+  "prism_lens": {
+    "definition": "prism_lens",
+    "x": -72,
+    "y": -134
+  },
+  "shiny_thesis": {
+    "definition": "shiny_thesis",
+    "x": -72,
+    "y": -184
+  },
+  "lecture": {
+    "definition": "lecture",
+    "x": 72,
+    "y": -42
+  },
+  "seminar": {
+    "definition": "seminar",
+    "x": 72,
+    "y": -88
+  },
+  "peer_review": {
+    "definition": "peer_review",
+    "x": 72,
+    "y": -134
+  },
+  "doctorate": {
+    "definition": "doctorate",
+    "x": 72,
+    "y": -184
+  },
+  "lucky_sample": {
+    "definition": "lucky_sample",
+    "x": 0,
+    "y": -50
+  },
+  "biometrics": {
+    "definition": "biometrics",
+    "x": 0,
+    "y": -96
+  },
+  "research_grant": {
+    "definition": "research_grant",
+    "x": 0,
+    "y": -142
+  },
+  "eureka": {
+    "definition": "eureka",
+    "x": 0,
+    "y": -214
+  }
+}

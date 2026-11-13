@@ -1,0 +1,1090 @@
+{
+  "type": "pixelmon:raid_den",
+  "pools": [
+    {
+      "name": "pixelgo_tier_7star",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "pixelmon:star_level",
+          "stars": 7
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t6",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t7",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t8",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t9",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "pixelgo_tier_6star",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "pixelmon:star_level",
+          "stars": 6
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t6",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t7",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t8",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "name": "pixelgo_tier_5star",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "pixelmon:star_level",
+          "stars": 5
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t6",
+          "weight": 33
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t7",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t8",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "pixelgo_tier_4star",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "pixelmon:star_level",
+          "stars": 4
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t5",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t6",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t7",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "pixelgo_tier_3star",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "pixelmon:star_level",
+          "stars": 3
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t4",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t5",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t6",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "pixelgo_tier_2star",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "pixelmon:star_level",
+          "stars": 2
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t3",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t4",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t5",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "pixelgo_tier_1star",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "pixelmon:star_level",
+          "stars": 1
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t2",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t3",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelgo:basic/t4",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": 0,
+      "name": "tera_1",
+      "entries": [
+        {
+          "name": "pixelmon:xs_exp_candy",
+          "weight": 100,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:s_exp_candy",
+          "weight": 60,
+          "type": "minecraft:item"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 35,
+          "value": "pixelmon:intermediate/random_berry"
+        },
+        {
+          "name": "pixelmon:tiny_mushroom",
+          "weight": 30,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:pearl",
+          "weight": 30,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:stardust",
+          "weight": 30,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_attack",
+          "weight": 12,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_defense",
+          "weight": 12,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_special_attack",
+          "weight": 12,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_special_defense",
+          "weight": 12,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_speed",
+          "weight": 12,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_accuracy",
+          "weight": 12,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:dire_hit",
+          "weight": 12,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:guard_spec",
+          "weight": 12,
+          "type": "minecraft:item"
+        }
+      ],
+      "conditions": [
+        {
+          "stars": 1,
+          "condition": "pixelmon:star_level"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": 0,
+      "name": "tera_2",
+      "entries": [
+        {
+          "name": "pixelmon:s_exp_candy",
+          "weight": 100,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:m_exp_candy",
+          "weight": 55,
+          "type": "minecraft:item"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 45,
+          "value": "pixelmon:intermediate/random_feather"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 35,
+          "value": "pixelmon:intermediate/random_berry"
+        },
+        {
+          "name": "pixelmon:tiny_mushroom",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:pearl",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:stardust",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_attack",
+          "weight": 16,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_defense",
+          "weight": 16,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_special_attack",
+          "weight": 16,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_special_defense",
+          "weight": 16,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_speed",
+          "weight": 16,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_accuracy",
+          "weight": 16,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:dire_hit",
+          "weight": 16,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:guard_spec",
+          "weight": 16,
+          "type": "minecraft:item"
+        }
+      ],
+      "conditions": [
+        {
+          "stars": 2,
+          "condition": "pixelmon:star_level"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": 0,
+      "name": "tera_3",
+      "entries": [
+        {
+          "name": "pixelmon:m_exp_candy",
+          "weight": 100,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:l_exp_candy",
+          "weight": 45,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:rare_candy",
+          "weight": 8,
+          "type": "minecraft:item"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 55,
+          "value": "pixelmon:intermediate/random_feather"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 35,
+          "value": "pixelmon:intermediate/random_berry"
+        },
+        {
+          "name": "pixelmon:big_mushroom",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:big_pearl",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:star_piece",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:nugget",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:silver_bottle_cap",
+          "weight": 5,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_attack",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_defense",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_special_attack",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_special_defense",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_speed",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_accuracy",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:dire_hit",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:guard_spec",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "value": "pixelmon:intermediate/tera_shards_3star"
+        }
+      ],
+      "conditions": [
+        {
+          "stars": 3,
+          "condition": "pixelmon:star_level"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4,
+        "max": 5,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": 0,
+      "name": "tera_4",
+      "entries": [
+        {
+          "name": "pixelmon:l_exp_candy",
+          "weight": 100,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:m_exp_candy",
+          "weight": 70,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:rare_candy",
+          "weight": 12,
+          "type": "minecraft:item"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 55,
+          "value": "pixelmon:intermediate/random_feather"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "value": "pixelmon:intermediate/random_vitamin"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "value": "pixelmon:intermediate/random_berry"
+        },
+        {
+          "name": "pixelmon:big_mushroom",
+          "weight": 40,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:big_pearl",
+          "weight": 40,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:star_piece",
+          "weight": 40,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:nugget",
+          "weight": 40,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:silver_bottle_cap",
+          "weight": 12,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_attack",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_defense",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_special_attack",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_special_defense",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_speed",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_accuracy",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:dire_hit",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:guard_spec",
+          "weight": 18,
+          "type": "minecraft:item"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "value": "pixelmon:intermediate/tera_shards_4star"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 8,
+          "value": "pixelmon:intermediate/random_mint"
+        }
+      ],
+      "conditions": [
+        {
+          "stars": 4,
+          "condition": "pixelmon:star_level"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4,
+        "max": 5,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": 0,
+      "name": "tera_5",
+      "entries": [
+        {
+          "name": "pixelmon:xl_exp_candy",
+          "weight": 100,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:l_exp_candy",
+          "weight": 90,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:rare_candy",
+          "weight": 25,
+          "type": "minecraft:item"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 45,
+          "value": "pixelmon:intermediate/random_feather"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "value": "pixelmon:intermediate/random_vitamin"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 25,
+          "value": "pixelmon:intermediate/random_berry"
+        },
+        {
+          "name": "pixelmon:health_mochi",
+          "weight": 25,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:muscle_mochi",
+          "weight": 25,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:resist_mochi",
+          "weight": 25,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:genius_mochi",
+          "weight": 25,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:clever_mochi",
+          "weight": 25,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:swift_mochi",
+          "weight": 25,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:fresh_start_mochi",
+          "weight": 25,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:big_mushroom",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:big_pearl",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:star_piece",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:nugget",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:balm_mushroom",
+          "weight": 22,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:pearl_string",
+          "weight": 22,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:comet_shard",
+          "weight": 22,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:big_nugget",
+          "weight": 22,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:silver_bottle_cap",
+          "weight": 22,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:gold_bottle_cap",
+          "weight": 5,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_attack",
+          "weight": 14,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_defense",
+          "weight": 14,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_special_attack",
+          "weight": 14,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_special_defense",
+          "weight": 14,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_speed",
+          "weight": 14,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_accuracy",
+          "weight": 14,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:dire_hit",
+          "weight": 14,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:guard_spec",
+          "weight": 14,
+          "type": "minecraft:item"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "value": "pixelmon:intermediate/tera_shards_5star"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 16,
+          "value": "pixelmon:intermediate/random_mint"
+        }
+      ],
+      "conditions": [
+        {
+          "stars": 5,
+          "condition": "pixelmon:star_level"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 5,
+        "max": 5,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": 0,
+      "name": "tera_6",
+      "entries": [
+        {
+          "name": "pixelmon:xl_exp_candy",
+          "weight": 100,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:l_exp_candy",
+          "weight": 100,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:rare_candy",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 50,
+          "value": "pixelmon:intermediate/random_vitamin"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 35,
+          "value": "pixelmon:intermediate/random_feather"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "value": "pixelmon:intermediate/random_berry"
+        },
+        {
+          "name": "pixelmon:health_mochi",
+          "weight": 32,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:muscle_mochi",
+          "weight": 32,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:resist_mochi",
+          "weight": 32,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:genius_mochi",
+          "weight": 32,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:clever_mochi",
+          "weight": 32,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:swift_mochi",
+          "weight": 32,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:fresh_start_mochi",
+          "weight": 32,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:big_mushroom",
+          "weight": 30,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:big_pearl",
+          "weight": 30,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:star_piece",
+          "weight": 30,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:nugget",
+          "weight": 30,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:balm_mushroom",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:pearl_string",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:comet_shard",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:big_nugget",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:silver_bottle_cap",
+          "weight": 30,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:gold_bottle_cap",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_attack",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_defense",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_special_attack",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_special_defense",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_speed",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:x_accuracy",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:dire_hit",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:guard_spec",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "value": "pixelmon:intermediate/tera_shards_6star"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 24,
+          "value": "pixelmon:intermediate/random_mint"
+        }
+      ],
+      "conditions": [
+        {
+          "stars": 6,
+          "condition": "pixelmon:star_level"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 5,
+        "max": 5,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": 0,
+      "name": "tera_7",
+      "entries": [
+        {
+          "name": "pixelmon:xl_exp_candy",
+          "weight": 100,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:rare_candy",
+          "weight": 65,
+          "type": "minecraft:item"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 60,
+          "value": "pixelmon:intermediate/random_vitamin"
+        },
+        {
+          "name": "pixelmon:health_mochi",
+          "weight": 40,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:muscle_mochi",
+          "weight": 40,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:resist_mochi",
+          "weight": 40,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:genius_mochi",
+          "weight": 40,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:clever_mochi",
+          "weight": 40,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:swift_mochi",
+          "weight": 40,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:fresh_start_mochi",
+          "weight": 40,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:balm_mushroom",
+          "weight": 45,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:pearl_string",
+          "weight": 45,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:comet_shard",
+          "weight": 45,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:big_nugget",
+          "weight": 45,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:silver_bottle_cap",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "pixelmon:gold_bottle_cap",
+          "weight": 35,
+          "type": "minecraft:item"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "value": "pixelmon:intermediate/tera_shards_7star"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "value": "pixelmon:intermediate/random_mint"
+        }
+      ],
+      "conditions": [
+        {
+          "stars": 7,
+          "condition": "pixelmon:star_level"
+        }
+      ]
+    }
+  ]
+}

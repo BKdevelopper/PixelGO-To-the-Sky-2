@@ -1,0 +1,404 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.minion_tools",
+                  "message": "pixelgo.npc.minion_tools.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:rookie_farming_axe",
+                        "count": 1
+                      },
+                      "buyPrice": 95,
+                      "sellPrice": 28.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:rookie_hoe",
+                        "count": 1
+                      },
+                      "buyPrice": 176,
+                      "sellPrice": 52.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:cactus_knife",
+                        "count": 1
+                      },
+                      "buyPrice": 1841,
+                      "sellPrice": 552.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:sugar_cane_cutter",
+                        "count": 1
+                      },
+                      "buyPrice": 1841,
+                      "sellPrice": 552.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:sunflower_scythe",
+                        "count": 1
+                      },
+                      "buyPrice": 1842,
+                      "sellPrice": 552.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:nether_wart_cutter",
+                        "count": 1
+                      },
+                      "buyPrice": 3121,
+                      "sellPrice": 936.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:cocoa_chopper",
+                        "count": 1
+                      },
+                      "buyPrice": 3402,
+                      "sellPrice": 1020.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:potato_shovel",
+                        "count": 1
+                      },
+                      "buyPrice": 4122,
+                      "sellPrice": 1236.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:fungi_cutter",
+                        "count": 1
+                      },
+                      "buyPrice": 5681,
+                      "sellPrice": 1704.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:basic_gardening_axe",
+                        "count": 1
+                      },
+                      "buyPrice": 7775,
+                      "sellPrice": 2332.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:pumpkin_dicer",
+                        "count": 1
+                      },
+                      "buyPrice": 8522,
+                      "sellPrice": 2556.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:basic_gardening_hoe",
+                        "count": 1
+                      },
+                      "buyPrice": 23216,
+                      "sellPrice": 6964.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:wheat_sickle",
+                        "count": 1
+                      },
+                      "buyPrice": 23602,
+                      "sellPrice": 7080.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:melon_dicer",
+                        "count": 1
+                      },
+                      "buyPrice": 23882,
+                      "sellPrice": 7164.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:carrot_shovel",
+                        "count": 1
+                      },
+                      "buyPrice": 71104.4,
+                      "sellPrice": 21331.32
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:advanced_gardening_hoe",
+                        "count": 1
+                      },
+                      "buyPrice": 228016,
+                      "sellPrice": 68404.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:advanced_gardening_axe",
+                        "count": 1
+                      },
+                      "buyPrice": 1236575,
+                      "sellPrice": 370972.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:greatest_tilling_hoe",
+                        "count": 1
+                      },
+                      "buyPrice": 1943216,
+                      "sellPrice": 582964.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelgo_minions:sculptor_axe",
+                        "count": 1
+                      },
+                      "buyPrice": 3463775,
+                      "sellPrice": 1039132.5
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.minion_tools",
+                  "message": "pixelgo.npc.minion_tools.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.minion_tools",
+        "color": "#00AA00",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Kingambit",
+  "spawnInfos": [
+    {
+      "spec": "species:Kingambit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 55,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "minecraft:bamboo_jungle",
+          "pixelmon:ultra_deep_sea",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 0.1
+    }
+  ]
+}

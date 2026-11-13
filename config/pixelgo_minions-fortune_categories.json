@@ -1,0 +1,4 @@
+{
+  "_comment": "Extra fortune categories. Each one registers the attribute pixelgo_minions:<id>_fortune and reads its blocks from the tag #pixelgo_minions:fortune/<id>. Set primary_drops to true to also honour #pixelgo_minions:fortune_drop/<id>. Adding blocks to an existing category needs only a datapack tag, not an entry here. Changes take effect on restart.",
+  "categories": []
+}

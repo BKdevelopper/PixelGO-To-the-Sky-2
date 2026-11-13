@@ -1,0 +1,51 @@
+{
+  "id": "Pawniard",
+  "spawnInfos": [
+    {
+      "spec": "species:Pawniard",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:stone"
+            ]
+          }
+        }
+      ],
+      "rarity": 100
+    },
+    {
+      "spec": "species:Pawniard",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:nether_wastes",
+          "minecraft:basalt_deltas",
+          "biomesoplenty:crystalline_chasm"
+        ]
+      },
+      "rarity": 100
+    }
+  ]
+}

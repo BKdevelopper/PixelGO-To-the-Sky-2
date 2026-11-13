@@ -1,0 +1,17 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "step": "vegetal_decoration",
+  "features": [
+    "pixelgo_luckyblocks:overworld/common_lucky_block",
+    "pixelgo_luckyblocks:overworld/item_lucky_block",
+    "pixelgo_luckyblocks:overworld/rare_lucky_block",
+    "pixelgo_luckyblocks:overworld/master_lucky_block",
+    "pixelgo_luckyblocks:overworld/alternate_form_lucky_block",
+    "pixelgo_luckyblocks:overworld/boss_lucky_block",
+    "pixelgo_luckyblocks:overworld/shiny_lucky_block",
+    "pixelgo_luckyblocks:overworld/legendary_lucky_block",
+    "pixelgo_luckyblocks:overworld/jackpot_lucky_block",
+    "pixelgo_luckyblocks:overworld/super_jackpot_lucky_block"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Dimension Timer",
+    "color": "dark_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Leave a timed dimension on your own and the time left is banked",
+        "color": "gold",
+        "bold": true
+      },
+      {
+        "text": " - you get it back next trip, with no cooldown. "
+      },
+      {
+        "text": "Let it hit zero and you lose it, plus a 20 minute lockout.",
+        "color": "red",
+        "bold": true
+      }
+    ]
+  },
+  "cycle_time": 9000
+}

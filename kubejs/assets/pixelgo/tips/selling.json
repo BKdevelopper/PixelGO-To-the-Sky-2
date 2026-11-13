@@ -1,0 +1,40 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "PokeDollars",
+    "color": "gold",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "/pixelsell",
+        "color": "aqua",
+        "bold": true
+      },
+      {
+        "text": " sells the item in your hand, "
+      },
+      {
+        "text": "/pixelsell all",
+        "color": "aqua",
+        "bold": true
+      },
+      {
+        "text": " sells everything sellable you are carrying, and "
+      },
+      {
+        "text": "/pixelvalue",
+        "color": "aqua",
+        "bold": true
+      },
+      {
+        "text": " tells you what something is worth first."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

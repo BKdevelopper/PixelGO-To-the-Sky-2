@@ -1,0 +1,35 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Controls",
+    "color": "white",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Press "
+      },
+      {
+        "text": "V",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " to toggle "
+      },
+      {
+        "text": "AutoBattle",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": ". It picks your move for you - but it will never switch Pokemon or throw a ball."
+      }
+    ]
+  },
+  "cycle_time": 7000
+}

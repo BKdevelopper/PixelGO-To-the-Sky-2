@@ -1,0 +1,686 @@
+{
+  "root": {
+    "title": {
+      "translate": "pixelgo_origins.tree.researcher.root.title",
+      "fallback": "Hypothesis",
+      "color": "#C38BFF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_experience",
+          "with": [
+            "5"
+          ],
+          "fallback": "+5%% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.researcher.root.flavor",
+      "fallback": "Observe first. Throw later.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:pokedex"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "spectrometer": {
+    "title": {
+      "translate": "pixelgo_origins.tree.researcher.spectrometer.title",
+      "fallback": "Spectrometer",
+      "color": "#C38BFF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_shiny_odds",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 shiny roll(s) on wild spawns",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:stardust"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "colour_theory": {
+    "title": {
+      "translate": "pixelgo_origins.tree.researcher.colour_theory.title",
+      "fallback": "Colour Theory",
+      "color": "#C38BFF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_shiny_odds",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 shiny roll(s) on wild spawns",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:star_piece"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "prism_lens": {
+    "title": {
+      "translate": "pixelgo_origins.tree.researcher.prism_lens.title",
+      "fallback": "Prism Lens",
+      "color": "#C38BFF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_shiny_odds",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 shiny roll(s) on wild spawns",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:comet_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "shiny_thesis": {
+    "title": {
+      "translate": "pixelgo_origins.tree.researcher.shiny_thesis.title",
+      "fallback": "Shiny Thesis",
+      "color": "#C38BFF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_shiny_odds",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2 shiny roll(s) on wild spawns",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.researcher.shiny_thesis.flavor",
+      "fallback": "Specialisation: shinies.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:shiny_charm"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "lecture": {
+    "title": {
+      "translate": "pixelgo_origins.tree.researcher.lecture.title",
+      "fallback": "Lecture",
+      "color": "#C38BFF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_experience",
+          "with": [
+            "6"
+          ],
+          "fallback": "+6%% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:xs_exp_candy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "seminar": {
+    "title": {
+      "translate": "pixelgo_origins.tree.researcher.seminar.title",
+      "fallback": "Seminar",
+      "color": "#C38BFF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_experience",
+          "with": [
+            "8"
+          ],
+          "fallback": "+8%% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:s_exp_candy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "peer_review": {
+    "title": {
+      "translate": "pixelgo_origins.tree.researcher.peer_review.title",
+      "fallback": "Peer Review",
+      "color": "#C38BFF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_experience",
+          "with": [
+            "10"
+          ],
+          "fallback": "+10%% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:m_exp_candy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "doctorate": {
+    "title": {
+      "translate": "pixelgo_origins.tree.researcher.doctorate.title",
+      "fallback": "Doctorate",
+      "color": "#C38BFF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_experience",
+          "with": [
+            "20"
+          ],
+          "fallback": "+20%% Pokémon experience",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.researcher.doctorate.flavor",
+      "fallback": "Specialisation: experience.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:xl_exp_candy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 20,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "lucky_sample": {
+    "title": {
+      "translate": "pixelgo_origins.tree.researcher.lucky_sample.title",
+      "fallback": "Lucky Sample",
+      "color": "#C38BFF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_luck",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 luck",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:lucky_egg"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "biometrics": {
+    "title": {
+      "translate": "pixelgo_origins.tree.researcher.biometrics.title",
+      "fallback": "Biometrics",
+      "color": "#C38BFF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_ev_gain",
+          "with": [
+            "8"
+          ],
+          "fallback": "+8%% EVs after battle",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:power_weight"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:ev_gain",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "research_grant": {
+    "title": {
+      "translate": "pixelgo_origins.tree.researcher.research_grant.title",
+      "fallback": "Research Grant",
+      "color": "#C38BFF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_luck",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 luck",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_experience",
+          "with": [
+            "4"
+          ],
+          "fallback": "+4%% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:nugget"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 4,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "eureka": {
+    "title": {
+      "translate": "pixelgo_origins.tree.researcher.eureka.title",
+      "fallback": "Eureka!",
+      "color": "#C38BFF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.tree.researcher.eureka.power",
+          "fallback": "+2 shiny rolls on wild spawns.",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_pokemon_experience",
+          "with": [
+            "10"
+          ],
+          "fallback": "+10%% Pokémon experience",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.researcher.eureka.flavor",
+      "fallback": "So THAT is why it sparkles.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:ability_capsule"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 3,
+    "required_spent_points": 12,
+    "rewards": [
+      {
+        "type": "neofishcompat:unlock_power",
+        "data": {
+          "power": "pixelgo_origins:researcher_eureka"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ]
+  }
+}

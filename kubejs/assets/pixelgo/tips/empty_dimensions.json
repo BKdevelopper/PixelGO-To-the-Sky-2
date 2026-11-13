@@ -1,0 +1,35 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Skyblock",
+    "color": "green",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "The Nether and the End are empty too, with two exceptions: "
+      },
+      {
+        "text": "Nether Fortresses",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " still generate, and the End keeps its main island. Blazes, wither skeletons and the "
+      },
+      {
+        "text": "dragon",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " are all still reachable."
+      }
+    ]
+  },
+  "cycle_time": 9000
+}

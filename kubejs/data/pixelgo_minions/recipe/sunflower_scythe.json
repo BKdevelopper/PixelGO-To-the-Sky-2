@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "pixelgo_minions:enchanted_poppy"
+    },
+    "E": {
+      "item": "pixelgo_minions:enchanted_dandelion"
+    },
+    "T": {
+      "item": "minecraft:diamond_hoe"
+    }
+  },
+  "pattern": [
+    "CEC",
+    "ETE",
+    "CEC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pixelgo_minions:sunflower_scythe"
+  }
+}

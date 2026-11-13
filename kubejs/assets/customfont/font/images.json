@@ -1,0 +1,172 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "customfont:bug.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0030"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:dark.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0031"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:dragon.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0032"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:electric.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0033"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:fairy.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0034"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:fighting.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0035"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:fire.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0036"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:flying.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0037"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:ghost.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0038"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:grass.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0039"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:ground.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0040"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:ice.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0041"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:normal.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0042"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:poison.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0043"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:psychic.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0044"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:rock.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0045"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:steel.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0046"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:water.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0047"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:n.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0051"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:r.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0052"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:sr.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0053"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:ssr.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0054"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:ur.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0048"]
+        },
+        {
+            "type": "bitmap",
+            "file": "customfont:lr.png",
+            "ascent": 32,
+            "height": 32,
+            "chars": ["\u0049"]
+        }
+    ]
+}

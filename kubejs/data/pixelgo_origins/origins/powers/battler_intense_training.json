@@ -1,0 +1,6 @@
+{
+  "type": "neoorigins:attribute_modifier",
+  "attribute": "pixelgo:ev_gain",
+  "amount": 15,
+  "operation": "add_value"
+}

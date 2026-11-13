@@ -1,0 +1,51 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Dimension Timer",
+    "color": "dark_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "The Nether, the End, the "
+      },
+      {
+        "text": "Overworld Mirror",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "Ultra Space",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " share "
+      },
+      {
+        "text": "ONE",
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": " timer: "
+      },
+      {
+        "text": "20",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " minutes in total, not twenty each."
+      }
+    ]
+  },
+  "cycle_time": 9000
+}

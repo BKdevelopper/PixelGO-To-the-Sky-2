@@ -1,0 +1,1212 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.handcrafted_decor",
+                  "message": "pixelgo.npc.handcrafted_decor.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "handcrafted:andesite_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 0.75,
+                      "sellPrice": 0.22
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:diorite_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 0.75,
+                      "sellPrice": 0.22
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:granite_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 0.75,
+                      "sellPrice": 0.22
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:wood_cup",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:wood_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:andesite_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.25,
+                      "sellPrice": 0.38
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:diorite_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.25,
+                      "sellPrice": 0.38
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:granite_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.25,
+                      "sellPrice": 0.38
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:wood_bowl",
+                        "count": 1
+                      },
+                      "buyPrice": 1.33,
+                      "sellPrice": 0.4
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:blackstone_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:deepslate_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:stone_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:wood_crockery_combo",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:blackstone_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:stone_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:deepslate_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:red_sandstone_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:sandstone_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:white_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:purple_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3.28,
+                      "sellPrice": 0.98
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:magenta_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3.33,
+                      "sellPrice": 1
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:blue_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3.38,
+                      "sellPrice": 1.01
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:light_gray_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3.38,
+                      "sellPrice": 1.01
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:orange_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3.38,
+                      "sellPrice": 1.01
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:pink_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3.38,
+                      "sellPrice": 1.01
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:red_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3.38,
+                      "sellPrice": 1.01
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:yellow_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3.38,
+                      "sellPrice": 1.01
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:light_blue_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cyan_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3.56,
+                      "sellPrice": 1.07
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:lime_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3.69,
+                      "sellPrice": 1.11
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:brown_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3.75,
+                      "sellPrice": 1.13
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:green_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 3.75,
+                      "sellPrice": 1.13
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:white_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 3.94,
+                      "sellPrice": 1.18
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:purple_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 4.22,
+                      "sellPrice": 1.27
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:gray_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 4.25,
+                      "sellPrice": 1.27
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:magenta_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 4.27,
+                      "sellPrice": 1.28
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:blue_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 4.31,
+                      "sellPrice": 1.29
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:light_gray_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 4.31,
+                      "sellPrice": 1.29
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:orange_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 4.31,
+                      "sellPrice": 1.29
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:pink_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 4.31,
+                      "sellPrice": 1.29
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:red_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 4.31,
+                      "sellPrice": 1.29
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:yellow_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 4.31,
+                      "sellPrice": 1.29
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:light_blue_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 4.44,
+                      "sellPrice": 1.33
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:calcite_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 4.5,
+                      "sellPrice": 1.35
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cyan_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 4.5,
+                      "sellPrice": 1.35
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:lime_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 4.63,
+                      "sellPrice": 1.39
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:brown_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 4.69,
+                      "sellPrice": 1.41
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:green_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 4.69,
+                      "sellPrice": 1.41
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:black_sheet",
+                        "count": 1
+                      },
+                      "buyPrice": 4.88,
+                      "sellPrice": 1.46
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:red_sandstone_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:sandstone_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:berry_jam_jar",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:gray_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 5.19,
+                      "sellPrice": 1.56
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:black_cushion",
+                        "count": 1
+                      },
+                      "buyPrice": 5.81,
+                      "sellPrice": 1.74
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:calcite_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 7.5,
+                      "sellPrice": 2.25
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:terracotta_cup",
+                        "count": 1
+                      },
+                      "buyPrice": 8.67,
+                      "sellPrice": 2.6
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dripstone_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:quartz_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:blue_cup",
+                        "count": 1
+                      },
+                      "buyPrice": 9.67,
+                      "sellPrice": 2.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:yellow_cup",
+                        "count": 1
+                      },
+                      "buyPrice": 9.67,
+                      "sellPrice": 2.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:white_cup",
+                        "count": 1
+                      },
+                      "buyPrice": 10.34,
+                      "sellPrice": 3.1
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:stackable_book",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bricks_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 12,
+                      "sellPrice": 3.6
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:witch_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 12,
+                      "sellPrice": 3.6
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:terracotta_bowl",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:terracotta_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:blue_bowl",
+                        "count": 1
+                      },
+                      "buyPrice": 14,
+                      "sellPrice": 4.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:blue_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 14,
+                      "sellPrice": 4.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:yellow_bowl",
+                        "count": 1
+                      },
+                      "buyPrice": 14,
+                      "sellPrice": 4.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:yellow_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 14,
+                      "sellPrice": 4.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:white_bowl",
+                        "count": 1
+                      },
+                      "buyPrice": 14.67,
+                      "sellPrice": 4.4
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:white_plate",
+                        "count": 1
+                      },
+                      "buyPrice": 14.67,
+                      "sellPrice": 4.4
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dripstone_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:quartz_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:terracotta_thin_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 17.33,
+                      "sellPrice": 5.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:silverfish_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 18,
+                      "sellPrice": 5.4
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bear_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 19,
+                      "sellPrice": 5.7
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:pufferfish_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 19,
+                      "sellPrice": 5.7
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:tropical_fish_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 19,
+                      "sellPrice": 5.7
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:fox_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 19,
+                      "sellPrice": 5.7
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bricks_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:salmon_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spider_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 21,
+                      "sellPrice": 6.3
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:wolf_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 21,
+                      "sellPrice": 6.3
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:terracotta_crockery_combo",
+                        "count": 1
+                      },
+                      "buyPrice": 21.67,
+                      "sellPrice": 6.5
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:terracotta_wide_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 21.67,
+                      "sellPrice": 6.5
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:blue_crockery_combo",
+                        "count": 1
+                      },
+                      "buyPrice": 22.67,
+                      "sellPrice": 6.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:yellow_crockery_combo",
+                        "count": 1
+                      },
+                      "buyPrice": 22.67,
+                      "sellPrice": 6.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:white_crockery_combo",
+                        "count": 1
+                      },
+                      "buyPrice": 23.34,
+                      "sellPrice": 7
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:terracotta_medium_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 26,
+                      "sellPrice": 7.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:terracotta_thick_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 30.33,
+                      "sellPrice": 9.1
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:blue_glazed_thin_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 31.46,
+                      "sellPrice": 9.44
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:white_glazed_thin_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 31.54,
+                      "sellPrice": 9.46
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:hammer",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:kitchen_hood_pipe",
+                        "count": 1
+                      },
+                      "buyPrice": 33.75,
+                      "sellPrice": 10.13
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:blue_glazed_wide_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 35.79,
+                      "sellPrice": 10.74
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:white_glazed_wide_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 35.88,
+                      "sellPrice": 10.76
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:blue_glazed_medium_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 40.13,
+                      "sellPrice": 12.04
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:white_glazed_medium_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 40.21,
+                      "sellPrice": 12.06
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:pillager_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 41,
+                      "sellPrice": 12.3
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:blue_glazed_thick_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 44.46,
+                      "sellPrice": 13.34
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:white_glazed_thick_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 44.54,
+                      "sellPrice": 13.36
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:blaze_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 46,
+                      "sellPrice": 13.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:kitchen_hood",
+                        "count": 1
+                      },
+                      "buyPrice": 50.63,
+                      "sellPrice": 15.19
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:skeleton_horse_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 55,
+                      "sellPrice": 16.5
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:vindicator_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 57,
+                      "sellPrice": 17.1
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bench",
+                        "count": 1
+                      },
+                      "buyPrice": 63.75,
+                      "sellPrice": 19.13
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:frozen_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 64.75,
+                      "sellPrice": 19.43
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:goat_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 66,
+                      "sellPrice": 19.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oven",
+                        "count": 1
+                      },
+                      "buyPrice": 73.63,
+                      "sellPrice": 22.09
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:fancy_painting",
+                        "count": 1
+                      },
+                      "buyPrice": 76,
+                      "sellPrice": 22.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:phantom_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 79.02,
+                      "sellPrice": 23.71
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:golden_thin_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 557.33,
+                      "sellPrice": 167.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:golden_wide_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 561.67,
+                      "sellPrice": 168.5
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:golden_medium_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 566,
+                      "sellPrice": 169.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:golden_thick_pot",
+                        "count": 1
+                      },
+                      "buyPrice": 570.33,
+                      "sellPrice": 171.1
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:wither_skeleton_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 616,
+                      "sellPrice": 184.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:evoker_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 1010,
+                      "sellPrice": 303
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:creeper_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 1510,
+                      "sellPrice": 453
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:skeleton_trophy",
+                        "count": 1
+                      },
+                      "buyPrice": 1510,
+                      "sellPrice": 453
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.handcrafted_decor",
+                  "message": "pixelgo.npc.handcrafted_decor.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.handcrafted_decor",
+        "color": "#D2A679",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

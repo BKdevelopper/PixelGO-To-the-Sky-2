@@ -1,0 +1,46 @@
+[
+  {
+    "item": "pixelmon:rare_candy",
+    "count": 1,
+    "weight": 15
+  },
+  {
+    "item": "pixelmon:hyper_potion",
+    "count": 5,
+    "weight": 100
+  },
+  {
+    "item": "pixelmon:poke_ball",
+    "count": 5,
+    "nbt": "{\"pixelmon:poke_ball\": \"ancient_poke_ball\"}",
+    "weight": 100
+  },
+  {
+    "item": "kubejs:random_egg",
+    "count": 2,
+    "weight": 200
+  },
+  {
+    "item": "pixelmon:max_revive",
+    "count": 1,
+    "weight": 100
+  },
+  {
+    "item": "pixelmongo:egg",
+    "count": 1,
+    "nbt": "{\"pixelmongo:key\": \"Light Gray Egg [MK 0]\"}",
+    "weight": 60
+  },
+  {
+    "item": "pixelmongo:egg",
+    "count": 1,
+    "nbt": "{\"pixelmongo:key\": \"Red Egg [MK 2]\"}",
+    "weight": 25
+  },
+  {
+    "item": "pixelmongo:egg",
+    "count": 1,
+    "nbt": "{\"pixelmongo:key\": \"Blue Egg [MK 6]\"}",
+    "weight": 10
+  }
+]

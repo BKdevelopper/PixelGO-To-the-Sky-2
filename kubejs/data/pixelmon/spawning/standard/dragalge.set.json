@@ -1,0 +1,64 @@
+{
+  "id": "Dragalge",
+  "spawnInfos": [
+    {
+      "spec": "species:Dragalge",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 48,
+      "maxLevel": 64,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:deep_ocean",
+          "terralith:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
+        ],
+        "maxY": 40
+      },
+      "rarity": 5
+    },
+    {
+      "spec": "species:Dragalge",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 48,
+      "maxLevel": 64,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 25
+    },
+    {
+      "spec": "species:Dragalge",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 48,
+      "maxLevel": 64,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:temples/water_chalice"
+        ],
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "rarity": 10
+    }
+  ]
+}

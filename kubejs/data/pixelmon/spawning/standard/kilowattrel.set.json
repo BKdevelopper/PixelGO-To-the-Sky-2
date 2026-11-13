@@ -1,0 +1,28 @@
+{
+  "id": "Kilowattrel",
+  "spawnInfos": [
+    {
+      "spec": "species:Kilowattrel",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 25,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 10
+    }
+  ]
+}

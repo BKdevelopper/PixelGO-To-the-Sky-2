@@ -1,0 +1,706 @@
+{
+  "root": {
+    "title": {
+      "translate": "pixelgo_origins.tree.botanist.root.title",
+      "fallback": "Seedling",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_harvest_yield",
+          "with": [
+            "5"
+          ],
+          "fallback": "+5%% apricorns and berries",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.botanist.root.flavor",
+      "fallback": "Talk to your plants. They listen.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:green_apricorn"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "orchard_care": {
+    "title": {
+      "translate": "pixelgo_origins.tree.botanist.orchard_care.title",
+      "fallback": "Orchard Care",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_harvest_yield",
+          "with": [
+            "6"
+          ],
+          "fallback": "+6%% apricorns and berries",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:red_apricorn"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "pollinator": {
+    "title": {
+      "translate": "pixelgo_origins.tree.botanist.pollinator.title",
+      "fallback": "Pollinator",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_harvest_yield",
+          "with": [
+            "8"
+          ],
+          "fallback": "+8%% apricorns and berries",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:yellow_apricorn"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "bumper_crop": {
+    "title": {
+      "translate": "pixelgo_origins.tree.botanist.bumper_crop.title",
+      "fallback": "Bumper Crop",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_harvest_yield",
+          "with": [
+            "10"
+          ],
+          "fallback": "+10%% apricorns and berries",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:black_apricorn"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "master_grower": {
+    "title": {
+      "translate": "pixelgo_origins.tree.botanist.master_grower.title",
+      "fallback": "Master Grower",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_harvest_yield",
+          "with": [
+            "20"
+          ],
+          "fallback": "+20%% apricorns and berries",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.botanist.master_grower.flavor",
+      "fallback": "Specialisation: harvest.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:white_apricorn"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 20,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "berry_treats": {
+    "title": {
+      "translate": "pixelgo_origins.tree.botanist.berry_treats.title",
+      "fallback": "Berry Treats",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:oran_berry"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "herbal_remedy": {
+    "title": {
+      "translate": "pixelgo_origins.tree.botanist.herbal_remedy.title",
+      "fallback": "Herbal Remedy",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_party_vitality",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1%% party HP per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:sitrus_berry"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "berry_farmer": {
+    "title": {
+      "translate": "pixelgo_origins.tree.botanist.berry_farmer.title",
+      "fallback": "Berry Farmer",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_harvest_yield",
+          "with": [
+            "4"
+          ],
+          "fallback": "+4%% apricorns and berries",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:leppa_berry"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 4,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "herbalist": {
+    "title": {
+      "translate": "pixelgo_origins.tree.botanist.herbalist.title",
+      "fallback": "Herbalist",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2 friendship per aura pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_party_vitality",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2%% party HP per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.botanist.herbalist.flavor",
+      "fallback": "Specialisation: berries and care.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:lum_berry"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 2,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "sap_blood": {
+    "title": {
+      "translate": "pixelgo_origins.tree.botanist.sap_blood.title",
+      "fallback": "Sap Blood",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_max_health",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2 max health",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:oak_sapling"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "four_leaf": {
+    "title": {
+      "translate": "pixelgo_origins.tree.botanist.four_leaf.title",
+      "fallback": "Four-Leaf",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_luck",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 luck",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fern"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "woodcutter": {
+    "title": {
+      "translate": "pixelgo_origins.tree.botanist.woodcutter.title",
+      "fallback": "Woodcutter",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_player_block_break_speed",
+          "with": [
+            "15"
+          ],
+          "fallback": "+15%% mining speed",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "bountiful_harvest": {
+    "title": {
+      "translate": "pixelgo_origins.tree.botanist.bountiful_harvest.title",
+      "fallback": "Bountiful Harvest",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.tree.botanist.bountiful_harvest.power",
+          "fallback": "Crops and logs drop one extra copy of their loot.",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_harvest_yield",
+          "with": [
+            "10"
+          ],
+          "fallback": "+10%% apricorns and berries",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.botanist.bountiful_harvest.flavor",
+      "fallback": "The soil remembers your kindness.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:honey"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 3,
+    "required_spent_points": 12,
+    "rewards": [
+      {
+        "type": "neofishcompat:unlock_power",
+        "data": {
+          "power": "pixelgo_origins:botanist_bounty"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ]
+  }
+}

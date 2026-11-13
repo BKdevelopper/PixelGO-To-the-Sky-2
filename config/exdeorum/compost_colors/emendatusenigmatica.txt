@@ -1,0 +1,4 @@
+// Compost colors for emendatusenigmatica. You may add your own colors, change existing ones, or remove colors that aren't needed.
+enigmatic_hammer, #ffffff
+felinium_jaminite_ingot, #ffffff
+shield_upgrade_template, #d2ae73

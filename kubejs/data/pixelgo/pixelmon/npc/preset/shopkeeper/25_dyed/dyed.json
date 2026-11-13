@@ -1,0 +1,1676 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.dyed",
+                  "message": "pixelgo.npc.dyed.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "minecraft:magenta_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.79,
+                      "sellPrice": 0.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blue_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.8,
+                      "sellPrice": 0.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_gray_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.8,
+                      "sellPrice": 0.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:orange_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.8,
+                      "sellPrice": 0.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pink_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.8,
+                      "sellPrice": 0.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:purple_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.8,
+                      "sellPrice": 0.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:red_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.8,
+                      "sellPrice": 0.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:yellow_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.8,
+                      "sellPrice": 0.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_blue_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.81,
+                      "sellPrice": 0.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cyan_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.82,
+                      "sellPrice": 0.25
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:white_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.83,
+                      "sellPrice": 0.25
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brown_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.84,
+                      "sellPrice": 0.25
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:green_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.84,
+                      "sellPrice": 0.25
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:lime_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.84,
+                      "sellPrice": 0.25
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:gray_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.91,
+                      "sellPrice": 0.27
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:black_stained_glass_pane",
+                        "count": 1
+                      },
+                      "buyPrice": 0.98,
+                      "sellPrice": 0.29
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:purple_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.59,
+                      "sellPrice": 0.48
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:magenta_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.61,
+                      "sellPrice": 0.48
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blue_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.63,
+                      "sellPrice": 0.49
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_gray_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.63,
+                      "sellPrice": 0.49
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:orange_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.63,
+                      "sellPrice": 0.49
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pink_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.63,
+                      "sellPrice": 0.49
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:red_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.63,
+                      "sellPrice": 0.49
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:yellow_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.63,
+                      "sellPrice": 0.49
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_blue_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.67,
+                      "sellPrice": 0.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cyan_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.69,
+                      "sellPrice": 0.51
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:white_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.71,
+                      "sellPrice": 0.51
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:lime_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.73,
+                      "sellPrice": 0.52
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brown_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.75,
+                      "sellPrice": 0.53
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:green_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.75,
+                      "sellPrice": 0.53
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:gray_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 1.92,
+                      "sellPrice": 0.58
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:purple_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 1.93,
+                      "sellPrice": 0.58
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:magenta_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 1.94,
+                      "sellPrice": 0.58
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blue_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 1.96,
+                      "sellPrice": 0.59
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_gray_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 1.96,
+                      "sellPrice": 0.59
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:orange_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 1.96,
+                      "sellPrice": 0.59
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pink_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 1.96,
+                      "sellPrice": 0.59
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:red_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 1.96,
+                      "sellPrice": 0.59
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:yellow_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 1.96,
+                      "sellPrice": 0.59
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:green_dye",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_blue_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cyan_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 2.02,
+                      "sellPrice": 0.61
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:white_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 2.04,
+                      "sellPrice": 0.61
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:lime_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 2.06,
+                      "sellPrice": 0.62
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brown_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 2.08,
+                      "sellPrice": 0.62
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:green_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 2.08,
+                      "sellPrice": 0.62
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:magenta_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.11,
+                      "sellPrice": 0.63
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:black_concrete_powder",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blue_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_gray_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:orange_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pink_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:purple_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:red_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:yellow_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_blue_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.17,
+                      "sellPrice": 0.65
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cyan_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.19,
+                      "sellPrice": 0.66
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:white_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.21,
+                      "sellPrice": 0.66
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:lime_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.23,
+                      "sellPrice": 0.67
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brown_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.25,
+                      "sellPrice": 0.68
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:gray_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 2.25,
+                      "sellPrice": 0.68
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:green_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.25,
+                      "sellPrice": 0.68
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:gray_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.42,
+                      "sellPrice": 0.73
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:black_concrete",
+                        "count": 1
+                      },
+                      "buyPrice": 2.46,
+                      "sellPrice": 0.74
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:black_stained_glass",
+                        "count": 1
+                      },
+                      "buyPrice": 2.63,
+                      "sellPrice": 0.79
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:purple_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 4.75,
+                      "sellPrice": 1.43
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:magenta_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 4.88,
+                      "sellPrice": 1.46
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blue_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_gray_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:orange_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pink_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:red_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:yellow_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:white_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 5.33,
+                      "sellPrice": 1.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_blue_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 5.34,
+                      "sellPrice": 1.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cyan_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 5.5,
+                      "sellPrice": 1.65
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:white_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 5.67,
+                      "sellPrice": 1.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:purple_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 5.83,
+                      "sellPrice": 1.75
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:lime_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 5.84,
+                      "sellPrice": 1.75
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:magenta_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 5.92,
+                      "sellPrice": 1.78
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blue_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_gray_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:orange_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pink_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:red_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:yellow_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brown_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:green_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_blue_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 6.22,
+                      "sellPrice": 1.87
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cyan_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 6.33,
+                      "sellPrice": 1.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:lime_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 6.56,
+                      "sellPrice": 1.97
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brown_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 6.67,
+                      "sellPrice": 2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:green_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 6.67,
+                      "sellPrice": 2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:gray_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 7.34,
+                      "sellPrice": 2.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:gray_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 7.56,
+                      "sellPrice": 2.27
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:white_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:black_carpet",
+                        "count": 1
+                      },
+                      "buyPrice": 8.67,
+                      "sellPrice": 2.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:purple_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 8.75,
+                      "sellPrice": 2.63
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:magenta_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 8.88,
+                      "sellPrice": 2.66
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:black_candle",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blue_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_gray_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:orange_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pink_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:red_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:yellow_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_blue_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 9.34,
+                      "sellPrice": 2.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cyan_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 9.5,
+                      "sellPrice": 2.85
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:lime_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 9.84,
+                      "sellPrice": 2.95
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brown_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:green_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 10,
+                      "sellPrice": 3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:gray_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 11.34,
+                      "sellPrice": 3.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:black_wool",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:magenta_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.11,
+                      "sellPrice": 3.93
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blue_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.13,
+                      "sellPrice": 3.94
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_gray_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.13,
+                      "sellPrice": 3.94
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:orange_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.13,
+                      "sellPrice": 3.94
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pink_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.13,
+                      "sellPrice": 3.94
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:purple_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.13,
+                      "sellPrice": 3.94
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:red_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.13,
+                      "sellPrice": 3.94
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:yellow_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.13,
+                      "sellPrice": 3.94
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_blue_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.17,
+                      "sellPrice": 3.95
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cyan_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.19,
+                      "sellPrice": 3.96
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:white_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.21,
+                      "sellPrice": 3.96
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:lime_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.23,
+                      "sellPrice": 3.97
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brown_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.25,
+                      "sellPrice": 3.97
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:green_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.25,
+                      "sellPrice": 3.97
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:gray_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.42,
+                      "sellPrice": 4.03
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:black_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 13.63,
+                      "sellPrice": 4.09
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:magenta_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.11,
+                      "sellPrice": 4.23
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blue_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.13,
+                      "sellPrice": 4.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_gray_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.13,
+                      "sellPrice": 4.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:orange_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.13,
+                      "sellPrice": 4.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pink_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.13,
+                      "sellPrice": 4.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:purple_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.13,
+                      "sellPrice": 4.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:red_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.13,
+                      "sellPrice": 4.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:yellow_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.13,
+                      "sellPrice": 4.24
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_blue_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.17,
+                      "sellPrice": 4.25
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cyan_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.19,
+                      "sellPrice": 4.26
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:white_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.21,
+                      "sellPrice": 4.26
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:lime_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.23,
+                      "sellPrice": 4.27
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brown_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.25,
+                      "sellPrice": 4.27
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:green_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.25,
+                      "sellPrice": 4.27
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:gray_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.42,
+                      "sellPrice": 4.33
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:black_glazed_terracotta",
+                        "count": 1
+                      },
+                      "buyPrice": 14.63,
+                      "sellPrice": 4.39
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:white_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:magenta_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 30.88,
+                      "sellPrice": 9.26
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blue_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 31,
+                      "sellPrice": 9.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_gray_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 31,
+                      "sellPrice": 9.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:orange_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 31,
+                      "sellPrice": 9.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pink_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 31,
+                      "sellPrice": 9.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:purple_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 31,
+                      "sellPrice": 9.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:red_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 31,
+                      "sellPrice": 9.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:yellow_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 31,
+                      "sellPrice": 9.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_blue_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 31.34,
+                      "sellPrice": 9.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cyan_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 31.5,
+                      "sellPrice": 9.45
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:lime_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 31.84,
+                      "sellPrice": 9.55
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brown_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:green_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:gray_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 33.34,
+                      "sellPrice": 10
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:black_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 35,
+                      "sellPrice": 10.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:white_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 49,
+                      "sellPrice": 14.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:purple_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 53.5,
+                      "sellPrice": 16.05
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:magenta_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 54.25,
+                      "sellPrice": 16.27
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:blue_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 55,
+                      "sellPrice": 16.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_gray_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 55,
+                      "sellPrice": 16.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:orange_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 55,
+                      "sellPrice": 16.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pink_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 55,
+                      "sellPrice": 16.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:red_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 55,
+                      "sellPrice": 16.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:yellow_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 55,
+                      "sellPrice": 16.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:light_blue_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 57.01,
+                      "sellPrice": 17.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cyan_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 58,
+                      "sellPrice": 17.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:lime_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 60.01,
+                      "sellPrice": 18
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brown_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 61,
+                      "sellPrice": 18.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:green_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 61,
+                      "sellPrice": 18.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:gray_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 69.01,
+                      "sellPrice": 20.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:black_banner",
+                        "count": 1
+                      },
+                      "buyPrice": 79,
+                      "sellPrice": 23.7
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.dyed",
+                  "message": "pixelgo.npc.dyed.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.dyed",
+        "color": "#FF77CC",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

@@ -1,0 +1,20 @@
+#ProjectEMon - ProjectE <-> Pixelmon compatibility.
+#
+#This file only contains behaviour switches. To change EMC VALUES, override
+#data/projectemon/pe_custom_conversions/*.json from a datapack, or edit
+#config/projecte/custom_emc.json, or use /projecte setEMC in game.
+[safety]
+	#Removes EMC from every item that carries the 'pixelmon:pokemon_base' data
+	#component (for example a filled Pokemon sprite). This stops a stored Pokemon
+	#from ever being learned, transmuted or condensed, which would duplicate it.
+	#Leave this on unless you know exactly what you are doing.
+	blockItemsHoldingPokemonData = true
+	#When true, a Poke Ball variant that has no EMC value of its own gets 0 EMC.
+	#When false, such a variant falls back to the value of the base
+	#'pixelmon:poke_ball' item. Strict mode is safer: a ball added by another
+	#datapack or addon cannot inherit a cheap value by accident.
+	strictPokeBallVariants = true
+
+[logging]
+	#Logs the Poke Ball EMC values resolved on each EMC remap. Useful when tuning values.
+	logResolvedPokeBallValues = false

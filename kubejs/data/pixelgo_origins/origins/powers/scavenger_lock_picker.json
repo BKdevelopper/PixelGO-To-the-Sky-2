@@ -1,0 +1,6 @@
+{
+  "type": "neoorigins:attribute_modifier",
+  "attribute": "pixelgo:pokeloot_luck",
+  "amount": 8,
+  "operation": "add_value"
+}

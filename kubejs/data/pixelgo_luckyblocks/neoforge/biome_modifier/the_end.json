@@ -1,0 +1,17 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_end",
+  "step": "vegetal_decoration",
+  "features": [
+    "pixelgo_luckyblocks:the_end/common_lucky_block",
+    "pixelgo_luckyblocks:the_end/item_lucky_block",
+    "pixelgo_luckyblocks:the_end/rare_lucky_block",
+    "pixelgo_luckyblocks:the_end/master_lucky_block",
+    "pixelgo_luckyblocks:the_end/alternate_form_lucky_block",
+    "pixelgo_luckyblocks:the_end/boss_lucky_block",
+    "pixelgo_luckyblocks:the_end/shiny_lucky_block",
+    "pixelgo_luckyblocks:the_end/legendary_lucky_block",
+    "pixelgo_luckyblocks:the_end/jackpot_lucky_block",
+    "pixelgo_luckyblocks:the_end/super_jackpot_lucky_block"
+  ]
+}

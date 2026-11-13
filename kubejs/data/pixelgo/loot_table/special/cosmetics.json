@@ -1,0 +1,225 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_bulbasaur",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_charmander",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_squirtle",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_eevee",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_happiny",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_snorlax",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_gengar",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_mimikyu",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_jigglypuff",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_lechonk",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_wooper",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_riolu",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_rowlet",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_cyndaquil",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_treecko",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_mareep",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_furret",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_sableye",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_drifloon",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_absol",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pokeblocks:pokedoll_munchlax",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pkmn_trainer_red_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pkmn_trainer_red_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pkmn_trainer_blue_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pkmn_trainer_blue_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pkmn_trainer_green_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pkmn_trainer_green_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pkmn_trainer_yellow_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pkmn_trainer_yellow_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pkmn_trainer_black_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pkmn_trainer_black_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pkmn_trainer_pink_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pkmn_trainer_pink_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pokemaniac_pikachu_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pokemaniac_gengar_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pokemaniac_magikarp_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pokemaniac_wooper_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pokemaniac_greninja_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pokemaniac_pikachu_shiny_helmet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pokemaniac_gengar_shiny_helmet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pokemaniac_magikarp_shiny_helmet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pokemaniac_wooper_shiny_helmet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weavers_cosmetics_cosplay:pokemaniac_greninja_shiny_helmet",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

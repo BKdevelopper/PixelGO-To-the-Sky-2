@@ -1,0 +1,20 @@
+// Compost colors for tcg. You may add your own colors, change existing ones, or remove colors that aren't needed.
+battle_rule, #ffffff
+card, #eef2ff
+card_back, #fff7fa
+coin, #ffffff
+compendium, #ffedd0
+deck, #c8b4e4
+eye, #ffe776
+key, #ffffff
+large_battle_controller, #ffffff
+medium_battle_controller, #ffffff
+necklace, #ffffff
+pack, #e6e6ff
+pendant, #d7b120
+ring, #ffffe3
+rod, #ffffff
+rulebook, #845846
+scales, #fffff1
+shadow_wand, #ffffff
+small_battle_controller, #ffffff

@@ -1,0 +1,42 @@
+{
+  "name": "origins.pixelgo_origins.breeder.name",
+  "description": "origins.pixelgo_origins.breeder.description",
+  "icon": "pixelmon:oval_charm",
+  "impact": "low",
+  "order": 4,
+  "powers": [
+    "pixelgo_origins:breeder_warm_hands",
+    "pixelgo_origins:breeder_kind_words",
+    "pixelgo_origins:breeder_twin_births",
+    "pixelgo_origins:breeder_gentle_soul",
+    "pixelgo_origins:breeder_skill_tree"
+  ],
+  "upgrades": [],
+  "tier_powers": [
+    {
+      "tier": 1,
+      "add": [
+        "pixelgo_origins:breeder_evolution_1"
+      ],
+      "remove": []
+    },
+    {
+      "tier": 2,
+      "add": [
+        "pixelgo_origins:breeder_evolution_2"
+      ],
+      "remove": [
+        "pixelgo_origins:breeder_evolution_1"
+      ]
+    },
+    {
+      "tier": 3,
+      "add": [
+        "pixelgo_origins:breeder_evolution_3"
+      ],
+      "remove": [
+        "pixelgo_origins:breeder_evolution_2"
+      ]
+    }
+  ]
+}

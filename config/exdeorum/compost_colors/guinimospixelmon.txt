@@ -1,0 +1,22 @@
+// Compost colors for guinimospixelmon. You may add your own colors, change existing ones, or remove colors that aren't needed.
+arceus_temple_map, #ffffcf
+articuno_temple_map, #f8faea
+berry_catcher, #c6b4a0
+breeder_bottle, #dabcff
+celebi_temple_map, #ffffc6
+dragon_gym_map, #ffffda
+dynamax_quest_giver, #eda2ff
+electric_gym_map, #ffffda
+fairy_gym_map, #ffffda
+fire_gym_map, #ffffda
+ghost_gym_map, #ffffda
+grass_gym_map, #ffffda
+ground_gym_map, #ffffda
+ice_gym_map, #ffffda
+lure_crafter, #dcd37a
+moltres_temple_map, #ffffc5
+poke_hunter, #834a4e
+portable_healer, #50667c
+steel_gym_map, #ffffda
+water_gym_map, #ffffda
+zapdos_temple_map, #fcffc9

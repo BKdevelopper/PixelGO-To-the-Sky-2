@@ -1,0 +1,43 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Sieve & Hammer",
+    "color": "gold",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "A "
+      },
+      {
+        "text": "crucible",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " melts wood into "
+      },
+      {
+        "text": "lava",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": ", or stone into "
+      },
+      {
+        "text": "water",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": ". It is how a skyblock gets both."
+      }
+    ]
+  },
+  "cycle_time": 7000
+}

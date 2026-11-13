@@ -1,0 +1,6 @@
+{
+  "type": "neoorigins:attribute_modifier",
+  "attribute": "pixelgo:fishing_luck",
+  "amount": 10,
+  "operation": "add_value"
+}

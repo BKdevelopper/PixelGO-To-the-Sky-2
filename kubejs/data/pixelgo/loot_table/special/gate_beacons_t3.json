@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_dungeon:gate_beacon_s",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_dungeon:gate_beacon_ss",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_dungeon:gate_beacon_sss",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

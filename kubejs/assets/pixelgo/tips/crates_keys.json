@@ -1,0 +1,35 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Crates",
+    "color": "aqua",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Four crates, four keys, and "
+      },
+      {
+        "text": "a key only ever fits its own crate",
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": ". The key is consumed, with a "
+      },
+      {
+        "text": "7.5",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " second cooldown."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

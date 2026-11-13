@@ -1,0 +1,1136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "projecte"
+	group: "7E262B459587A2CB"
+	icon: {
+		id: "projecte:philosophers_stone"
+	}
+	id: "6179F2907C4FC526"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6C9E3E51BD57D41C"
+			rewards: [
+				{
+					id: "0E5DD4DEEE53061F"
+					item: {
+						count: 1
+						id: "pixelmon:rare_candy"
+					}
+					type: "item"
+				}
+				{
+					id: "54A9FBFAD0BE4D85"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "306425893DB84CCE"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier4"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F5E439AB285C686"
+				item: { count: 1, id: "projecte:philosophers_stone" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C9E3E51BD57D41C"]
+			id: "5DDF0B4962504872"
+			rewards: [
+				{
+					id: "4456D8C1069DA692"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "09F6DEBB6AF5A93A"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier1"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F75AAA126C3F908"
+				item: { count: 1, id: "projecte:transmutation_table" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C9E3E51BD57D41C"]
+			id: "7FD5D500F4171371"
+			rewards: [
+				{
+					id: "1D801948F56DB294"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "643F8BB273D16FB1"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier1"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2615DC38804C083D"
+				item: { count: 1, id: "projecte:alchemical_coal" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FD5D500F4171371"]
+			id: "2C962B401EF33E5C"
+			rewards: [
+				{
+					id: "76189CE577C4C8CE"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "254AAC1739CDB5B3"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier1"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79949A3E2608366F"
+				item: { count: 1, id: "projecte:mobius_fuel" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C962B401EF33E5C"]
+			id: "037CA3CB80967E16"
+			rewards: [
+				{
+					id: "05943E64588CDB5B"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "33B4AC14D38FD198"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier2"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CD5D4D3BB9A6124"
+				item: { count: 1, id: "projecte:aeternalis_fuel" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["037CA3CB80967E16"]
+			id: "05C998AF2FBA1323"
+			rewards: [
+				{
+					id: "6656BC48DDD331FA"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "45D1FC337D61A0EC"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier2"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32AFCFD66AFFBDC3"
+				item: { count: 1, id: "projecte:aeternalis_fuel_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05C998AF2FBA1323"]
+			id: "37478AAF4BD50D2D"
+			rewards: [
+				{
+					id: "0EF6146BBA730B93"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "09354BFB347BDF09"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier3"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4AA7609E46076474"
+				item: { count: 1, id: "projecte:dark_matter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37478AAF4BD50D2D"]
+			id: "778DDBA3A6600563"
+			rewards: [
+				{
+					id: "6D37D7CD81CA98B6"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "52543A393FCBF239"
+					item: {
+						count: 1
+						id: "projecte:red_matter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18CA6FE8CA1F8EDC"
+				item: { count: 1, id: "projecte:red_matter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37478AAF4BD50D2D"]
+			id: "6894E2BCF0972781"
+			rewards: [
+				{
+					id: "0174968705822346"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "57EFBA178384C12E"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier2"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33AB33EC0C42B001"
+				item: { count: 1, id: "projecte:dm_pick" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["778DDBA3A6600563"]
+			id: "0DC1D2E1EF86C0B9"
+			rewards: [
+				{
+					id: "4A31B6797EF584FE"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "3B3F03AB460FF270"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier3"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39E2E02A9E331DF1"
+				item: { count: 1, id: "projecte:rm_pick" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["778DDBA3A6600563"]
+			id: "4557ADB7ABD86690"
+			rewards: [
+				{
+					id: "79A7A42283D13E58"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "7E108729FC4D168A"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier3"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B803A303B138EAF"
+				item: { count: 1, id: "projecte:rm_furnace" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["37478AAF4BD50D2D"]
+			id: "7DEB815F7679EBB6"
+			rewards: [
+				{
+					id: "1F0A9CEF31673151"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "4B4E0E2AB9A3726C"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier3"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DB5EAFCF9D78341"
+				item: { count: 1, id: "projecte:dm_furnace" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "3B88EA5D95250631"
+			rewards: [
+				{
+					id: "1963EDB37B199070"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Light Gray Egg [MK 0]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+				{
+					id: "3021964FD2E72E31"
+					item: {
+						count: 1
+						id: "pixelmongo:incubator"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73BD6190A4D1EA7A"
+				item: { count: 1, id: "kubejs:light_gray_ticket" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"124DD3C1AEA303E4"
+				"3B88EA5D95250631"
+			]
+			id: "133768F0839AAF48"
+			rewards: [
+				{
+					id: "60087FEF625B7DF6"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "292B23F6A4F8039A"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Gray Egg [MK 1]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7CDDA3061950CCBE"
+				item: { count: 1, id: "kubejs:gray_ticket" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F43C223EAE5FFF2"]
+			id: "48DCBE752C8B07BA"
+			rewards: [
+				{
+					id: "3B2750C688FE0C9F"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "370297ACF87FA472"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Red Egg [MK 2]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FA73A56BF3DB0F6"
+				item: { count: 1, id: "kubejs:red_ticket" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["53FC6804D986BF19"]
+			id: "50FC52DD85A779A0"
+			rewards: [
+				{
+					id: "6EFBF686947994C0"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "2527E418432812FB"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Magenta Egg [MK 3]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6663CAD3F7DC31C6"
+				item: { count: 1, id: "kubejs:magenta_ticket" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6702C816405C3D49"]
+			id: "2BF0F1C317B3EC90"
+			rewards: [
+				{
+					id: "0531477A56DDC963"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "114BF8BD795D4DB0"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Pink Egg [MK 4]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16C1CD1783A3DBF0"
+				item: { count: 1, id: "kubejs:pink_ticket" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["43B0C82AF4ED024C"]
+			id: "6A54C17CAA5AB59D"
+			rewards: [
+				{
+					id: "085E435B8204D13B"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "598547F1310027B2"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Purple Egg [MK 5]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EE2B35935062435"
+				item: { count: 1, id: "kubejs:purple_ticket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["360D5DE82359532A"]
+			id: "2C220243571595FB"
+			rewards: [
+				{
+					id: "5337176A70670488"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "56489065BA0F0A1A"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Blue Egg [MK 6]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2851315D5D08EFDF"
+				item: { count: 1, id: "kubejs:blue_ticket" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["78A7CC63F77DA933"]
+			id: "3F5B4010DCB3F07B"
+			rewards: [
+				{
+					id: "315AA5F52A29F98F"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "15F768BB4E92A664"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Cyan Egg [MK 7]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C8BA3D8D6ADF9FB"
+				item: { count: 1, id: "kubejs:cyan_ticket" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6B65DF5DA353CA24"]
+			id: "28D0BA891CF81C69"
+			rewards: [
+				{
+					id: "73373B847C7DB953"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "1222EAE00F124466"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Light Blue Egg [MK 8]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6848A81511086974"
+				item: { count: 1, id: "kubejs:light_blue_ticket" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["25934671122EE560"]
+			id: "490BEB37C3CAEA9E"
+			rewards: [
+				{
+					id: "7A5E4A16EE33A9BF"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "64BC75C9AABA9556"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Green Egg [MK 9]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19C52CB7D8B9E55C"
+				item: { count: 1, id: "kubejs:green_ticket" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["780986C2E04FA219"]
+			id: "5307E6D8221A472C"
+			rewards: [
+				{
+					id: "1B27321364A4A826"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "40A94D1D6527D0BF"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Lime Egg [MK 10]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E6C3588DAA2C746"
+				item: { count: 1, id: "kubejs:lime_ticket" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6646C6301B7A2D00"]
+			id: "4030B95D7EA4EB35"
+			rewards: [
+				{
+					id: "1702CF2BD240150D"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "1AFF0F89DBAB0CFC"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Yellow Egg [MK 11]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67EF721E47DBF377"
+				item: { count: 1, id: "kubejs:yellow_ticket" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["070EE251B84525C4"]
+			id: "1762D348EC838870"
+			rewards: [
+				{
+					id: "79A4448CEC1A77C3"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "28297F0106B39C08"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Orange Egg [MK 12]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56119328EAA95F58"
+				item: { count: 1, id: "kubejs:orange_ticket" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["276BA27C656BBE7A"]
+			id: "6D516F71A576734F"
+			rewards: [
+				{
+					id: "3A6164733613A711"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "647B1A94EE6D7D38"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Brown Egg [MK 13]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FAE6624B3FF289F"
+				item: { count: 1, id: "kubejs:brown_ticket" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["74EB0BD57D853B93"]
+			id: "2F78ACDC74F29CCB"
+			rewards: [
+				{
+					id: "797A74B7D1B40DF3"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "530E81FBA78E8014"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "White Egg [MK 14]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "002C06DBA447AE7B"
+				item: { count: 1, id: "kubejs:white_ticket" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["24146E077E747BFA"]
+			id: "2CE9449856CBFF1B"
+			rewards: [
+				{
+					id: "76E543361321B0B2"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "315863390EA6F44D"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Black Egg [MK 15]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36D13891955FC211"
+				item: { count: 1, id: "kubejs:black_ticket" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2AD05A50B3CEA4D4"]
+			id: "78D08784C935B6E9"
+			rewards: [
+				{
+					id: "1CDB560C737C1522"
+					table_id: 7425138225794464107L
+					type: "random"
+				}
+				{
+					id: "1927C1366D210B4E"
+					item: {
+						components: {
+							"pixelmongo:egg_data": {
+								distance: 5000.0d
+								key: "Ultimate Egg [MK 16]"
+							}
+						}
+						count: 1
+						id: "pixelmongo:egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01657CA81F777AAF"
+				item: { count: 1, id: "kubejs:rainbow_ticket" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7FD5D500F4171371"]
+			id: "124DD3C1AEA303E4"
+			tasks: [{
+				id: "3CC70A67A5A2FF2D"
+				item: { count: 1, id: "projecte:alchemical_coal_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["124DD3C1AEA303E4"]
+			id: "1F43C223EAE5FFF2"
+			tasks: [{
+				id: "738D7B3AF932707D"
+				item: { count: 1, id: "projecte:mobius_fuel_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F43C223EAE5FFF2"]
+			id: "53FC6804D986BF19"
+			tasks: [{
+				id: "06963F6A4534315C"
+				item: { count: 1, id: "projecte:klein_star_ein" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["53FC6804D986BF19"]
+			id: "6702C816405C3D49"
+			tasks: [{
+				id: "60267563815FDDAD"
+				item: { count: 1, id: "projecte:dark_matter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6702C816405C3D49"]
+			id: "43B0C82AF4ED024C"
+			tasks: [{
+				id: "4EB74AB0B4FD8D0C"
+				item: { count: 1, id: "projecte:klein_star_zwei" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43B0C82AF4ED024C"]
+			id: "360D5DE82359532A"
+			tasks: [{
+				id: "56B672D7F2F3D403"
+				item: { count: 1, id: "projecte:aeternalis_fuel_block" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["360D5DE82359532A"]
+			id: "78A7CC63F77DA933"
+			tasks: [{
+				id: "601F182FF5B6EDCB"
+				item: { count: 1, id: "projecte:red_matter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78A7CC63F77DA933"]
+			id: "6B65DF5DA353CA24"
+			tasks: [{
+				id: "7CAF81567090E50B"
+				item: { count: 1, id: "projecte:klein_star_drei" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6B65DF5DA353CA24"]
+			id: "25934671122EE560"
+			tasks: [{
+				id: "41BBAF43F6C77FC5"
+				item: { count: 1, id: "projecte:dark_matter_block" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25934671122EE560"]
+			id: "780986C2E04FA219"
+			tasks: [{
+				id: "51C6402CCB2C00A7"
+				item: { count: 1, id: "projecte:klein_star_vier" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["780986C2E04FA219"]
+			id: "6646C6301B7A2D00"
+			tasks: [{
+				id: "4519F5D3044C09F0"
+				item: { count: 1, id: "projecte:red_matter_block" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6646C6301B7A2D00"]
+			id: "070EE251B84525C4"
+			tasks: [{
+				id: "35C084303C957CBF"
+				item: { count: 1, id: "projecte:dm_pedestal" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["070EE251B84525C4"]
+			id: "276BA27C656BBE7A"
+			tasks: [{
+				id: "6E0FC1ABB73956A7"
+				item: { count: 1, id: "projecte:klein_star_sphere" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["276BA27C656BBE7A"]
+			id: "74EB0BD57D853B93"
+			tasks: [{
+				id: "188FBF024F79D770"
+				item: { count: 1, id: "projecte:condenser_mk2" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["74EB0BD57D853B93"]
+			id: "24146E077E747BFA"
+			tasks: [{
+				id: "0BE244F8A4956F9A"
+				item: { count: 1, id: "projecte:rm_furnace" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24146E077E747BFA"]
+			id: "2AD05A50B3CEA4D4"
+			rewards: [{
+				id: "76FA005BF26838A5"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "645524AB43266DF5"
+				item: { count: 1, id: "projecte:klein_star_omega" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.0d
+		}
+	]
+}

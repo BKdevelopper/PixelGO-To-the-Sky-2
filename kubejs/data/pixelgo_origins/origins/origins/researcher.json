@@ -1,0 +1,42 @@
+{
+  "name": "origins.pixelgo_origins.researcher.name",
+  "description": "origins.pixelgo_origins.researcher.description",
+  "icon": "pixelmon:pokedex",
+  "impact": "medium",
+  "order": 2,
+  "powers": [
+    "pixelgo_origins:researcher_trained_eye",
+    "pixelgo_origins:researcher_field_notes",
+    "pixelgo_origins:researcher_serendipity",
+    "pixelgo_origins:researcher_lab_hands",
+    "pixelgo_origins:researcher_skill_tree"
+  ],
+  "upgrades": [],
+  "tier_powers": [
+    {
+      "tier": 1,
+      "add": [
+        "pixelgo_origins:researcher_evolution_1"
+      ],
+      "remove": []
+    },
+    {
+      "tier": 2,
+      "add": [
+        "pixelgo_origins:researcher_evolution_2"
+      ],
+      "remove": [
+        "pixelgo_origins:researcher_evolution_1"
+      ]
+    },
+    {
+      "tier": 3,
+      "add": [
+        "pixelgo_origins:researcher_evolution_3"
+      ],
+      "remove": [
+        "pixelgo_origins:researcher_evolution_2"
+      ]
+    }
+  ]
+}

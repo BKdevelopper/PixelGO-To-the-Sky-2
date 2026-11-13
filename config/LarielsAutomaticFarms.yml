@@ -1,0 +1,14 @@
+# © PixelmonMod 2012-2025
+
+# For assistance visit https://pixelmonmod.com/wiki/Config
+# 
+# Progress per tick: workerPower / stationDifficultyHow difficult is it to work at this station
+apricorn-station-difficulty: 1300
+berry-station-difficulty: 1300
+crop-station-difficulty: 290
+ore-station-difficulty: 14400
+energy-station-difficulty: 1
+timber-station-difficulty: 7200
+# Malus for matching types of the station
+matching-type-modifier: 1.2
+not-matching-type-modifier: 0.1

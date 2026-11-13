@@ -1,0 +1,488 @@
+{
+  "origin": {
+    "definition": "origin",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "capture_root": {
+    "definition": "capture_root",
+    "x": 0,
+    "y": -42
+  },
+  "capture_throw_1": {
+    "definition": "capture_throw_1",
+    "x": 30,
+    "y": -83
+  },
+  "capture_gleam_1": {
+    "definition": "capture_gleam_1",
+    "x": 0,
+    "y": -88
+  },
+  "capture_grip_1": {
+    "definition": "capture_grip_1",
+    "x": -30,
+    "y": -83
+  },
+  "capture_throw_2": {
+    "definition": "capture_throw_2",
+    "x": 50,
+    "y": -124
+  },
+  "capture_gleam_2": {
+    "definition": "capture_gleam_2",
+    "x": 0,
+    "y": -134
+  },
+  "capture_grip_2": {
+    "definition": "capture_grip_2",
+    "x": -50,
+    "y": -124
+  },
+  "capture_timing": {
+    "definition": "capture_timing",
+    "x": 73,
+    "y": -164
+  },
+  "capture_dusk": {
+    "definition": "capture_dusk",
+    "x": 25,
+    "y": -178
+  },
+  "capture_quick": {
+    "definition": "capture_quick",
+    "x": -25,
+    "y": -178
+  },
+  "capture_prism": {
+    "definition": "capture_prism",
+    "x": -73,
+    "y": -164
+  },
+  "capture_master": {
+    "definition": "capture_master",
+    "x": 92,
+    "y": -206
+  },
+  "capture_luxury": {
+    "definition": "capture_luxury",
+    "x": 31,
+    "y": -224
+  },
+  "capture_hunter": {
+    "definition": "capture_hunter",
+    "x": -31,
+    "y": -224
+  },
+  "capture_charm": {
+    "definition": "capture_charm",
+    "x": -92,
+    "y": -206
+  },
+  "capture_legend": {
+    "definition": "capture_legend",
+    "x": 0,
+    "y": -276
+  },
+  "train_root": {
+    "definition": "train_root",
+    "x": 36,
+    "y": -21
+  },
+  "train_xp_1": {
+    "definition": "train_xp_1",
+    "x": 87,
+    "y": -15
+  },
+  "train_ev_1": {
+    "definition": "train_ev_1",
+    "x": 76,
+    "y": -44
+  },
+  "train_power_1": {
+    "definition": "train_power_1",
+    "x": 57,
+    "y": -67
+  },
+  "train_xp_2": {
+    "definition": "train_xp_2",
+    "x": 133,
+    "y": -19
+  },
+  "train_ev_2": {
+    "definition": "train_ev_2",
+    "x": 116,
+    "y": -67
+  },
+  "train_guard": {
+    "definition": "train_guard",
+    "x": 82,
+    "y": -106
+  },
+  "train_xp_3": {
+    "definition": "train_xp_3",
+    "x": 179,
+    "y": -19
+  },
+  "train_share": {
+    "definition": "train_share",
+    "x": 167,
+    "y": -67
+  },
+  "train_ev_3": {
+    "definition": "train_ev_3",
+    "x": 142,
+    "y": -111
+  },
+  "train_vitality": {
+    "definition": "train_vitality",
+    "x": 106,
+    "y": -146
+  },
+  "train_mentor": {
+    "definition": "train_mentor",
+    "x": 225,
+    "y": -24
+  },
+  "train_drill": {
+    "definition": "train_drill",
+    "x": 210,
+    "y": -85
+  },
+  "train_perfect": {
+    "definition": "train_perfect",
+    "x": 178,
+    "y": -139
+  },
+  "train_tactician": {
+    "definition": "train_tactician",
+    "x": 133,
+    "y": -183
+  },
+  "train_champion": {
+    "definition": "train_champion",
+    "x": 239,
+    "y": -138
+  },
+  "bond_root": {
+    "definition": "bond_root",
+    "x": 36,
+    "y": 21
+  },
+  "bond_friend_1": {
+    "definition": "bond_friend_1",
+    "x": 57,
+    "y": 67
+  },
+  "bond_egg_1": {
+    "definition": "bond_egg_1",
+    "x": 76,
+    "y": 44
+  },
+  "bond_heal_1": {
+    "definition": "bond_heal_1",
+    "x": 87,
+    "y": 15
+  },
+  "bond_friend_2": {
+    "definition": "bond_friend_2",
+    "x": 82,
+    "y": 106
+  },
+  "bond_egg_2": {
+    "definition": "bond_egg_2",
+    "x": 116,
+    "y": 67
+  },
+  "bond_heal_2": {
+    "definition": "bond_heal_2",
+    "x": 133,
+    "y": 19
+  },
+  "bond_friend_3": {
+    "definition": "bond_friend_3",
+    "x": 106,
+    "y": 146
+  },
+  "bond_destiny": {
+    "definition": "bond_destiny",
+    "x": 142,
+    "y": 111
+  },
+  "bond_egg_3": {
+    "definition": "bond_egg_3",
+    "x": 167,
+    "y": 67
+  },
+  "bond_heal_3": {
+    "definition": "bond_heal_3",
+    "x": 179,
+    "y": 19
+  },
+  "bond_soulmate": {
+    "definition": "bond_soulmate",
+    "x": 133,
+    "y": 183
+  },
+  "bond_breeder": {
+    "definition": "bond_breeder",
+    "x": 178,
+    "y": 139
+  },
+  "bond_nurse": {
+    "definition": "bond_nurse",
+    "x": 210,
+    "y": 85
+  },
+  "bond_scale": {
+    "definition": "bond_scale",
+    "x": 225,
+    "y": 24
+  },
+  "bond_legend": {
+    "definition": "bond_legend",
+    "x": 239,
+    "y": 138
+  },
+  "loot_root": {
+    "definition": "loot_root",
+    "x": 0,
+    "y": 42
+  },
+  "loot_drop_1": {
+    "definition": "loot_drop_1",
+    "x": -30,
+    "y": 83
+  },
+  "loot_chest_1": {
+    "definition": "loot_chest_1",
+    "x": 0,
+    "y": 88
+  },
+  "loot_clover": {
+    "definition": "loot_clover",
+    "x": 30,
+    "y": 83
+  },
+  "loot_drop_2": {
+    "definition": "loot_drop_2",
+    "x": -50,
+    "y": 124
+  },
+  "loot_chest_2": {
+    "definition": "loot_chest_2",
+    "x": 0,
+    "y": 134
+  },
+  "loot_star": {
+    "definition": "loot_star",
+    "x": 50,
+    "y": 124
+  },
+  "loot_drop_3": {
+    "definition": "loot_drop_3",
+    "x": -73,
+    "y": 164
+  },
+  "loot_amulet": {
+    "definition": "loot_amulet",
+    "x": -25,
+    "y": 178
+  },
+  "loot_chest_3": {
+    "definition": "loot_chest_3",
+    "x": 25,
+    "y": 178
+  },
+  "loot_fortune": {
+    "definition": "loot_fortune",
+    "x": 73,
+    "y": 164
+  },
+  "loot_scavenger": {
+    "definition": "loot_scavenger",
+    "x": -92,
+    "y": 206
+  },
+  "loot_treasure": {
+    "definition": "loot_treasure",
+    "x": -31,
+    "y": 224
+  },
+  "loot_insolent": {
+    "definition": "loot_insolent",
+    "x": 31,
+    "y": 224
+  },
+  "loot_shared": {
+    "definition": "loot_shared",
+    "x": 92,
+    "y": 206
+  },
+  "loot_legend": {
+    "definition": "loot_legend",
+    "x": 0,
+    "y": 276
+  },
+  "harvest_root": {
+    "definition": "harvest_root",
+    "x": -36,
+    "y": 21
+  },
+  "harvest_apricorn_1": {
+    "definition": "harvest_apricorn_1",
+    "x": -87,
+    "y": 15
+  },
+  "harvest_berry_1": {
+    "definition": "harvest_berry_1",
+    "x": -76,
+    "y": 44
+  },
+  "fishing_1": {
+    "definition": "fishing_1",
+    "x": -57,
+    "y": 67
+  },
+  "harvest_apricorn_2": {
+    "definition": "harvest_apricorn_2",
+    "x": -133,
+    "y": 19
+  },
+  "harvest_berry_2": {
+    "definition": "harvest_berry_2",
+    "x": -116,
+    "y": 67
+  },
+  "fishing_2": {
+    "definition": "fishing_2",
+    "x": -82,
+    "y": 106
+  },
+  "harvest_shears": {
+    "definition": "harvest_shears",
+    "x": -179,
+    "y": 19
+  },
+  "harvest_orchard": {
+    "definition": "harvest_orchard",
+    "x": -167,
+    "y": 67
+  },
+  "fishing_3": {
+    "definition": "fishing_3",
+    "x": -142,
+    "y": 111
+  },
+  "fishing_water": {
+    "definition": "fishing_water",
+    "x": -106,
+    "y": 146
+  },
+  "harvest_master": {
+    "definition": "harvest_master",
+    "x": -225,
+    "y": 24
+  },
+  "harvest_botanist": {
+    "definition": "harvest_botanist",
+    "x": -210,
+    "y": 85
+  },
+  "fishing_master": {
+    "definition": "fishing_master",
+    "x": -178,
+    "y": 139
+  },
+  "fishing_deep": {
+    "definition": "fishing_deep",
+    "x": -133,
+    "y": 183
+  },
+  "harvest_legend": {
+    "definition": "harvest_legend",
+    "x": -239,
+    "y": 138
+  },
+  "dig_root": {
+    "definition": "dig_root",
+    "x": -36,
+    "y": -21
+  },
+  "dig_fossil_1": {
+    "definition": "dig_fossil_1",
+    "x": -57,
+    "y": -67
+  },
+  "dig_mine_1": {
+    "definition": "dig_mine_1",
+    "x": -76,
+    "y": -44
+  },
+  "dig_step_1": {
+    "definition": "dig_step_1",
+    "x": -87,
+    "y": -15
+  },
+  "dig_fossil_2": {
+    "definition": "dig_fossil_2",
+    "x": -82,
+    "y": -106
+  },
+  "dig_mine_2": {
+    "definition": "dig_mine_2",
+    "x": -116,
+    "y": -67
+  },
+  "dig_step_2": {
+    "definition": "dig_step_2",
+    "x": -133,
+    "y": -19
+  },
+  "dig_archaeologist": {
+    "definition": "dig_archaeologist",
+    "x": -106,
+    "y": -146
+  },
+  "dig_climber": {
+    "definition": "dig_climber",
+    "x": -142,
+    "y": -111
+  },
+  "dig_landing": {
+    "definition": "dig_landing",
+    "x": -167,
+    "y": -67
+  },
+  "dig_sneak": {
+    "definition": "dig_sneak",
+    "x": -179,
+    "y": -19
+  },
+  "dig_paleontologist": {
+    "definition": "dig_paleontologist",
+    "x": -133,
+    "y": -183
+  },
+  "dig_driller": {
+    "definition": "dig_driller",
+    "x": -178,
+    "y": -139
+  },
+  "dig_runner": {
+    "definition": "dig_runner",
+    "x": -210,
+    "y": -85
+  },
+  "dig_spelunker": {
+    "definition": "dig_spelunker",
+    "x": -225,
+    "y": -24
+  },
+  "dig_legend": {
+    "definition": "dig_legend",
+    "x": -239,
+    "y": -138
+  }
+}

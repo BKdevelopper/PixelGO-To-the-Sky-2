@@ -1,0 +1,27 @@
+{
+  "providers": [
+    { "type": "reference", "id": "minecraft:include/space" },
+    { "type": "reference", "id": "minecraft:include/default" },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/overworld.png",
+      "ascent": 4,
+      "height": 12,
+      "chars": ["\u2C00"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/nether.png",
+      "ascent": 4,
+      "height": 12,
+      "chars": ["\u2C02"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/end.png",
+      "ascent": 4,
+      "height": 17,
+      "chars": ["\u2C04"]
+    }
+  ]
+}

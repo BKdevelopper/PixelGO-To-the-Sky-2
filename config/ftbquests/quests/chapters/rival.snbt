@@ -1,0 +1,1139 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rival"
+	group: "1A3BB00B8761BF8C"
+	icon: {
+		id: "pixelgo_npc:rival_codex"
+	}
+	id: "2C5D8E1F7A30F021"
+	images: [ ]
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "pixelgo_npc:rival_codex"
+			}
+			id: "584862F348D76528"
+			rewards: [
+				{
+					count: 2
+					id: "06B788D2D6ABCC71"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "0A3D7BA699E86CDB"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "676C3FE2FB644149"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["584862F348D76528"]
+			id: "158189E62599F2A6"
+			rewards: [
+				{
+					count: 2
+					id: "1A868F654170E0B8"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1094018D7BA0F6BD"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "01D1ACFDF1686358"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04AA1060BAD9BB8A"
+				item: { count: 1, id: "pixelgo_npc:rival_codex" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["584862F348D76528"]
+			id: "1D4B0A17B9E9D5A1"
+			rewards: [
+				{
+					count: 2
+					id: "0570A0FF82D7B646"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6BB019D0C8D6DED1"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "3F6B35CC3A083E38"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B7FBE6D877C179C"
+				item: { count: 1, id: "pixelgo_npc:rival_radar" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["584862F348D76528"]
+			id: "1CC9FD9875159917"
+			rewards: [
+				{
+					count: 2
+					id: "24BD4CF033BCA224"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "5D311EAD133B5470"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B75AD6D9275E762"
+				item: { count: 1, id: "pixelgo_npc:rival_wanted_poster" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["584862F348D76528"]
+			id: "37D08FBECE65D2D0"
+			rewards: [
+				{
+					count: 4
+					id: "567B9D864AA72E08"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3016416F1ED038F6"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AB88EA0886A60ED"
+				item: { count: 1, id: "pixelgo_npc:rival_beacon" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["584862F348D76528"]
+			icon: {
+				id: "pixelgo_npc:rival_radar"
+			}
+			id: "46E47C7EC5F7CB64"
+			rewards: [
+				{
+					id: "5F6D3908D3F42B8E"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5D465E4F92D42A45"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "pixelgo_npc:rival/first_contact"
+				criterion: ""
+				id: "6298AAD6D50FDD53"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["46E47C7EC5F7CB64"]
+			icon: {
+				id: "pixelgo_npc:rival_medal_10"
+			}
+			id: "202078ABC52FDD27"
+			rewards: [
+				{
+					id: "6ACD4ECE6C998684"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55EFE789930BAB66"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "6E5D247AE0C24C54"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier1"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:rival/tier_10"
+				criterion: ""
+				id: "16B6AAB17839E03F"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["202078ABC52FDD27"]
+			icon: {
+				id: "pixelgo_npc:rival_medal_20"
+			}
+			id: "70442900C981D287"
+			rewards: [
+				{
+					count: 3
+					id: "1E7EFE7C31AD2D92"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6D948B491797C2FF"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:rival/tier_20"
+				criterion: ""
+				id: "35E4ED73EBDD95A8"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["70442900C981D287"]
+			icon: {
+				id: "pixelgo_npc:rival_medal_30"
+			}
+			id: "15CFA6C5C17F94A9"
+			rewards: [
+				{
+					count: 5
+					id: "2443264BF419E8E8"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "53E74F5196FCED67"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier1"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:rival/tier_30"
+				criterion: ""
+				id: "484DBC0EBDED1327"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["15CFA6C5C17F94A9"]
+			icon: {
+				id: "pixelgo_npc:rival_medal_40"
+			}
+			id: "788CBCDE9B8B9015"
+			rewards: [
+				{
+					count: 7
+					id: "7840334F1B62B8A7"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "233E6E5F0B80D176"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "0C3AF9F6B6B7BD48"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:rival/tier_40"
+				criterion: ""
+				id: "65B0B37B8117D708"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["788CBCDE9B8B9015"]
+			icon: {
+				id: "pixelgo_npc:rival_medal_50"
+			}
+			id: "63D106707544BD25"
+			rewards: [
+				{
+					count: 10
+					id: "26ED12BAFDF33B5E"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4318BEA6132A4071"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "6BB043BF9D2AE319"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "5943F0C068E9FE7E"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier2"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:rival/tier_50"
+				criterion: ""
+				id: "3A2F34097AB1EBEE"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["63D106707544BD25"]
+			icon: {
+				id: "pixelgo_npc:rival_medal_60"
+			}
+			id: "70DD061BDB838782"
+			rewards: [{
+				count: 15
+				id: "0F54BBEF7B18532F"
+				item: {
+					count: 1
+					id: "pokeblocks:poke_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "pixelgo_npc:rival/tier_60"
+				criterion: ""
+				id: "4FB5ED8C6F600C50"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["70DD061BDB838782"]
+			icon: {
+				id: "pixelgo_npc:rival_medal_70"
+			}
+			id: "4512FB3941B1901B"
+			rewards: [
+				{
+					count: 20
+					id: "439A4C32913D17DA"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "070475E2868C72A5"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "3B2C4A64C08446E6"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "477A3CF5D2BE12F0"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier2"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:rival/tier_70"
+				criterion: ""
+				id: "0415776EF470E1C2"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4512FB3941B1901B"]
+			icon: {
+				id: "pixelgo_npc:rival_medal_80"
+			}
+			id: "667556C5246F44A7"
+			rewards: [
+				{
+					count: 29
+					id: "1904AFA33BCD54F8"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6D0FE5CF0790B805"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:rival/tier_80"
+				criterion: ""
+				id: "2D0D600D2C8D5068"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["667556C5246F44A7"]
+			icon: {
+				id: "pixelgo_npc:rival_medal_90"
+			}
+			id: "19939E9FDB728A6A"
+			rewards: [
+				{
+					count: 41
+					id: "61B860AF717199B3"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55826A694A90FC59"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "49C8BCF3A8E09F65"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier3"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:rival/tier_90"
+				criterion: ""
+				id: "7ACC0666868B1689"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["19939E9FDB728A6A"]
+			icon: {
+				id: "pixelgo_npc:rival_medal_100"
+			}
+			id: "2F03930A9A09F4FD"
+			rewards: [
+				{
+					count: 62
+					id: "67C1E02FD81FFC0D"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2451FC1EFDAD62EC"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "524AB246642F726E"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "4717C5638CF5A64B"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier3"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "658B86270CC439CD"
+					loot_tier: 1b
+					play_sound: true
+					type: "pixelgoquests:pokeloot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "pixelgo_npc:rival/tier_100"
+				criterion: ""
+				id: "276BA5C394D1F4DE"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2F03930A9A09F4FD"]
+			icon: {
+				id: "pixelgo_npc:rival_medal_omega"
+			}
+			id: "610BF9120D3304A6"
+			rewards: [
+				{
+					count: 62
+					id: "38D7C921A517AE0E"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4B656F4C8E73E69E"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "774741DD6EFB33FF"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "569D212B8541031A"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier4"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "45AB4F209983470A"
+					loot_tier: 2b
+					play_sound: true
+					type: "pixelgoquests:pokeloot"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				advancement: "pixelgo_npc:rival/tier_omega"
+				criterion: ""
+				id: "301A58D044E710C8"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["46E47C7EC5F7CB64"]
+			icon: {
+				id: "pixelmon:star_piece"
+			}
+			id: "1920579D65B14746"
+			rewards: [
+				{
+					count: 20
+					id: "184371BA64951DA1"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "36E4C5777231D10A"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "31FD6D200CEC6A06"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "606DA7F049570F3C"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier2"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:rival/streak"
+				criterion: ""
+				id: "32153D48C02E430D"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["46E47C7EC5F7CB64"]
+			id: "788FEED887E77976"
+			rewards: [
+				{
+					count: 8
+					id: "433627CD3A174A88"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1435FBEA644AAEB4"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:rival/comeback"
+				criterion: ""
+				id: "0F93E49DA55A82D9"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["584862F348D76528"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "1316C82B000AB3BF"
+			rewards: [
+				{
+					count: 2
+					id: "71D4F789AD3F2765"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "6F00A17CE6AA92C5"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67C6440A4255B73D"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1316C82B000AB3BF"]
+			icon: {
+				components: {
+					"pixelmon:poke_ball": "poke_ball"
+				}
+				id: "pixelmon:poke_ball"
+			}
+			id: "5BA5A4F5BFA6DB3A"
+			rewards: [
+				{
+					count: 2
+					id: "4FC4DA04B3758D4C"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2E40F38395658D81"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "531CA2FC202E0C10"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "14363D1A49EB9310"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier1"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:trade/first"
+				criterion: ""
+				id: "00D34E51DEF168E7"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5BA5A4F5BFA6DB3A"]
+			icon: {
+				id: "pixelmon:pink_apricorn"
+			}
+			id: "0E85B1D9D2429926"
+			rewards: [
+				{
+					count: 4
+					id: "2E11CF36F1132FE4"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "542657716910A456"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:trade/skin"
+				criterion: ""
+				id: "5936B6814CF62DA8"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0E85B1D9D2429926"]
+			icon: {
+				id: "pixelmon:pink_apricorn"
+			}
+			id: "661E7BF908892CF8"
+			rewards: [
+				{
+					count: 12
+					id: "613342910A9EC7C6"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1381865DAA559875"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "7EB63D62F6F543CF"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "5113E37EA20F4C11"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier2"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:trade/skin_collector"
+				criterion: ""
+				id: "3855BACD9EDD98AE"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["661E7BF908892CF8"]
+			icon: {
+				id: "pixelmon:pink_apricorn"
+			}
+			id: "051F80AE61994D3C"
+			rewards: [
+				{
+					count: 33
+					id: "25089C3508541394"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7FA492013C4F06F6"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "4357957BEC7592D1"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier3"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "pixelgo_npc:trade/skin_master"
+				criterion: ""
+				id: "7802D552A227C912"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5BA5A4F5BFA6DB3A"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "pixelmon:master_ball"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "4F97F8E03BEE6C1A"
+			rewards: [
+				{
+					count: 20
+					id: "3B4BFD0576054CBE"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2343B9A9C924FDC9"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "45D56FB383BF52AE"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "5AF3F76B56EDC015"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier3"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgo_npc:trade/legendary"
+				criterion: ""
+				id: "6654B6825067A759"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4F97F8E03BEE6C1A"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "pixelmon:master_ball"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "008952FC09773BC7"
+			rewards: [
+				{
+					count: 62
+					id: "02BCED20F0C86FD3"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "79D21ED5F17A0FD3"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "08FD785C468DCDE0"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "2C31520A954117C5"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier4"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "43FABB96A2AB18A7"
+					loot_tier: 1b
+					play_sound: true
+					type: "pixelgoquests:pokeloot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "pixelgo_npc:trade/legendary_master"
+				criterion: ""
+				id: "3E9050F079C75A98"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+	]
+}

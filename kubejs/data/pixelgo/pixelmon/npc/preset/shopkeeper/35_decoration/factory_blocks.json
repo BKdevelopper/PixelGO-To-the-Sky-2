@@ -1,0 +1,644 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.factory_blocks",
+                  "message": "pixelgo.npc.factory_blocks.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "factory_blocks:bcircuit",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:bwireframe",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:cables",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:caution",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:circuit",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:engineer",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:exhaust",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:factory",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:fan",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:fan_four",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:fan_four_on",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:fan_malfunction",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:fan_malfunction_on",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:fan_on",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:fan_side",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:gcircuit",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:gears",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:grate",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:grinder",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:gvent",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:hazard",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:hazardo",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:hex",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:ice",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:insulation",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:large_pipes",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:large_plating",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:medium_fan",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:megacell",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:metalbox",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:mosaic",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:old_vents",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:pgcircuit",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:piping",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:pwireframe",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:rgrate",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:rust",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:rust_bplates",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:rust_plates",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:rusty_scaffold",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:scaffold",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:small_pipes",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:srust",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:sturdy",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:vent",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:vrust",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:wgpanel",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:wireframe",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    },
+                    {
+                      "item": {
+                        "id": "factory_blocks:wopanel",
+                        "count": 1
+                      },
+                      "buyPrice": 2.13,
+                      "sellPrice": 0.64
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.factory_blocks",
+                  "message": "pixelgo.npc.factory_blocks.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.factory_blocks",
+        "color": "#D2A679",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

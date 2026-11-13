@@ -1,0 +1,5018 @@
+{
+  "origin": {
+    "title": {
+      "text": "Trainer’s Awakening",
+      "color": "#69D2FF",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+3% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+5% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+1 friendship per aura pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "text": "The day you realised all of this could actually be learned.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:pokedex"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 3,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 5,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "capture_root": {
+    "title": {
+      "text": "Catcher’s Hand",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+5% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "poke_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "It all starts with one Poké Ball and a lot of misses.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_throw_1": {
+    "title": {
+      "text": "Steady Throw",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+6% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "great_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "It is all in the wrist.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_gleam_1": {
+    "title": {
+      "text": "Odd Gleam",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+1 shiny roll on wild spawns",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:stardust"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Was that Rattata really sparkling?",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_grip_1": {
+    "title": {
+      "text": "Hunter’s Grip",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+6% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "net_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Firm, but not crushing.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_throw_2": {
+    "title": {
+      "text": "Steady Throw II",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+8% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "ultra_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "A thousand throws, a thousand corrections.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_gleam_2": {
+    "title": {
+      "text": "Odd Gleam II",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+1 shiny roll on wild spawns",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:star_piece"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "You will never look at a bush the same way again.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_grip_2": {
+    "title": {
+      "text": "Hunter’s Grip II",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+8% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "repeat_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Second try, better hold.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_timing": {
+    "title": {
+      "text": "Perfect Timing",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+10% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "timer_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Waiting for the right turn is an art.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_dusk": {
+    "title": {
+      "text": "Night Stalker",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+1 shiny roll on wild spawns",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n+6% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "dusk_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 1,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "At night, colours lie a little less.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_quick": {
+    "title": {
+      "text": "Lightning Reflex",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+10% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "quick_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Before it even realises what happened.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_prism": {
+    "title": {
+      "text": "Inner Prism",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+1 shiny roll on wild spawns",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:comet_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "A shard of comet in your pocket.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_master": {
+    "title": {
+      "text": "Master Catcher",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+15% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "beast_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 15,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: pure capture.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_luxury": {
+    "title": {
+      "text": "Ball of Luxury",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+9% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+2 friendship per aura pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "luxury_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 9,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: comfortable capture.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_hunter": {
+    "title": {
+      "text": "Shiny Stalker",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+2 shiny rolls on wild spawns",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:shiny_charm"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: shiny hunting.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_charm": {
+    "title": {
+      "text": "Catcher’s Charm",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+10% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+1 shiny roll",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:catching_charm"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 10,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: all-rounder.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "capture_legend": {
+    "title": {
+      "text": "Pokédex Legend",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+20% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+1 shiny roll",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n+1 Luck",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "master_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 20,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 1,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "They say you never missed a throw again.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "size": 2,
+    "required_spent_points": 45
+  },
+  "train_root": {
+    "title": {
+      "text": "Trainer’s Discipline",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+10% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:exp_share"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "A good trainer trains too.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_xp_1": {
+    "title": {
+      "text": "Basic Lesson",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+12% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:xs_exp_candy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 12,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "The fundamentals, over and over.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_ev_1": {
+    "title": {
+      "text": "Effort Program",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+10% EVs gained after a battle",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:protein"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:ev_gain",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Three sets, no cheating.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_power_1": {
+    "title": {
+      "text": "Fighter’s Grip",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+1 attack damage",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Sometimes you have to defend yourself.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_xp_2": {
+    "title": {
+      "text": "Advanced Lesson",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+14% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:s_exp_candy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 14,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "The blackboard is full.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_ev_2": {
+    "title": {
+      "text": "Intensive Program",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+12% EVs gained after a battle",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:iron"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:ev_gain",
+          "value": 12,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "One more set.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_guard": {
+    "title": {
+      "text": "Trainer’s Guard",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+2 armor",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Wild Pokémon do not bring a referee.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_xp_3": {
+    "title": {
+      "text": "Master Class",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+16% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:m_exp_candy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 16,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Now you are the one teaching.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_share": {
+    "title": {
+      "text": "Shared Experience",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+18% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:lucky_egg"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 18,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Nobody sits on the bench.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_ev_3": {
+    "title": {
+      "text": "Weighted Braces",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+15% EVs gained after a battle",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:macho_brace"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:ev_gain",
+          "value": 15,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Heavy, but it works.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_vitality": {
+    "title": {
+      "text": "Trainer’s Endurance",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+4 max health",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Days on the road are long.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_mentor": {
+    "title": {
+      "text": "Legendary Mentor",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+30% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:l_exp_candy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 30,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: levelling.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_drill": {
+    "title": {
+      "text": "Drill Sergeant",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+30% EVs gained after a battle",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:power_weight"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:ev_gain",
+          "value": 30,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: effort values.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_perfect": {
+    "title": {
+      "text": "Perfectionist",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+20% EVs gained after a battle",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n+10% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:silver_bottle_cap"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:ev_gain",
+          "value": 20,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: min-maxing.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_tactician": {
+    "title": {
+      "text": "Field Tactician",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+20% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+2 attack damage",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:ability_capsule"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 20,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: aggression.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "train_champion": {
+    "title": {
+      "text": "Gym Champion",
+      "color": "#FFB347",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+40% Pokémon experience",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+25% EVs gained",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n+2 max health",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:xl_exp_candy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_experience",
+          "value": 40,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:ev_gain",
+          "value": 25,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "You are the one handing out the badge now.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "size": 2,
+    "required_spent_points": 45
+  },
+  "bond_root": {
+    "title": {
+      "text": "Trainer’s Heart",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+1 friendship per aura pulse (30 s)",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:soothe_bell"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "They can tell when you care.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_friend_1": {
+    "title": {
+      "text": "Morning Cuddle",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+1 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:oran_berry"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "A ritual before setting out.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_egg_1": {
+    "title": {
+      "text": "Cosy Nest",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+25 egg steps per aura pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:oval_charm"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 25,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Straw, wool, patience.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_heal_1": {
+    "title": {
+      "text": "First Aid",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+2% of max HP restored to the party per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:potion"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "A kit always within reach.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_friend_2": {
+    "title": {
+      "text": "Walk Together",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+1 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:sitrus_berry"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Walking side by side is often enough.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_egg_2": {
+    "title": {
+      "text": "Handmade Incubator",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+30 egg steps per aura pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:honey"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 30,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Warm, cobbled together, effective.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_heal_2": {
+    "title": {
+      "text": "Medical Kit",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+3% of max HP restored to the party per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:hyper_potion"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 3,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "The bag is heavier, the party holds up better.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_friend_3": {
+    "title": {
+      "text": "Relaxing Massage",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+2 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:lum_berry"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Nobody says no.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_destiny": {
+    "title": {
+      "text": "Destiny Bond",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+35 egg steps per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n+1 friendship per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:destiny_knot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 35,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "What is tied never comes undone.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_egg_3": {
+    "title": {
+      "text": "Thermal Incubator",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+40 egg steps per aura pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:moomoo_milk"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 40,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Constant heat, constant results.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_heal_3": {
+    "title": {
+      "text": "Soothing Aura",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+4% of max HP restored to the party per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "heal_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 4,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Your presence alone puts them back on their feet.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_soulmate": {
+    "title": {
+      "text": "Soulmate",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+3 friendship per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+3% of max HP restored per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "luxury_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 3,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 3,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: affection.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_breeder": {
+    "title": {
+      "text": "Expert Breeder",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+60 egg steps per aura pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "nest_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 60,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: hatching.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_nurse": {
+    "title": {
+      "text": "Field Nurse",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+6% of max HP restored to the party per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:full_restore"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: healing.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_scale": {
+    "title": {
+      "text": "Heart Scale",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+2 friendship per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+30 egg steps per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:heart_scale"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 2,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 30,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: balance.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "bond_legend": {
+    "title": {
+      "text": "Master of Bonds",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+3 friendship per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+60 egg steps per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n+5% of max HP restored per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:red_pc"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 3,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 60,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Your PC box looks like a family album.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "size": 2,
+    "required_spent_points": 45
+  },
+  "loot_root": {
+    "title": {
+      "text": "Scavenger’s Eye",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+10% chance to duplicate a Pokémon drop",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:nugget"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Nothing goes to waste.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_drop_1": {
+    "title": {
+      "text": "Quick Search",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+12% chance to duplicate a Pokémon drop",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 12,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "One glance is enough.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_chest_1": {
+    "title": {
+      "text": "Nose for Chests",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+12% chance to duplicate a Poké Loot chest item",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:rare_pokestop"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 12,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Always in the same spot, right at the back.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_clover": {
+    "title": {
+      "text": "Trainer’s Clover",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+1 Luck",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Apparently it works.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_drop_2": {
+    "title": {
+      "text": "Methodical Search",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+14% chance to duplicate a Pokémon drop",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:big_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 14,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Square by square.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_chest_2": {
+    "title": {
+      "text": "Lockpicking",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+14% chance to duplicate a Poké Loot chest item",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:escape_rope"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 14,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Technically, it was not locked.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_star": {
+    "title": {
+      "text": "Lucky Star",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+1 Luck",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:star_piece"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Born under the right one, evidently.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_drop_3": {
+    "title": {
+      "text": "Salvager",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+16% chance to duplicate a Pokémon drop",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:big_nugget"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 16,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Pockets are full.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_amulet": {
+    "title": {
+      "text": "Amulet Coin",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+10% Pokémon drop duplication",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+10% Poké Loot duplication",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:amulet_coin"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 10,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "It shines in a very motivating way.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_chest_3": {
+    "title": {
+      "text": "Ruin Plunderer",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+16% chance to duplicate a Poké Loot chest item",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:relic_gold"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 16,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "The ruins had no further use for it.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_fortune": {
+    "title": {
+      "text": "Traveller’s Fortune",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+1 Luck",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:comet_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Chance eventually learns your name.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_scavenger": {
+    "title": {
+      "text": "Supreme Scavenger",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+30% chance to duplicate a Pokémon drop",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:leftovers"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 30,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: battle drops.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_treasure": {
+    "title": {
+      "text": "Treasure Hunter",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+30% chance to duplicate a Poké Loot chest item",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:gold_bottle_cap"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 30,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: chests.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_insolent": {
+    "title": {
+      "text": "Insolent Luck",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+2 Luck",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n+10% Pokémon drop duplication",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 2,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: raw luck.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_shared": {
+    "title": {
+      "text": "Shared Spoils",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+15% Pokémon drop duplication",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+15% Poké Loot duplication",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "premier_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 15,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 15,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: all-rounder.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "loot_legend": {
+    "title": {
+      "text": "King of Loot",
+      "color": "#FFD95A",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+30% Pokémon drop duplication",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+30% Poké Loot duplication",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n+1 Luck",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "cherish_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokemon_drop_luck",
+          "value": 30,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 30,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Your chest is overflowing and you keep going anyway.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "size": 2,
+    "required_spent_points": 45
+  },
+  "harvest_root": {
+    "title": {
+      "text": "Green Thumb",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+12% apricorns and berries per harvest",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:red_apricorn"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 12,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "The first sapling survives. The second one does not.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "harvest_apricorn_1": {
+    "title": {
+      "text": "Apricorn Picker",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+15% apricorns and berries per harvest",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:yellow_apricorn"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 15,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "You can tell a good tree by touch.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "harvest_berry_1": {
+    "title": {
+      "text": "Gardener",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+15% apricorns and berries per harvest",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:oran_berry"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 15,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Water, wait, repeat.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "fishing_1": {
+    "title": {
+      "text": "Sunday Angler",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "-5% wait time and empty catches while fishing",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:old_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fishing_luck",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Mostly for the quiet.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "harvest_apricorn_2": {
+    "title": {
+      "text": "Pruner",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+18% apricorns and berries per harvest",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:apricorn_log"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 18,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Cutting in the right place doubles the yield.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "harvest_berry_2": {
+    "title": {
+      "text": "Market Gardener",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+18% apricorns and berries per harvest",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:sitrus_berry"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 18,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "The vegetable patch became a business.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "fishing_2": {
+    "title": {
+      "text": "Decent Angler",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "-6% wait time and empty catches while fishing",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:good_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fishing_luck",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "The rod is finally decent.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "harvest_shears": {
+    "title": {
+      "text": "Sharpened Shears",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+15% mining speed",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shears"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.15,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Sharpened every morning.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "harvest_orchard": {
+    "title": {
+      "text": "Private Orchard",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+20% apricorns and berries per harvest",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:green_apricorn"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 20,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Seven colours, seven rows.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "fishing_3": {
+    "title": {
+      "text": "Seasoned Angler",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "-7% wait time and empty catches while fishing",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:super_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fishing_luck",
+          "value": 7,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "You already know what is biting.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "fishing_water": {
+    "title": {
+      "text": "Water Ease",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+30% water movement efficiency",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n+2 oxygen bonus",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.water_movement_efficiency",
+          "value": 0.3,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.oxygen_bonus",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Water barely slows you down any more.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "harvest_master": {
+    "title": {
+      "text": "Master Gardener",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+40% apricorns and berries per harvest",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:white_apricorn"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 40,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: farming.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "harvest_botanist": {
+    "title": {
+      "text": "Botanist",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+25% apricorns and berries per harvest",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+1 Luck",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:leppa_berry"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 25,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: rare picking.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "fishing_master": {
+    "title": {
+      "text": "Master Angler",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "-12% wait time and empty catches while fishing",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "dive_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fishing_luck",
+          "value": 12,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: fishing.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "fishing_deep": {
+    "title": {
+      "text": "Call of the Deep",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "-8% wait time and empty catches while fishing",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n+10% Poké Loot duplication",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "nest_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fishing_luck",
+          "value": 8,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:pokeloot_luck",
+          "value": 10,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: sea floor.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "harvest_legend": {
+    "title": {
+      "text": "Lord of Harvests",
+      "color": "#7ED77E",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+50% apricorns and berries per harvest",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n-8% fishing wait time",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:black_apricorn"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:harvest_yield",
+          "value": 50,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fishing_luck",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Your Poké Balls literally grow on trees.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "size": 2,
+    "required_spent_points": 45
+  },
+  "dig_root": {
+    "title": {
+      "text": "Digger’s Instinct",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+5 in 10,000 chance of a fossil per stone block mined",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:helix_fossil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fossil_luck",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "A rock unlike the others.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_fossil_1": {
+    "title": {
+      "text": "Attentive Pickaxe",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+5 in 10,000 chance to dig up a fossil",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:dome_fossil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fossil_luck",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "You learn to listen to the rock.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_mine_1": {
+    "title": {
+      "text": "Seasoned Miner",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+10% mining speed",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "The arm finally keeps up.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_step_1": {
+    "title": {
+      "text": "Light Step",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+5% movement speed",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Boots that finally fit.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_fossil_2": {
+    "title": {
+      "text": "Fossil Sense",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+6 in 10,000 chance to dig up a fossil",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:old_amber"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fossil_luck",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "It sounds hollow, so it is good.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_mine_2": {
+    "title": {
+      "text": "Mining Efficiency",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+10% mining speed",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Fewer swings, more blocks.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_step_2": {
+    "title": {
+      "text": "Nimble Stride",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+5% movement speed",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.05,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "The road feels shorter.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_archaeologist": {
+    "title": {
+      "text": "Archaeologist",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+7 in 10,000 chance to dig up a fossil",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:fossil_cleaner"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fossil_luck",
+          "value": 7,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Brush in one hand, pickaxe in the other.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_climber": {
+    "title": {
+      "text": "Climber",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+0.5 step height",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ladder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.step_height",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Single blocks no longer stop you.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_landing": {
+    "title": {
+      "text": "Soft Landing",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+3 blocks of safe fall distance",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n-20% fall damage",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:hay_block"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": 3,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.fall_damage_multiplier",
+          "value": -0.2,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Handy, on a floating island.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_sneak": {
+    "title": {
+      "text": "Muffled Footsteps",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+30% sneaking speed",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:white_wool"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.sneaking_speed",
+          "value": 0.3,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Getting close without scaring them off.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_paleontologist": {
+    "title": {
+      "text": "Master Palaeontologist",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+15 in 10,000 chance to dig up a fossil",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:fossil_display"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fossil_luck",
+          "value": 15,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: fossils.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_driller": {
+    "title": {
+      "text": "Human Drill",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+25% mining speed",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.25,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: mining.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_runner": {
+    "title": {
+      "text": "Running Wind",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+10% movement speed",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n+20% movement efficiency",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.1,
+          "operation": "add_multiplied_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_efficiency",
+          "value": 0.2,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: mobility.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_spelunker": {
+    "title": {
+      "text": "Spelunker",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+30% submerged mining speed",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n+8 in 10,000 fossil chance",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:torch"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.submerged_mining_speed",
+          "value": 0.3,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fossil_luck",
+          "value": 8,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "Specialisation: flooded caves.",
+      "color": "#8A8A8A",
+      "italic": true
+    }
+  },
+  "dig_legend": {
+    "title": {
+      "text": "Fossil Awakener",
+      "color": "#A98BE8",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "text": "+20 in 10,000 chance to dig up a fossil",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n+20% mining speed",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n+2 max health",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:infuser"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:fossil_luck",
+          "value": 20,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:player.block_break_speed",
+          "value": 0.2,
+          "operation": "add_multiplied_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ],
+    "extra_description": {
+      "text": "What slept inside the stone now answers to you.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "size": 2,
+    "required_spent_points": 45
+  }
+}

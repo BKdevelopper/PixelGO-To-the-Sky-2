@@ -1,0 +1,11 @@
+{
+  "name": "Berry",
+  "colors": [
+    "ff1f91",
+    "d5c6ed"
+  ],
+  "materialCount": 2500,
+  "ingredient": {
+    "tag": "pixelmon:berries"
+  }
+}

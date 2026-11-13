@@ -1,0 +1,18 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "minecraft:potatoes",
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "minecraft:potato",
+            "count": 1
+          }
+        }
+      ]
+    }
+  ]
+}

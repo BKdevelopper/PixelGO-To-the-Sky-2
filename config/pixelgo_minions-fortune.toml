@@ -1,0 +1,85 @@
+#The two constants of the drop formula.
+#drops are multiplied by 1 + floor(fortune / fortunePerExtraDrop),
+#then one more batch is rolled at (fortune % fortunePerExtraDrop) / fortunePerExtraDrop.
+[formula]
+	#Fortune needed for one guaranteed extra drop. 100 is the SkyBlock value.
+	# Default: 100.0
+	# Range: 1.0 ~ 100000.0
+	fortunePerExtraDrop = 100.0
+	#When true, fortune also multiplies seeds and other secondary drops.
+	#Off by default: fortune is meant to multiply the crop, not the seed supply.
+	multiplySecondaryDrops = false
+
+#Whole families of fortune. Turning one off leaves its attributes registered.
+[families]
+	#Apply farming fortune when a block of that family is broken.
+	farming = true
+	#Apply mining fortune when a block of that family is broken.
+	mining = true
+	#Apply foraging fortune when a block of that family is broken.
+	foraging = true
+
+#When fortune is allowed to apply at all.
+[rules]
+	#Only fully grown crops benefit. Immature crops and stems drop as normal.
+	requireMature = true
+	#Blocks placed by a player give no fortune, the way they give no experience.
+	#Applies to mining and foraging only: a crop is planted by definition, so the
+	#maturity rule is what guards farming instead.
+	ignorePlayerPlaced = true
+	#Re-roll the loot table without vanilla Fortune, then grant the equivalent
+	#as mining fortune instead: 10, 20, 30 and 45 for levels I to IV.
+	#Turn this off to restore plain vanilla Fortune behaviour.
+	replaceVanillaFortune = true
+
+#Optional pieces built on top of the stats.
+[features]
+	#Fortune enchantments take effect. The enchantments stay obtainable either way.
+	enchantments = true
+	#Specialised per-crop tools grant their crop fortune.
+	specializedTools = true
+	#Specialised tools gain levels as they harvest.
+	toolLevelling = true
+	#Wisdom stats scale the experience dropped by blocks.
+	wisdom = true
+
+#The RNGesus drop event: every harvested block is one roll for a pile
+#of the crop's enchanted material, announced across the screen.
+[rngDrops]
+	#Roll for event drops at all.
+	enabled = true
+	#Only the tool built for the crop rolls, the way the reference server does it:
+	#melons have to be broken with the Melon Dicer to pay out.
+	#Turn this off to let any tool roll on any crop the mod knows.
+	requireSpecializedTool = true
+
+	#Percent chance per harvested block. The rungs are checked rarest
+	#first against one roll, so a block fires at most one event and each
+	#number is the chance of that rung or better.
+	#The defaults are the reference server's own rates.
+	[rngDrops.chances]
+		#Roughly one block in 647.
+		# Default: 0.15467827
+		# Range: 0.0 ~ 100.0
+		uncommon = 0.15467827
+		#Roughly one block in 2,227.
+		# Default: 0.04490659
+		# Range: 0.0 ~ 100.0
+		rare = 0.04490659
+		#Roughly one block in 14,315.
+		# Default: 0.00698547
+		# Range: 0.0 ~ 100.0
+		crazyRare = 0.00698547
+		#Roughly one block in 100,208.
+		# Default: 9.9792E-4
+		# Range: 0.0 ~ 100.0
+		prayToRngesus = 9.9792E-4
+
+	#How an event announces itself.
+	[rngDrops.announce]
+		#Show the drop across the middle of the screen.
+		title = true
+		#Write the drop to chat, so it survives in the log.
+		chat = true
+		#Ring a chime, pitched higher the rarer the drop.
+		sound = true

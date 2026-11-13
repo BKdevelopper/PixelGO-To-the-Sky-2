@@ -1,0 +1,30 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "PixelGO Gates",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Everything inside a Gate can be caught, and the level range is guaranteed. "
+      },
+      {
+        "text": "It is one of the best places in the pack to fill a "
+      },
+      {
+        "text": "Pokedex",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

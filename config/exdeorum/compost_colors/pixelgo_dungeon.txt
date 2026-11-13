@@ -1,0 +1,7 @@
+// Compost colors for pixelgo_dungeon. You may add your own colors, change existing ones, or remove colors that aren't needed.
+gate_beacon_a, #ac6661
+gate_beacon_b, #ac8957
+gate_beacon_c, #aca269
+gate_beacon_d, #69b290
+gate_beacon_e, #79a7b8
+gate_beacon_s, #9176b8

@@ -1,0 +1,6 @@
+{
+  "type": "neoorigins:attribute_modifier",
+  "attribute": "pixelgo:shiny_odds",
+  "amount": 1,
+  "operation": "add_value"
+}

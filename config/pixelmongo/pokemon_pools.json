@@ -1,0 +1,393 @@
+[
+  {
+    "name": "mk0",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random islegendary:false lvl:1",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk1",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:6 shinychance:1 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk2",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:12 shinychance:2 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk3",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:18 shinychance:3 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk4",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:24 shinychance:4 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk5",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:30 shinychance:5 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk6",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:36 shinychance:6 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk7",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:42 shinychance:7 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk8",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:48 shinychance:8 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk9",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:54 shinychance:9 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk10",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:60 shinychance:10 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk11",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:66 shinychance:11 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk12",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:72 shinychance:12 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk13",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:78 shinychance:13 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk14",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:84 shinychance:14 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk15",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:90 shinychance:15 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  },
+  {
+    "name": "mk16",
+    "pokemon": [
+      {
+        "name": "Mudkip",
+        "min": 1,
+        "max": 20,
+        "shinyChance": 1.01
+      }
+    ],
+    "commands": [
+      {
+        "commands": [
+          "pokegive @p random minivspercent:100 shinychance:20 islegendary:false lvl:1 message:true",
+          "execute at @p as @p run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3"
+        ],
+        "weight": 1
+      }
+    ],
+    "singlePool": true,
+    "pokemonWeight": 0,
+    "commandWeight": 99
+  }
+]

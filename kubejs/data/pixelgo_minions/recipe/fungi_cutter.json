@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "pixelgo_minions:enchanted_red_mushroom_block"
+    },
+    "E": {
+      "item": "pixelgo_minions:enchanted_brown_mushroom_block"
+    },
+    "T": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    "CEC",
+    "ETE",
+    "CEC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pixelgo_minions:fungi_cutter"
+  }
+}

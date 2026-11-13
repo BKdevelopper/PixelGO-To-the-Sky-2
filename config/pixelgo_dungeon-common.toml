@@ -1,0 +1,251 @@
+[gates]
+	#Let Gates open naturally around players.
+	naturalGateSpawning = true
+	#Delay between two spawn attempts, in ticks (1200 = one minute).
+	#With the default values (1200 ticks and a 25% chance), a player sees a Gate
+	#open every 4 minutes on average. Lowering the interval or raising the chance
+	#makes Gates appear faster.
+	# Default: 1200
+	# Range: 100 ~ 72000
+	spawnIntervalTicks = 6000
+	#Chance for an attempt to succeed, per player.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	spawnChance = 0.99
+	#Maximum number of Gates open at the same time around one player.
+	# Default: 2
+	# Range: 1 ~ 16
+	maxGatesPerPlayer = 2
+	#Minimum distance between a new Gate and the player.
+	# Default: 32
+	# Range: 8 ~ 256
+	minDistance = 32
+	#Maximum distance between a new Gate and the player.
+	# Default: 96
+	# Range: 16 ~ 512
+	maxDistance = 96
+	#How long an unused Gate stays open, in ticks (24000 = one Minecraft day).
+	# Default: 24000
+	# Range: 1200 ~ 720000
+	lifetimeTicks = 24000
+	#How far above and below the player the mod looks for ground when the world
+	#surface is not usable: under the Nether roof, inside caves, or in modded
+	#dimensions with no open sky.
+	# Default: 24
+	# Range: 4 ~ 128
+	verticalSearchRange = 24
+	#Dimensions where no Gate ever opens, neither naturally nor from a beacon.
+	#Empty by default: Gates work everywhere, including the Nether, the End and
+	#modded dimensions. The mod's own dungeon dimension is always excluded.
+	#Example: blockedDimensions = ["minecraft:the_nether", "minecraft:the_end"]
+	blockedDimensions = []
+
+	#Rank rarity. These are relative weights, not percentages: the chance of a rank
+	#is its weight divided by the sum of every weight.
+	#With the default values (4000/2600/1600/900/400/100/30/10/1, summing to
+	#9641), one Gate out of 96 is rank S, one out of 321 is SS, one out of 964
+	#is SSS and one out of 9641 is DEMON. Every rank opens naturally, including
+	#the endgame ones.
+	#Setting a weight to 0 removes that rank from natural spawns entirely;
+	#it stays available through beacons and the command. Put weightSS,
+	#weightSSS and weightDEMON at 0 to keep the endgame Gates as a reward only.
+	[gates.rarity]
+		#Weight of rank E (Pokemon level 5 to 15).
+		# Default: 4000
+		# Range: 0 ~ 10000
+		weightE = 3600
+		#Weight of rank D (Pokemon level 15 to 30).
+		# Default: 2600
+		# Range: 0 ~ 10000
+		weightD = 2600
+		#Weight of rank C (Pokemon level 30 to 45).
+		# Default: 1600
+		# Range: 0 ~ 10000
+		weightC = 1700
+		#Weight of rank B (Pokemon level 45 to 60).
+		# Default: 900
+		# Range: 0 ~ 10000
+		weightB = 950
+		#Weight of rank A (Pokemon level 60 to 80).
+		# Default: 400
+		# Range: 0 ~ 10000
+		weightA = 500
+		#Weight of rank S (Pokemon level 80 to 100).
+		# Default: 100
+		# Range: 0 ~ 10000
+		weightS = 300
+		#Weight of rank SS (Pokemon level 100).
+		# Default: 30
+		# Range: 0 ~ 10000
+		weightSS = 200
+		#Weight of rank SSS (Pokemon level 100).
+		# Default: 10
+		# Range: 0 ~ 10000
+		weightSSS = 100
+		#Weight of rank DEMON (Pokemon level 100).
+		# Default: 1
+		# Range: 0 ~ 10000
+		weightDEMON = 50
+
+	#Skyblock mode. While off, a Gate needs solid ground under it: on a skyblock
+	#map nothing ever opens. While on, the Gate first looks for ground right next
+	#to the player and at their height, then, if there is none, opens in mid-air at
+	#their height. A player coming back out above the void is given Slow Falling.
+	[gates.skyblock]
+		#Enable the placement made for skyblock maps (floating Gates).
+		enabled = true
+		#Minimum spawn distance in skyblock mode.
+		# Default: 6
+		# Range: 2 ~ 128
+		minDistance = 10
+		#Maximum spawn distance in skyblock mode. Deliberately short: a Gate opening
+		#96 blocks away from an island would be out of reach.
+		# Default: 20
+		# Range: 4 ~ 256
+		maxDistance = 20
+		#Height difference allowed between the player and the Gate, in blocks.
+		# Default: 3
+		# Range: 0 ~ 32
+		verticalRange = 3
+
+	#Look of the chat announcement sent when a Gate opens.
+	#The banner and the rank tag are tinted with the rank's own gradient, so the
+	#message and the portal match at a glance.
+	[gates.announce]
+		#How far from the Gate a player still gets the announcement, in blocks.
+		#0 disables the announcement entirely.
+		# Default: 160.0
+		# Range: 0.0 ~ 2048.0
+		radius = 160.0
+		#Announce on a single line instead of the four-line card. Worth turning on
+		#when Gates open often and the card floods the chat.
+		compact = false
+		#Prefix put in front of the announcement. Accepts the usual colour markup:
+		#&a legacy codes, &#RRGGBB for 24-bit colour, and
+		#<gradient:#RRGGBB:#RRGGBB>text</gradient> for a colour ramp, so a gradient
+		#pasted from a generator such as birdflop.com/resources/rgb works as-is.
+		#Leave empty to drop the prefix.
+		chatPrefix = "<gradient:#7F5AF0:#2CB67D>&l[PixelGO Dungeon]&r</gradient>"
+
+[dungeon]
+	#Range at which a dungeon Pokemon aggroes the player and starts the battle.
+	# Default: 7.0
+	# Range: 2.0 ~ 24.0
+	aggroRange = 7.0
+	#Allow legendary Pokemon as bosses in rank A and S Gates.
+	allowLegendaryBosses = true
+	#Send the player out of the dungeon when they lose a battle.
+	ejectOnDefeat = true
+
+	#Capture, rank by rank. A dungeon Pokemon belongs to its instance, which wipes
+	#it when the Gate closes, so nothing is catchable by default: a Gate is a fight,
+	#not a hunting ground.
+	#Turn a rank on to let players keep what they catch there, for instance to make
+	#the low ranks a farming spot while the endgame ones stay a pure fight:
+	#allowE = true, allowSSS = false.
+	#Where capture is off, the Poke Ball is refused before being thrown and the
+	#battle bag shows no Balls at all: no Ball is ever wasted.
+	#The boss is never catchable, whatever is set here. It has to be beaten for the
+	#exit Gate to open.
+	[dungeon.capture]
+		#Allow capturing the Pokemon of a rank E Gate.
+		allowE = false
+		#Allow capturing the Pokemon of a rank D Gate.
+		allowD = false
+		#Allow capturing the Pokemon of a rank C Gate.
+		allowC = false
+		#Allow capturing the Pokemon of a rank B Gate.
+		allowB = false
+		#Allow capturing the Pokemon of a rank A Gate.
+		allowA = false
+		#Allow capturing the Pokemon of a rank S Gate.
+		allowS = false
+		#Allow capturing the Pokemon of a rank SS Gate.
+		allowSS = false
+		#Allow capturing the Pokemon of a rank SSS Gate.
+		allowSSS = false
+		#Allow capturing the Pokemon of a rank DEMON Gate.
+		allowDEMON = false
+
+	#Loot chests, rank by rank. Each dungeon draws a number of chests between
+	#the minimum and the maximum of its own rank, so a Demon Gate can be made
+	#far richer than an E one.
+	#Their contents come from the loot table of the rank:
+	#pixelgo_dungeon:chests/gate_<rank>, overridable by a datapack.
+	#Set both bounds of a rank to 0 to leave its dungeons without any chest.
+	#Asking for more chests than there are rooms is allowed: a room then holds
+	#several of them, spread out so that two chests never merge into one.
+	#A maximum set below the minimum is raised back to it.
+	[dungeon.chests]
+		#Minimum number of chests in a rank E dungeon.
+		# Default: 1
+		# Range: 0 ~ 64
+		minE = 1
+		#Maximum number of chests in a rank E dungeon.
+		# Default: 2
+		# Range: 0 ~ 64
+		maxE = 2
+		#Minimum number of chests in a rank D dungeon.
+		# Default: 1
+		# Range: 0 ~ 64
+		minD = 1
+		#Maximum number of chests in a rank D dungeon.
+		# Default: 2
+		# Range: 0 ~ 64
+		maxD = 2
+		#Minimum number of chests in a rank C dungeon.
+		# Default: 1
+		# Range: 0 ~ 64
+		minC = 1
+		#Maximum number of chests in a rank C dungeon.
+		# Default: 3
+		# Range: 0 ~ 64
+		maxC = 3
+		#Minimum number of chests in a rank B dungeon.
+		# Default: 2
+		# Range: 0 ~ 64
+		minB = 2
+		#Maximum number of chests in a rank B dungeon.
+		# Default: 3
+		# Range: 0 ~ 64
+		maxB = 3
+		#Minimum number of chests in a rank A dungeon.
+		# Default: 2
+		# Range: 0 ~ 64
+		minA = 2
+		#Maximum number of chests in a rank A dungeon.
+		# Default: 4
+		# Range: 0 ~ 64
+		maxA = 4
+		#Minimum number of chests in a rank S dungeon.
+		# Default: 2
+		# Range: 0 ~ 64
+		minS = 2
+		#Maximum number of chests in a rank S dungeon.
+		# Default: 4
+		# Range: 0 ~ 64
+		maxS = 4
+		#Minimum number of chests in a rank SS dungeon.
+		# Default: 3
+		# Range: 0 ~ 64
+		minSS = 3
+		#Maximum number of chests in a rank SS dungeon.
+		# Default: 5
+		# Range: 0 ~ 64
+		maxSS = 5
+		#Minimum number of chests in a rank SSS dungeon.
+		# Default: 3
+		# Range: 0 ~ 64
+		minSSS = 3
+		#Maximum number of chests in a rank SSS dungeon.
+		# Default: 5
+		# Range: 0 ~ 64
+		maxSSS = 5
+		#Minimum number of chests in a rank DEMON dungeon.
+		# Default: 4
+		# Range: 0 ~ 64
+		minDEMON = 4
+		#Maximum number of chests in a rank DEMON dungeon.
+		# Default: 6
+		# Range: 0 ~ 64
+		maxDEMON = 6

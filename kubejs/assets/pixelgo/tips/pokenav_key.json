@@ -1,0 +1,35 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Controls",
+    "color": "white",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Press "
+      },
+      {
+        "text": "N",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " to open the "
+      },
+      {
+        "text": "PokeNav",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": ". It lists every Pokemon that can spawn where you stand."
+      }
+    ]
+  },
+  "cycle_time": 7000
+}

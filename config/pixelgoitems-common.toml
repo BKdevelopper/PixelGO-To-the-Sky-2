@@ -1,0 +1,34 @@
+#Trainer tools: healers, enchanted egg, gym finder.
+#All cooldowns are in ticks (20 ticks = 1 second) and are tracked per player,
+#saved with the world and shared across dimensions.
+[tools]
+	#Cooldown of the Healer. 6000 ticks = 5 minutes.
+	# Default: 6000
+	# Range: 0 ~ 1728000
+	healerCooldown = 6000
+	#Cooldown of the Upgraded Healer. 2400 ticks = 2 minutes.
+	# Default: 2400
+	# Range: 0 ~ 1728000
+	upgradedHealerCooldown = 2400
+	#Cooldown of the Enchanted Egg. 12000 ticks = 10 minutes.
+	# Default: 12000
+	# Range: 0 ~ 1728000
+	enchantedEggCooldown = 12000
+	#Item the Enchanted Egg consumes on every use.
+	#Falls back to minecraft:nether_star if the id does not exist.
+	enchantedEggFood = "minecraft:nether_star"
+	#How far the Gym Finder searches, in chunks.
+	#Large values can hang the server while it generates chunks to look through.
+	# Default: 100
+	# Range: 1 ~ 1000
+	gymFinderRadius = 100
+
+#The Random Fossil has no crafting recipe: it comes out of Pixelmon fossil ore.
+[fossilOre]
+	#Chance, in percent, that mining a Fossil or a Deepslate Fossil also drops a Random Fossil.
+	#It is added to the usual covered fossils, it does not replace them.
+	#Mining with Silk Touch never drops one: the ore comes out whole.
+	#Set to 0 to turn the drop off entirely.
+	# Default: 100.0
+	# Range: 0.0 ~ 100.0
+	randomFossilDropChance = 100.0

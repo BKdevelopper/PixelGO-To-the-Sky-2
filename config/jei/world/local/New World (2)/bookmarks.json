@@ -1,0 +1,10 @@
+[
+  {"version":2},
+  {"recipe":["pixelgo_minions:jei/minion/cobblestone_1",{"category":"misc","type":"pixelgo_minions:enchanted"}],"recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:cobblestone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:wooden_pickaxe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":["pixelgo_minions:jei/minion/mushroom_1",{"category":"misc","type":"pixelgo_minions:enchanted"}],"recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:red_mushroom"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:wooden_hoe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:end_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

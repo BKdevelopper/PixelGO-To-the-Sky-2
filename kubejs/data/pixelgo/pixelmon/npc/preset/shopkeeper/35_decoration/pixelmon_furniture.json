@@ -1,0 +1,1756 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.pixelmon_furniture",
+                  "message": "pixelgo.npc.pixelmon_furniture.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "pixelmon:cross_tombstone",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tall_tombstone",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:vertical_tombstone",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:box",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:glass_table",
+                        "count": 1
+                      },
+                      "buyPrice": 8.48,
+                      "sellPrice": 2.54
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:acacia_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 8.63,
+                      "sellPrice": 2.59
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:bench",
+                        "count": 1
+                      },
+                      "buyPrice": 8.63,
+                      "sellPrice": 2.59
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:birch_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 8.63,
+                      "sellPrice": 2.59
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:dark_oak_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 8.63,
+                      "sellPrice": 2.59
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:jungle_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 8.63,
+                      "sellPrice": 2.59
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:spruce_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 8.63,
+                      "sellPrice": 2.59
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 10.75,
+                      "sellPrice": 3.23
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:magenta_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 10.88,
+                      "sellPrice": 3.26
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_gray_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:orange_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_blue_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 11.34,
+                      "sellPrice": 3.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cyan_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 11.5,
+                      "sellPrice": 3.45
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:white_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 11.67,
+                      "sellPrice": 3.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:lime_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 11.84,
+                      "sellPrice": 3.55
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:brown_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 12,
+                      "sellPrice": 3.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 12,
+                      "sellPrice": 3.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:window1",
+                        "count": 1
+                      },
+                      "buyPrice": 13.25,
+                      "sellPrice": 3.97
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:gray_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 13.34,
+                      "sellPrice": 4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mug_base",
+                        "count": 1
+                      },
+                      "buyPrice": 14,
+                      "sellPrice": 4.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:window2",
+                        "count": 1
+                      },
+                      "buyPrice": 14.75,
+                      "sellPrice": 4.43
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:black_water_float",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 16.75,
+                      "sellPrice": 5.02
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:magenta_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 16.88,
+                      "sellPrice": 5.06
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 17,
+                      "sellPrice": 5.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_gray_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 17,
+                      "sellPrice": 5.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:orange_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 17,
+                      "sellPrice": 5.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 17,
+                      "sellPrice": 5.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 17,
+                      "sellPrice": 5.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 17,
+                      "sellPrice": 5.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_blue_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 17.34,
+                      "sellPrice": 5.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cyan_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 17.5,
+                      "sellPrice": 5.25
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:white_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 17.67,
+                      "sellPrice": 5.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:lime_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 17.84,
+                      "sellPrice": 5.35
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:brown_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 18,
+                      "sellPrice": 5.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 18,
+                      "sellPrice": 5.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 18.75,
+                      "sellPrice": 5.63
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:magenta_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 18.88,
+                      "sellPrice": 5.66
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 19,
+                      "sellPrice": 5.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_gray_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 19,
+                      "sellPrice": 5.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:orange_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 19,
+                      "sellPrice": 5.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 19,
+                      "sellPrice": 5.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 19,
+                      "sellPrice": 5.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 19,
+                      "sellPrice": 5.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:gray_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 19.34,
+                      "sellPrice": 5.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_blue_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 19.34,
+                      "sellPrice": 5.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cyan_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 19.5,
+                      "sellPrice": 5.85
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:white_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 19.67,
+                      "sellPrice": 5.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:lime_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 19.84,
+                      "sellPrice": 5.95
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:brown_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:end_table",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:black_rug",
+                        "count": 1
+                      },
+                      "buyPrice": 21,
+                      "sellPrice": 6.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:gray_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 21.34,
+                      "sellPrice": 6.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:black_umbrella",
+                        "count": 1
+                      },
+                      "buyPrice": 23,
+                      "sellPrice": 6.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:white_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 28,
+                      "sellPrice": 8.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:magenta_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 28.88,
+                      "sellPrice": 8.66
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_gray_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:orange_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_blue_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 29.34,
+                      "sellPrice": 8.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cyan_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 29.5,
+                      "sellPrice": 8.85
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:lime_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 29.84,
+                      "sellPrice": 8.95
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:brown_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:gray_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 31.34,
+                      "sellPrice": 9.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mug_ball",
+                        "count": 1
+                      },
+                      "buyPrice": 31.6,
+                      "sellPrice": 9.48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mug_pika",
+                        "count": 1
+                      },
+                      "buyPrice": 31.6,
+                      "sellPrice": 9.48
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:street_light",
+                        "count": 1
+                      },
+                      "buyPrice": 32.25,
+                      "sellPrice": 9.67
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:black_armchair",
+                        "count": 1
+                      },
+                      "buyPrice": 33,
+                      "sellPrice": 9.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cluttered_box",
+                        "count": 1
+                      },
+                      "buyPrice": 33,
+                      "sellPrice": 9.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:white_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 34,
+                      "sellPrice": 10.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tv",
+                        "count": 1
+                      },
+                      "buyPrice": 34.5,
+                      "sellPrice": 10.35
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:magenta_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 34.88,
+                      "sellPrice": 10.46
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 35,
+                      "sellPrice": 10.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_gray_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 35,
+                      "sellPrice": 10.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:orange_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 35,
+                      "sellPrice": 10.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 35,
+                      "sellPrice": 10.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 35,
+                      "sellPrice": 10.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 35,
+                      "sellPrice": 10.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 35,
+                      "sellPrice": 10.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_blue_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 35.34,
+                      "sellPrice": 10.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cyan_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 35.5,
+                      "sellPrice": 10.65
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:lime_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 35.84,
+                      "sellPrice": 10.75
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:brown_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 36,
+                      "sellPrice": 10.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 36,
+                      "sellPrice": 10.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:gray_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 37.34,
+                      "sellPrice": 11.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:black_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 39,
+                      "sellPrice": 11.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:froggy_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 41,
+                      "sellPrice": 12.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:white_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 46,
+                      "sellPrice": 13.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 46.75,
+                      "sellPrice": 14.03
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:magenta_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 46.88,
+                      "sellPrice": 14.06
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 47,
+                      "sellPrice": 14.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_gray_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 47,
+                      "sellPrice": 14.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:orange_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 47,
+                      "sellPrice": 14.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 47,
+                      "sellPrice": 14.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 47,
+                      "sellPrice": 14.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 47,
+                      "sellPrice": 14.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_blue_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 47.34,
+                      "sellPrice": 14.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cyan_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 47.5,
+                      "sellPrice": 14.25
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:white_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 47.67,
+                      "sellPrice": 14.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:lime_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 47.84,
+                      "sellPrice": 14.35
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:brown_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 48,
+                      "sellPrice": 14.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 48,
+                      "sellPrice": 14.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:gray_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 49.34,
+                      "sellPrice": 14.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 49.75,
+                      "sellPrice": 14.93
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:magenta_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 50.38,
+                      "sellPrice": 15.11
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:black_cushion_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 51,
+                      "sellPrice": 15.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 51,
+                      "sellPrice": 15.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_gray_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 51,
+                      "sellPrice": 15.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:orange_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 51,
+                      "sellPrice": 15.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 51,
+                      "sellPrice": 15.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 51,
+                      "sellPrice": 15.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 51,
+                      "sellPrice": 15.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_blue_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 52.68,
+                      "sellPrice": 15.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cyan_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 53.5,
+                      "sellPrice": 16.05
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:lime_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 55.18,
+                      "sellPrice": 16.55
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:brown_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 56,
+                      "sellPrice": 16.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 56,
+                      "sellPrice": 16.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:gray_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 62.68,
+                      "sellPrice": 18.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:fan",
+                        "count": 1
+                      },
+                      "buyPrice": 64,
+                      "sellPrice": 19.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:white_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 69,
+                      "sellPrice": 20.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:magenta_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 69.88,
+                      "sellPrice": 20.96
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 70,
+                      "sellPrice": 21
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_gray_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 70,
+                      "sellPrice": 21
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:orange_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 70,
+                      "sellPrice": 21
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 70,
+                      "sellPrice": 21
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 70,
+                      "sellPrice": 21
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 70,
+                      "sellPrice": 21
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 70,
+                      "sellPrice": 21
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_blue_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 70.33,
+                      "sellPrice": 21.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cyan_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 70.5,
+                      "sellPrice": 21.15
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:lime_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 70.83,
+                      "sellPrice": 21.25
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:brown_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 71,
+                      "sellPrice": 21.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 71,
+                      "sellPrice": 21.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:black_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 71,
+                      "sellPrice": 21.3
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:gray_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 72.33,
+                      "sellPrice": 21.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:black_folding_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 74,
+                      "sellPrice": 22.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:trash_can",
+                        "count": 1
+                      },
+                      "buyPrice": 75,
+                      "sellPrice": 22.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 91.42,
+                      "sellPrice": 27.43
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:magenta_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 91.55,
+                      "sellPrice": 27.47
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 91.67,
+                      "sellPrice": 27.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_gray_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 91.67,
+                      "sellPrice": 27.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:orange_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 91.67,
+                      "sellPrice": 27.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 91.67,
+                      "sellPrice": 27.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 91.67,
+                      "sellPrice": 27.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 91.67,
+                      "sellPrice": 27.5
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_blue_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 92.01,
+                      "sellPrice": 27.6
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cyan_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 92.17,
+                      "sellPrice": 27.65
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:white_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 92.34,
+                      "sellPrice": 27.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:lime_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 92.51,
+                      "sellPrice": 27.75
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:brown_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 92.67,
+                      "sellPrice": 27.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 92.67,
+                      "sellPrice": 27.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:gray_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 94.01,
+                      "sellPrice": 28.2
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:black_cash_register",
+                        "count": 1
+                      },
+                      "buyPrice": 95.67,
+                      "sellPrice": 28.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tv2",
+                        "count": 1
+                      },
+                      "buyPrice": 104.5,
+                      "sellPrice": 31.35
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:fridge",
+                        "count": 1
+                      },
+                      "buyPrice": 117,
+                      "sellPrice": 35.1
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:tv3",
+                        "count": 1
+                      },
+                      "buyPrice": 119.25,
+                      "sellPrice": 35.78
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:washing_machine",
+                        "count": 1
+                      },
+                      "buyPrice": 157.75,
+                      "sellPrice": 47.33
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:oven",
+                        "count": 1
+                      },
+                      "buyPrice": 169.25,
+                      "sellPrice": 50.78
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:purple_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 348.75,
+                      "sellPrice": 104.63
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:magenta_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 348.88,
+                      "sellPrice": 104.66
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:blue_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 349,
+                      "sellPrice": 104.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_gray_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 349,
+                      "sellPrice": 104.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:orange_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 349,
+                      "sellPrice": 104.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:pink_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 349,
+                      "sellPrice": 104.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:red_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 349,
+                      "sellPrice": 104.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:yellow_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 349,
+                      "sellPrice": 104.7
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:light_blue_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 349.34,
+                      "sellPrice": 104.8
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:cyan_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 349.5,
+                      "sellPrice": 104.85
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:white_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 349.67,
+                      "sellPrice": 104.9
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:lime_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 349.84,
+                      "sellPrice": 104.95
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:brown_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 350,
+                      "sellPrice": 105
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:green_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 350,
+                      "sellPrice": 105
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:gray_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 351.34,
+                      "sellPrice": 105.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:black_clock",
+                        "count": 1
+                      },
+                      "buyPrice": 353,
+                      "sellPrice": 105.9
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.pixelmon_furniture",
+                  "message": "pixelgo.npc.pixelmon_furniture.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.pixelmon_furniture",
+        "color": "#D2A679",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

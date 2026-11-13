@@ -1,0 +1,27 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Crates",
+    "color": "aqua",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Crate keys come from loot chests, and nowhere else. About "
+      },
+      {
+        "text": "one key in every eight chests",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " you open."
+      }
+    ]
+  },
+  "cycle_time": 7000
+}

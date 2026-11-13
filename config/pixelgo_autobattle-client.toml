@@ -1,0 +1,28 @@
+#Whether the auto battle starts enabled when you launch the game.
+enabledOnStartup = false
+#How the move is picked:
+# STRONGEST_DAMAGING - damaging move with the highest base power (ties go to the earliest slot)
+# FIRST_DAMAGING     - first damaging move of the moveset
+# FIXED_SLOT         - always the move in 'moveSlot'
+#Allowed Values: STRONGEST_DAMAGING, FIRST_DAMAGING, FIXED_SLOT
+moveSelection = "STRONGEST_DAMAGING"
+#Move used by the FIXED_SLOT selection: 1 = first move, 2 = second, etc.
+# Default: 1
+# Range: 1 ~ 4
+moveSlot = 1
+#Base power given to damaging moves whose power is computed at runtime
+#(Seismic Toss, Gyro Ball, Return, ...), so they can still be ranked.
+# Default: 60
+# Range: 0 ~ 250
+variablePowerEstimate = 60
+#When the preferred move is out of PP or disabled - or when no damaging move is
+#available at all - fall back to the first usable move, status moves included.
+#When false, the auto battle simply stops until you act yourself.
+fallbackToAnyUsableMove = true
+#Ticks to wait before playing the move once the battle asks for an action (20 ticks = 1 second).
+#A small delay leaves you a chance to take over manually.
+# Default: 5
+# Range: 0 ~ 200
+delayTicks = 5
+#Print a chat message every time the auto battle is toggled.
+announceToggle = true

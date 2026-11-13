@@ -1,0 +1,5 @@
+// Compost colors for pixelmonpasture. You may add your own colors, change existing ones, or remove colors that aren't needed.
+pasture_display_core, #7dc886
+pasture_field_core, #69fb6b
+pasture_left_frame, #afc5af
+pasture_right_frame, #afc5af

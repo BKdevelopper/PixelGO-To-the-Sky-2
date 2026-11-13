@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "pixelgo_minions:box_of_seeds"
+    },
+    "T": {
+      "item": "pixelgo_minions:basic_gardening_hoe"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MTM",
+    "MMM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pixelgo_minions:advanced_gardening_hoe"
+  }
+}

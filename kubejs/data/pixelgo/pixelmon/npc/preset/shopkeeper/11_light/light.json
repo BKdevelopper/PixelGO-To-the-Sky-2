@@ -1,0 +1,460 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.light",
+                  "message": "pixelgo.npc.light.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "minecraft:candle",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:end_rod",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:jack_o_lantern",
+                        "count": 1
+                      },
+                      "buyPrice": 7.5,
+                      "sellPrice": 2.25
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:redstone_lamp",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:sea_lantern",
+                        "count": 1
+                      },
+                      "buyPrice": 320,
+                      "sellPrice": 96
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:shroomlight",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:copper_bulb",
+                        "count": 1
+                      },
+                      "buyPrice": 28.5,
+                      "sellPrice": 8.55
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:exposed_copper_bulb",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oxidized_copper_bulb",
+                        "count": 1
+                      },
+                      "buyPrice": 32.25,
+                      "sellPrice": 9.67
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_copper_bulb",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_exposed_copper_bulb",
+                        "count": 1
+                      },
+                      "buyPrice": 31.5,
+                      "sellPrice": 9.45
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_oxidized_copper_bulb",
+                        "count": 1
+                      },
+                      "buyPrice": 33.75,
+                      "sellPrice": 10.13
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_weathered_copper_bulb",
+                        "count": 1
+                      },
+                      "buyPrice": 32.25,
+                      "sellPrice": 9.67
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:weathered_copper_bulb",
+                        "count": 1
+                      },
+                      "buyPrice": 30.75,
+                      "sellPrice": 9.22
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:campfire",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:soul_campfire",
+                        "count": 1
+                      },
+                      "buyPrice": 28,
+                      "sellPrice": 8.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:ochre_froglight",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:pearlescent_froglight",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:verdant_froglight",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:glowstone",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:glowstone_dust",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:lantern",
+                        "count": 1
+                      },
+                      "buyPrice": 14.83,
+                      "sellPrice": 4.45
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:soul_lantern",
+                        "count": 1
+                      },
+                      "buyPrice": 15.08,
+                      "sellPrice": 4.53
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:redstone_torch",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:soul_torch",
+                        "count": 1
+                      },
+                      "buyPrice": 1.75,
+                      "sellPrice": 0.53
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:torch",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.light",
+                  "message": "pixelgo.npc.light.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.light",
+        "color": "#FFFF55",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

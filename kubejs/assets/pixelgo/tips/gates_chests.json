@@ -1,0 +1,24 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "PixelGO Gates",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Search every room before you fight the boss.",
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": " Beating it opens the exit, and it is very easy to walk out with a chest still unopened behind you."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

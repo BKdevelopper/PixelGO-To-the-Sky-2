@@ -1,0 +1,10 @@
+{
+  "name": "Cooked Red Apricorn",
+  "colors": [
+    "cc9262",
+    "fc4030"
+  ],
+  "ingredient": {
+    "item": "pixelmon:cooked_red_apricorn"
+  }
+}

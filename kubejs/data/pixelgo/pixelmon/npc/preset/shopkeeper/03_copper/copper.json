@@ -1,0 +1,636 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.copper",
+                  "message": "pixelgo.npc.copper.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "minecraft:copper_block",
+                        "count": 1
+                      },
+                      "buyPrice": 27,
+                      "sellPrice": 8.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:chiseled_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 27,
+                      "sellPrice": 8.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cut_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 27,
+                      "sellPrice": 8.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cut_copper_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 13.5,
+                      "sellPrice": 4.05
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:cut_copper_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 40.5,
+                      "sellPrice": 12.15
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:exposed_chiseled_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:exposed_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:exposed_cut_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:exposed_cut_copper_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 14.5,
+                      "sellPrice": 4.35
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:exposed_cut_copper_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 43.5,
+                      "sellPrice": 13.05
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oxidized_chiseled_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oxidized_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oxidized_cut_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oxidized_cut_copper_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 16,
+                      "sellPrice": 4.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oxidized_cut_copper_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 48,
+                      "sellPrice": 14.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_copper_block",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_chiseled_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_cut_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_cut_copper_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 15.5,
+                      "sellPrice": 4.65
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_cut_copper_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 42.5,
+                      "sellPrice": 12.75
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_exposed_chiseled_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 31,
+                      "sellPrice": 9.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_exposed_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 31,
+                      "sellPrice": 9.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_exposed_cut_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 31,
+                      "sellPrice": 9.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_exposed_cut_copper_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 16.5,
+                      "sellPrice": 4.95
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_exposed_cut_copper_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 45.5,
+                      "sellPrice": 13.65
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_oxidized_chiseled_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 34,
+                      "sellPrice": 10.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_oxidized_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 34,
+                      "sellPrice": 10.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_oxidized_cut_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 34,
+                      "sellPrice": 10.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_oxidized_cut_copper_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 18,
+                      "sellPrice": 5.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_oxidized_cut_copper_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 50,
+                      "sellPrice": 15
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_weathered_chiseled_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_weathered_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_weathered_cut_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_weathered_cut_copper_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 17,
+                      "sellPrice": 5.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_weathered_cut_copper_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 47,
+                      "sellPrice": 14.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:weathered_chiseled_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:weathered_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:weathered_cut_copper",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:weathered_cut_copper_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:weathered_cut_copper_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 45,
+                      "sellPrice": 13.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:copper_grate",
+                        "count": 1
+                      },
+                      "buyPrice": 27,
+                      "sellPrice": 8.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:exposed_copper_grate",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:oxidized_copper_grate",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_copper_grate",
+                        "count": 1
+                      },
+                      "buyPrice": 29,
+                      "sellPrice": 8.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_exposed_copper_grate",
+                        "count": 1
+                      },
+                      "buyPrice": 31,
+                      "sellPrice": 9.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_oxidized_copper_grate",
+                        "count": 1
+                      },
+                      "buyPrice": 34,
+                      "sellPrice": 10.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:waxed_weathered_copper_grate",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:weathered_copper_grate",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.copper",
+                  "message": "pixelgo.npc.copper.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.copper",
+        "color": "#E07A45",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

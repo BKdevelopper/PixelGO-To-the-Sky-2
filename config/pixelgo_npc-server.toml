@@ -1,0 +1,79 @@
+#PixelGO - NPC | Rival settings
+[rival]
+	#Name used for every rival NPC. Colours are derived from the level bracket.
+	name = "Kyusama"
+	#Show the coloured bracket title above the rival nameplate.
+	showTierTitle = true
+	#Allow rivals to spawn naturally in villages.
+	enableNaturalSpawns = true
+	#Level brackets allowed to spawn naturally. Disabled brackets remain summonable.
+	enabledTiers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+	#Hard cap of simultaneously living rivals per dimension (0 disables the cap).
+	# Default: 12
+	# Range: 0 ~ 256
+	maxRivalsPerLevel = 12
+
+#PixelGO - NPC | Reward settings
+[rewards]
+	#Grant the matching Rival Medal the first time a bracket is cleared.
+	grantMedals = true
+	#Announce rival defeats in chat to every player.
+	broadcastDefeats = true
+	#Show a full-screen victory title to the winner.
+	victoryTitle = true
+
+#PixelGO - NPC | Item settings
+[items]
+	#Radius in blocks scanned by the Rival Radar.
+	# Default: 160
+	# Range: 16 ~ 512
+	radarRange = 160
+	#Rival Radar cooldown, in ticks (20 ticks = 1 second).
+	# Default: 60
+	# Range: 0 ~ 72000
+	radarCooldown = 60
+	#Rival Beacon cooldown, in ticks (20 ticks = 1 second).
+	# Default: 2400
+	# Range: 0 ~ 1728000
+	beaconCooldown = 2400
+	#Summon the next uncleared bracket instead of a random one.
+	beaconFollowsProgression = true
+	#Consume the Rival Beacon when a rival is summoned.
+	beaconConsumed = true
+
+#PixelGO - NPC | Challenge rules
+[challenge]
+	#Require the previous bracket to be cleared before a rival accepts a battle.
+	requireSequentialBrackets = false
+	#Immediate rematches allowed after losing a bracket, before the lockout kicks in.
+	# Default: 1
+	# Range: 0 ~ 16
+	rematchesAfterDefeat = 1
+	#Minutes to wait once the rematches of a bracket have been used up.
+	# Default: 15
+	# Range: 0 ~ 1440
+	defeatLockoutMinutes = 15
+	#Allow the hidden Omega rival to be summoned once all ten brackets are cleared.
+	omegaEnabled = true
+
+#PixelGO - NPC | Presentation
+[presentation]
+	#Show a boss bar, coloured by bracket, for the duration of a rival battle.
+	bossBar = true
+	#Play a battle theme during rival battles (one track per difficulty band).
+	battleMusic = true
+	#Announce a rival that spawns near a player with particles, a sound and a title.
+	dramaticArrival = true
+	#Distance in blocks within which an arriving rival is announced.
+	# Default: 32
+	# Range: 8 ~ 128
+	arrivalRadius = 32
+
+#PixelGO - NPC | Village rules
+[village]
+	#Keep at most one naturally spawned rival per village.
+	oneRivalPerVillage = true
+	#Radius in blocks treated as one village when applying the rule above.
+	# Default: 96
+	# Range: 16 ~ 256
+	villageRadius = 96

@@ -1,0 +1,42 @@
+{
+  "name": "origins.pixelgo_origins.angler.name",
+  "description": "origins.pixelgo_origins.angler.description",
+  "icon": "pixelmon:super_rod",
+  "impact": "medium",
+  "order": 6,
+  "powers": [
+    "pixelgo_origins:angler_patient_line",
+    "pixelgo_origins:angler_gills",
+    "pixelgo_origins:angler_strong_stroke",
+    "pixelgo_origins:angler_sea_legs",
+    "pixelgo_origins:angler_skill_tree"
+  ],
+  "upgrades": [],
+  "tier_powers": [
+    {
+      "tier": 1,
+      "add": [
+        "pixelgo_origins:angler_evolution_1"
+      ],
+      "remove": []
+    },
+    {
+      "tier": 2,
+      "add": [
+        "pixelgo_origins:angler_evolution_2"
+      ],
+      "remove": [
+        "pixelgo_origins:angler_evolution_1"
+      ]
+    },
+    {
+      "tier": 3,
+      "add": [
+        "pixelgo_origins:angler_evolution_3"
+      ],
+      "remove": [
+        "pixelgo_origins:angler_evolution_2"
+      ]
+    }
+  ]
+}

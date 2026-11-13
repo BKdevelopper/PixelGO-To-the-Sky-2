@@ -1,0 +1,35 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Controls",
+    "color": "white",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Press "
+      },
+      {
+        "text": "F4",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " for the "
+      },
+      {
+        "text": "Radar",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " filter: shinies, legendaries, bosses, raids, Poke Stops."
+      }
+    ]
+  },
+  "cycle_time": 7000
+}

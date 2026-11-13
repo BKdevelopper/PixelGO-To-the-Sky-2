@@ -1,0 +1,25 @@
+{
+  "id": "Toedscruel",
+  "spawnInfos": [
+    {
+      "spec": "species:Toedscruel",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mushroom",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 5
+    }
+  ]
+}

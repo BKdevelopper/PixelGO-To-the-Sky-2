@@ -1,0 +1,10 @@
+{
+  "type": "neoorigins:twin_breeding",
+  "chance": 0.5,
+  "hidden": true,
+  "power_condition": {
+    "type": "neoorigins:origin",
+    "origin": "pixelgo_origins:breeder"
+  },
+  "power_condition_mode": "ALLOW"
+}

@@ -1,0 +1,68 @@
+{
+  "root": {
+    "definition": "root",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "orchard_care": {
+    "definition": "orchard_care",
+    "x": -72,
+    "y": -42
+  },
+  "pollinator": {
+    "definition": "pollinator",
+    "x": -72,
+    "y": -88
+  },
+  "bumper_crop": {
+    "definition": "bumper_crop",
+    "x": -72,
+    "y": -134
+  },
+  "master_grower": {
+    "definition": "master_grower",
+    "x": -72,
+    "y": -184
+  },
+  "berry_treats": {
+    "definition": "berry_treats",
+    "x": 72,
+    "y": -42
+  },
+  "herbal_remedy": {
+    "definition": "herbal_remedy",
+    "x": 72,
+    "y": -88
+  },
+  "berry_farmer": {
+    "definition": "berry_farmer",
+    "x": 72,
+    "y": -134
+  },
+  "herbalist": {
+    "definition": "herbalist",
+    "x": 72,
+    "y": -184
+  },
+  "sap_blood": {
+    "definition": "sap_blood",
+    "x": 0,
+    "y": -50
+  },
+  "four_leaf": {
+    "definition": "four_leaf",
+    "x": 0,
+    "y": -96
+  },
+  "woodcutter": {
+    "definition": "woodcutter",
+    "x": 0,
+    "y": -142
+  },
+  "bountiful_harvest": {
+    "definition": "bountiful_harvest",
+    "x": 0,
+    "y": -214
+  }
+}

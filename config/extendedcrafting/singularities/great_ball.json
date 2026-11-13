@@ -1,0 +1,11 @@
+{
+  "name": "Great Ball",
+  "colors": [
+    "378ef5",
+    "fc2727"
+  ],
+  "materialCount": 3000,
+  "ingredient": {
+    "item": "pixelmon:silver_base"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "root": {
+    "definition": "root",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "quick_draw": {
+    "definition": "quick_draw",
+    "x": -72,
+    "y": -42
+  },
+  "curveball": {
+    "definition": "curveball",
+    "x": -72,
+    "y": -88
+  },
+  "pinpoint": {
+    "definition": "pinpoint",
+    "x": -72,
+    "y": -134
+  },
+  "master_throw": {
+    "definition": "master_throw",
+    "x": -72,
+    "y": -184
+  },
+  "sharp_eyes": {
+    "definition": "sharp_eyes",
+    "x": 72,
+    "y": -42
+  },
+  "tracker": {
+    "definition": "tracker",
+    "x": 72,
+    "y": -88
+  },
+  "glint_spotter": {
+    "definition": "glint_spotter",
+    "x": 72,
+    "y": -134
+  },
+  "shiny_tracker": {
+    "definition": "shiny_tracker",
+    "x": 72,
+    "y": -184
+  },
+  "trail_runner": {
+    "definition": "trail_runner",
+    "x": 0,
+    "y": -50
+  },
+  "cliff_hopper": {
+    "definition": "cliff_hopper",
+    "x": 0,
+    "y": -96
+  },
+  "sure_footing": {
+    "definition": "sure_footing",
+    "x": 0,
+    "y": -142
+  },
+  "tailwind": {
+    "definition": "tailwind",
+    "x": 0,
+    "y": -214
+  }
+}

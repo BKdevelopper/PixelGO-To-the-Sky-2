@@ -1,0 +1,24 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "PixelGO Gates",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Before you step through a Gate: heal your party, bring balls, bring revives, and clear inventory space. "
+      },
+      {
+        "text": "There is no Pokecenter inside.",
+        "color": "red",
+        "bold": true
+      }
+    ]
+  },
+  "cycle_time": 9000
+}

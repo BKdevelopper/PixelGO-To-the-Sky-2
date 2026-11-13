@@ -1,0 +1,10 @@
+{
+  "name": "Ruby",
+  "colors": [
+    "ea6c65",
+    "d43d41"
+  ],
+  "ingredient": {
+    "item": "pixelmon:ruby"
+  }
+}

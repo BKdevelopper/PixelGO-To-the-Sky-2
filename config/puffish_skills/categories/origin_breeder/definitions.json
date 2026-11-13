@@ -1,0 +1,706 @@
+{
+  "root": {
+    "title": {
+      "translate": "pixelgo_origins.tree.breeder.root.title",
+      "fallback": "First Nest",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_egg_hatch_speed",
+          "with": [
+            "10"
+          ],
+          "fallback": "+10 egg steps per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.breeder.root.flavor",
+      "fallback": "It moved! It definitely moved!",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:egg"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 10,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "incubation": {
+    "title": {
+      "translate": "pixelgo_origins.tree.breeder.incubation.title",
+      "fallback": "Incubation",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_egg_hatch_speed",
+          "with": [
+            "15"
+          ],
+          "fallback": "+15 egg steps per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:egg"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 15,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "brooding": {
+    "title": {
+      "translate": "pixelgo_origins.tree.breeder.brooding.title",
+      "fallback": "Brooding",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_egg_hatch_speed",
+          "with": [
+            "20"
+          ],
+          "fallback": "+20 egg steps per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:oval_charm"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 20,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "nursery": {
+    "title": {
+      "translate": "pixelgo_origins.tree.breeder.nursery.title",
+      "fallback": "Nursery",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_egg_hatch_speed",
+          "with": [
+            "30"
+          ],
+          "fallback": "+30 egg steps per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:destiny_knot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 30,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "hatchery_master": {
+    "title": {
+      "translate": "pixelgo_origins.tree.breeder.hatchery_master.title",
+      "fallback": "Hatchery Master",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_egg_hatch_speed",
+          "with": [
+            "60"
+          ],
+          "fallback": "+60 egg steps per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.breeder.hatchery_master.flavor",
+      "fallback": "Specialisation: eggs.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:oval_charm"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 60,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "lullaby": {
+    "title": {
+      "translate": "pixelgo_origins.tree.breeder.lullaby.title",
+      "fallback": "Lullaby",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:soothe_bell"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "gentle_touch": {
+    "title": {
+      "translate": "pixelgo_origins.tree.breeder.gentle_touch.title",
+      "fallback": "Gentle Touch",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:heart_scale"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "comfort_food": {
+    "title": {
+      "translate": "pixelgo_origins.tree.breeder.comfort_food.title",
+      "fallback": "Comfort Food",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:moomoo_milk"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "best_friends": {
+    "title": {
+      "translate": "pixelgo_origins.tree.breeder.best_friends.title",
+      "fallback": "Best Friends",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "4"
+          ],
+          "fallback": "+4 friendship per aura pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.breeder.best_friends.flavor",
+      "fallback": "Specialisation: friendship.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:soothe_bell"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 4,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "clean_pens": {
+    "title": {
+      "translate": "pixelgo_origins.tree.breeder.clean_pens.title",
+      "fallback": "Clean Pens",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_party_vitality",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1%% party HP per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:potion"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:party_vitality",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "family_ties": {
+    "title": {
+      "translate": "pixelgo_origins.tree.breeder.family_ties.title",
+      "fallback": "Family Ties",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_egg_hatch_speed",
+          "with": [
+            "10"
+          ],
+          "fallback": "+10 egg steps per pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_friendship_gain",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 friendship per aura pulse",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:white_wool"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 10,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:friendship_gain",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "busy_days": {
+    "title": {
+      "translate": "pixelgo_origins.tree.breeder.busy_days.title",
+      "fallback": "Busy Days",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_movement_speed",
+          "with": [
+            "3"
+          ],
+          "fallback": "+3%% movement speed",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.03,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "twin_clutch": {
+    "title": {
+      "translate": "pixelgo_origins.tree.breeder.twin_clutch.title",
+      "fallback": "Twin Clutch",
+      "color": "#FF8FC7",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.tree.breeder.twin_clutch.power",
+          "fallback": "Another 50%% chance of an extra baby when breeding animals.",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_egg_hatch_speed",
+          "with": [
+            "40"
+          ],
+          "fallback": "+40 egg steps per pulse",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.breeder.twin_clutch.flavor",
+      "fallback": "Two is better than one.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:lucky_egg"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 3,
+    "required_spent_points": 12,
+    "rewards": [
+      {
+        "type": "neofishcompat:unlock_power",
+        "data": {
+          "power": "pixelgo_origins:breeder_twin_clutch"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:egg_hatch_speed",
+          "value": 40,
+          "operation": "add_value"
+        }
+      }
+    ]
+  }
+}

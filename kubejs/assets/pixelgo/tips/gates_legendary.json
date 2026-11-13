@@ -1,0 +1,35 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "PixelGO Gates",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "From rank "
+      },
+      {
+        "text": "A",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " upward, a Gate boss can be an actual "
+      },
+      {
+        "text": "Legendary Pokemon",
+        "color": "light_purple",
+        "bold": true
+      },
+      {
+        "text": ". It is the fastest legendary encounter in the pack."
+      }
+    ]
+  },
+  "cycle_time": 7000
+}

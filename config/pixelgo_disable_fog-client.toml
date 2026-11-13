@@ -1,0 +1,17 @@
+#Master switch. Set to false to leave every dimension untouched.
+enabled = true
+#Dimensions the fog removal applies to, as dimension ids.
+dimensions = ["pixelmon:ultra_space"]
+#Push the fog back to the render distance instead of the dense haze Pixelmon forces.
+removeFog = true
+#Remove the fog entirely rather than falling back to the vanilla overworld-like fog.
+#Only used when removeFog is true.
+fullyRemoveFog = false
+#Also strip the fog while the camera is inside water, lava or powder snow.
+#Leave this false to keep swimming visibility looking normal.
+affectFluidFog = false
+#Replace the biome fog colour. Note that in a dimension without a sky this colour is also
+#the background you see behind the terrain.
+overrideFogColor = false
+#The replacement fog colour as an RGB hex string, e.g. #101018. Used when overrideFogColor is true.
+fogColor = "#101018"

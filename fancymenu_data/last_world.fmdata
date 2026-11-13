@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/User/curseforge/minecraft/Instances/PixelGO To the sky 2.0/saves/New World
+}
+

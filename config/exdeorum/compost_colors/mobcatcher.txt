@@ -1,0 +1,3 @@
+// Compost colors for mobcatcher. You may add your own colors, change existing ones, or remove colors that aren't needed.
+net, #87cf64
+net_launcher, #546e33

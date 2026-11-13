@@ -1,0 +1,300 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:abomasite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:absolite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:aerodactylite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:aggronite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:alakazite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:altarianite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:ampharosite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:audinite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:banettite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:beedrillite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:blastoisinite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:blazikenite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:cameruptite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:chandelurite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:charizardite_x",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:charizardite_y",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:chimechite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:clefablite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:darkranite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:diancite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:dragoninite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:drampanite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:eelektrossite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:galladite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:garchompite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:gardevoirite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:gengarite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:glalitite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:gyaradosite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:heracronite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:houndoominite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:kangaskhanite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:latiasite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:latiosite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:lopunnite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:lucarionite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:manectite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:mawilite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:medichamite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:metagrossite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:mewtwonite_x",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:mewtwonite_y",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:pidgeotite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:pinsirite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:raichunite_x",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:raichunite_y",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:sablenite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:salamencite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:sceptilite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:scizorite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:sharpedonite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:slowbronite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:starminite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:steelixite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:swampertite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:tyranitarite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:venusaurite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:zeraorite",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

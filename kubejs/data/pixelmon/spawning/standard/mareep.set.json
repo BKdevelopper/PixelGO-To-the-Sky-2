@@ -1,0 +1,25 @@
+{
+  "id": "Mareep",
+  "spawnInfos": [
+    {
+      "spec": "species:Mareep",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains"
+        ]
+      },
+      "rarity": 250
+    }
+  ]
+}

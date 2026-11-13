@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Light Gray Egg [MK 0]",
+    "distance": 5000,
+    "pools": ["mk0"],
+    "color": 9408395
+  },
+  {
+    "name": "Gray Egg [MK 1]",
+    "distance": 5000,
+    "pools": ["mk1"],
+    "color": 4146762
+  },
+  {
+    "name": "Red Egg [MK 2]",
+    "distance": 5000,
+    "pools": ["mk2"],
+    "color": 10234146
+  },
+  {
+    "name": "Magenta Egg [MK 3]",
+    "distance": 5000,
+    "pools": ["mk3"],
+    "color": 11749036
+  },
+  {
+    "name": "Pink Egg [MK 4]",
+    "distance": 5000,
+    "pools": ["mk4"],
+    "color": 14384539
+  },
+  {
+    "name": "Purple Egg [MK 5]",
+    "distance": 5000,
+    "pools": ["mk5"],
+    "color": 8203946
+  },
+  {
+    "name": "Blue Egg [MK 6]",
+    "distance": 5000,
+    "pools": ["mk6"],
+    "color": 3620509
+  },
+  {
+    "name": "Cyan Egg [MK 7]",
+    "distance": 5000,
+    "pools": ["mk7"],
+    "color": 1347216
+  },
+  {
+    "name": "Light Blue Egg [MK 8]",
+    "distance": 5000,
+    "pools": ["mk8"],
+    "color": 3515337
+  },
+  {
+    "name": "Green Egg [MK 9]",
+    "distance": 5000,
+    "pools": ["mk9"],
+    "color": 5467668
+  },
+  {
+    "name": "Lime Egg [MK 10]",
+    "distance": 5000,
+    "pools": ["mk10"],
+    "color": 7714333
+  },
+  {
+    "name": "Yellow Egg [MK 11]",
+    "distance": 5000,
+    "pools": ["mk11"],
+    "color": 14860343
+  },
+  {
+    "name": "Orange Egg [MK 12]",
+    "distance": 5000,
+    "pools": ["mk12"],
+    "color": 14906651
+  },
+  {
+    "name": "Brown Egg [MK 13]",
+    "distance": 5000,
+    "pools": ["mk13"],
+    "color": 7621421
+  },
+  {
+    "name": "White Egg [MK 14]",
+    "distance": 5000,
+    "pools": ["mk14"],
+    "color": 14936298
+  },
+  {
+    "name": "Black Egg [MK 15]",
+    "distance": 5000,
+    "pools": ["mk15"],
+    "color": 1710622
+  },
+  {
+    "name": "Ultimate Egg [MK 16]",
+    "distance": 5000,
+    "pools": ["mk16"],
+    "color": 5148271
+  }
+]

@@ -1,0 +1,6343 @@
+{
+  "armor_stand": {
+    "unit_buy": 7.5,
+    "unit_sell": 2.25,
+    "stack_buy": 120,
+    "stack_sell": 36
+  },
+  "chainmail_boots": {
+    "unit_buy": 65,
+    "unit_sell": 19.5,
+    "stack_buy": 65,
+    "stack_sell": 19.5
+  },
+  "chainmail_chestplate": {
+    "unit_buy": 120,
+    "unit_sell": 36,
+    "stack_buy": 120,
+    "stack_sell": 36
+  },
+  "chainmail_helmet": {
+    "unit_buy": 70,
+    "unit_sell": 21,
+    "stack_buy": 70,
+    "stack_sell": 21
+  },
+  "chainmail_leggings": {
+    "unit_buy": 105,
+    "unit_sell": 31.5,
+    "stack_buy": 105,
+    "stack_sell": 31.5
+  },
+  "copper_boots": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 12,
+    "stack_sell": 3.6
+  },
+  "copper_chestplate": {
+    "unit_buy": 24,
+    "unit_sell": 7.2,
+    "stack_buy": 24,
+    "stack_sell": 7.2
+  },
+  "copper_helmet": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 15,
+    "stack_sell": 4.5
+  },
+  "copper_leggings": {
+    "unit_buy": 21,
+    "unit_sell": 6.3,
+    "stack_buy": 21,
+    "stack_sell": 6.3
+  },
+  "diamond_boots": {
+    "unit_buy": 1120,
+    "unit_sell": 336,
+    "stack_buy": 1120,
+    "stack_sell": 336
+  },
+  "diamond_chestplate": {
+    "unit_buy": 2240,
+    "unit_sell": 672,
+    "stack_buy": 2240,
+    "stack_sell": 672
+  },
+  "diamond_helmet": {
+    "unit_buy": 1400,
+    "unit_sell": 420,
+    "stack_buy": 1400,
+    "stack_sell": 420
+  },
+  "diamond_leggings": {
+    "unit_buy": 1960,
+    "unit_sell": 588,
+    "stack_buy": 1960,
+    "stack_sell": 588
+  },
+  "golden_boots": {
+    "unit_buy": 240,
+    "unit_sell": 72,
+    "stack_buy": 240,
+    "stack_sell": 72
+  },
+  "golden_chestplate": {
+    "unit_buy": 480,
+    "unit_sell": 144,
+    "stack_buy": 480,
+    "stack_sell": 144
+  },
+  "golden_helmet": {
+    "unit_buy": 300,
+    "unit_sell": 90,
+    "stack_buy": 300,
+    "stack_sell": 90
+  },
+  "golden_leggings": {
+    "unit_buy": 420,
+    "unit_sell": 126,
+    "stack_buy": 420,
+    "stack_sell": 126
+  },
+  "iron_boots": {
+    "unit_buy": 60,
+    "unit_sell": 18,
+    "stack_buy": 60,
+    "stack_sell": 18
+  },
+  "iron_chestplate": {
+    "unit_buy": 120,
+    "unit_sell": 36,
+    "stack_buy": 120,
+    "stack_sell": 36
+  },
+  "iron_helmet": {
+    "unit_buy": 75,
+    "unit_sell": 22.5,
+    "stack_buy": 75,
+    "stack_sell": 22.5
+  },
+  "iron_leggings": {
+    "unit_buy": 105,
+    "unit_sell": 31.5,
+    "stack_buy": 105,
+    "stack_sell": 31.5
+  },
+  "leather_boots": {
+    "unit_buy": 32,
+    "unit_sell": 9.6,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "leather_helmet": {
+    "unit_buy": 40,
+    "unit_sell": 12,
+    "stack_buy": 40,
+    "stack_sell": 12
+  },
+  "leather_leggings": {
+    "unit_buy": 56,
+    "unit_sell": 16.8,
+    "stack_buy": 56,
+    "stack_sell": 16.8
+  },
+  "leather_chestplate": {
+    "unit_buy": 64,
+    "unit_sell": 19.2,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "netherite_boots": {
+    "unit_buy": 3340,
+    "unit_sell": 1002,
+    "stack_buy": 3340,
+    "stack_sell": 1002
+  },
+  "netherite_chestplate": {
+    "unit_buy": 4340,
+    "unit_sell": 1302,
+    "stack_buy": 4340,
+    "stack_sell": 1302
+  },
+  "netherite_helmet": {
+    "unit_buy": 3640,
+    "unit_sell": 1092,
+    "stack_buy": 3640,
+    "stack_sell": 1092
+  },
+  "netherite_leggings": {
+    "unit_buy": 4140,
+    "unit_sell": 1242,
+    "stack_buy": 4140,
+    "stack_sell": 1242
+  },
+  "shield": {
+    "unit_buy": 27,
+    "unit_sell": 8.1,
+    "stack_buy": 27,
+    "stack_sell": 8.1
+  },
+  "turtle_helmet": {
+    "unit_buy": 150,
+    "unit_sell": 45,
+    "stack_buy": 150,
+    "stack_sell": 45
+  },
+  "copper_horse_armor": {
+    "unit_buy": 90,
+    "unit_sell": 27,
+    "stack_buy": 90,
+    "stack_sell": 27
+  },
+  "diamond_horse_armor": {
+    "unit_buy": 1000,
+    "unit_sell": 300,
+    "stack_buy": 1000,
+    "stack_sell": 300
+  },
+  "golden_horse_armor": {
+    "unit_buy": 300,
+    "unit_sell": 90,
+    "stack_buy": 300,
+    "stack_sell": 90
+  },
+  "iron_horse_armor": {
+    "unit_buy": 180,
+    "unit_sell": 54,
+    "stack_buy": 180,
+    "stack_sell": 54
+  },
+  "leather_horse_armor": {
+    "unit_buy": 56,
+    "unit_sell": 16.8,
+    "stack_buy": 56,
+    "stack_sell": 16.8
+  },
+  "netherite_horse_armor": {
+    "unit_buy": 3340,
+    "unit_sell": 1002,
+    "stack_buy": 3340,
+    "stack_sell": 1002
+  },
+  "copper_nautilus_armor": {
+    "unit_buy": 235,
+    "unit_sell": 70.5,
+    "stack_buy": 235,
+    "stack_sell": 70.5
+  },
+  "diamond_nautilus_armor": {
+    "unit_buy": 2300,
+    "unit_sell": 690,
+    "stack_buy": 2300,
+    "stack_sell": 690
+  },
+  "golden_nautilus_armor": {
+    "unit_buy": 940,
+    "unit_sell": 282,
+    "stack_buy": 940,
+    "stack_sell": 282
+  },
+  "iron_nautilus_armor": {
+    "unit_buy": 470,
+    "unit_sell": 141,
+    "stack_buy": 470,
+    "stack_sell": 141
+  },
+  "netherite_nautilus_armor": {
+    "unit_buy": 4640,
+    "unit_sell": 1392,
+    "stack_buy": 4640,
+    "stack_sell": 1392
+  },
+  "bolt_armor_trim_smithing_template": {
+    "unit_buy": 2000,
+    "unit_sell": 600,
+    "stack_buy": 128000,
+    "stack_sell": 38400
+  },
+  "coast_armor_trim_smithing_template": {
+    "unit_buy": 850,
+    "unit_sell": 255,
+    "stack_buy": 54400,
+    "stack_sell": 16320
+  },
+  "dune_armor_trim_smithing_template": {
+    "unit_buy": 850,
+    "unit_sell": 255,
+    "stack_buy": 54400,
+    "stack_sell": 16320
+  },
+  "eye_armor_trim_smithing_template": {
+    "unit_buy": 1700,
+    "unit_sell": 510,
+    "stack_buy": 108800,
+    "stack_sell": 32640
+  },
+  "flow_armor_trim_smithing_template": {
+    "unit_buy": 2000,
+    "unit_sell": 600,
+    "stack_buy": 128000,
+    "stack_sell": 38400
+  },
+  "host_armor_trim_smithing_template": {
+    "unit_buy": 1700,
+    "unit_sell": 510,
+    "stack_buy": 108800,
+    "stack_sell": 32640
+  },
+  "raiser_armor_trim_smithing_template": {
+    "unit_buy": 1100,
+    "unit_sell": 330,
+    "stack_buy": 70400,
+    "stack_sell": 21120
+  },
+  "rib_armor_trim_smithing_template": {
+    "unit_buy": 1300,
+    "unit_sell": 390,
+    "stack_buy": 83200,
+    "stack_sell": 24960
+  },
+  "sentry_armor_trim_smithing_template": {
+    "unit_buy": 1300,
+    "unit_sell": 390,
+    "stack_buy": 83200,
+    "stack_sell": 24960
+  },
+  "shaper_armor_trim_smithing_template": {
+    "unit_buy": 1100,
+    "unit_sell": 330,
+    "stack_buy": 70400,
+    "stack_sell": 21120
+  },
+  "silence_armor_trim_smithing_template": {
+    "unit_buy": 2200,
+    "unit_sell": 660,
+    "stack_buy": 140800,
+    "stack_sell": 42240
+  },
+  "snout_armor_trim_smithing_template": {
+    "unit_buy": 1300,
+    "unit_sell": 390,
+    "stack_buy": 83200,
+    "stack_sell": 24960
+  },
+  "spire_armor_trim_smithing_template": {
+    "unit_buy": 1700,
+    "unit_sell": 510,
+    "stack_buy": 108800,
+    "stack_sell": 32640
+  },
+  "tide_armor_trim_smithing_template": {
+    "unit_buy": 2200,
+    "unit_sell": 660,
+    "stack_buy": 140800,
+    "stack_sell": 42240
+  },
+  "vex_armor_trim_smithing_template": {
+    "unit_buy": 1700,
+    "unit_sell": 510,
+    "stack_buy": 108800,
+    "stack_sell": 32640
+  },
+  "ward_armor_trim_smithing_template": {
+    "unit_buy": 2200,
+    "unit_sell": 660,
+    "stack_buy": 140800,
+    "stack_sell": 42240
+  },
+  "wayfinder_armor_trim_smithing_template": {
+    "unit_buy": 1100,
+    "unit_sell": 330,
+    "stack_buy": 70400,
+    "stack_sell": 21120
+  },
+  "wild_armor_trim_smithing_template": {
+    "unit_buy": 1300,
+    "unit_sell": 390,
+    "stack_buy": 83200,
+    "stack_sell": 24960
+  },
+  "wolf_armor": {
+    "unit_buy": 180,
+    "unit_sell": 54,
+    "stack_buy": 180,
+    "stack_sell": 54
+  },
+  "copper_block": {
+    "unit_buy": 27,
+    "unit_sell": 8.1,
+    "stack_buy": 1728,
+    "stack_sell": 518.4
+  },
+  "chiseled_copper": {
+    "unit_buy": 27,
+    "unit_sell": 8.1,
+    "stack_buy": 1728,
+    "stack_sell": 518.4
+  },
+  "cut_copper": {
+    "unit_buy": 27,
+    "unit_sell": 8.1,
+    "stack_buy": 1728,
+    "stack_sell": 518.4
+  },
+  "cut_copper_slab": {
+    "unit_buy": 13.5,
+    "unit_sell": 4.05,
+    "stack_buy": 864,
+    "stack_sell": 259.2
+  },
+  "cut_copper_stairs": {
+    "unit_buy": 40.5,
+    "unit_sell": 12.15,
+    "stack_buy": 2592,
+    "stack_sell": 777.6
+  },
+  "exposed_chiseled_copper": {
+    "unit_buy": 29,
+    "unit_sell": 8.7,
+    "stack_buy": 1856,
+    "stack_sell": 556.8
+  },
+  "exposed_copper": {
+    "unit_buy": 29,
+    "unit_sell": 8.7,
+    "stack_buy": 1856,
+    "stack_sell": 556.8
+  },
+  "exposed_cut_copper": {
+    "unit_buy": 29,
+    "unit_sell": 8.7,
+    "stack_buy": 1856,
+    "stack_sell": 556.8
+  },
+  "exposed_cut_copper_slab": {
+    "unit_buy": 14.5,
+    "unit_sell": 4.35,
+    "stack_buy": 928,
+    "stack_sell": 278.4
+  },
+  "exposed_cut_copper_stairs": {
+    "unit_buy": 43.5,
+    "unit_sell": 13.05,
+    "stack_buy": 2784,
+    "stack_sell": 835.2
+  },
+  "oxidized_chiseled_copper": {
+    "unit_buy": 32,
+    "unit_sell": 9.6,
+    "stack_buy": 2048,
+    "stack_sell": 614.4
+  },
+  "oxidized_copper": {
+    "unit_buy": 32,
+    "unit_sell": 9.6,
+    "stack_buy": 2048,
+    "stack_sell": 614.4
+  },
+  "oxidized_cut_copper": {
+    "unit_buy": 32,
+    "unit_sell": 9.6,
+    "stack_buy": 2048,
+    "stack_sell": 614.4
+  },
+  "oxidized_cut_copper_slab": {
+    "unit_buy": 16,
+    "unit_sell": 4.8,
+    "stack_buy": 1024,
+    "stack_sell": 307.2
+  },
+  "oxidized_cut_copper_stairs": {
+    "unit_buy": 48,
+    "unit_sell": 14.4,
+    "stack_buy": 3072,
+    "stack_sell": 921.6
+  },
+  "waxed_copper_block": {
+    "unit_buy": 29,
+    "unit_sell": 8.7,
+    "stack_buy": 1856,
+    "stack_sell": 556.8
+  },
+  "waxed_chiseled_copper": {
+    "unit_buy": 29,
+    "unit_sell": 8.7,
+    "stack_buy": 1856,
+    "stack_sell": 556.8
+  },
+  "waxed_cut_copper": {
+    "unit_buy": 29,
+    "unit_sell": 8.7,
+    "stack_buy": 1856,
+    "stack_sell": 556.8
+  },
+  "waxed_cut_copper_slab": {
+    "unit_buy": 15.5,
+    "unit_sell": 4.65,
+    "stack_buy": 992,
+    "stack_sell": 297.6
+  },
+  "waxed_cut_copper_stairs": {
+    "unit_buy": 42.5,
+    "unit_sell": 12.75,
+    "stack_buy": 2720,
+    "stack_sell": 816
+  },
+  "waxed_exposed_chiseled_copper": {
+    "unit_buy": 31,
+    "unit_sell": 9.3,
+    "stack_buy": 1984,
+    "stack_sell": 595.2
+  },
+  "waxed_exposed_copper": {
+    "unit_buy": 31,
+    "unit_sell": 9.3,
+    "stack_buy": 1984,
+    "stack_sell": 595.2
+  },
+  "waxed_exposed_cut_copper": {
+    "unit_buy": 31,
+    "unit_sell": 9.3,
+    "stack_buy": 1984,
+    "stack_sell": 595.2
+  },
+  "waxed_exposed_cut_copper_slab": {
+    "unit_buy": 16.5,
+    "unit_sell": 4.95,
+    "stack_buy": 1056,
+    "stack_sell": 316.8
+  },
+  "waxed_exposed_cut_copper_stairs": {
+    "unit_buy": 45.5,
+    "unit_sell": 13.65,
+    "stack_buy": 2912,
+    "stack_sell": 873.6
+  },
+  "waxed_oxidized_chiseled_copper": {
+    "unit_buy": 34,
+    "unit_sell": 10.2,
+    "stack_buy": 2176,
+    "stack_sell": 652.8
+  },
+  "waxed_oxidized_copper": {
+    "unit_buy": 34,
+    "unit_sell": 10.2,
+    "stack_buy": 2176,
+    "stack_sell": 652.8
+  },
+  "waxed_oxidized_cut_copper": {
+    "unit_buy": 34,
+    "unit_sell": 10.2,
+    "stack_buy": 2176,
+    "stack_sell": 652.8
+  },
+  "waxed_oxidized_cut_copper_slab": {
+    "unit_buy": 18,
+    "unit_sell": 5.4,
+    "stack_buy": 1152,
+    "stack_sell": 345.6
+  },
+  "waxed_oxidized_cut_copper_stairs": {
+    "unit_buy": 50,
+    "unit_sell": 15,
+    "stack_buy": 3200,
+    "stack_sell": 960
+  },
+  "waxed_weathered_chiseled_copper": {
+    "unit_buy": 32,
+    "unit_sell": 9.6,
+    "stack_buy": 2048,
+    "stack_sell": 614.4
+  },
+  "waxed_weathered_copper": {
+    "unit_buy": 32,
+    "unit_sell": 9.6,
+    "stack_buy": 2048,
+    "stack_sell": 614.4
+  },
+  "waxed_weathered_cut_copper": {
+    "unit_buy": 32,
+    "unit_sell": 9.6,
+    "stack_buy": 2048,
+    "stack_sell": 614.4
+  },
+  "waxed_weathered_cut_copper_slab": {
+    "unit_buy": 17,
+    "unit_sell": 5.1,
+    "stack_buy": 1088,
+    "stack_sell": 326.4
+  },
+  "waxed_weathered_cut_copper_stairs": {
+    "unit_buy": 47,
+    "unit_sell": 14.1,
+    "stack_buy": 3008,
+    "stack_sell": 902.4
+  },
+  "weathered_chiseled_copper": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "weathered_copper": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "weathered_cut_copper": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "weathered_cut_copper_slab": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "weathered_cut_copper_stairs": {
+    "unit_buy": 45,
+    "unit_sell": 13.5,
+    "stack_buy": 2880,
+    "stack_sell": 864
+  },
+  "copper_bars": {
+    "unit_buy": 1.13,
+    "unit_sell": 0.34,
+    "stack_buy": 72,
+    "stack_sell": 21.6
+  },
+  "exposed_copper_bars": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "oxidized_copper_bars": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "waxed_copper_bars": {
+    "unit_buy": 3.13,
+    "unit_sell": 0.94,
+    "stack_buy": 200,
+    "stack_sell": 60
+  },
+  "waxed_exposed_copper_bars": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "waxed_oxidized_copper_bars": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "waxed_weathered_copper_bars": {
+    "unit_buy": 4.5,
+    "unit_sell": 1.35,
+    "stack_buy": 288,
+    "stack_sell": 86.4
+  },
+  "weathered_copper_bars": {
+    "unit_buy": 2.5,
+    "unit_sell": 0.75,
+    "stack_buy": 160,
+    "stack_sell": 48
+  },
+  "copper_chain": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "exposed_copper_chain": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "oxidized_copper_chain": {
+    "unit_buy": 7,
+    "unit_sell": 2.1,
+    "stack_buy": 448,
+    "stack_sell": 134.4
+  },
+  "waxed_copper_chain": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "waxed_exposed_copper_chain": {
+    "unit_buy": 7,
+    "unit_sell": 2.1,
+    "stack_buy": 448,
+    "stack_sell": 134.4
+  },
+  "waxed_oxidized_copper_chain": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "waxed_weathered_copper_chain": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "weathered_copper_chain": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "copper_grate": {
+    "unit_buy": 27,
+    "unit_sell": 8.1,
+    "stack_buy": 1728,
+    "stack_sell": 518.4
+  },
+  "exposed_copper_grate": {
+    "unit_buy": 29,
+    "unit_sell": 8.7,
+    "stack_buy": 1856,
+    "stack_sell": 556.8
+  },
+  "oxidized_copper_grate": {
+    "unit_buy": 32,
+    "unit_sell": 9.6,
+    "stack_buy": 2048,
+    "stack_sell": 614.4
+  },
+  "waxed_copper_grate": {
+    "unit_buy": 29,
+    "unit_sell": 8.7,
+    "stack_buy": 1856,
+    "stack_sell": 556.8
+  },
+  "waxed_exposed_copper_grate": {
+    "unit_buy": 31,
+    "unit_sell": 9.3,
+    "stack_buy": 1984,
+    "stack_sell": 595.2
+  },
+  "waxed_oxidized_copper_grate": {
+    "unit_buy": 34,
+    "unit_sell": 10.2,
+    "stack_buy": 2176,
+    "stack_sell": 652.8
+  },
+  "waxed_weathered_copper_grate": {
+    "unit_buy": 32,
+    "unit_sell": 9.6,
+    "stack_buy": 2048,
+    "stack_sell": 614.4
+  },
+  "weathered_copper_grate": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "copper_golem_statue": {
+    "unit_buy": 200,
+    "unit_sell": 60,
+    "stack_buy": 12800,
+    "stack_sell": 3840
+  },
+  "exposed_copper_golem_statue": {
+    "unit_buy": 210,
+    "unit_sell": 63,
+    "stack_buy": 13440,
+    "stack_sell": 4032
+  },
+  "oxidized_copper_golem_statue": {
+    "unit_buy": 230,
+    "unit_sell": 69,
+    "stack_buy": 14720,
+    "stack_sell": 4416
+  },
+  "weathered_copper_golem_statue": {
+    "unit_buy": 220,
+    "unit_sell": 66,
+    "stack_buy": 14080,
+    "stack_sell": 4224
+  },
+  "waxed_copper_golem_statue": {
+    "unit_buy": 202,
+    "unit_sell": 60.6,
+    "stack_buy": 12928,
+    "stack_sell": 3878
+  },
+  "waxed_exposed_copper_golem_statue": {
+    "unit_buy": 212,
+    "unit_sell": 63.6,
+    "stack_buy": 13568,
+    "stack_sell": 4070
+  },
+  "waxed_oxidized_copper_golem_statue": {
+    "unit_buy": 232,
+    "unit_sell": 69.6,
+    "stack_buy": 14848,
+    "stack_sell": 4454
+  },
+  "waxed_weathered_copper_golem_statue": {
+    "unit_buy": 222,
+    "unit_sell": 66.6,
+    "stack_buy": 14208,
+    "stack_sell": 4262
+  },
+  "calibrated_sculk_sensor": {
+    "unit_buy": 70,
+    "unit_sell": 21,
+    "stack_buy": 4480,
+    "stack_sell": 1344
+  },
+  "echo_shard": {
+    "unit_buy": 35,
+    "unit_sell": 10.5,
+    "stack_buy": 2240,
+    "stack_sell": 672
+  },
+  "sculk": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "sculk_catalyst": {
+    "unit_buy": 60,
+    "unit_sell": 18,
+    "stack_buy": 3840,
+    "stack_sell": 1152
+  },
+  "sculk_sensor": {
+    "unit_buy": 40,
+    "unit_sell": 12,
+    "stack_buy": 2560,
+    "stack_sell": 768
+  },
+  "sculk_shrieker": {
+    "unit_buy": 50,
+    "unit_sell": 15,
+    "stack_buy": 3200,
+    "stack_sell": 960
+  },
+  "sculk_vein": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "music_disc_11": {
+    "unit_buy": 100,
+    "unit_sell": 30,
+    "stack_buy": 100,
+    "stack_sell": 30
+  },
+  "music_disc_13": {
+    "unit_buy": 100,
+    "unit_sell": 30,
+    "stack_buy": 100,
+    "stack_sell": 30
+  },
+  "music_disc_5": {
+    "unit_buy": 162,
+    "unit_sell": 48.6,
+    "stack_buy": 162,
+    "stack_sell": 48.6
+  },
+  "disc_fragment_5": {
+    "unit_buy": 18,
+    "unit_sell": 5.4,
+    "stack_buy": 1152,
+    "stack_sell": 345.6
+  },
+  "music_disc_blocks": {
+    "unit_buy": 110,
+    "unit_sell": 33,
+    "stack_buy": 110,
+    "stack_sell": 33
+  },
+  "music_disc_cat": {
+    "unit_buy": 100,
+    "unit_sell": 30,
+    "stack_buy": 100,
+    "stack_sell": 30
+  },
+  "music_disc_chirp": {
+    "unit_buy": 110,
+    "unit_sell": 33,
+    "stack_buy": 110,
+    "stack_sell": 33
+  },
+  "music_disc_creator": {
+    "unit_buy": 130,
+    "unit_sell": 39,
+    "stack_buy": 130,
+    "stack_sell": 39
+  },
+  "music_disc_far": {
+    "unit_buy": 110,
+    "unit_sell": 33,
+    "stack_buy": 110,
+    "stack_sell": 33
+  },
+  "music_disc_lava_chicken": {
+    "unit_buy": 130,
+    "unit_sell": 39,
+    "stack_buy": 130,
+    "stack_sell": 39
+  },
+  "music_disc_mall": {
+    "unit_buy": 110,
+    "unit_sell": 33,
+    "stack_buy": 110,
+    "stack_sell": 33
+  },
+  "music_disc_mellohi": {
+    "unit_buy": 120,
+    "unit_sell": 36,
+    "stack_buy": 120,
+    "stack_sell": 36
+  },
+  "music_disc_creator_music_box": {
+    "unit_buy": 140,
+    "unit_sell": 42,
+    "stack_buy": 140,
+    "stack_sell": 42
+  },
+  "music_disc_otherside": {
+    "unit_buy": 140,
+    "unit_sell": 42,
+    "stack_buy": 140,
+    "stack_sell": 42
+  },
+  "music_disc_pigstep": {
+    "unit_buy": 100,
+    "unit_sell": 30,
+    "stack_buy": 100,
+    "stack_sell": 30
+  },
+  "music_disc_precipice": {
+    "unit_buy": 130,
+    "unit_sell": 39,
+    "stack_buy": 130,
+    "stack_sell": 39
+  },
+  "music_disc_relic": {
+    "unit_buy": 150,
+    "unit_sell": 45,
+    "stack_buy": 150,
+    "stack_sell": 45
+  },
+  "music_disc_stal": {
+    "unit_buy": 110,
+    "unit_sell": 33,
+    "stack_buy": 110,
+    "stack_sell": 33
+  },
+  "music_disc_strad": {
+    "unit_buy": 110,
+    "unit_sell": 33,
+    "stack_buy": 110,
+    "stack_sell": 33
+  },
+  "music_disc_tears": {
+    "unit_buy": 150,
+    "unit_sell": 45,
+    "stack_buy": 150,
+    "stack_sell": 45
+  },
+  "music_disc_wait": {
+    "unit_buy": 130,
+    "unit_sell": 39,
+    "stack_buy": 130,
+    "stack_sell": 39
+  },
+  "music_disc_ward": {
+    "unit_buy": 110,
+    "unit_sell": 33,
+    "stack_buy": 110,
+    "stack_sell": 33
+  },
+  "armadillo_scute": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "bee_nest": {
+    "unit_buy": 35,
+    "unit_sell": 10.5,
+    "stack_buy": 2240,
+    "stack_sell": 672
+  },
+  "blaze_powder": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "blaze_rod": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "bone": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "breeze_rod": {
+    "unit_buy": 70,
+    "unit_sell": 21,
+    "stack_buy": 4480,
+    "stack_sell": 1344
+  },
+  "creeper_head": {
+    "unit_buy": 1500,
+    "unit_sell": 450,
+    "stack_buy": 96000,
+    "stack_sell": 28800
+  },
+  "ender_pearl": {
+    "unit_buy": 16,
+    "unit_sell": 4.8,
+    "stack_buy": 1024,
+    "stack_sell": 307.2
+  },
+  "feather": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "ghast_tear": {
+    "unit_buy": 80,
+    "unit_sell": 24,
+    "stack_buy": 5120,
+    "stack_sell": 1536
+  },
+  "goat_horn": {
+    "unit_buy": 50,
+    "unit_sell": 15,
+    "stack_buy": 50,
+    "stack_sell": 15
+  },
+  "gunpowder": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "honey_block": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "honey_bottle": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "honeycomb": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "honeycomb_block": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "leather": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "magma_cream": {
+    "unit_buy": 25,
+    "unit_sell": 7.5,
+    "stack_buy": 1600,
+    "stack_sell": 480
+  },
+  "nautilus_shell": {
+    "unit_buy": 80,
+    "unit_sell": 24,
+    "stack_buy": 5120,
+    "stack_sell": 1536
+  },
+  "nether_star": {
+    "unit_buy": 3000,
+    "unit_sell": 900,
+    "stack_buy": 192000,
+    "stack_sell": 57600
+  },
+  "ominous_bottle": {
+    "unit_buy": 150,
+    "unit_sell": 45,
+    "stack_buy": 9600,
+    "stack_sell": 2880
+  },
+  "phantom_membrane": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "piglin_head": {
+    "unit_buy": 1500,
+    "unit_sell": 450,
+    "stack_buy": 96000,
+    "stack_sell": 28800
+  },
+  "rabbit_hide": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "rotten_flesh": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "skeleton_skull": {
+    "unit_buy": 1500,
+    "unit_sell": 450,
+    "stack_buy": 96000,
+    "stack_sell": 28800
+  },
+  "slime_block": {
+    "unit_buy": 90,
+    "unit_sell": 27,
+    "stack_buy": 5760,
+    "stack_sell": 1728
+  },
+  "slime_ball": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "spider_eye": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "string": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "turtle_scute": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "wind_charge": {
+    "unit_buy": 17.5,
+    "unit_sell": 5.25,
+    "stack_buy": 1120,
+    "stack_sell": 336
+  },
+  "wither_rose": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "wither_skeleton_skull": {
+    "unit_buy": 600,
+    "unit_sell": 180,
+    "stack_buy": 38400,
+    "stack_sell": 11520
+  },
+  "zombie_head": {
+    "unit_buy": 1500,
+    "unit_sell": 450,
+    "stack_buy": 96000,
+    "stack_sell": 28800
+  },
+  "glow_ink_sac": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "ink_sac": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "ominous_trial_key": {
+    "unit_buy": 300,
+    "unit_sell": 90,
+    "stack_buy": 19200,
+    "stack_sell": 5760
+  },
+  "trial_key": {
+    "unit_buy": 100,
+    "unit_sell": 30,
+    "stack_buy": 6400,
+    "stack_sell": 1920
+  },
+  "resin_block": {
+    "unit_buy": 216,
+    "unit_sell": 64.8,
+    "stack_buy": 13824,
+    "stack_sell": 4147
+  },
+  "resin_clump": {
+    "unit_buy": 24,
+    "unit_sell": 7.2,
+    "stack_buy": 1536,
+    "stack_sell": 460.8
+  },
+  "coarse_dirt": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "dirt": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "grass_block": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "gravel": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "mycelium": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "podzol": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "rooted_dirt": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "mud": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "mud_brick_slab": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "mud_brick_stairs": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "mud_brick_wall": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "mud_bricks": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "packed_mud": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "enchanted_book_aqua_affinity_1": {
+    "unit_buy": 400,
+    "unit_sell": 120,
+    "stack_buy": 400,
+    "stack_sell": 120
+  },
+  "enchanted_book_blast_protection_1": {
+    "unit_buy": 125,
+    "unit_sell": 37.5,
+    "stack_buy": 125,
+    "stack_sell": 37.5
+  },
+  "enchanted_book_blast_protection_2": {
+    "unit_buy": 250,
+    "unit_sell": 75,
+    "stack_buy": 250,
+    "stack_sell": 75
+  },
+  "enchanted_book_blast_protection_3": {
+    "unit_buy": 375,
+    "unit_sell": 112.5,
+    "stack_buy": 375,
+    "stack_sell": 112.5
+  },
+  "enchanted_book_blast_protection_4": {
+    "unit_buy": 500,
+    "unit_sell": 150,
+    "stack_buy": 500,
+    "stack_sell": 150
+  },
+  "enchanted_book_depth_strider_1": {
+    "unit_buy": 284,
+    "unit_sell": 85.2,
+    "stack_buy": 284,
+    "stack_sell": 85.2
+  },
+  "enchanted_book_depth_strider_2": {
+    "unit_buy": 567,
+    "unit_sell": 170.1,
+    "stack_buy": 567,
+    "stack_sell": 170.1
+  },
+  "enchanted_book_depth_strider_3": {
+    "unit_buy": 850,
+    "unit_sell": 255,
+    "stack_buy": 850,
+    "stack_sell": 255
+  },
+  "enchanted_book_feather_falling_1": {
+    "unit_buy": 200,
+    "unit_sell": 60,
+    "stack_buy": 200,
+    "stack_sell": 60
+  },
+  "enchanted_book_feather_falling_2": {
+    "unit_buy": 400,
+    "unit_sell": 120,
+    "stack_buy": 400,
+    "stack_sell": 120
+  },
+  "enchanted_book_feather_falling_3": {
+    "unit_buy": 600,
+    "unit_sell": 180,
+    "stack_buy": 600,
+    "stack_sell": 180
+  },
+  "enchanted_book_feather_falling_4": {
+    "unit_buy": 800,
+    "unit_sell": 240,
+    "stack_buy": 800,
+    "stack_sell": 240
+  },
+  "enchanted_book_fire_protection_1": {
+    "unit_buy": 150,
+    "unit_sell": 45,
+    "stack_buy": 150,
+    "stack_sell": 45
+  },
+  "enchanted_book_fire_protection_2": {
+    "unit_buy": 300,
+    "unit_sell": 90,
+    "stack_buy": 300,
+    "stack_sell": 90
+  },
+  "enchanted_book_fire_protection_3": {
+    "unit_buy": 450,
+    "unit_sell": 135,
+    "stack_buy": 450,
+    "stack_sell": 135
+  },
+  "enchanted_book_fire_protection_4": {
+    "unit_buy": 600,
+    "unit_sell": 180,
+    "stack_buy": 600,
+    "stack_sell": 180
+  },
+  "enchanted_book_frost_walker_1": {
+    "unit_buy": 450,
+    "unit_sell": 135,
+    "stack_buy": 450,
+    "stack_sell": 135
+  },
+  "enchanted_book_frost_walker_2": {
+    "unit_buy": 900,
+    "unit_sell": 270,
+    "stack_buy": 900,
+    "stack_sell": 270
+  },
+  "enchanted_book_projectile_protection_1": {
+    "unit_buy": 125,
+    "unit_sell": 37.5,
+    "stack_buy": 125,
+    "stack_sell": 37.5
+  },
+  "enchanted_book_projectile_protection_2": {
+    "unit_buy": 250,
+    "unit_sell": 75,
+    "stack_buy": 250,
+    "stack_sell": 75
+  },
+  "enchanted_book_projectile_protection_3": {
+    "unit_buy": 375,
+    "unit_sell": 112.5,
+    "stack_buy": 375,
+    "stack_sell": 112.5
+  },
+  "enchanted_book_projectile_protection_4": {
+    "unit_buy": 500,
+    "unit_sell": 150,
+    "stack_buy": 500,
+    "stack_sell": 150
+  },
+  "enchanted_book_protection_1": {
+    "unit_buy": 275,
+    "unit_sell": 82.5,
+    "stack_buy": 275,
+    "stack_sell": 82.5
+  },
+  "enchanted_book_protection_2": {
+    "unit_buy": 550,
+    "unit_sell": 165,
+    "stack_buy": 550,
+    "stack_sell": 165
+  },
+  "enchanted_book_protection_3": {
+    "unit_buy": 825,
+    "unit_sell": 247.5,
+    "stack_buy": 825,
+    "stack_sell": 247.5
+  },
+  "enchanted_book_protection_4": {
+    "unit_buy": 1100,
+    "unit_sell": 330,
+    "stack_buy": 1100,
+    "stack_sell": 330
+  },
+  "enchanted_book_respiration_1": {
+    "unit_buy": 267,
+    "unit_sell": 80.1,
+    "stack_buy": 267,
+    "stack_sell": 80.1
+  },
+  "enchanted_book_respiration_2": {
+    "unit_buy": 534,
+    "unit_sell": 160.2,
+    "stack_buy": 534,
+    "stack_sell": 160.2
+  },
+  "enchanted_book_respiration_3": {
+    "unit_buy": 800,
+    "unit_sell": 240,
+    "stack_buy": 800,
+    "stack_sell": 240
+  },
+  "enchanted_book_soul_speed_1": {
+    "unit_buy": 367,
+    "unit_sell": 110.1,
+    "stack_buy": 367,
+    "stack_sell": 110.1
+  },
+  "enchanted_book_soul_speed_2": {
+    "unit_buy": 734,
+    "unit_sell": 220.2,
+    "stack_buy": 734,
+    "stack_sell": 220.2
+  },
+  "enchanted_book_soul_speed_3": {
+    "unit_buy": 1100,
+    "unit_sell": 330,
+    "stack_buy": 1100,
+    "stack_sell": 330
+  },
+  "enchanted_book_swift_sneak_1": {
+    "unit_buy": 900,
+    "unit_sell": 270,
+    "stack_buy": 900,
+    "stack_sell": 270
+  },
+  "enchanted_book_swift_sneak_2": {
+    "unit_buy": 1000,
+    "unit_sell": 300,
+    "stack_buy": 1000,
+    "stack_sell": 300
+  },
+  "enchanted_book_swift_sneak_3": {
+    "unit_buy": 1200,
+    "unit_sell": 360,
+    "stack_buy": 1200,
+    "stack_sell": 360
+  },
+  "enchanted_book_thorns_1": {
+    "unit_buy": 234,
+    "unit_sell": 70.2,
+    "stack_buy": 234,
+    "stack_sell": 70.2
+  },
+  "enchanted_book_thorns_2": {
+    "unit_buy": 467,
+    "unit_sell": 140.1,
+    "stack_buy": 467,
+    "stack_sell": 140.1
+  },
+  "enchanted_book_thorns_3": {
+    "unit_buy": 700,
+    "unit_sell": 210,
+    "stack_buy": 700,
+    "stack_sell": 210
+  },
+  "enchanted_book_flame_1": {
+    "unit_buy": 500,
+    "unit_sell": 150,
+    "stack_buy": 500,
+    "stack_sell": 150
+  },
+  "enchanted_book_infinity_1": {
+    "unit_buy": 1200,
+    "unit_sell": 360,
+    "stack_buy": 1200,
+    "stack_sell": 360
+  },
+  "enchanted_book_power_1": {
+    "unit_buy": 220,
+    "unit_sell": 66,
+    "stack_buy": 220,
+    "stack_sell": 66
+  },
+  "enchanted_book_power_2": {
+    "unit_buy": 440,
+    "unit_sell": 132,
+    "stack_buy": 440,
+    "stack_sell": 132
+  },
+  "enchanted_book_power_3": {
+    "unit_buy": 660,
+    "unit_sell": 198,
+    "stack_buy": 660,
+    "stack_sell": 198
+  },
+  "enchanted_book_power_4": {
+    "unit_buy": 880,
+    "unit_sell": 264,
+    "stack_buy": 880,
+    "stack_sell": 264
+  },
+  "enchanted_book_power_5": {
+    "unit_buy": 1100,
+    "unit_sell": 330,
+    "stack_buy": 1100,
+    "stack_sell": 330
+  },
+  "enchanted_book_punch_1": {
+    "unit_buy": 200,
+    "unit_sell": 60,
+    "stack_buy": 200,
+    "stack_sell": 60
+  },
+  "enchanted_book_punch_2": {
+    "unit_buy": 400,
+    "unit_sell": 120,
+    "stack_buy": 400,
+    "stack_sell": 120
+  },
+  "enchanted_book_multishot_1": {
+    "unit_buy": 700,
+    "unit_sell": 210,
+    "stack_buy": 700,
+    "stack_sell": 210
+  },
+  "enchanted_book_piercing_1": {
+    "unit_buy": 150,
+    "unit_sell": 45,
+    "stack_buy": 150,
+    "stack_sell": 45
+  },
+  "enchanted_book_piercing_2": {
+    "unit_buy": 300,
+    "unit_sell": 90,
+    "stack_buy": 300,
+    "stack_sell": 90
+  },
+  "enchanted_book_piercing_3": {
+    "unit_buy": 450,
+    "unit_sell": 135,
+    "stack_buy": 450,
+    "stack_sell": 135
+  },
+  "enchanted_book_piercing_4": {
+    "unit_buy": 600,
+    "unit_sell": 180,
+    "stack_buy": 600,
+    "stack_sell": 180
+  },
+  "enchanted_book_quick_charge_1": {
+    "unit_buy": 200,
+    "unit_sell": 60,
+    "stack_buy": 200,
+    "stack_sell": 60
+  },
+  "enchanted_book_quick_charge_2": {
+    "unit_buy": 400,
+    "unit_sell": 120,
+    "stack_buy": 400,
+    "stack_sell": 120
+  },
+  "enchanted_book_quick_charge_3": {
+    "unit_buy": 600,
+    "unit_sell": 180,
+    "stack_buy": 600,
+    "stack_sell": 180
+  },
+  "enchanted_book_luck_of_the_sea_1": {
+    "unit_buy": 167,
+    "unit_sell": 50.1,
+    "stack_buy": 167,
+    "stack_sell": 50.1
+  },
+  "enchanted_book_luck_of_the_sea_2": {
+    "unit_buy": 334,
+    "unit_sell": 100.2,
+    "stack_buy": 334,
+    "stack_sell": 100.2
+  },
+  "enchanted_book_luck_of_the_sea_3": {
+    "unit_buy": 500,
+    "unit_sell": 150,
+    "stack_buy": 500,
+    "stack_sell": 150
+  },
+  "enchanted_book_lure_1": {
+    "unit_buy": 167,
+    "unit_sell": 50.1,
+    "stack_buy": 167,
+    "stack_sell": 50.1
+  },
+  "enchanted_book_lure_2": {
+    "unit_buy": 334,
+    "unit_sell": 100.2,
+    "stack_buy": 334,
+    "stack_sell": 100.2
+  },
+  "enchanted_book_lure_3": {
+    "unit_buy": 500,
+    "unit_sell": 150,
+    "stack_buy": 500,
+    "stack_sell": 150
+  },
+  "enchanted_book_curse_of_binding_1": {
+    "unit_buy": 150,
+    "unit_sell": 45,
+    "stack_buy": 150,
+    "stack_sell": 45
+  },
+  "enchanted_book_curse_of_vanishing_1": {
+    "unit_buy": 100,
+    "unit_sell": 30,
+    "stack_buy": 100,
+    "stack_sell": 30
+  },
+  "enchanted_book_efficiency_1": {
+    "unit_buy": 200,
+    "unit_sell": 60,
+    "stack_buy": 200,
+    "stack_sell": 60
+  },
+  "enchanted_book_efficiency_2": {
+    "unit_buy": 400,
+    "unit_sell": 120,
+    "stack_buy": 400,
+    "stack_sell": 120
+  },
+  "enchanted_book_efficiency_3": {
+    "unit_buy": 600,
+    "unit_sell": 180,
+    "stack_buy": 600,
+    "stack_sell": 180
+  },
+  "enchanted_book_efficiency_4": {
+    "unit_buy": 800,
+    "unit_sell": 240,
+    "stack_buy": 800,
+    "stack_sell": 240
+  },
+  "enchanted_book_efficiency_5": {
+    "unit_buy": 1000,
+    "unit_sell": 300,
+    "stack_buy": 1000,
+    "stack_sell": 300
+  },
+  "enchanted_book_fortune_1": {
+    "unit_buy": 400,
+    "unit_sell": 120,
+    "stack_buy": 400,
+    "stack_sell": 120
+  },
+  "enchanted_book_fortune_2": {
+    "unit_buy": 800,
+    "unit_sell": 240,
+    "stack_buy": 800,
+    "stack_sell": 240
+  },
+  "enchanted_book_fortune_3": {
+    "unit_buy": 1200,
+    "unit_sell": 360,
+    "stack_buy": 1200,
+    "stack_sell": 360
+  },
+  "enchanted_book_mending_1": {
+    "unit_buy": 1400,
+    "unit_sell": 420,
+    "stack_buy": 1400,
+    "stack_sell": 420
+  },
+  "enchanted_book_silk_touch_1": {
+    "unit_buy": 1300,
+    "unit_sell": 390,
+    "stack_buy": 1300,
+    "stack_sell": 390
+  },
+  "enchanted_book_unbreaking_1": {
+    "unit_buy": 250,
+    "unit_sell": 75,
+    "stack_buy": 250,
+    "stack_sell": 75
+  },
+  "enchanted_book_unbreaking_2": {
+    "unit_buy": 500,
+    "unit_sell": 150,
+    "stack_buy": 500,
+    "stack_sell": 150
+  },
+  "enchanted_book_unbreaking_3": {
+    "unit_buy": 750,
+    "unit_sell": 225,
+    "stack_buy": 750,
+    "stack_sell": 225
+  },
+  "enchanted_book_channeling_1": {
+    "unit_buy": 800,
+    "unit_sell": 240,
+    "stack_buy": 800,
+    "stack_sell": 240
+  },
+  "enchanted_book_impaling_1": {
+    "unit_buy": 140,
+    "unit_sell": 42,
+    "stack_buy": 140,
+    "stack_sell": 42
+  },
+  "enchanted_book_impaling_2": {
+    "unit_buy": 280,
+    "unit_sell": 84,
+    "stack_buy": 280,
+    "stack_sell": 84
+  },
+  "enchanted_book_impaling_3": {
+    "unit_buy": 420,
+    "unit_sell": 126,
+    "stack_buy": 420,
+    "stack_sell": 126
+  },
+  "enchanted_book_impaling_4": {
+    "unit_buy": 560,
+    "unit_sell": 168,
+    "stack_buy": 560,
+    "stack_sell": 168
+  },
+  "enchanted_book_impaling_5": {
+    "unit_buy": 700,
+    "unit_sell": 210,
+    "stack_buy": 700,
+    "stack_sell": 210
+  },
+  "enchanted_book_loyalty_1": {
+    "unit_buy": 200,
+    "unit_sell": 60,
+    "stack_buy": 200,
+    "stack_sell": 60
+  },
+  "enchanted_book_loyalty_2": {
+    "unit_buy": 400,
+    "unit_sell": 120,
+    "stack_buy": 400,
+    "stack_sell": 120
+  },
+  "enchanted_book_loyalty_3": {
+    "unit_buy": 600,
+    "unit_sell": 180,
+    "stack_buy": 600,
+    "stack_sell": 180
+  },
+  "enchanted_book_riptide_1": {
+    "unit_buy": 200,
+    "unit_sell": 60,
+    "stack_buy": 200,
+    "stack_sell": 60
+  },
+  "enchanted_book_riptide_2": {
+    "unit_buy": 400,
+    "unit_sell": 120,
+    "stack_buy": 400,
+    "stack_sell": 120
+  },
+  "enchanted_book_riptide_3": {
+    "unit_buy": 600,
+    "unit_sell": 180,
+    "stack_buy": 600,
+    "stack_sell": 180
+  },
+  "enchanted_book_bane_of_arthropods_1": {
+    "unit_buy": 80,
+    "unit_sell": 24,
+    "stack_buy": 80,
+    "stack_sell": 24
+  },
+  "enchanted_book_bane_of_arthropods_2": {
+    "unit_buy": 160,
+    "unit_sell": 48,
+    "stack_buy": 160,
+    "stack_sell": 48
+  },
+  "enchanted_book_bane_of_arthropods_3": {
+    "unit_buy": 240,
+    "unit_sell": 72,
+    "stack_buy": 240,
+    "stack_sell": 72
+  },
+  "enchanted_book_bane_of_arthropods_4": {
+    "unit_buy": 320,
+    "unit_sell": 96,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "enchanted_book_bane_of_arthropods_5": {
+    "unit_buy": 400,
+    "unit_sell": 120,
+    "stack_buy": 400,
+    "stack_sell": 120
+  },
+  "enchanted_book_breach_1": {
+    "unit_buy": 800,
+    "unit_sell": 240,
+    "stack_buy": 800,
+    "stack_sell": 240
+  },
+  "enchanted_book_breach_2": {
+    "unit_buy": 1000,
+    "unit_sell": 300,
+    "stack_buy": 1000,
+    "stack_sell": 300
+  },
+  "enchanted_book_breach_3": {
+    "unit_buy": 1200,
+    "unit_sell": 360,
+    "stack_buy": 1200,
+    "stack_sell": 360
+  },
+  "enchanted_book_density_1": {
+    "unit_buy": 500,
+    "unit_sell": 150,
+    "stack_buy": 500,
+    "stack_sell": 150
+  },
+  "enchanted_book_density_2": {
+    "unit_buy": 650,
+    "unit_sell": 195,
+    "stack_buy": 650,
+    "stack_sell": 195
+  },
+  "enchanted_book_density_3": {
+    "unit_buy": 800,
+    "unit_sell": 240,
+    "stack_buy": 800,
+    "stack_sell": 240
+  },
+  "enchanted_book_density_4": {
+    "unit_buy": 950,
+    "unit_sell": 285,
+    "stack_buy": 950,
+    "stack_sell": 285
+  },
+  "enchanted_book_density_5": {
+    "unit_buy": 1100,
+    "unit_sell": 330,
+    "stack_buy": 1100,
+    "stack_sell": 330
+  },
+  "enchanted_book_fire_aspect_1": {
+    "unit_buy": 250,
+    "unit_sell": 75,
+    "stack_buy": 250,
+    "stack_sell": 75
+  },
+  "enchanted_book_fire_aspect_2": {
+    "unit_buy": 500,
+    "unit_sell": 150,
+    "stack_buy": 500,
+    "stack_sell": 150
+  },
+  "enchanted_book_knockback_1": {
+    "unit_buy": 200,
+    "unit_sell": 60,
+    "stack_buy": 200,
+    "stack_sell": 60
+  },
+  "enchanted_book_knockback_2": {
+    "unit_buy": 400,
+    "unit_sell": 120,
+    "stack_buy": 400,
+    "stack_sell": 120
+  },
+  "enchanted_book_looting_1": {
+    "unit_buy": 334,
+    "unit_sell": 100.2,
+    "stack_buy": 334,
+    "stack_sell": 100.2
+  },
+  "enchanted_book_looting_2": {
+    "unit_buy": 667,
+    "unit_sell": 200.1,
+    "stack_buy": 667,
+    "stack_sell": 200.1
+  },
+  "enchanted_book_looting_3": {
+    "unit_buy": 1000,
+    "unit_sell": 300,
+    "stack_buy": 1000,
+    "stack_sell": 300
+  },
+  "enchanted_book_sharpness_1": {
+    "unit_buy": 240,
+    "unit_sell": 72,
+    "stack_buy": 240,
+    "stack_sell": 72
+  },
+  "enchanted_book_sharpness_2": {
+    "unit_buy": 480,
+    "unit_sell": 144,
+    "stack_buy": 480,
+    "stack_sell": 144
+  },
+  "enchanted_book_sharpness_3": {
+    "unit_buy": 720,
+    "unit_sell": 216,
+    "stack_buy": 720,
+    "stack_sell": 216
+  },
+  "enchanted_book_sharpness_4": {
+    "unit_buy": 960,
+    "unit_sell": 288,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "enchanted_book_sharpness_5": {
+    "unit_buy": 1200,
+    "unit_sell": 360,
+    "stack_buy": 1200,
+    "stack_sell": 360
+  },
+  "enchanted_book_smite_1": {
+    "unit_buy": 140,
+    "unit_sell": 42,
+    "stack_buy": 140,
+    "stack_sell": 42
+  },
+  "enchanted_book_smite_2": {
+    "unit_buy": 280,
+    "unit_sell": 84,
+    "stack_buy": 280,
+    "stack_sell": 84
+  },
+  "enchanted_book_smite_3": {
+    "unit_buy": 420,
+    "unit_sell": 126,
+    "stack_buy": 420,
+    "stack_sell": 126
+  },
+  "enchanted_book_smite_4": {
+    "unit_buy": 560,
+    "unit_sell": 168,
+    "stack_buy": 560,
+    "stack_sell": 168
+  },
+  "enchanted_book_smite_5": {
+    "unit_buy": 700,
+    "unit_sell": 210,
+    "stack_buy": 700,
+    "stack_sell": 210
+  },
+  "enchanted_book_sweeping_edge_1": {
+    "unit_buy": 300,
+    "unit_sell": 90,
+    "stack_buy": 300,
+    "stack_sell": 90
+  },
+  "enchanted_book_sweeping_edge_2": {
+    "unit_buy": 600,
+    "unit_sell": 180,
+    "stack_buy": 600,
+    "stack_sell": 180
+  },
+  "enchanted_book_sweeping_edge_3": {
+    "unit_buy": 900,
+    "unit_sell": 270,
+    "stack_buy": 900,
+    "stack_sell": 270
+  },
+  "dragon_egg": {
+    "unit_buy": 20000,
+    "unit_sell": 6000,
+    "stack_buy": 1280000,
+    "stack_sell": 384000
+  },
+  "dragon_head": {
+    "unit_buy": 5000,
+    "unit_sell": 1500,
+    "stack_buy": 320000,
+    "stack_sell": 96000
+  },
+  "dragon_breath": {
+    "unit_buy": 40,
+    "unit_sell": 12,
+    "stack_buy": 2560,
+    "stack_sell": 768
+  },
+  "end_crystal": {
+    "unit_buy": 125,
+    "unit_sell": 37.5,
+    "stack_buy": 8000,
+    "stack_sell": 2400
+  },
+  "end_stone": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "end_stone_brick_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "end_stone_brick_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "end_stone_brick_wall": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "end_stone_bricks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "ender_chest": {
+    "unit_buy": 231,
+    "unit_sell": 69.3,
+    "stack_buy": 14784,
+    "stack_sell": 4435
+  },
+  "purpur_block": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "purpur_pillar": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "purpur_slab": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "purpur_stairs": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "shulker_shell": {
+    "unit_buy": 250,
+    "unit_sell": 75,
+    "stack_buy": 16000,
+    "stack_sell": 4800
+  },
+  "shulker_box": {
+    "unit_buy": 500,
+    "unit_sell": 150,
+    "stack_buy": 500,
+    "stack_sell": 150
+  },
+  "beetroot": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "beetroot_soup": {
+    "unit_buy": 7.5,
+    "unit_sell": 2.25,
+    "stack_buy": 7.5,
+    "stack_sell": 2.25
+  },
+  "blue_egg": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "bread": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "brown_egg": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "cake": {
+    "unit_buy": 205,
+    "unit_sell": 61.5,
+    "stack_buy": 205,
+    "stack_sell": 61.5
+  },
+  "cookie": {
+    "unit_buy": 0.75,
+    "unit_sell": 0.22,
+    "stack_buy": 48,
+    "stack_sell": 14.4
+  },
+  "dried_kelp": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "dried_kelp_block": {
+    "unit_buy": 18,
+    "unit_sell": 5.4,
+    "stack_buy": 1152,
+    "stack_sell": 345.6
+  },
+  "egg": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "glow_berries": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "hay_block": {
+    "unit_buy": 18,
+    "unit_sell": 5.4,
+    "stack_buy": 1152,
+    "stack_sell": 345.6
+  },
+  "poisonous_potato": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "sugar": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "sweet_berries": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "wheat": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "apple": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "enchanted_golden_apple": {
+    "unit_buy": 500,
+    "unit_sell": 150,
+    "stack_buy": 32000,
+    "stack_sell": 9600
+  },
+  "golden_apple": {
+    "unit_buy": 490,
+    "unit_sell": 147,
+    "stack_buy": 31360,
+    "stack_sell": 9408
+  },
+  "beef": {
+    "unit_buy": 7,
+    "unit_sell": 2.1,
+    "stack_buy": 448,
+    "stack_sell": 134.4
+  },
+  "cooked_beef": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "carrot": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "golden_carrot": {
+    "unit_buy": 55.33,
+    "unit_sell": 16.6,
+    "stack_buy": 3541,
+    "stack_sell": 1062
+  },
+  "cooked_chicken": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "chicken": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "chorus_fruit": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "popped_chorus_fruit": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "pufferfish": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "tropical_fish": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "cooked_cod": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "cod": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "cooked_salmon": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "salmon": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "glistering_melon_slice": {
+    "unit_buy": 55.33,
+    "unit_sell": 16.6,
+    "stack_buy": 3541,
+    "stack_sell": 1062
+  },
+  "melon": {
+    "unit_buy": 18,
+    "unit_sell": 5.4,
+    "stack_buy": 1152,
+    "stack_sell": 345.6
+  },
+  "melon_slice": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "cooked_mutton": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "mutton": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "cooked_porkchop": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "porkchop": {
+    "unit_buy": 7,
+    "unit_sell": 2.1,
+    "stack_buy": 448,
+    "stack_sell": 134.4
+  },
+  "baked_potato": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "potato": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "pumpkin_pie": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "cooked_rabbit": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "rabbit": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "fermented_spider_eye": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "mushroom_stew": {
+    "unit_buy": 7.5,
+    "unit_sell": 2.25,
+    "stack_buy": 7.5,
+    "stack_sell": 2.25
+  },
+  "rabbit_stew": {
+    "unit_buy": 13.5,
+    "unit_sell": 4.05,
+    "stack_buy": 13.5,
+    "stack_sell": 4.05
+  },
+  "suspicious_stew": {
+    "unit_buy": 8.5,
+    "unit_sell": 2.55,
+    "stack_buy": 8.5,
+    "stack_sell": 2.55
+  },
+  "blue_ice": {
+    "unit_buy": 162,
+    "unit_sell": 48.6,
+    "stack_buy": 10368,
+    "stack_sell": 3110
+  },
+  "ice": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "packed_ice": {
+    "unit_buy": 18,
+    "unit_sell": 5.4,
+    "stack_buy": 1152,
+    "stack_sell": 345.6
+  },
+  "snow": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "snow_block": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "snowball": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 16,
+    "stack_sell": 4.8
+  },
+  "candle": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "end_rod": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "jack_o_lantern": {
+    "unit_buy": 7.5,
+    "unit_sell": 2.25,
+    "stack_buy": 480,
+    "stack_sell": 144
+  },
+  "redstone_lamp": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "sea_lantern": {
+    "unit_buy": 320,
+    "unit_sell": 96,
+    "stack_buy": 20480,
+    "stack_sell": 6144
+  },
+  "shroomlight": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "copper_bulb": {
+    "unit_buy": 28.5,
+    "unit_sell": 8.55,
+    "stack_buy": 1824,
+    "stack_sell": 547.2
+  },
+  "exposed_copper_bulb": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "oxidized_copper_bulb": {
+    "unit_buy": 32.25,
+    "unit_sell": 9.67,
+    "stack_buy": 2064,
+    "stack_sell": 619.2
+  },
+  "waxed_copper_bulb": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "waxed_exposed_copper_bulb": {
+    "unit_buy": 31.5,
+    "unit_sell": 9.45,
+    "stack_buy": 2016,
+    "stack_sell": 604.8
+  },
+  "waxed_oxidized_copper_bulb": {
+    "unit_buy": 33.75,
+    "unit_sell": 10.13,
+    "stack_buy": 2160,
+    "stack_sell": 648
+  },
+  "waxed_weathered_copper_bulb": {
+    "unit_buy": 32.25,
+    "unit_sell": 9.67,
+    "stack_buy": 2064,
+    "stack_sell": 619.2
+  },
+  "weathered_copper_bulb": {
+    "unit_buy": 30.75,
+    "unit_sell": 9.22,
+    "stack_buy": 1968,
+    "stack_sell": 590.4
+  },
+  "campfire": {
+    "unit_buy": 32,
+    "unit_sell": 9.6,
+    "stack_buy": 2048,
+    "stack_sell": 614.4
+  },
+  "soul_campfire": {
+    "unit_buy": 28,
+    "unit_sell": 8.4,
+    "stack_buy": 1792,
+    "stack_sell": 537.6
+  },
+  "ochre_froglight": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "pearlescent_froglight": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "verdant_froglight": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "glowstone": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "glowstone_dust": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "lantern": {
+    "unit_buy": 14.83,
+    "unit_sell": 4.45,
+    "stack_buy": 949.33,
+    "stack_sell": 284.8
+  },
+  "soul_lantern": {
+    "unit_buy": 15.08,
+    "unit_sell": 4.53,
+    "stack_buy": 965.33,
+    "stack_sell": 289.6
+  },
+  "copper_lantern": {
+    "unit_buy": 5.63,
+    "unit_sell": 1.69,
+    "stack_buy": 360,
+    "stack_sell": 108
+  },
+  "exposed_copper_lantern": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "oxidized_copper_lantern": {
+    "unit_buy": 7,
+    "unit_sell": 2.1,
+    "stack_buy": 448,
+    "stack_sell": 134.4
+  },
+  "weathered_copper_lantern": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "waxed_copper_lantern": {
+    "unit_buy": 7.63,
+    "unit_sell": 2.29,
+    "stack_buy": 488,
+    "stack_sell": 146.4
+  },
+  "waxed_exposed_copper_lantern": {
+    "unit_buy": 7,
+    "unit_sell": 2.1,
+    "stack_buy": 448,
+    "stack_sell": 134.4
+  },
+  "waxed_oxidized_copper_lantern": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "waxed_weathered_copper_lantern": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "copper_torch": {
+    "unit_buy": 1.63,
+    "unit_sell": 0.49,
+    "stack_buy": 104,
+    "stack_sell": 31.2
+  },
+  "redstone_torch": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "soul_torch": {
+    "unit_buy": 1.75,
+    "unit_sell": 0.53,
+    "stack_buy": 112,
+    "stack_sell": 33.6
+  },
+  "torch": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "dried_ghast": {
+    "unit_buy": 641,
+    "unit_sell": 192.3,
+    "stack_buy": 41024,
+    "stack_sell": 12307
+  },
+  "magma_block": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "nether_sprouts": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "netherite_upgrade_smithing_template": {
+    "unit_buy": 1500,
+    "unit_sell": 450,
+    "stack_buy": 96000,
+    "stack_sell": 28800
+  },
+  "respawn_anchor": {
+    "unit_buy": 204,
+    "unit_sell": 61.2,
+    "stack_buy": 13056,
+    "stack_sell": 3917
+  },
+  "basalt": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "polished_basalt": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "smooth_basalt": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "blackstone": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "blackstone_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "blackstone_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "blackstone_wall": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "chiseled_polished_blackstone": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "gilded_blackstone": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "polished_blackstone": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "polished_blackstone_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "polished_blackstone_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "polished_blackstone_wall": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "cracked_polished_blackstone_bricks": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "polished_blackstone_brick_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "polished_blackstone_brick_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "polished_blackstone_brick_wall": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "polished_blackstone_bricks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "crimson_fungus": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "crimson_nylium": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "crimson_roots": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "nether_wart": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "nether_wart_block": {
+    "unit_buy": 18,
+    "unit_sell": 5.4,
+    "stack_buy": 1152,
+    "stack_sell": 345.6
+  },
+  "warped_fungus": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "warped_nylium": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "warped_roots": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "warped_wart_block": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "crying_obsidian": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "obsidian": {
+    "unit_buy": 25,
+    "unit_sell": 7.5,
+    "stack_buy": 1600,
+    "stack_sell": 480
+  },
+  "quartz_block": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 768,
+    "stack_sell": 230.4
+  },
+  "chiseled_quartz_block": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 768,
+    "stack_sell": 230.4
+  },
+  "quartz": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "nether_quartz_ore": {
+    "unit_buy": 7,
+    "unit_sell": 2.1,
+    "stack_buy": 448,
+    "stack_sell": 134.4
+  },
+  "quartz_bricks": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 768,
+    "stack_sell": 230.4
+  },
+  "quartz_pillar": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 768,
+    "stack_sell": 230.4
+  },
+  "quartz_slab": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "quartz_stairs": {
+    "unit_buy": 18,
+    "unit_sell": 5.4,
+    "stack_buy": 1152,
+    "stack_sell": 345.6
+  },
+  "smooth_quartz": {
+    "unit_buy": 13,
+    "unit_sell": 3.9,
+    "stack_buy": 832,
+    "stack_sell": 249.6
+  },
+  "smooth_quartz_slab": {
+    "unit_buy": 6.5,
+    "unit_sell": 1.95,
+    "stack_buy": 416,
+    "stack_sell": 124.8
+  },
+  "smooth_quartz_stairs": {
+    "unit_buy": 19.5,
+    "unit_sell": 5.85,
+    "stack_buy": 1248,
+    "stack_sell": 374.4
+  },
+  "netherrack": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "soul_sand": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "soul_soil": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "conduit": {
+    "unit_buy": 1140,
+    "unit_sell": 342,
+    "stack_buy": 72960,
+    "stack_sell": 21888
+  },
+  "heart_of_the_sea": {
+    "unit_buy": 500,
+    "unit_sell": 150,
+    "stack_buy": 32000,
+    "stack_sell": 9600
+  },
+  "kelp": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "sea_pickle": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "seagrass": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "sponge": {
+    "unit_buy": 300,
+    "unit_sell": 90,
+    "stack_buy": 19200,
+    "stack_sell": 5760
+  },
+  "turtle_egg": {
+    "unit_buy": 60,
+    "unit_sell": 18,
+    "stack_buy": 3840,
+    "stack_sell": 1152
+  },
+  "wet_sponge": {
+    "unit_buy": 300,
+    "unit_sell": 90,
+    "stack_buy": 19200,
+    "stack_sell": 5760
+  },
+  "brain_coral": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "brain_coral_block": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "brain_coral_fan": {
+    "unit_buy": 25,
+    "unit_sell": 7.5,
+    "stack_buy": 1600,
+    "stack_sell": 480
+  },
+  "dead_brain_coral": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "dead_brain_coral_block": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "dead_brain_coral_fan": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "bubble_coral": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "bubble_coral_block": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "bubble_coral_fan": {
+    "unit_buy": 25,
+    "unit_sell": 7.5,
+    "stack_buy": 1600,
+    "stack_sell": 480
+  },
+  "dead_bubble_coral": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "dead_bubble_coral_block": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "dead_bubble_coral_fan": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "dead_fire_coral": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "dead_fire_coral_block": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "dead_fire_coral_fan": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "fire_coral": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "fire_coral_block": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "fire_coral_fan": {
+    "unit_buy": 25,
+    "unit_sell": 7.5,
+    "stack_buy": 1600,
+    "stack_sell": 480
+  },
+  "dead_horn_coral": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "dead_horn_coral_block": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "dead_horn_coral_fan": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "horn_coral": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "horn_coral_block": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "horn_coral_fan": {
+    "unit_buy": 25,
+    "unit_sell": 7.5,
+    "stack_buy": 1600,
+    "stack_sell": 480
+  },
+  "dead_tube_coral": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "dead_tube_coral_block": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "dead_tube_coral_fan": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "tube_coral": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "tube_coral_block": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "tube_coral_fan": {
+    "unit_buy": 25,
+    "unit_sell": 7.5,
+    "stack_buy": 1600,
+    "stack_sell": 480
+  },
+  "prismarine_crystals": {
+    "unit_buy": 40,
+    "unit_sell": 12,
+    "stack_buy": 2560,
+    "stack_sell": 768
+  },
+  "prismarine_shard": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "prismarine_brick_slab": {
+    "unit_buy": 135,
+    "unit_sell": 40.5,
+    "stack_buy": 8640,
+    "stack_sell": 2592
+  },
+  "prismarine_brick_stairs": {
+    "unit_buy": 405,
+    "unit_sell": 121.5,
+    "stack_buy": 25920,
+    "stack_sell": 7776
+  },
+  "prismarine_bricks": {
+    "unit_buy": 270,
+    "unit_sell": 81,
+    "stack_buy": 17280,
+    "stack_sell": 5184
+  },
+  "dark_prismarine": {
+    "unit_buy": 245,
+    "unit_sell": 73.5,
+    "stack_buy": 15680,
+    "stack_sell": 4704
+  },
+  "dark_prismarine_slab": {
+    "unit_buy": 122.5,
+    "unit_sell": 36.75,
+    "stack_buy": 7840,
+    "stack_sell": 2352
+  },
+  "dark_prismarine_stairs": {
+    "unit_buy": 367.5,
+    "unit_sell": 110.25,
+    "stack_buy": 23520,
+    "stack_sell": 7056
+  },
+  "prismarine": {
+    "unit_buy": 120,
+    "unit_sell": 36,
+    "stack_buy": 7680,
+    "stack_sell": 2304
+  },
+  "prismarine_slab": {
+    "unit_buy": 60,
+    "unit_sell": 18,
+    "stack_buy": 3840,
+    "stack_sell": 1152
+  },
+  "prismarine_stairs": {
+    "unit_buy": 180,
+    "unit_sell": 54,
+    "stack_buy": 11520,
+    "stack_sell": 3456
+  },
+  "prismarine_wall": {
+    "unit_buy": 120,
+    "unit_sell": 36,
+    "stack_buy": 7680,
+    "stack_sell": 2304
+  },
+  "amethyst_cluster": {
+    "unit_buy": 24,
+    "unit_sell": 7.2,
+    "stack_buy": 1536,
+    "stack_sell": 460.8
+  },
+  "amethyst_shard": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "amethyst_block": {
+    "unit_buy": 40,
+    "unit_sell": 12,
+    "stack_buy": 2560,
+    "stack_sell": 768
+  },
+  "coal_block": {
+    "unit_buy": 45,
+    "unit_sell": 13.5,
+    "stack_buy": 2880,
+    "stack_sell": 864
+  },
+  "coal": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "coal_ore": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "deepslate_coal_ore": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 768,
+    "stack_sell": 230.4
+  },
+  "raw_copper_block": {
+    "unit_buy": 27,
+    "unit_sell": 8.1,
+    "stack_buy": 1728,
+    "stack_sell": 518.4
+  },
+  "copper_ingot": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "copper_nugget": {
+    "unit_buy": 0.5,
+    "unit_sell": 0.15,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "copper_ore": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "deepslate_copper_ore": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 768,
+    "stack_sell": 230.4
+  },
+  "raw_copper": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "diamond_block": {
+    "unit_buy": 2520,
+    "unit_sell": 756,
+    "stack_buy": 161280,
+    "stack_sell": 48384
+  },
+  "deepslate_diamond_ore": {
+    "unit_buy": 1100,
+    "unit_sell": 330,
+    "stack_buy": 70400,
+    "stack_sell": 21120
+  },
+  "diamond": {
+    "unit_buy": 280,
+    "unit_sell": 84,
+    "stack_buy": 17920,
+    "stack_sell": 5376
+  },
+  "diamond_ore": {
+    "unit_buy": 1000,
+    "unit_sell": 300,
+    "stack_buy": 64000,
+    "stack_sell": 19200
+  },
+  "emerald_block": {
+    "unit_buy": 900,
+    "unit_sell": 270,
+    "stack_buy": 57600,
+    "stack_sell": 17280
+  },
+  "deepslate_emerald_ore": {
+    "unit_buy": 310,
+    "unit_sell": 93,
+    "stack_buy": 19840,
+    "stack_sell": 5952
+  },
+  "emerald": {
+    "unit_buy": 100,
+    "unit_sell": 30,
+    "stack_buy": 6400,
+    "stack_sell": 1920
+  },
+  "emerald_ore": {
+    "unit_buy": 300,
+    "unit_sell": 90,
+    "stack_buy": 19200,
+    "stack_sell": 5760
+  },
+  "gold_block": {
+    "unit_buy": 540,
+    "unit_sell": 162,
+    "stack_buy": 34560,
+    "stack_sell": 10368
+  },
+  "raw_gold_block": {
+    "unit_buy": 540,
+    "unit_sell": 162,
+    "stack_buy": 34560,
+    "stack_sell": 10368
+  },
+  "deepslate_gold_ore": {
+    "unit_buy": 88,
+    "unit_sell": 26.4,
+    "stack_buy": 5632,
+    "stack_sell": 1690
+  },
+  "gold_ingot": {
+    "unit_buy": 60,
+    "unit_sell": 18,
+    "stack_buy": 3840,
+    "stack_sell": 1152
+  },
+  "gold_nugget": {
+    "unit_buy": 6.67,
+    "unit_sell": 2,
+    "stack_buy": 426.67,
+    "stack_sell": 128
+  },
+  "gold_ore": {
+    "unit_buy": 85,
+    "unit_sell": 25.5,
+    "stack_buy": 5440,
+    "stack_sell": 1632
+  },
+  "nether_gold_ore": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "raw_gold": {
+    "unit_buy": 60,
+    "unit_sell": 18,
+    "stack_buy": 3840,
+    "stack_sell": 1152
+  },
+  "iron_block": {
+    "unit_buy": 135,
+    "unit_sell": 40.5,
+    "stack_buy": 8640,
+    "stack_sell": 2592
+  },
+  "raw_iron_block": {
+    "unit_buy": 135,
+    "unit_sell": 40.5,
+    "stack_buy": 8640,
+    "stack_sell": 2592
+  },
+  "deepslate_iron_ore": {
+    "unit_buy": 20,
+    "unit_sell": 6,
+    "stack_buy": 1280,
+    "stack_sell": 384
+  },
+  "iron_ingot": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "iron_nugget": {
+    "unit_buy": 1.67,
+    "unit_sell": 0.5,
+    "stack_buy": 106.67,
+    "stack_sell": 32
+  },
+  "iron_ore": {
+    "unit_buy": 19,
+    "unit_sell": 5.7,
+    "stack_buy": 1216,
+    "stack_sell": 364.8
+  },
+  "raw_iron": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "deepslate_lapis_ore": {
+    "unit_buy": 37,
+    "unit_sell": 11.1,
+    "stack_buy": 2368,
+    "stack_sell": 710.4
+  },
+  "lapis_lazuli": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "lapis_block": {
+    "unit_buy": 45,
+    "unit_sell": 13.5,
+    "stack_buy": 2880,
+    "stack_sell": 864
+  },
+  "lapis_ore": {
+    "unit_buy": 35,
+    "unit_sell": 10.5,
+    "stack_buy": 2240,
+    "stack_sell": 672
+  },
+  "ancient_debris": {
+    "unit_buy": 160,
+    "unit_sell": 48,
+    "stack_buy": 10240,
+    "stack_sell": 3072
+  },
+  "netherite_block": {
+    "unit_buy": 7560,
+    "unit_sell": 2268,
+    "stack_buy": 483840,
+    "stack_sell": 145152
+  },
+  "netherite_ingot": {
+    "unit_buy": 840,
+    "unit_sell": 252,
+    "stack_buy": 53760,
+    "stack_sell": 16128
+  },
+  "netherite_scrap": {
+    "unit_buy": 150,
+    "unit_sell": 45,
+    "stack_buy": 9600,
+    "stack_sell": 2880
+  },
+  "redstone_block": {
+    "unit_buy": 27,
+    "unit_sell": 8.1,
+    "stack_buy": 1728,
+    "stack_sell": 518.4
+  },
+  "deepslate_redstone_ore": {
+    "unit_buy": 32,
+    "unit_sell": 9.6,
+    "stack_buy": 2048,
+    "stack_sell": 614.4
+  },
+  "redstone": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "redstone_ore": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "bamboo": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "bone_block": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "bone_meal": {
+    "unit_buy": 1.67,
+    "unit_sell": 0.5,
+    "stack_buy": 106.67,
+    "stack_sell": 32
+  },
+  "bush": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "cactus": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "cactus_flower": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "carved_pumpkin": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "chorus_flower": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "closed_eyeblossom": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "cocoa_beans": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "dead_bush": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "fern": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "firefly_bush": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "flower_pot": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 768,
+    "stack_sell": 230.4
+  },
+  "glow_lichen": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "hanging_roots": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "large_fern": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "leaf_litter": {
+    "unit_buy": 0.5,
+    "unit_sell": 0.15,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "lily_pad": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "moss_block": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "moss_carpet": {
+    "unit_buy": 2.67,
+    "unit_sell": 0.8,
+    "stack_buy": 170.67,
+    "stack_sell": 51.2
+  },
+  "open_eyeblossom": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "pale_hanging_moss": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "pale_moss_block": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "pale_moss_carpet": {
+    "unit_buy": 2.67,
+    "unit_sell": 0.8,
+    "stack_buy": 170.67,
+    "stack_sell": 51.2
+  },
+  "pink_petals": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "pitcher_plant": {
+    "unit_buy": 50,
+    "unit_sell": 15,
+    "stack_buy": 3200,
+    "stack_sell": 960
+  },
+  "short_dry_grass": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "short_grass": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "spore_blossom": {
+    "unit_buy": 50,
+    "unit_sell": 15,
+    "stack_buy": 3200,
+    "stack_sell": 960
+  },
+  "sugar_cane": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "tall_dry_grass": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "torchflower": {
+    "unit_buy": 40,
+    "unit_sell": 12,
+    "stack_buy": 2560,
+    "stack_sell": 768
+  },
+  "twisting_vines": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "vine": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "weeping_vines": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "wildflowers": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "azalea": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "azalea_leaves": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "flowering_azalea": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "flowering_azalea_leaves": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "big_dripleaf": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "small_dripleaf": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "allium": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "azure_bluet": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "blue_orchid": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "cornflower": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "dandelion": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "lilac": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "lily_of_the_valley": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "orange_tulip": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "oxeye_daisy": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "peony": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "pink_tulip": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "poppy": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "red_tulip": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "rose_bush": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "sunflower": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "white_tulip": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "acacia_leaves": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "birch_leaves": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "cherry_leaves": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "dark_oak_leaves": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "jungle_leaves": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "mangrove_leaves": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "oak_leaves": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "pale_oak_leaves": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "spruce_leaves": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "brown_mushroom": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "brown_mushroom_block": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "mushroom_stem": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "red_mushroom": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "red_mushroom_block": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "pumpkin": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "mangrove_roots": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "muddy_mangrove_roots": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "acacia_sapling": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "birch_sapling": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "cherry_sapling": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "dark_oak_sapling": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "jungle_sapling": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "mangrove_propagule": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "oak_sapling": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "pale_oak_sapling": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "spruce_sapling": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "beetroot_seeds": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "melon_seeds": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "pitcher_pod": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "pumpkin_seeds": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "torchflower_seeds": {
+    "unit_buy": 25,
+    "unit_sell": 7.5,
+    "stack_buy": 1600,
+    "stack_sell": 480
+  },
+  "wheat_seeds": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "daylight_detector": {
+    "unit_buy": 18,
+    "unit_sell": 5.4,
+    "stack_buy": 1152,
+    "stack_sell": 345.6
+  },
+  "dispenser": {
+    "unit_buy": 19,
+    "unit_sell": 5.7,
+    "stack_buy": 1216,
+    "stack_sell": 364.8
+  },
+  "dropper": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "lever": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "note_block": {
+    "unit_buy": 19,
+    "unit_sell": 5.7,
+    "stack_buy": 1216,
+    "stack_sell": 364.8
+  },
+  "observer": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "piston": {
+    "unit_buy": 28,
+    "unit_sell": 8.4,
+    "stack_buy": 1792,
+    "stack_sell": 537.6
+  },
+  "comparator": {
+    "unit_buy": 21,
+    "unit_sell": 6.3,
+    "stack_buy": 1344,
+    "stack_sell": 403.2
+  },
+  "repeater": {
+    "unit_buy": 17,
+    "unit_sell": 5.1,
+    "stack_buy": 1088,
+    "stack_sell": 326.4
+  },
+  "sticky_piston": {
+    "unit_buy": 38,
+    "unit_sell": 11.4,
+    "stack_buy": 2432,
+    "stack_sell": 729.6
+  },
+  "target": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "trapped_chest": {
+    "unit_buy": 25,
+    "unit_sell": 7.5,
+    "stack_buy": 1600,
+    "stack_sell": 480
+  },
+  "tripwire_hook": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "acacia_button": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "bamboo_button": {
+    "unit_buy": 4.5,
+    "unit_sell": 1.35,
+    "stack_buy": 288,
+    "stack_sell": 86.4
+  },
+  "birch_button": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "cherry_button": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "crimson_button": {
+    "unit_buy": 3.33,
+    "unit_sell": 1,
+    "stack_buy": 213.33,
+    "stack_sell": 64
+  },
+  "dark_oak_button": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "jungle_button": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "mangrove_button": {
+    "unit_buy": 2.5,
+    "unit_sell": 0.75,
+    "stack_buy": 160,
+    "stack_sell": 48
+  },
+  "oak_button": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "pale_oak_button": {
+    "unit_buy": 2.25,
+    "unit_sell": 0.67,
+    "stack_buy": 144,
+    "stack_sell": 43.2
+  },
+  "polished_blackstone_button": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "spruce_button": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "stone_button": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "warped_button": {
+    "unit_buy": 3.33,
+    "unit_sell": 1,
+    "stack_buy": 213.33,
+    "stack_sell": 64
+  },
+  "acacia_door": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "bamboo_door": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "birch_door": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "cherry_door": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "crimson_door": {
+    "unit_buy": 6.67,
+    "unit_sell": 2,
+    "stack_buy": 426.67,
+    "stack_sell": 128
+  },
+  "dark_oak_door": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "iron_door": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "jungle_door": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "mangrove_door": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "oak_door": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "pale_oak_door": {
+    "unit_buy": 4.5,
+    "unit_sell": 1.35,
+    "stack_buy": 288,
+    "stack_sell": 86.4
+  },
+  "spruce_door": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "warped_door": {
+    "unit_buy": 6.67,
+    "unit_sell": 2,
+    "stack_buy": 426.67,
+    "stack_sell": 128
+  },
+  "copper_door": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "exposed_copper_door": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "oxidized_copper_door": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 768,
+    "stack_sell": 230.4
+  },
+  "waxed_copper_door": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "waxed_exposed_copper_door": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "waxed_oxidized_copper_door": {
+    "unit_buy": 14,
+    "unit_sell": 4.2,
+    "stack_buy": 896,
+    "stack_sell": 268.8
+  },
+  "waxed_weathered_copper_door": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 768,
+    "stack_sell": 230.4
+  },
+  "weathered_copper_door": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "acacia_pressure_plate": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "bamboo_pressure_plate": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "birch_pressure_plate": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "cherry_pressure_plate": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "crimson_pressure_plate": {
+    "unit_buy": 6.67,
+    "unit_sell": 2,
+    "stack_buy": 426.67,
+    "stack_sell": 128
+  },
+  "dark_oak_pressure_plate": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "heavy_weighted_pressure_plate": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 1920,
+    "stack_sell": 576
+  },
+  "jungle_pressure_plate": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "light_weighted_pressure_plate": {
+    "unit_buy": 120,
+    "unit_sell": 36,
+    "stack_buy": 7680,
+    "stack_sell": 2304
+  },
+  "mangrove_pressure_plate": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "oak_pressure_plate": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "pale_oak_pressure_plate": {
+    "unit_buy": 4.5,
+    "unit_sell": 1.35,
+    "stack_buy": 288,
+    "stack_sell": 86.4
+  },
+  "polished_blackstone_pressure_plate": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "spruce_pressure_plate": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "stone_pressure_plate": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "warped_pressure_plate": {
+    "unit_buy": 6.67,
+    "unit_sell": 2,
+    "stack_buy": 426.67,
+    "stack_sell": 128
+  },
+  "acacia_trapdoor": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "bamboo_trapdoor": {
+    "unit_buy": 13.5,
+    "unit_sell": 4.05,
+    "stack_buy": 864,
+    "stack_sell": 259.2
+  },
+  "birch_trapdoor": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "cherry_trapdoor": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "crimson_trapdoor": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "dark_oak_trapdoor": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "iron_trapdoor": {
+    "unit_buy": 60,
+    "unit_sell": 18,
+    "stack_buy": 3840,
+    "stack_sell": 1152
+  },
+  "jungle_trapdoor": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "mangrove_trapdoor": {
+    "unit_buy": 7.5,
+    "unit_sell": 2.25,
+    "stack_buy": 480,
+    "stack_sell": 144
+  },
+  "oak_trapdoor": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "pale_oak_trapdoor": {
+    "unit_buy": 6.75,
+    "unit_sell": 2.02,
+    "stack_buy": 432,
+    "stack_sell": 129.6
+  },
+  "spruce_trapdoor": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "warped_trapdoor": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "copper_trapdoor": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "exposed_copper_trapdoor": {
+    "unit_buy": 11,
+    "unit_sell": 3.3,
+    "stack_buy": 704,
+    "stack_sell": 211.2
+  },
+  "oxidized_copper_trapdoor": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "waxed_copper_trapdoor": {
+    "unit_buy": 11,
+    "unit_sell": 3.3,
+    "stack_buy": 704,
+    "stack_sell": 211.2
+  },
+  "waxed_exposed_copper_trapdoor": {
+    "unit_buy": 13,
+    "unit_sell": 3.9,
+    "stack_buy": 832,
+    "stack_sell": 249.6
+  },
+  "waxed_oxidized_copper_trapdoor": {
+    "unit_buy": 17,
+    "unit_sell": 5.1,
+    "stack_buy": 1088,
+    "stack_sell": 326.4
+  },
+  "waxed_weathered_copper_trapdoor": {
+    "unit_buy": 15,
+    "unit_sell": 4.5,
+    "stack_buy": 960,
+    "stack_sell": 288
+  },
+  "weathered_copper_trapdoor": {
+    "unit_buy": 13,
+    "unit_sell": 3.9,
+    "stack_buy": 832,
+    "stack_sell": 249.6
+  },
+  "chiseled_red_sandstone": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "cut_red_sandstone": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "cut_red_sandstone_slab": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "red_sand": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "red_sandstone": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "red_sandstone_slab": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "red_sandstone_stairs": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "red_sandstone_wall": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "smooth_red_sandstone": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "smooth_red_sandstone_slab": {
+    "unit_buy": 2.5,
+    "unit_sell": 0.75,
+    "stack_buy": 160,
+    "stack_sell": 48
+  },
+  "smooth_red_sandstone_stairs": {
+    "unit_buy": 7.5,
+    "unit_sell": 2.25,
+    "stack_buy": 480,
+    "stack_sell": 144
+  },
+  "chiseled_sandstone": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "cut_sandstone": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "cut_sandstone_slab": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "sand": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "sandstone": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "sandstone_slab": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "sandstone_stairs": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "sandstone_wall": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "smooth_sandstone": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "smooth_sandstone_slab": {
+    "unit_buy": 2.5,
+    "unit_sell": 0.75,
+    "stack_buy": 160,
+    "stack_sell": 48
+  },
+  "smooth_sandstone_stairs": {
+    "unit_buy": 7.5,
+    "unit_sell": 2.25,
+    "stack_buy": 480,
+    "stack_sell": 144
+  },
+  "calcite": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "clay": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 768,
+    "stack_sell": 230.4
+  },
+  "clay_ball": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "cobblestone": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "cobblestone_slab": {
+    "unit_buy": 0.5,
+    "unit_sell": 0.15,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "cobblestone_stairs": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "cobblestone_wall": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "smooth_stone": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "smooth_stone_slab": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "stone": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "stone_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "stone_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "andesite": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "andesite_slab": {
+    "unit_buy": 0.5,
+    "unit_sell": 0.15,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "andesite_stairs": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "andesite_wall": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "polished_andesite": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "polished_andesite_slab": {
+    "unit_buy": 0.5,
+    "unit_sell": 0.15,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "polished_andesite_stairs": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "chiseled_stone_bricks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "cracked_stone_bricks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "stone_brick_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "stone_brick_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "stone_brick_wall": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "stone_bricks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "chiseled_deepslate": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "deepslate": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "cracked_deepslate_bricks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "deepslate_brick_slab": {
+    "unit_buy": 0.5,
+    "unit_sell": 0.15,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "deepslate_brick_stairs": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "deepslate_brick_wall": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "deepslate_bricks": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "cobbled_deepslate": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "cobbled_deepslate_slab": {
+    "unit_buy": 0.5,
+    "unit_sell": 0.15,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "cobbled_deepslate_stairs": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "cobbled_deepslate_wall": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "polished_deepslate": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "polished_deepslate_slab": {
+    "unit_buy": 0.5,
+    "unit_sell": 0.15,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "polished_deepslate_stairs": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "polished_deepslate_wall": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "cracked_deepslate_tiles": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "deepslate_tile_slab": {
+    "unit_buy": 0.5,
+    "unit_sell": 0.15,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "deepslate_tile_stairs": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "deepslate_tile_wall": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "deepslate_tiles": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "diorite": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "diorite_slab": {
+    "unit_buy": 0.5,
+    "unit_sell": 0.15,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "diorite_stairs": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "diorite_wall": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "polished_diorite": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "polished_diorite_slab": {
+    "unit_buy": 0.5,
+    "unit_sell": 0.15,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "polished_diorite_stairs": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "dripstone_block": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 768,
+    "stack_sell": 230.4
+  },
+  "pointed_dripstone": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "granite": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "granite_slab": {
+    "unit_buy": 0.5,
+    "unit_sell": 0.15,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "granite_stairs": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "granite_wall": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "polished_granite": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "polished_granite_slab": {
+    "unit_buy": 0.5,
+    "unit_sell": 0.15,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "polished_granite_stairs": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "mossy_cobblestone": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "mossy_cobblestone_slab": {
+    "unit_buy": 1.5,
+    "unit_sell": 0.45,
+    "stack_buy": 96,
+    "stack_sell": 28.8
+  },
+  "mossy_cobblestone_stairs": {
+    "unit_buy": 4.5,
+    "unit_sell": 1.35,
+    "stack_buy": 288,
+    "stack_sell": 86.4
+  },
+  "mossy_cobblestone_wall": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "mossy_stone_brick_slab": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "mossy_stone_brick_stairs": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 384,
+    "stack_sell": 115.2
+  },
+  "mossy_stone_brick_wall": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "mossy_stone_bricks": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 256,
+    "stack_sell": 76.8
+  },
+  "chiseled_tuff": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "chiseled_tuff_bricks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "polished_tuff": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "polished_tuff_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "polished_tuff_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "polished_tuff_wall": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "tuff": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "tuff_brick_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "tuff_brick_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "tuff_brick_wall": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "tuff_bricks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "tuff_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "tuff_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "tuff_wall": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "fishing_rod": {
+    "unit_buy": 7,
+    "unit_sell": 2.1,
+    "stack_buy": 7,
+    "stack_sell": 2.1
+  },
+  "shears": {
+    "unit_buy": 30,
+    "unit_sell": 9,
+    "stack_buy": 30,
+    "stack_sell": 9
+  },
+  "copper_axe": {
+    "unit_buy": 11,
+    "unit_sell": 3.3,
+    "stack_buy": 11,
+    "stack_sell": 3.3
+  },
+  "diamond_axe": {
+    "unit_buy": 842,
+    "unit_sell": 252.6,
+    "stack_buy": 842,
+    "stack_sell": 252.6
+  },
+  "golden_axe": {
+    "unit_buy": 182,
+    "unit_sell": 54.6,
+    "stack_buy": 182,
+    "stack_sell": 54.6
+  },
+  "iron_axe": {
+    "unit_buy": 47,
+    "unit_sell": 14.1,
+    "stack_buy": 47,
+    "stack_sell": 14.1
+  },
+  "netherite_axe": {
+    "unit_buy": 3092,
+    "unit_sell": 927.6,
+    "stack_buy": 3092,
+    "stack_sell": 927.6
+  },
+  "stone_axe": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 5,
+    "stack_sell": 1.5
+  },
+  "wooden_axe": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 8,
+    "stack_sell": 2.4
+  },
+  "copper_hoe": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 8,
+    "stack_sell": 2.4
+  },
+  "diamond_hoe": {
+    "unit_buy": 562,
+    "unit_sell": 168.6,
+    "stack_buy": 562,
+    "stack_sell": 168.6
+  },
+  "golden_hoe": {
+    "unit_buy": 122,
+    "unit_sell": 36.6,
+    "stack_buy": 122,
+    "stack_sell": 36.6
+  },
+  "iron_hoe": {
+    "unit_buy": 32,
+    "unit_sell": 9.6,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "netherite_hoe": {
+    "unit_buy": 2842,
+    "unit_sell": 852.6,
+    "stack_buy": 2842,
+    "stack_sell": 852.6
+  },
+  "stone_hoe": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 4,
+    "stack_sell": 1.2
+  },
+  "wooden_hoe": {
+    "unit_buy": 6,
+    "unit_sell": 1.8,
+    "stack_buy": 6,
+    "stack_sell": 1.8
+  },
+  "copper_pickaxe": {
+    "unit_buy": 11,
+    "unit_sell": 3.3,
+    "stack_buy": 11,
+    "stack_sell": 3.3
+  },
+  "diamond_pickaxe": {
+    "unit_buy": 842,
+    "unit_sell": 252.6,
+    "stack_buy": 842,
+    "stack_sell": 252.6
+  },
+  "golden_pickaxe": {
+    "unit_buy": 182,
+    "unit_sell": 54.6,
+    "stack_buy": 182,
+    "stack_sell": 54.6
+  },
+  "iron_pickaxe": {
+    "unit_buy": 47,
+    "unit_sell": 14.1,
+    "stack_buy": 47,
+    "stack_sell": 14.1
+  },
+  "netherite_pickaxe": {
+    "unit_buy": 3092,
+    "unit_sell": 927.6,
+    "stack_buy": 3092,
+    "stack_sell": 927.6
+  },
+  "stone_pickaxe": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 5,
+    "stack_sell": 1.5
+  },
+  "wooden_pickaxe": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 8,
+    "stack_sell": 2.4
+  },
+  "copper_shovel": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 5,
+    "stack_sell": 1.5
+  },
+  "diamond_shovel": {
+    "unit_buy": 282,
+    "unit_sell": 84.6,
+    "stack_buy": 282,
+    "stack_sell": 84.6
+  },
+  "golden_shovel": {
+    "unit_buy": 62,
+    "unit_sell": 18.6,
+    "stack_buy": 62,
+    "stack_sell": 18.6
+  },
+  "iron_shovel": {
+    "unit_buy": 17,
+    "unit_sell": 5.1,
+    "stack_buy": 17,
+    "stack_sell": 5.1
+  },
+  "netherite_shovel": {
+    "unit_buy": 2592,
+    "unit_sell": 777.6,
+    "stack_buy": 2592,
+    "stack_sell": 777.6
+  },
+  "stone_shovel": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 3,
+    "stack_sell": 0.9
+  },
+  "wooden_shovel": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 4,
+    "stack_sell": 1.2
+  },
+  "carrot_on_a_stick": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 9,
+    "stack_sell": 2.7
+  },
+  "warped_fungus_on_a_stick": {
+    "unit_buy": 11,
+    "unit_sell": 3.3,
+    "stack_buy": 704,
+    "stack_sell": 211.2
+  },
+  "elytra": {
+    "unit_buy": 3500,
+    "unit_sell": 1050,
+    "stack_buy": 3500,
+    "stack_sell": 1050
+  },
+  "saddle": {
+    "unit_buy": 39,
+    "unit_sell": 11.7,
+    "stack_buy": 2496,
+    "stack_sell": 748.8
+  },
+  "acacia_boat": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 10,
+    "stack_sell": 3
+  },
+  "acacia_chest_boat": {
+    "unit_buy": 26,
+    "unit_sell": 7.8,
+    "stack_buy": 26,
+    "stack_sell": 7.8
+  },
+  "bamboo_raft": {
+    "unit_buy": 22.5,
+    "unit_sell": 6.75,
+    "stack_buy": 22.5,
+    "stack_sell": 6.75
+  },
+  "bamboo_chest_raft": {
+    "unit_buy": 38.5,
+    "unit_sell": 11.55,
+    "stack_buy": 38.5,
+    "stack_sell": 11.55
+  },
+  "birch_boat": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 10,
+    "stack_sell": 3
+  },
+  "birch_chest_boat": {
+    "unit_buy": 26,
+    "unit_sell": 7.8,
+    "stack_buy": 26,
+    "stack_sell": 7.8
+  },
+  "cherry_boat": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 10,
+    "stack_sell": 3
+  },
+  "cherry_chest_boat": {
+    "unit_buy": 26,
+    "unit_sell": 7.8,
+    "stack_buy": 26,
+    "stack_sell": 7.8
+  },
+  "dark_oak_boat": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 10,
+    "stack_sell": 3
+  },
+  "dark_oak_chest_boat": {
+    "unit_buy": 26,
+    "unit_sell": 7.8,
+    "stack_buy": 26,
+    "stack_sell": 7.8
+  },
+  "jungle_boat": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 10,
+    "stack_sell": 3
+  },
+  "jungle_chest_boat": {
+    "unit_buy": 26,
+    "unit_sell": 7.8,
+    "stack_buy": 26,
+    "stack_sell": 7.8
+  },
+  "mangrove_boat": {
+    "unit_buy": 12.5,
+    "unit_sell": 3.75,
+    "stack_buy": 12.5,
+    "stack_sell": 3.75
+  },
+  "mangrove_chest_boat": {
+    "unit_buy": 28.5,
+    "unit_sell": 8.55,
+    "stack_buy": 28.5,
+    "stack_sell": 8.55
+  },
+  "oak_boat": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 10,
+    "stack_sell": 3
+  },
+  "oak_chest_boat": {
+    "unit_buy": 26,
+    "unit_sell": 7.8,
+    "stack_buy": 26,
+    "stack_sell": 7.8
+  },
+  "pale_oak_boat": {
+    "unit_buy": 11.25,
+    "unit_sell": 3.38,
+    "stack_buy": 11.25,
+    "stack_sell": 3.38
+  },
+  "pale_oak_chest_boat": {
+    "unit_buy": 27.25,
+    "unit_sell": 8.17,
+    "stack_buy": 27.25,
+    "stack_sell": 8.17
+  },
+  "spruce_boat": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 10,
+    "stack_sell": 3
+  },
+  "spruce_chest_boat": {
+    "unit_buy": 26,
+    "unit_sell": 7.8,
+    "stack_buy": 26,
+    "stack_sell": 7.8
+  },
+  "minecart": {
+    "unit_buy": 75,
+    "unit_sell": 22.5,
+    "stack_buy": 75,
+    "stack_sell": 22.5
+  },
+  "chest_minecart": {
+    "unit_buy": 91,
+    "unit_sell": 27.3,
+    "stack_buy": 91,
+    "stack_sell": 27.3
+  },
+  "furnace_minecart": {
+    "unit_buy": 83,
+    "unit_sell": 24.9,
+    "stack_buy": 83,
+    "stack_sell": 24.9
+  },
+  "hopper_minecart": {
+    "unit_buy": 191,
+    "unit_sell": 57.3,
+    "stack_buy": 191,
+    "stack_sell": 57.3
+  },
+  "tnt_minecart": {
+    "unit_buy": 129,
+    "unit_sell": 38.7,
+    "stack_buy": 129,
+    "stack_sell": 38.7
+  },
+  "black_harness": {
+    "unit_buy": 37,
+    "unit_sell": 11.1,
+    "stack_buy": 37,
+    "stack_sell": 11.1
+  },
+  "blue_harness": {
+    "unit_buy": 33,
+    "unit_sell": 9.9,
+    "stack_buy": 33,
+    "stack_sell": 9.9
+  },
+  "brown_harness": {
+    "unit_buy": 34,
+    "unit_sell": 10.2,
+    "stack_buy": 34,
+    "stack_sell": 10.2
+  },
+  "cyan_harness": {
+    "unit_buy": 33.5,
+    "unit_sell": 10.05,
+    "stack_buy": 33.5,
+    "stack_sell": 10.05
+  },
+  "gray_harness": {
+    "unit_buy": 35.5,
+    "unit_sell": 10.65,
+    "stack_buy": 35.5,
+    "stack_sell": 10.65
+  },
+  "green_harness": {
+    "unit_buy": 34,
+    "unit_sell": 10.2,
+    "stack_buy": 34,
+    "stack_sell": 10.2
+  },
+  "light_blue_harness": {
+    "unit_buy": 36,
+    "unit_sell": 10.8,
+    "stack_buy": 36,
+    "stack_sell": 10.8
+  },
+  "light_gray_harness": {
+    "unit_buy": 33,
+    "unit_sell": 9.9,
+    "stack_buy": 33,
+    "stack_sell": 9.9
+  },
+  "lime_harness": {
+    "unit_buy": 34,
+    "unit_sell": 10.2,
+    "stack_buy": 34,
+    "stack_sell": 10.2
+  },
+  "magenta_harness": {
+    "unit_buy": 36,
+    "unit_sell": 10.8,
+    "stack_buy": 36,
+    "stack_sell": 10.8
+  },
+  "orange_harness": {
+    "unit_buy": 34,
+    "unit_sell": 10.2,
+    "stack_buy": 34,
+    "stack_sell": 10.2
+  },
+  "pink_harness": {
+    "unit_buy": 33,
+    "unit_sell": 9.9,
+    "stack_buy": 33,
+    "stack_sell": 9.9
+  },
+  "purple_harness": {
+    "unit_buy": 33,
+    "unit_sell": 9.9,
+    "stack_buy": 33,
+    "stack_sell": 9.9
+  },
+  "red_harness": {
+    "unit_buy": 33,
+    "unit_sell": 9.9,
+    "stack_buy": 33,
+    "stack_sell": 9.9
+  },
+  "white_harness": {
+    "unit_buy": 32,
+    "unit_sell": 9.6,
+    "stack_buy": 32,
+    "stack_sell": 9.6
+  },
+  "yellow_harness": {
+    "unit_buy": 33,
+    "unit_sell": 9.9,
+    "stack_buy": 33,
+    "stack_sell": 9.9
+  },
+  "activator_rail": {
+    "unit_buy": 16,
+    "unit_sell": 4.8,
+    "stack_buy": 1024,
+    "stack_sell": 307.2
+  },
+  "detector_rail": {
+    "unit_buy": 16.17,
+    "unit_sell": 4.85,
+    "stack_buy": 1035,
+    "stack_sell": 310.4
+  },
+  "powered_rail": {
+    "unit_buy": 60.67,
+    "unit_sell": 18.2,
+    "stack_buy": 3883,
+    "stack_sell": 1165
+  },
+  "rail": {
+    "unit_buy": 5.69,
+    "unit_sell": 1.71,
+    "stack_buy": 364,
+    "stack_sell": 109.2
+  },
+  "arrow": {
+    "unit_buy": 2.75,
+    "unit_sell": 0.82,
+    "stack_buy": 176,
+    "stack_sell": 52.8
+  },
+  "bow": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 9,
+    "stack_sell": 2.7
+  },
+  "crossbow": {
+    "unit_buy": 31,
+    "unit_sell": 9.3,
+    "stack_buy": 31,
+    "stack_sell": 9.3
+  },
+  "mace": {
+    "unit_buy": 3570,
+    "unit_sell": 1071,
+    "stack_buy": 3570,
+    "stack_sell": 1071
+  },
+  "spectral_arrow": {
+    "unit_buy": 5.38,
+    "unit_sell": 1.61,
+    "stack_buy": 344,
+    "stack_sell": 103.2
+  },
+  "trident": {
+    "unit_buy": 500,
+    "unit_sell": 150,
+    "stack_buy": 500,
+    "stack_sell": 150
+  },
+  "copper_spear": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 5,
+    "stack_sell": 1.5
+  },
+  "diamond_spear": {
+    "unit_buy": 282,
+    "unit_sell": 84.6,
+    "stack_buy": 282,
+    "stack_sell": 84.6
+  },
+  "golden_spear": {
+    "unit_buy": 62,
+    "unit_sell": 18.6,
+    "stack_buy": 62,
+    "stack_sell": 18.6
+  },
+  "iron_spear": {
+    "unit_buy": 17,
+    "unit_sell": 5.1,
+    "stack_buy": 17,
+    "stack_sell": 5.1
+  },
+  "netherite_spear": {
+    "unit_buy": 2622,
+    "unit_sell": 786.6,
+    "stack_buy": 2622,
+    "stack_sell": 786.6
+  },
+  "stone_spear": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 3,
+    "stack_sell": 0.9
+  },
+  "wooden_spear": {
+    "unit_buy": 4,
+    "unit_sell": 1.2,
+    "stack_buy": 4,
+    "stack_sell": 1.2
+  },
+  "copper_sword": {
+    "unit_buy": 7,
+    "unit_sell": 2.1,
+    "stack_buy": 7,
+    "stack_sell": 2.1
+  },
+  "diamond_sword": {
+    "unit_buy": 561,
+    "unit_sell": 168.3,
+    "stack_buy": 561,
+    "stack_sell": 168.3
+  },
+  "golden_sword": {
+    "unit_buy": 121,
+    "unit_sell": 36.3,
+    "stack_buy": 121,
+    "stack_sell": 36.3
+  },
+  "iron_sword": {
+    "unit_buy": 31,
+    "unit_sell": 9.3,
+    "stack_buy": 31,
+    "stack_sell": 9.3
+  },
+  "netherite_sword": {
+    "unit_buy": 2841,
+    "unit_sell": 852.3,
+    "stack_buy": 2841,
+    "stack_sell": 852.3
+  },
+  "stone_sword": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 3,
+    "stack_sell": 0.9
+  },
+  "wooden_sword": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 5,
+    "stack_sell": 1.5
+  },
+  "acacia_planks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "acacia_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "acacia_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "acacia_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "stripped_acacia_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "stripped_acacia_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "acacia_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "bamboo_mosaic": {
+    "unit_buy": 4.5,
+    "unit_sell": 1.35,
+    "stack_buy": 288,
+    "stack_sell": 86.4
+  },
+  "bamboo_mosaic_slab": {
+    "unit_buy": 2.25,
+    "unit_sell": 0.67,
+    "stack_buy": 144,
+    "stack_sell": 43.2
+  },
+  "bamboo_mosaic_stairs": {
+    "unit_buy": 6.75,
+    "unit_sell": 2.02,
+    "stack_buy": 432,
+    "stack_sell": 129.6
+  },
+  "bamboo_planks": {
+    "unit_buy": 4.5,
+    "unit_sell": 1.35,
+    "stack_buy": 288,
+    "stack_sell": 86.4
+  },
+  "bamboo_slab": {
+    "unit_buy": 2.25,
+    "unit_sell": 0.67,
+    "stack_buy": 144,
+    "stack_sell": 43.2
+  },
+  "bamboo_stairs": {
+    "unit_buy": 6.75,
+    "unit_sell": 2.02,
+    "stack_buy": 432,
+    "stack_sell": 129.6
+  },
+  "bamboo_block": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "stripped_bamboo_block": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "birch_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "birch_planks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "birch_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "birch_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "birch_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "stripped_birch_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "stripped_birch_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "cherry_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "cherry_planks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "cherry_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "cherry_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "cherry_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "stripped_cherry_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "stripped_cherry_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "crimson_hyphae": {
+    "unit_buy": 13.33,
+    "unit_sell": 4,
+    "stack_buy": 853.33,
+    "stack_sell": 256
+  },
+  "crimson_planks": {
+    "unit_buy": 3.33,
+    "unit_sell": 1,
+    "stack_buy": 213.33,
+    "stack_sell": 64
+  },
+  "crimson_slab": {
+    "unit_buy": 1.67,
+    "unit_sell": 0.5,
+    "stack_buy": 106.67,
+    "stack_sell": 32
+  },
+  "crimson_stairs": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "crimson_stem": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "stripped_crimson_hyphae": {
+    "unit_buy": 13.33,
+    "unit_sell": 4,
+    "stack_buy": 853.33,
+    "stack_sell": 256
+  },
+  "stripped_crimson_stem": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "dark_oak_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "dark_oak_planks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "dark_oak_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "dark_oak_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "dark_oak_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "stripped_dark_oak_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "stripped_dark_oak_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "jungle_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "jungle_planks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "jungle_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "jungle_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "jungle_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "stripped_jungle_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "stripped_jungle_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "mangrove_log": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "mangrove_planks": {
+    "unit_buy": 2.5,
+    "unit_sell": 0.75,
+    "stack_buy": 160,
+    "stack_sell": 48
+  },
+  "mangrove_slab": {
+    "unit_buy": 1.25,
+    "unit_sell": 0.38,
+    "stack_buy": 80,
+    "stack_sell": 24
+  },
+  "mangrove_stairs": {
+    "unit_buy": 3.75,
+    "unit_sell": 1.13,
+    "stack_buy": 240,
+    "stack_sell": 72
+  },
+  "mangrove_wood": {
+    "unit_buy": 13.33,
+    "unit_sell": 4,
+    "stack_buy": 853.33,
+    "stack_sell": 256
+  },
+  "stripped_mangrove_log": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "stripped_mangrove_wood": {
+    "unit_buy": 13.33,
+    "unit_sell": 4,
+    "stack_buy": 853.33,
+    "stack_sell": 256
+  },
+  "oak_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "oak_planks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "oak_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "oak_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "oak_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "stripped_oak_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "stripped_oak_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "pale_oak_log": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "pale_oak_planks": {
+    "unit_buy": 2.25,
+    "unit_sell": 0.67,
+    "stack_buy": 144,
+    "stack_sell": 43.2
+  },
+  "pale_oak_slab": {
+    "unit_buy": 1.13,
+    "unit_sell": 0.34,
+    "stack_buy": 72,
+    "stack_sell": 21.6
+  },
+  "pale_oak_stairs": {
+    "unit_buy": 3.38,
+    "unit_sell": 1.01,
+    "stack_buy": 216,
+    "stack_sell": 64.8
+  },
+  "pale_oak_wood": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 768,
+    "stack_sell": 230.4
+  },
+  "stripped_pale_oak_log": {
+    "unit_buy": 9,
+    "unit_sell": 2.7,
+    "stack_buy": 576,
+    "stack_sell": 172.8
+  },
+  "stripped_pale_oak_wood": {
+    "unit_buy": 12,
+    "unit_sell": 3.6,
+    "stack_buy": 768,
+    "stack_sell": 230.4
+  },
+  "spruce_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "spruce_planks": {
+    "unit_buy": 2,
+    "unit_sell": 0.6,
+    "stack_buy": 128,
+    "stack_sell": 38.4
+  },
+  "spruce_slab": {
+    "unit_buy": 1,
+    "unit_sell": 0.3,
+    "stack_buy": 64,
+    "stack_sell": 19.2
+  },
+  "spruce_stairs": {
+    "unit_buy": 3,
+    "unit_sell": 0.9,
+    "stack_buy": 192,
+    "stack_sell": 57.6
+  },
+  "spruce_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "stripped_spruce_log": {
+    "unit_buy": 8,
+    "unit_sell": 2.4,
+    "stack_buy": 512,
+    "stack_sell": 153.6
+  },
+  "stripped_spruce_wood": {
+    "unit_buy": 10.67,
+    "unit_sell": 3.2,
+    "stack_buy": 682.67,
+    "stack_sell": 204.8
+  },
+  "stripped_warped_hyphae": {
+    "unit_buy": 13.33,
+    "unit_sell": 4,
+    "stack_buy": 853.33,
+    "stack_sell": 256
+  },
+  "stripped_warped_stem": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "warped_hyphae": {
+    "unit_buy": 13.33,
+    "unit_sell": 4,
+    "stack_buy": 853.33,
+    "stack_sell": 256
+  },
+  "warped_planks": {
+    "unit_buy": 3.33,
+    "unit_sell": 1,
+    "stack_buy": 213.33,
+    "stack_sell": 64
+  },
+  "warped_slab": {
+    "unit_buy": 1.67,
+    "unit_sell": 0.5,
+    "stack_buy": 106.67,
+    "stack_sell": 32
+  },
+  "warped_stairs": {
+    "unit_buy": 5,
+    "unit_sell": 1.5,
+    "stack_buy": 320,
+    "stack_sell": 96
+  },
+  "warped_stem": {
+    "unit_buy": 10,
+    "unit_sell": 3,
+    "stack_buy": 640,
+    "stack_sell": 192
+  },
+  "_export_metadata": {
+    "source": "Verzion's Economy Price Guide",
+    "url": "https://minecraft-economy-price-guide.net",
+    "version": "1.21",
+    "export_date": "2026-11-02T19:08:18.114Z",
+    "item_count": 1054,
+    "currency_type": "money",
+    "price_multiplier": 1,
+    "sell_margin": 0.3,
+    "crafting_cost_enabled": false,
+    "smelting_cost_enabled": false,
+    "crafting_cost": 2,
+    "smelting_cost": 3,
+    "round_to_whole": false,
+    "sort_field": "default",
+    "sort_direction": "curated"
+  }
+}

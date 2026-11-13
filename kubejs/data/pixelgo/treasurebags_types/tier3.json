@@ -1,0 +1,14 @@
+{
+  "bag_color": "#FF8E24AA",
+  "bag_overlay_color": "#FFCE93D8",
+  "bag_string_color": "#FF4A148C",
+  "display_name": {
+    "text": "Mystery Epic Bag",
+    "color": "dark_purple"
+  },
+  "drops_from_groups": [],
+  "group": "pixelgo",
+  "loot_table": "loot:tier3",
+  "rarity": "rare",
+  "visible": true
+}

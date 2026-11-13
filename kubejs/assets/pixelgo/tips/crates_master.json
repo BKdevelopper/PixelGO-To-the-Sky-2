@@ -1,0 +1,43 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Crates",
+    "color": "aqua",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "A "
+      },
+      {
+        "text": "Master Crate",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " always gives a "
+      },
+      {
+        "text": "Master Ball",
+        "color": "gold",
+        "bold": true
+      },
+      {
+        "text": " and a hoard of Rare Candy, and can drop a "
+      },
+      {
+        "text": "Shiny Ball",
+        "color": "gold",
+        "bold": true
+      },
+      {
+        "text": "."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

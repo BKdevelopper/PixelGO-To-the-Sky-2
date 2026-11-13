@@ -1,0 +1,6 @@
+{
+  "type": "neoorigins:attribute_modifier",
+  "attribute": "pixelgo:catch_rate",
+  "amount": 4,
+  "operation": "add_value"
+}

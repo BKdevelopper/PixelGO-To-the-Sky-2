@@ -1,0 +1,68 @@
+{
+  "root": {
+    "definition": "root",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "bait_box": {
+    "definition": "bait_box",
+    "x": -72,
+    "y": -42
+  },
+  "lucky_lure": {
+    "definition": "lucky_lure",
+    "x": -72,
+    "y": -88
+  },
+  "reel_master": {
+    "definition": "reel_master",
+    "x": -72,
+    "y": -134
+  },
+  "old_salt": {
+    "definition": "old_salt",
+    "x": -72,
+    "y": -184
+  },
+  "beachcomber": {
+    "definition": "beachcomber",
+    "x": 72,
+    "y": -42
+  },
+  "net_haul": {
+    "definition": "net_haul",
+    "x": 72,
+    "y": -88
+  },
+  "sunken_treasure": {
+    "definition": "sunken_treasure",
+    "x": 72,
+    "y": -134
+  },
+  "pearl_diver": {
+    "definition": "pearl_diver",
+    "x": 72,
+    "y": -184
+  },
+  "current_rider": {
+    "definition": "current_rider",
+    "x": 0,
+    "y": -50
+  },
+  "divers_grip": {
+    "definition": "divers_grip",
+    "x": 0,
+    "y": -96
+  },
+  "tidal_rush": {
+    "definition": "tidal_rush",
+    "x": 0,
+    "y": -142
+  },
+  "ocean_blessing": {
+    "definition": "ocean_blessing",
+    "x": 0,
+    "y": -214
+  }
+}

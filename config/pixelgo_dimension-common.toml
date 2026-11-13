@@ -1,0 +1,80 @@
+[general]
+	#Master switch. When false no timer runs and no dimension is watched.
+	enabled = true
+	#Time allowed inside a watched dimension when no explicit duration is given, in seconds.
+	# Default: 1200
+	# Range: 1 ~ 86400
+	defaultTimerSeconds = 1200
+	#Cooldown before a player may enter a watched dimension again after the timer ran out, in seconds.
+	#The cooldown is shared: it locks every watched dimension at once, so a player who burned
+	#their whole timer in the Nether cannot head straight to the End.
+	#Set to 0 to allow instant re-entry.
+	# Default: 60
+	# Range: 0 ~ 86400
+	cooldownSeconds = 1200
+	#Dimensions the timer applies to.
+	#Format: namespace:dimension=seconds, or just namespace:dimension to use general.defaultTimerSeconds.
+	#Example: minecraft:the_nether=120
+	#All watched dimensions share ONE timer: the duration below is only the amount handed out when a
+	#brand new run starts in that dimension. Moving to another watched dimension carries the remaining
+	#time over instead of starting a fresh timer, so keep the same value everywhere unless you know
+	#what you are doing.
+	watchedDimensions = ["minecraft:the_nether=1200", "minecraft:the_end=1200", "overworldmirror:overworld=1200", "pixelmon:ultra_space=1200"]
+	#A chat warning is sent when the remaining time reaches exactly one of these values, in seconds.
+	warningSeconds = [600, 300, 180, 120, 60, 30, 20, 10, 5, 3, 2, 1]
+	#When true a player who leaves a watched dimension on their own keeps the time they had left
+	#and gets it back the next time they enter any watched dimension, since the timer is shared.
+	#When false the timer is reset to its full duration on every entry.
+	keepRemainingTimeOnLeave = true
+	#Send chat messages on entry, on warnings and when the time runs out.
+	chatMessages = false
+
+[expiry]
+	#Teleport the player to their respawn point (bed or respawn anchor) when the timer runs out.
+	#Falls back to the world spawn of the overworld when no respawn point is set.
+	#Set this to false when expiry.commandsAfterTeleport already handles the teleportation,
+	#for instance with a home command coming from another mod.
+	teleportToRespawn = true
+	#Commands run by the server with permission level 4 right BEFORE the player is sent home.
+	#{player} is replaced with the player name. Do not prefix the commands with a slash.
+	#Example: ["endbattle {player}"]
+	commandsBeforeTeleport = ["endbattle {player}"]
+	#Commands run by the server with permission level 4 right AFTER the player is sent home.
+	#{player} is replaced with the player name. Do not prefix the commands with a slash.
+	#Example: ["execute as {player} run neoblock home"]
+	commandsAfterTeleport = ["execute as {player} run skyblock home"]
+
+[bonus]
+	#Seconds permanently added to the dimension timer when a Time Capsule is used.
+	# Default: 60
+	# Range: 1 ~ 86400
+	timeCapsuleSeconds = 60
+	#Highest permanent bonus a player may accumulate, in seconds. Set to 0 for no limit.
+	# Default: 0
+	# Range: 0 ~ 86400
+	maxPermanentBonusSeconds = 0
+	#Seconds temporarily added to the current timer when one of bonus.foodItems is eaten.
+	#This bonus only applies to the run in progress, it is never stored permanently.
+	# Default: 30
+	# Range: 1 ~ 86400
+	foodBonusSeconds = 30
+	#Items granting the temporary bonus above when they are eaten.
+	#Example: ["minecraft:golden_apple", "minecraft:enchanted_golden_apple"]
+	foodItems = ["minecraft:golden_apple"]
+	#When true, eating one of those items outside a watched dimension stores the bonus and applies it
+	#on the next entry. When false the bonus is only granted while already inside a watched dimension.
+	foodBonusWorksOutsideWatchedDimensions = true
+
+[hud]
+	#Show the live timer in the bottom right corner of the screen. Client side setting.
+	showHud = true
+	#Distance between the timer and the right edge of the screen, in pixels.
+	# Default: 6
+	# Range: 0 ~ 4096
+	offsetX = 6
+	#Distance between the timer and the bottom edge of the screen, in pixels.
+	# Default: 6
+	# Range: 0 ~ 4096
+	offsetY = 6
+	#Draw a dark background behind the timer to keep it readable.
+	showBackground = true

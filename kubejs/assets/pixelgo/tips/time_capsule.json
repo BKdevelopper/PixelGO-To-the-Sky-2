@@ -1,0 +1,43 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Dimension Timer",
+    "color": "dark_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "A "
+      },
+      {
+        "text": "Time Capsule",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " adds "
+      },
+      {
+        "text": "60 seconds",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " to your dimension timer, permanently, kept through death. The "
+      },
+      {
+        "text": "PixelGO General Store",
+        "color": "aqua",
+        "bold": true
+      },
+      {
+        "text": " sells them."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

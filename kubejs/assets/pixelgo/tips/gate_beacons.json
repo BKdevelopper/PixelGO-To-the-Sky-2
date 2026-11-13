@@ -1,0 +1,27 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "PixelGO Gates",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "A "
+      },
+      {
+        "text": "Gate Beacon",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " opens the rank you want, on the spot. They come out of loot chests - the better the chest, the better the rank."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

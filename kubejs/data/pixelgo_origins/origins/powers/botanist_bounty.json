@@ -1,0 +1,10 @@
+{
+  "type": "neoorigins:crop_harvest_bonus",
+  "extra_drops": 1,
+  "hidden": true,
+  "power_condition": {
+    "type": "neoorigins:origin",
+    "origin": "pixelgo_origins:botanist"
+  },
+  "power_condition_mode": "ALLOW"
+}

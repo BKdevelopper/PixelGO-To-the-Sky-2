@@ -1,0 +1,210 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:charcoal",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:magnet",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:mystic_water",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:miracle_seed",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:never_melt_ice",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:sharp_beak",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:poison_barb",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:hard_stone",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:silver_powder",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:dragon_fang",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:silk_scarf",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:black_belt",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:metal_coat",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:pixie_plate",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:snowball",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:cell_battery",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:eject_button",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:metronome",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:rocky_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:safety_goggles",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:shell_bell",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:light_clay",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:heat_rock",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:icy_rock",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:smooth_rock",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:black_sludge",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:destiny_knot",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:power_bracer",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:power_belt",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:power_lens",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:power_band",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:power_anklet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:power_weight",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:leftovers",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:assault_vest",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:focus_sash",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:focus_band",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:expert_belt",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:exp_share",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:lucky_egg",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

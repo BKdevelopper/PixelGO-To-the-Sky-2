@@ -1,0 +1,6 @@
+#Show your running expeditions as floating text above Expedition Stations.
+show_station_hologram = true
+#Maximum distance (blocks) at which the station text is rendered.
+# Default: 24
+# Range: 4 ~ 64
+hologram_view_distance = 24

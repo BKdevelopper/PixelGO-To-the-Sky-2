@@ -1,0 +1,67 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Sieve & Hammer",
+    "color": "gold",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Mesh ladder: "
+      },
+      {
+        "text": "String",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " > "
+      },
+      {
+        "text": "Flint",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " > "
+      },
+      {
+        "text": "Iron",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " > "
+      },
+      {
+        "text": "Golden",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " > "
+      },
+      {
+        "text": "Diamond",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " > "
+      },
+      {
+        "text": "Netherite",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": ". Every mesh unlocks new drops and improves the odds of everything below it."
+      }
+    ]
+  },
+  "cycle_time": 9000
+}

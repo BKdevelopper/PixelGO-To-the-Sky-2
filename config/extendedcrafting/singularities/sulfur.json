@@ -1,0 +1,10 @@
+{
+  "name": "Sulfur",
+  "colors": [
+    "fcedab",
+    "fce746"
+  ],
+  "ingredient": {
+    "tag": "c:dusts/sulfur"
+  }
+}

@@ -1,0 +1,1572 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.handcrafted_wood",
+                  "message": "pixelgo.npc.handcrafted_wood.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.5,
+                      "sellPrice": 0.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 1.88,
+                      "sellPrice": 0.56
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 2.5,
+                      "sellPrice": 0.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 3.13,
+                      "sellPrice": 0.94
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_pillar_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 3.38,
+                      "sellPrice": 1.01
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_dining_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_dining_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_dining_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_dining_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_dining_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_dining_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_dining_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 3.5,
+                      "sellPrice": 1.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_table",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_table",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_table",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_table",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_table",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_table",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_table",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 4.13,
+                      "sellPrice": 1.24
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 4.16,
+                      "sellPrice": 1.25
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 4.16,
+                      "sellPrice": 1.25
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_dining_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 4.38,
+                      "sellPrice": 1.31
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_table",
+                        "count": 1
+                      },
+                      "buyPrice": 4.75,
+                      "sellPrice": 1.43
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 5.17,
+                      "sellPrice": 1.55
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 5.17,
+                      "sellPrice": 1.55
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_corner_trim",
+                        "count": 1
+                      },
+                      "buyPrice": 5.63,
+                      "sellPrice": 1.69
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_dining_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 5.84,
+                      "sellPrice": 1.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_dining_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 5.84,
+                      "sellPrice": 1.75
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_table",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_table",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 6.5,
+                      "sellPrice": 1.95
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 6.5,
+                      "sellPrice": 1.95
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 6.5,
+                      "sellPrice": 1.95
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 6.5,
+                      "sellPrice": 1.95
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 6.5,
+                      "sellPrice": 1.95
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 6.5,
+                      "sellPrice": 1.95
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 6.5,
+                      "sellPrice": 1.95
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_chair",
+                        "count": 1
+                      },
+                      "buyPrice": 6.63,
+                      "sellPrice": 1.99
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_table",
+                        "count": 1
+                      },
+                      "buyPrice": 7.75,
+                      "sellPrice": 2.32
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_dining_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 7.88,
+                      "sellPrice": 2.36
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 8.13,
+                      "sellPrice": 2.44
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_cupboard",
+                        "count": 1
+                      },
+                      "buyPrice": 10.67,
+                      "sellPrice": 3.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_cupboard",
+                        "count": 1
+                      },
+                      "buyPrice": 10.67,
+                      "sellPrice": 3.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_cupboard",
+                        "count": 1
+                      },
+                      "buyPrice": 10.67,
+                      "sellPrice": 3.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_cupboard",
+                        "count": 1
+                      },
+                      "buyPrice": 10.67,
+                      "sellPrice": 3.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_cupboard",
+                        "count": 1
+                      },
+                      "buyPrice": 10.67,
+                      "sellPrice": 3.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_cupboard",
+                        "count": 1
+                      },
+                      "buyPrice": 10.67,
+                      "sellPrice": 3.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_cupboard",
+                        "count": 1
+                      },
+                      "buyPrice": 10.67,
+                      "sellPrice": 3.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 10.83,
+                      "sellPrice": 3.25
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 10.83,
+                      "sellPrice": 3.25
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_desk",
+                        "count": 1
+                      },
+                      "buyPrice": 11.5,
+                      "sellPrice": 3.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_desk",
+                        "count": 1
+                      },
+                      "buyPrice": 11.5,
+                      "sellPrice": 3.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_desk",
+                        "count": 1
+                      },
+                      "buyPrice": 11.5,
+                      "sellPrice": 3.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_desk",
+                        "count": 1
+                      },
+                      "buyPrice": 11.5,
+                      "sellPrice": 3.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_desk",
+                        "count": 1
+                      },
+                      "buyPrice": 11.5,
+                      "sellPrice": 3.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_desk",
+                        "count": 1
+                      },
+                      "buyPrice": 11.5,
+                      "sellPrice": 3.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_desk",
+                        "count": 1
+                      },
+                      "buyPrice": 11.5,
+                      "sellPrice": 3.45
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_cupboard",
+                        "count": 1
+                      },
+                      "buyPrice": 12,
+                      "sellPrice": 3.6
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_desk",
+                        "count": 1
+                      },
+                      "buyPrice": 12.38,
+                      "sellPrice": 3.71
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_counter",
+                        "count": 1
+                      },
+                      "buyPrice": 12.67,
+                      "sellPrice": 3.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_counter",
+                        "count": 1
+                      },
+                      "buyPrice": 12.67,
+                      "sellPrice": 3.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_counter",
+                        "count": 1
+                      },
+                      "buyPrice": 12.67,
+                      "sellPrice": 3.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_counter",
+                        "count": 1
+                      },
+                      "buyPrice": 12.67,
+                      "sellPrice": 3.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_counter",
+                        "count": 1
+                      },
+                      "buyPrice": 12.67,
+                      "sellPrice": 3.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_counter",
+                        "count": 1
+                      },
+                      "buyPrice": 12.67,
+                      "sellPrice": 3.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_counter",
+                        "count": 1
+                      },
+                      "buyPrice": 12.67,
+                      "sellPrice": 3.8
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 12.97,
+                      "sellPrice": 3.89
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 12.97,
+                      "sellPrice": 3.89
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 12.97,
+                      "sellPrice": 3.89
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 12.97,
+                      "sellPrice": 3.89
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 12.97,
+                      "sellPrice": 3.89
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 12.97,
+                      "sellPrice": 3.89
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 12.97,
+                      "sellPrice": 3.89
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_counter",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_nightstand",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_nightstand",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_nightstand",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_nightstand",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_nightstand",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_nightstand",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_nightstand",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 13,
+                      "sellPrice": 3.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_side_table",
+                        "count": 1
+                      },
+                      "buyPrice": 13.5,
+                      "sellPrice": 4.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_side_table",
+                        "count": 1
+                      },
+                      "buyPrice": 13.5,
+                      "sellPrice": 4.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_side_table",
+                        "count": 1
+                      },
+                      "buyPrice": 13.5,
+                      "sellPrice": 4.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_side_table",
+                        "count": 1
+                      },
+                      "buyPrice": 13.5,
+                      "sellPrice": 4.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_side_table",
+                        "count": 1
+                      },
+                      "buyPrice": 13.5,
+                      "sellPrice": 4.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_side_table",
+                        "count": 1
+                      },
+                      "buyPrice": 13.5,
+                      "sellPrice": 4.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_side_table",
+                        "count": 1
+                      },
+                      "buyPrice": 13.5,
+                      "sellPrice": 4.05
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_counter",
+                        "count": 1
+                      },
+                      "buyPrice": 13.55,
+                      "sellPrice": 4.07
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_counter",
+                        "count": 1
+                      },
+                      "buyPrice": 13.55,
+                      "sellPrice": 4.07
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 13.72,
+                      "sellPrice": 4.12
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_desk",
+                        "count": 1
+                      },
+                      "buyPrice": 13.84,
+                      "sellPrice": 4.15
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_desk",
+                        "count": 1
+                      },
+                      "buyPrice": 13.84,
+                      "sellPrice": 4.15
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_cupboard",
+                        "count": 1
+                      },
+                      "buyPrice": 14.21,
+                      "sellPrice": 4.26
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_cupboard",
+                        "count": 1
+                      },
+                      "buyPrice": 14.21,
+                      "sellPrice": 4.26
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 14.25,
+                      "sellPrice": 4.27
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_nightstand",
+                        "count": 1
+                      },
+                      "buyPrice": 14.25,
+                      "sellPrice": 4.27
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 14.25,
+                      "sellPrice": 4.27
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_counter",
+                        "count": 1
+                      },
+                      "buyPrice": 14.33,
+                      "sellPrice": 4.3
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_bench",
+                        "count": 1
+                      },
+                      "buyPrice": 14.63,
+                      "sellPrice": 4.39
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_side_table",
+                        "count": 1
+                      },
+                      "buyPrice": 14.88,
+                      "sellPrice": 4.46
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 14.96,
+                      "sellPrice": 4.49
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 14.96,
+                      "sellPrice": 4.49
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_desk",
+                        "count": 1
+                      },
+                      "buyPrice": 15.88,
+                      "sellPrice": 4.76
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_nightstand",
+                        "count": 1
+                      },
+                      "buyPrice": 16.33,
+                      "sellPrice": 4.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_nightstand",
+                        "count": 1
+                      },
+                      "buyPrice": 16.33,
+                      "sellPrice": 4.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 16.34,
+                      "sellPrice": 4.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 16.34,
+                      "sellPrice": 4.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 16.34,
+                      "sellPrice": 4.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 16.34,
+                      "sellPrice": 4.9
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_couch",
+                        "count": 1
+                      },
+                      "buyPrice": 16.72,
+                      "sellPrice": 5.02
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_side_table",
+                        "count": 1
+                      },
+                      "buyPrice": 17.17,
+                      "sellPrice": 5.15
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_side_table",
+                        "count": 1
+                      },
+                      "buyPrice": 17.17,
+                      "sellPrice": 5.15
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_cupboard",
+                        "count": 1
+                      },
+                      "buyPrice": 17.33,
+                      "sellPrice": 5.2
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_drawer",
+                        "count": 1
+                      },
+                      "buyPrice": 19.25,
+                      "sellPrice": 5.78
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_nightstand",
+                        "count": 1
+                      },
+                      "buyPrice": 19.25,
+                      "sellPrice": 5.78
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_shelf",
+                        "count": 1
+                      },
+                      "buyPrice": 19.25,
+                      "sellPrice": 5.78
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_side_table",
+                        "count": 1
+                      },
+                      "buyPrice": 20.38,
+                      "sellPrice": 6.11
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:acacia_fancy_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 30.94,
+                      "sellPrice": 9.28
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:birch_fancy_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 30.94,
+                      "sellPrice": 9.28
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:cherry_fancy_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 30.94,
+                      "sellPrice": 9.28
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:dark_oak_fancy_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 30.94,
+                      "sellPrice": 9.28
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:jungle_fancy_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 30.94,
+                      "sellPrice": 9.28
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:oak_fancy_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 30.94,
+                      "sellPrice": 9.28
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:spruce_fancy_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 30.94,
+                      "sellPrice": 9.28
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:mangrove_fancy_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 32.94,
+                      "sellPrice": 9.88
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:crimson_fancy_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 36.26,
+                      "sellPrice": 10.88
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:warped_fancy_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 36.26,
+                      "sellPrice": 10.88
+                    },
+                    {
+                      "item": {
+                        "id": "handcrafted:bamboo_fancy_bed",
+                        "count": 1
+                      },
+                      "buyPrice": 40.94,
+                      "sellPrice": 12.28
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.handcrafted_wood",
+                  "message": "pixelgo.npc.handcrafted_wood.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.handcrafted_wood",
+        "color": "#D2A679",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

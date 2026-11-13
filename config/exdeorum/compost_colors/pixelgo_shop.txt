@@ -1,0 +1,2 @@
+// Compost colors for pixelgo_shop. You may add your own colors, change existing ones, or remove colors that aren't needed.
+portable_shop, #6f7f40

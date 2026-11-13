@@ -1,0 +1,38 @@
+#Number of expedition slots each player has.
+# Default: 6
+# Range: 1 ~ 12
+slots_per_player = 6
+#Multiplier applied to every expedition duration.
+# Default: 1.0
+# Range: 0.01 ~ 1000.0
+duration_multiplier = 1.0
+#Multiplier applied to every reward quantity.
+# Default: 1.0
+# Range: 0.0 ~ 1000.0
+reward_multiplier = 1.0
+#Whether players may recall a Pokémon before its expedition is finished.
+allow_recall = true
+#Maximum distance (blocks) between a player and an Expedition Station to use it.
+# Default: 8.0
+# Range: 2.0 ~ 64.0
+interaction_range = 8.0
+#Send a chat message (and a sound) when an expedition is finished.
+notify_on_complete = true
+#Write every start / claim / recall to logs/pixelgo_expedition/audit-<date>.jsonl.
+audit_log = true
+#Number of days the audit log files are kept.
+# Default: 30
+# Range: 1 ~ 3650
+audit_log_retention_days = 30
+#Random Pokémon rewards: minimum catch rate of the 'common' bucket.
+# Default: 180
+# Range: 1 ~ 255
+common_min_catch_rate = 180
+#Random Pokémon rewards: minimum catch rate of the 'uncommon' bucket.
+# Default: 90
+# Range: 1 ~ 255
+uncommon_min_catch_rate = 90
+#Random Pokémon rewards: minimum catch rate of the 'rare' bucket (lower = 'ultra-rare').
+# Default: 45
+# Range: 1 ~ 255
+rare_min_catch_rate = 45

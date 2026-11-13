@@ -1,0 +1,27 @@
+{
+  "title": {
+    "translate": "pixelgo_origins.tree.ranger.title",
+    "fallback": "Ranger's Path",
+    "color": "#FF6B6B",
+    "bold": true
+  },
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "pixelmon:poke_ball",
+      "components": {
+        "pixelmon:poke_ball": "great_ball"
+      }
+    }
+  },
+  "background": {
+    "texture": "minecraft:textures/block/moss_block.png",
+    "width": 16,
+    "height": 16,
+    "position": "tile"
+  },
+  "starting_points": 1,
+  "unlocked_by_default": false,
+  "erase_on_death": false,
+  "exclusive_root": false
+}

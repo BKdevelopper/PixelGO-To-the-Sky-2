@@ -1,0 +1,22 @@
+// Compost colors for pokemon_armor. You may add your own colors, change existing ones, or remove colors that aren't needed.
+charizard_boots, #96441f
+charizard_chestplate, #b8612a
+charizard_helmet, #dc650f
+charizard_leggings, #b55704
+charizard_shiny_boots, #333333
+charizard_shiny_chestplate, #433636
+charizard_shiny_helmet, #3a3737
+charizard_shiny_leggings, #8c4b0e
+groudon_boots, #8d4848
+groudon_chestplate, #845257
+groudon_helmet, #9e4841
+groudon_leggings, #782d2d
+groudon_shiny_boots, #829048
+groudon_shiny_chestplate, #7c8057
+groudon_shiny_helmet, #8ea041
+groudon_shiny_leggings, #6c7c2d
+gyarados_chestplate, #737289
+gyarados_helmet, #324a7a
+gyarados_shiny_chestplate, #bb573c
+gyarados_shiny_helmet, #8e261b
+pokeball, #dd6c6c

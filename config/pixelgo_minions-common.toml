@@ -1,0 +1,942 @@
+#General minion behaviour.
+[general]
+	#Multiplies every cooldown below. 0.5 makes all minions twice as fast, 2.0 twice as slow.
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	speedMultiplier = 0.75
+	#Actions needed for one resource. Hypixel minions place a block, then harvest it: 2 actions.
+	# Default: 2
+	# Range: 1 ~ 10
+	actionsPerResource = 2
+
+#Fuel placed in the minion's fuel slot.
+[fuel]
+	#When false the fuel slot rejects everything and no speed boost is applied.
+	enabled = true
+
+#Production while the chunk is unloaded or the world is closed.
+[offline]
+	#Minions catch up on the time they missed the next time their chunk loads.
+	enabled = true
+	#Also count time the world was not running at all, from the system clock.
+	#With this off, only ticks the server actually ran are caught up.
+	useRealTime = true
+	#Longest stretch a single minion may catch up on, in hours.
+	# Default: 24.0
+	# Range: 0.0 ~ 720.0
+	maxHours = 24.0
+
+#The area the minion needs free around itself to work in.
+[workArea]
+	#Require free working space around the minion. With this off it produces anywhere.
+	enabled = true
+	#Radius in blocks around the minion. 2 is the 5x5 area of Hypixel SkyBlock.
+	# Default: 2
+	# Range: 1 ~ 8
+	radius = 2
+
+#Seconds between two actions, and how much one harvest is worth, per minion.
+#A resource comes out every 'actionsPerResource' actions, so the time between
+#two harvests is this value times that number.
+#secondsAtTier1 applies at tier I, secondsAtMaxTier at the minion's highest tier,
+#and the tiers in between are spread evenly across the two.
+#itemsPerHarvestMin/Max are how many of the minion's own resource one harvest
+#yields: a redstone minion pulls 3 to 6 out of the ore, a diamond minion 1.
+#Side drops always come one at a time.
+[cooldowns]
+
+	[cooldowns.cobblestone]
+		# Default: 14.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 14.0
+		# Default: 6.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 6.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.coal]
+		# Default: 15.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 15.0
+		# Default: 6.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 6.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.iron]
+		# Default: 17.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 17.0
+		# Default: 7.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 7.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.gold]
+		# Default: 22.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 22.0
+		# Default: 9.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 9.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.diamond]
+		# Default: 29.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 29.0
+		# Default: 12.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 12.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.lapis]
+		# Default: 29.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 29.0
+		# Default: 16.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 16.0
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 4
+		# Default: 8
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 8
+
+	[cooldowns.emerald]
+		# Default: 28.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 28.0
+		# Default: 12.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 12.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.redstone]
+		# Default: 18.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 29.0
+		# Default: 7.5
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 16.0
+		# Default: 3
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 3
+		# Default: 6
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 6
+
+	[cooldowns.quartz]
+		# Default: 22.5
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 22.5
+		# Default: 10.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 10.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.obsidian]
+		# Default: 45.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 45.0
+		# Default: 21.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 21.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.glowstone]
+		# Default: 25.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 25.0
+		# Default: 11.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 11.0
+		# Default: 2
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 2
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 4
+
+	[cooldowns.gravel]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 13.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 13.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.sand]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 13.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 13.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.red_sand]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 11.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 11.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.mycelium]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 11.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 11.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.end_stone]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 13.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 13.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.hard_stone]
+		# Default: 14.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 14.0
+		# Default: 6.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 6.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.ice]
+		# Default: 14.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 14.0
+		# Default: 6.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 6.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.snow]
+		# Default: 13.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 13.0
+		# Default: 5.8
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 5.8
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 4
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 4
+
+	[cooldowns.mithril]
+		# Default: 80.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 80.0
+		# Default: 50.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 50.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.copper]
+		# Default: 18.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 18.0
+		# Default: 7.5
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 7.5
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.blackstone]
+		# Default: 16.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 16.0
+		# Default: 7.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 7.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.netherite]
+		# Default: 120.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 120.0
+		# Default: 60.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 60.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.wheat]
+		# Default: 15.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 15.0
+		# Default: 7.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 7.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.carrot]
+		# Default: 20.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 20.0
+		# Default: 8.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 8.0
+		# Default: 2
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 2
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 4
+
+	[cooldowns.potato]
+		# Default: 20.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 20.0
+		# Default: 8.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 8.0
+		# Default: 2
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 2
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 4
+
+	[cooldowns.pumpkin]
+		# Default: 32.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 32.0
+		# Default: 12.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 12.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.melon]
+		# Default: 24.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 24.0
+		# Default: 10.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 10.0
+		# Default: 3
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 3
+		# Default: 7
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 7
+
+	[cooldowns.mushroom]
+		# Default: 30.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 30.0
+		# Default: 12.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 12.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.cactus]
+		# Default: 27.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 27.0
+		# Default: 12.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 12.0
+		# Default: 3
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 3
+		# Default: 3
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 3
+
+	[cooldowns.cocoa_beans]
+		# Default: 27.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 27.0
+		# Default: 12.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 12.0
+		# Default: 3
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 3
+		# Default: 3
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 3
+
+	[cooldowns.sugar_cane]
+		# Default: 22.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 22.0
+		# Default: 9.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 9.0
+		# Default: 3
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 3
+		# Default: 3
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 3
+
+	[cooldowns.nether_wart]
+		# Default: 50.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 50.0
+		# Default: 27.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 27.0
+		# Default: 2
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 2
+		# Default: 3
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 3
+
+	[cooldowns.chicken]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 12.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 12.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.cow]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 10.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 10.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.pig]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 10.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 10.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.sheep]
+		# Default: 24.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 24.0
+		# Default: 9.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 9.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.rabbit]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 10.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 10.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.sunflower]
+		# Default: 30.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 30.0
+		# Default: 15.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 15.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.oak]
+		# Default: 48.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 48.0
+		# Default: 23.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 23.0
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 4
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 4
+
+	[cooldowns.spruce]
+		# Default: 48.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 48.0
+		# Default: 23.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 23.0
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 4
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 4
+
+	[cooldowns.birch]
+		# Default: 48.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 48.0
+		# Default: 23.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 23.0
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 4
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 4
+
+	[cooldowns.dark_oak]
+		# Default: 48.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 48.0
+		# Default: 23.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 23.0
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 4
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 4
+
+	[cooldowns.acacia]
+		# Default: 48.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 48.0
+		# Default: 23.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 23.0
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 4
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 4
+
+	[cooldowns.jungle]
+		# Default: 48.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 48.0
+		# Default: 23.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 23.0
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 4
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 4
+
+	[cooldowns.flower]
+		# Default: 30.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 30.0
+		# Default: 15.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 15.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.fishing]
+		# Default: 75.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 75.0
+		# Default: 30.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 30.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.clay]
+		# Default: 32.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 32.0
+		# Default: 14.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 14.0
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 4
+		# Default: 4
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 4
+
+	[cooldowns.lily_pad]
+		# Default: 32.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 32.0
+		# Default: 14.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 14.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.zombie]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 13.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 13.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.skeleton]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 13.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 13.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.spider]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 13.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 13.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.cave_spider]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 13.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 13.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.creeper]
+		# Default: 27.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 27.0
+		# Default: 14.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 14.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.enderman]
+		# Default: 32.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 32.0
+		# Default: 18.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 18.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.ghast]
+		# Default: 50.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 50.0
+		# Default: 30.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 30.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.slime]
+		# Default: 26.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 26.0
+		# Default: 12.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 12.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.magma_cube]
+		# Default: 32.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 32.0
+		# Default: 16.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 16.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.blaze]
+		# Default: 33.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 33.0
+		# Default: 15.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 15.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.revenant]
+		# Default: 29.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 29.0
+		# Default: 8.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 8.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.tarantula]
+		# Default: 29.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 29.0
+		# Default: 10.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 10.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.voidling]
+		# Default: 45.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 45.0
+		# Default: 24.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 24.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+	[cooldowns.inferno]
+		# Default: 1013.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtTier1 = 1013.0
+		# Default: 697.0
+		# Range: 0.05 ~ 86400.0
+		secondsAtMaxTier = 697.0
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMin = 1
+		# Default: 1
+		# Range: 1 ~ 64
+		itemsPerHarvestMax = 1
+
+#Who a placed minion belongs to, and how many one player may have out.
+[ownership]
+	#Most minions one player may have placed in the world at once. 0 for no limit.
+	#Picking a minion back up frees its slot straight away.
+	# Default: 20
+	# Range: 0 ~ 1000
+	maxPerPlayer = 20
+	#Only the player who placed a minion may open its menu.
+	#With this off anyone can open any minion; the limit above still applies.
+	protectOthers = true
+	#Server operators may open anyone's minion, so an admin can clean one up.
+	#This does not lift the limit above for them.
+	operatorsBypass = true

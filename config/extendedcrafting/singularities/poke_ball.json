@@ -1,0 +1,11 @@
+{
+  "name": "Poke Ball",
+  "colors": [
+    "f5f5f5",
+    "fc2727"
+  ],
+  "materialCount": 2000,
+  "ingredient": {
+    "item": "pixelmon:iron_base"
+  }
+}

@@ -1,0 +1,380 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "league"
+	group: "1A3BB00B8761BF8C"
+	icon: {
+		id: "pixelgobattletower:league_trophy"
+	}
+	id: "2C5D8E1F7A30E011"
+	images: [ ]
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "pixelgobattletower:league_trophy"
+			}
+			id: "34EC1E43FD5645AA"
+			rewards: [
+				{
+					count: 2
+					id: "102BE3D8A632839E"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "4291612B4E61141F"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6FBD34CC5E040CA6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34EC1E43FD5645AA"]
+			id: "5E31E8099F86484D"
+			rewards: [
+				{
+					count: 20
+					id: "3FCAA302E2781C67"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "14912C04B6690E0F"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "34F5E5E55443668E"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "430969374AE904FE"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier3"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "pixelgobattletower:league_enter"
+				criterion: ""
+				id: "55358A4EBF3F0B12"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E31E8099F86484D"]
+			hide_dependency_lines: true
+			id: "50715E80C77A06E4"
+			tasks: [{
+				id: "215CB6B485C85095"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E31E8099F86484D"]
+			hide_dependency_lines: true
+			id: "4EDBE13AC71F2F7C"
+			tasks: [{
+				id: "1AC65029C77C5672"
+				type: "checkmark"
+			}]
+			x: -2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E31E8099F86484D"]
+			hide_dependency_lines: true
+			id: "1C35359B8CCB8A84"
+			tasks: [{
+				id: "48C1F12E59677C0C"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E31E8099F86484D"]
+			hide_dependency_lines: true
+			id: "453F2499106C2245"
+			tasks: [{
+				id: "3F8B5C76E731F23A"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E31E8099F86484D"]
+			hide_dependency_lines: true
+			id: "7D542331B5402D6C"
+			tasks: [{
+				id: "103A0A912A04A232"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E31E8099F86484D"]
+			hide_dependency_lines: true
+			id: "270DE104140482FC"
+			tasks: [{
+				id: "3C75AE233936DBED"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E31E8099F86484D"]
+			hide_dependency_lines: true
+			id: "496B47314DD04477"
+			tasks: [{
+				id: "4B5663E1A5ACEDBE"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E31E8099F86484D"]
+			hide_dependency_lines: true
+			id: "134AC96469A84B4B"
+			tasks: [{
+				id: "265C08DCD4D3F218"
+				type: "checkmark"
+			}]
+			x: -2.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E31E8099F86484D"]
+			hide_dependency_lines: true
+			id: "33F0D4352116F2D4"
+			tasks: [{
+				id: "039E32D929C5BB6D"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E31E8099F86484D"]
+			hide_dependency_lines: true
+			id: "2000A4DB4BB42450"
+			tasks: [{
+				id: "14AD055C062015E4"
+				type: "checkmark"
+			}]
+			x: 0.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E31E8099F86484D"]
+			hide_dependency_lines: true
+			id: "0EFD67B566AE6F88"
+			tasks: [{
+				id: "61914A47226121E2"
+				type: "checkmark"
+			}]
+			x: 2.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E31E8099F86484D"]
+			hide_dependency_lines: true
+			id: "45CA17A322721518"
+			tasks: [{
+				id: "71F9169CCAE42868"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E31E8099F86484D"]
+			id: "7C5A0630C6C5EF09"
+			rewards: [
+				{
+					count: 62
+					id: "0C64FF1427BB10F1"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5DB1E639DC5262FE"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "01D8A2C371873203"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "2FBD4F671CC82E1E"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier4"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "2D9E487D1910A424"
+					loot_tier: 2b
+					play_sound: true
+					type: "pixelgoquests:pokeloot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "pixelgobattletower:league_clear"
+				criterion: ""
+				id: "024C336E2471D36C"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7C5A0630C6C5EF09"]
+			id: "1BDBFAC246AC5ACD"
+			rewards: [
+				{
+					count: 62
+					id: "6DE8C41D6741BD43"
+					item: {
+						count: 1
+						id: "pokeblocks:poke_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "090A3A15E1A33D0A"
+					item: {
+						count: 1
+						id: "pokeblocks:dime"
+					}
+					type: "item"
+				}
+				{
+					id: "27D3DD830A05B31D"
+					item: {
+						count: 1
+						id: "pokeblocks:nickel"
+					}
+					type: "item"
+				}
+				{
+					id: "1C4A3349E5BE2FD4"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier4"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "74DDFF3EE6DA7581"
+					loot_tier: 3b
+					play_sound: true
+					type: "pixelgoquests:pokeloot"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				advancement: "pixelgobattletower:league_rival"
+				criterion: ""
+				id: "79550D468F96A615"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1BDBFAC246AC5ACD"]
+			id: "6096808D07872933"
+			rewards: [
+				{
+					id: "328ED5639DD61B8F"
+					item: {
+						components: {
+							"treasurebags:bag_type": "pixelgo:tier4"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "76425F091E95FA76"
+					loot_tier: 3b
+					play_sound: true
+					type: "pixelgoquests:pokeloot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "667EA0CAA6C2A044"
+				item: { count: 1, id: "pixelgobattletower:league_trophy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+	]
+}

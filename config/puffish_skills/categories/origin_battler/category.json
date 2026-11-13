@@ -1,0 +1,24 @@
+{
+  "title": {
+    "translate": "pixelgo_origins.tree.battler.title",
+    "fallback": "Dojo",
+    "color": "#FFB347",
+    "bold": true
+  },
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "pixelmon:power_weight"
+    }
+  },
+  "background": {
+    "texture": "minecraft:textures/block/stripped_spruce_log.png",
+    "width": 16,
+    "height": 16,
+    "position": "tile"
+  },
+  "starting_points": 1,
+  "unlocked_by_default": false,
+  "erase_on_death": false,
+  "exclusive_root": false
+}

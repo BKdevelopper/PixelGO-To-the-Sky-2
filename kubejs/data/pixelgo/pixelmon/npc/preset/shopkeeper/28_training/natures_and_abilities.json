@@ -1,0 +1,468 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.natures_and_abilities",
+                  "message": "pixelgo.npc.natures_and_abilities.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_hardy",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_serious",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_docile",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_bashful",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_quirky",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_lonely",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_brave",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_adamant",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_naughty",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_bold",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_impish",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_lax",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_timid",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_hasty",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_jolly",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_naive",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_modest",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_mild",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_quiet",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_rash",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_calm",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_gentle",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_sassy",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_careful",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:mint_relaxed",
+                        "count": 1
+                      },
+                      "buyPrice": 108,
+                      "sellPrice": 32.4
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:ability_capsule",
+                        "count": 1
+                      },
+                      "buyPrice": 540,
+                      "sellPrice": 162
+                    },
+                    {
+                      "item": {
+                        "id": "pixelmon:ability_patch",
+                        "count": 1
+                      },
+                      "buyPrice": 3600,
+                      "sellPrice": 1080
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.natures_and_abilities",
+                  "message": "pixelgo.npc.natures_and_abilities.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.natures_and_abilities",
+        "color": "#FF55FF",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

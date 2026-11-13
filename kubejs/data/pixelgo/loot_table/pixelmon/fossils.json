@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:sail_fossil",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:dome_fossil",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:claw_fossil",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:plume_fossil",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:root_fossil",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:jaw_fossil",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:old_amber",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:skull_fossil",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:armor_fossil",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelmon:helix_fossil",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

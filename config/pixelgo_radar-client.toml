@@ -1,0 +1,23 @@
+[general]
+	show_compass = true
+	show_owned = true
+	show_shiny = true
+	show_legendary = true
+	show_boss = true
+	show_palettes = true
+	show_npc = false
+	show_raid = true
+	pokemon_name = ""
+	pokemon_gender = "any"
+	pokemon_tera_type = "any"
+	pokemon_palette = "any"
+	pokemon_form = "any"
+
+[places]
+	show_pokestop_common = true
+	show_pokestop_rare = true
+	show_pokestop_legendary = true
+	show_chest_poke = false
+	show_chest_ultra = false
+	show_chest_master = false
+	show_chest_beast = false

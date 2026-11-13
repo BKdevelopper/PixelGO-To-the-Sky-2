@@ -1,0 +1,32 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Dimension Timer",
+    "color": "dark_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "There are no chat warnings.",
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": " The counter in the "
+      },
+      {
+        "text": "bottom right",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": " of your screen is the only thing that will tell you. Look at it."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

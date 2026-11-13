@@ -1,0 +1,48 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pokemon",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Your cobblestone generator levels up your skill tree on its own.",
+        "color": "gold",
+        "bold": true
+      },
+      {
+        "text": " Mining an ore gives "
+      },
+      {
+        "text": "12",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": ", stone "
+      },
+      {
+        "text": "2",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": ", cobblestone "
+      },
+      {
+        "text": "1",
+        "color": "white",
+        "bold": true
+      },
+      {
+        "text": ". Slowly, but it never stops."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

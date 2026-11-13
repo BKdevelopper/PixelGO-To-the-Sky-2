@@ -1,0 +1,63 @@
+{
+  "id": "Magikarp",
+  "spawnInfos": [
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/rivers",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/freezing",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/magical",
+          "#pixelmon:spawning/lakes",
+          "biomeswevegone:crag_gardens"
+        ]
+      },
+      "rarity": 300
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/drowned",
+          "#pixelmon:spawning/ultra_space"
+        ]
+      },
+      "rarity": 300
+    },
+    {
+      "spec": "species:Magikarp palette:valencian",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 5
+    }
+  ]
+}

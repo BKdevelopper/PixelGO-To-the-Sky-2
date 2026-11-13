@@ -1,0 +1,476 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.tools",
+                  "message": "pixelgo.npc.tools.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "minecraft:fishing_rod",
+                        "count": 1
+                      },
+                      "buyPrice": 7,
+                      "sellPrice": 2.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:shears",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:diamond_axe",
+                        "count": 1
+                      },
+                      "buyPrice": 842,
+                      "sellPrice": 252.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:golden_axe",
+                        "count": 1
+                      },
+                      "buyPrice": 182,
+                      "sellPrice": 54.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:iron_axe",
+                        "count": 1
+                      },
+                      "buyPrice": 47,
+                      "sellPrice": 14.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:netherite_axe",
+                        "count": 1
+                      },
+                      "buyPrice": 3092,
+                      "sellPrice": 927.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:stone_axe",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:wooden_axe",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:diamond_hoe",
+                        "count": 1
+                      },
+                      "buyPrice": 562,
+                      "sellPrice": 168.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:golden_hoe",
+                        "count": 1
+                      },
+                      "buyPrice": 122,
+                      "sellPrice": 36.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:iron_hoe",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:netherite_hoe",
+                        "count": 1
+                      },
+                      "buyPrice": 2842,
+                      "sellPrice": 852.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:stone_hoe",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:wooden_hoe",
+                        "count": 1
+                      },
+                      "buyPrice": 6,
+                      "sellPrice": 1.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:diamond_pickaxe",
+                        "count": 1
+                      },
+                      "buyPrice": 842,
+                      "sellPrice": 252.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:golden_pickaxe",
+                        "count": 1
+                      },
+                      "buyPrice": 182,
+                      "sellPrice": 54.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:iron_pickaxe",
+                        "count": 1
+                      },
+                      "buyPrice": 47,
+                      "sellPrice": 14.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:netherite_pickaxe",
+                        "count": 1
+                      },
+                      "buyPrice": 3092,
+                      "sellPrice": 927.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:stone_pickaxe",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:wooden_pickaxe",
+                        "count": 1
+                      },
+                      "buyPrice": 8,
+                      "sellPrice": 2.4
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:diamond_shovel",
+                        "count": 1
+                      },
+                      "buyPrice": 282,
+                      "sellPrice": 84.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:golden_shovel",
+                        "count": 1
+                      },
+                      "buyPrice": 62,
+                      "sellPrice": 18.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:iron_shovel",
+                        "count": 1
+                      },
+                      "buyPrice": 17,
+                      "sellPrice": 5.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:netherite_shovel",
+                        "count": 1
+                      },
+                      "buyPrice": 2592,
+                      "sellPrice": 777.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:stone_shovel",
+                        "count": 1
+                      },
+                      "buyPrice": 3,
+                      "sellPrice": 0.9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:wooden_shovel",
+                        "count": 1
+                      },
+                      "buyPrice": 4,
+                      "sellPrice": 1.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:carrot_on_a_stick",
+                        "count": 1
+                      },
+                      "buyPrice": 9,
+                      "sellPrice": 2.7
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:warped_fungus_on_a_stick",
+                        "count": 1
+                      },
+                      "buyPrice": 11,
+                      "sellPrice": 3.3
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.tools",
+                  "message": "pixelgo.npc.tools.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.tools",
+        "color": "#A0A0FF",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

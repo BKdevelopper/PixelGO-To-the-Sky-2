@@ -1,0 +1,24 @@
+{
+  "type": "botanypots:block_derived_crop",
+  "block": "minecraft:pumpkin_stem",
+  "display": {
+    "type": "botanypots:simple",
+    "block_state": {
+      "block": "minecraft:pumpkin"
+    }
+  },
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "minecraft:pumpkin",
+            "count": 1
+          }
+        }
+      ]
+    }
+  ],
+  "grow_time": 2400
+}

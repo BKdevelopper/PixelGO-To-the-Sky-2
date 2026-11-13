@@ -1,0 +1,229 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "name": "utils",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "mekanism:ultimate_energy_cube"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "sophisticatedbackpacks:inception_upgrade"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "extendedcrafting:ultimate_singularity"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 60,
+          "name": "pipez:ultimate_upgrade"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "pipez:infinity_upgrade"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "pixelgoitems:add_iv_atk",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "pixelgoitems:add_iv_def",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "pixelgoitems:add_iv_hp",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "pixelgoitems:add_iv_spatk",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "pixelgoitems:add_iv_spd",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "pixelgoitems:add_iv_spdef",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "pixelgoitems:random_ev",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "havencobblegens:diamond_cobble_gen"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "excompressum:compressed_netherite_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "powerpots:power_pot_3"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "refinedstorage:64k_storage_disk"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "sophisticatedbackpacks:stack_upgrade_tier_4"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "treasurebags:treasure_bag",
+          "functions": [
+            {
+              "function": "treasurebags:set_bag_type",
+              "bag_type": "pixelgo:tier4"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "mysticalagradditions:creative_essence"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "ironfurnaces:netherite_furnace"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "mysticalagradditions:insanium_farmland"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:nether_star"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "pixelmon:poke_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "pixelmon:poke_ball": "master_ball"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

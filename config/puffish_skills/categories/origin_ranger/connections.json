@@ -1,0 +1,70 @@
+{
+  "normal": {
+    "unidirectional": [
+      [
+        "root",
+        "quick_draw"
+      ],
+      [
+        "quick_draw",
+        "curveball"
+      ],
+      [
+        "curveball",
+        "pinpoint"
+      ],
+      [
+        "pinpoint",
+        "master_throw"
+      ],
+      [
+        "root",
+        "sharp_eyes"
+      ],
+      [
+        "sharp_eyes",
+        "tracker"
+      ],
+      [
+        "tracker",
+        "glint_spotter"
+      ],
+      [
+        "glint_spotter",
+        "shiny_tracker"
+      ],
+      [
+        "root",
+        "trail_runner"
+      ],
+      [
+        "trail_runner",
+        "cliff_hopper"
+      ],
+      [
+        "cliff_hopper",
+        "sure_footing"
+      ],
+      [
+        "master_throw",
+        "tailwind"
+      ],
+      [
+        "shiny_tracker",
+        "tailwind"
+      ],
+      [
+        "sure_footing",
+        "tailwind"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": [
+      [
+        "master_throw",
+        "shiny_tracker"
+      ]
+    ]
+  }
+}

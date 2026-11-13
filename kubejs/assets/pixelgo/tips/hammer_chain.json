@@ -1,0 +1,27 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Sieve & Hammer",
+    "color": "gold",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "Hold a "
+      },
+      {
+        "text": "hammer",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " and break a block by hand: cobblestone becomes gravel, gravel becomes sand, sand becomes dust."
+      }
+    ]
+  },
+  "cycle_time": 7000
+}

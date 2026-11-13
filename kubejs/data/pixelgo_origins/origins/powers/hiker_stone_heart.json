@@ -1,0 +1,19 @@
+{
+  "type": "neoorigins:persistent_effect",
+  "toggleable": false,
+  "ambient": true,
+  "show_particles": false,
+  "show_icon": true,
+  "effects": [
+    {
+      "effect": "minecraft:haste",
+      "amplifier": 0
+    }
+  ],
+  "hidden": true,
+  "power_condition": {
+    "type": "neoorigins:origin",
+    "origin": "pixelgo_origins:hiker"
+  },
+  "power_condition_mode": "ALLOW"
+}

@@ -1,0 +1,70 @@
+{
+  "normal": {
+    "unidirectional": [
+      [
+        "root",
+        "orchard_care"
+      ],
+      [
+        "orchard_care",
+        "pollinator"
+      ],
+      [
+        "pollinator",
+        "bumper_crop"
+      ],
+      [
+        "bumper_crop",
+        "master_grower"
+      ],
+      [
+        "root",
+        "berry_treats"
+      ],
+      [
+        "berry_treats",
+        "herbal_remedy"
+      ],
+      [
+        "herbal_remedy",
+        "berry_farmer"
+      ],
+      [
+        "berry_farmer",
+        "herbalist"
+      ],
+      [
+        "root",
+        "sap_blood"
+      ],
+      [
+        "sap_blood",
+        "four_leaf"
+      ],
+      [
+        "four_leaf",
+        "woodcutter"
+      ],
+      [
+        "master_grower",
+        "bountiful_harvest"
+      ],
+      [
+        "herbalist",
+        "bountiful_harvest"
+      ],
+      [
+        "woodcutter",
+        "bountiful_harvest"
+      ]
+    ]
+  },
+  "exclusive": {
+    "bidirectional": [
+      [
+        "master_grower",
+        "herbalist"
+      ]
+    ]
+  }
+}

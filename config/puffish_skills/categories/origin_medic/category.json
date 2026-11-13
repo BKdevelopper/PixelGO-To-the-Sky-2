@@ -1,0 +1,24 @@
+{
+  "title": {
+    "translate": "pixelgo_origins.tree.medic.title",
+    "fallback": "Pokémon Centre",
+    "color": "#7FE0C8",
+    "bold": true
+  },
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "pixelmon:full_restore"
+    }
+  },
+  "background": {
+    "texture": "minecraft:textures/block/pink_concrete.png",
+    "width": 16,
+    "height": 16,
+    "position": "tile"
+  },
+  "starting_points": 1,
+  "unlocked_by_default": false,
+  "erase_on_death": false,
+  "exclusive_root": false
+}

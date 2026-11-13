@@ -1,0 +1,652 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.ocean",
+                  "message": "pixelgo.npc.ocean.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "minecraft:conduit",
+                        "count": 1
+                      },
+                      "buyPrice": 1140,
+                      "sellPrice": 342
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:heart_of_the_sea",
+                        "count": 1
+                      },
+                      "buyPrice": 500,
+                      "sellPrice": 150
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:kelp",
+                        "count": 1
+                      },
+                      "buyPrice": 1,
+                      "sellPrice": 0.3
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:sea_pickle",
+                        "count": 1
+                      },
+                      "buyPrice": 5,
+                      "sellPrice": 1.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:seagrass",
+                        "count": 1
+                      },
+                      "buyPrice": 2,
+                      "sellPrice": 0.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:sponge",
+                        "count": 1
+                      },
+                      "buyPrice": 300,
+                      "sellPrice": 90
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:turtle_egg",
+                        "count": 1
+                      },
+                      "buyPrice": 60,
+                      "sellPrice": 18
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:wet_sponge",
+                        "count": 1
+                      },
+                      "buyPrice": 300,
+                      "sellPrice": 90
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brain_coral",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brain_coral_block",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:brain_coral_fan",
+                        "count": 1
+                      },
+                      "buyPrice": 25,
+                      "sellPrice": 7.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_brain_coral",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_brain_coral_block",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_brain_coral_fan",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:bubble_coral",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:bubble_coral_block",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:bubble_coral_fan",
+                        "count": 1
+                      },
+                      "buyPrice": 25,
+                      "sellPrice": 7.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_bubble_coral",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_bubble_coral_block",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_bubble_coral_fan",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_fire_coral",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_fire_coral_block",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_fire_coral_fan",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:fire_coral",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:fire_coral_block",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:fire_coral_fan",
+                        "count": 1
+                      },
+                      "buyPrice": 25,
+                      "sellPrice": 7.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_horn_coral",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_horn_coral_block",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_horn_coral_fan",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:horn_coral",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:horn_coral_block",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:horn_coral_fan",
+                        "count": 1
+                      },
+                      "buyPrice": 25,
+                      "sellPrice": 7.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_tube_coral",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_tube_coral_block",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dead_tube_coral_fan",
+                        "count": 1
+                      },
+                      "buyPrice": 15,
+                      "sellPrice": 4.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:tube_coral",
+                        "count": 1
+                      },
+                      "buyPrice": 20,
+                      "sellPrice": 6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:tube_coral_block",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:tube_coral_fan",
+                        "count": 1
+                      },
+                      "buyPrice": 25,
+                      "sellPrice": 7.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:prismarine_crystals",
+                        "count": 1
+                      },
+                      "buyPrice": 40,
+                      "sellPrice": 12
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:prismarine_shard",
+                        "count": 1
+                      },
+                      "buyPrice": 30,
+                      "sellPrice": 9
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:prismarine_brick_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 135,
+                      "sellPrice": 40.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:prismarine_brick_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 405,
+                      "sellPrice": 121.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:prismarine_bricks",
+                        "count": 1
+                      },
+                      "buyPrice": 270,
+                      "sellPrice": 81
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dark_prismarine",
+                        "count": 1
+                      },
+                      "buyPrice": 245,
+                      "sellPrice": 73.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dark_prismarine_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 122.5,
+                      "sellPrice": 36.75
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dark_prismarine_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 367.5,
+                      "sellPrice": 110.25
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:prismarine",
+                        "count": 1
+                      },
+                      "buyPrice": 120,
+                      "sellPrice": 36
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:prismarine_slab",
+                        "count": 1
+                      },
+                      "buyPrice": 60,
+                      "sellPrice": 18
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:prismarine_stairs",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:prismarine_wall",
+                        "count": 1
+                      },
+                      "buyPrice": 120,
+                      "sellPrice": 36
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.ocean",
+                  "message": "pixelgo.npc.ocean.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.ocean",
+        "color": "#3FA9F5",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

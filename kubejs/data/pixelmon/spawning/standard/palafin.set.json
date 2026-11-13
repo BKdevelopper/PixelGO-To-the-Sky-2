@@ -1,0 +1,29 @@
+{
+  "id": "Palafin",
+  "spawnInfos": [
+    {
+      "spec": "species:Palafin",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "terralith:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "biomeswevegone:lush_stacks"
+        ]
+      },
+      "rarity": 20
+    }
+  ]
+}

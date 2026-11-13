@@ -1,0 +1,724 @@
+{
+  "root": {
+    "title": {
+      "translate": "pixelgo_origins.tree.ranger.root.title",
+      "fallback": "Field Instinct",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_catch_rate",
+          "with": [
+            "3"
+          ],
+          "fallback": "+3%% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_movement_speed",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2%% movement speed",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.ranger.root.flavor",
+      "fallback": "Every bush hides something.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "poke_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 3,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.02,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "quick_draw": {
+    "title": {
+      "translate": "pixelgo_origins.tree.ranger.quick_draw.title",
+      "fallback": "Quick Draw",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_catch_rate",
+          "with": [
+            "4"
+          ],
+          "fallback": "+4%% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "great_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 4,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "curveball": {
+    "title": {
+      "translate": "pixelgo_origins.tree.ranger.curveball.title",
+      "fallback": "Curveball",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_catch_rate",
+          "with": [
+            "5"
+          ],
+          "fallback": "+5%% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "ultra_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "pinpoint": {
+    "title": {
+      "translate": "pixelgo_origins.tree.ranger.pinpoint.title",
+      "fallback": "Pinpoint",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_catch_rate",
+          "with": [
+            "6"
+          ],
+          "fallback": "+6%% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "quick_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 6,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "master_throw": {
+    "title": {
+      "translate": "pixelgo_origins.tree.ranger.master_throw.title",
+      "fallback": "Master Throw",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_catch_rate",
+          "with": [
+            "12"
+          ],
+          "fallback": "+12%% catch bonus",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.ranger.master_throw.flavor",
+      "fallback": "Specialisation: capture.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "beast_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 12,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "sharp_eyes": {
+    "title": {
+      "translate": "pixelgo_origins.tree.ranger.sharp_eyes.title",
+      "fallback": "Sharp Eyes",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_shiny_odds",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 shiny roll(s) on wild spawns",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:stardust"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "tracker": {
+    "title": {
+      "translate": "pixelgo_origins.tree.ranger.tracker.title",
+      "fallback": "Tracker",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_catch_rate",
+          "with": [
+            "4"
+          ],
+          "fallback": "+4%% catch bonus",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:poke_ball",
+        "components": {
+          "pixelmon:poke_ball": "net_ball"
+        }
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 4,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "glint_spotter": {
+    "title": {
+      "translate": "pixelgo_origins.tree.ranger.glint_spotter.title",
+      "fallback": "Glint Spotter",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_shiny_odds",
+          "with": [
+            "1"
+          ],
+          "fallback": "+1 shiny roll(s) on wild spawns",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:star_piece"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 1,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "shiny_tracker": {
+    "title": {
+      "translate": "pixelgo_origins.tree.ranger.shiny_tracker.title",
+      "fallback": "Shiny Tracker",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_shiny_odds",
+          "with": [
+            "2"
+          ],
+          "fallback": "+2 shiny roll(s) on wild spawns",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.ranger.shiny_tracker.flavor",
+      "fallback": "Specialisation: shiny hunting.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:shiny_charm"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1,
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:shiny_odds",
+          "value": 2,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "trail_runner": {
+    "title": {
+      "translate": "pixelgo_origins.tree.ranger.trail_runner.title",
+      "fallback": "Trail Runner",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_movement_speed",
+          "with": [
+            "3"
+          ],
+          "fallback": "+3%% movement speed",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.03,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "cliff_hopper": {
+    "title": {
+      "translate": "pixelgo_origins.tree.ranger.cliff_hopper.title",
+      "fallback": "Cliff Hopper",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_safe_fall_distance",
+          "with": [
+            "3"
+          ],
+          "fallback": "+3 blocks of safe fall",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.safe_fall_distance",
+          "value": 3,
+          "operation": "add_value"
+        }
+      }
+    ]
+  },
+  "sure_footing": {
+    "title": {
+      "translate": "pixelgo_origins.tree.ranger.sure_footing.title",
+      "fallback": "Sure Footing",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_step_height",
+          "with": [
+            "0.5"
+          ],
+          "fallback": "+0.5 step height",
+          "color": "#9BE7FF",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.minecraft_generic_movement_speed",
+          "with": [
+            "3"
+          ],
+          "fallback": "+3%% movement speed",
+          "color": "#9BE7FF",
+          "italic": false
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ladder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1,
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.step_height",
+          "value": 0.5,
+          "operation": "add_value"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.03,
+          "operation": "add_multiplied_base"
+        }
+      }
+    ]
+  },
+  "tailwind": {
+    "title": {
+      "translate": "pixelgo_origins.tree.ranger.tailwind.title",
+      "fallback": "Tailwind",
+      "color": "#FF6B6B",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "text": "",
+      "italic": false,
+      "extra": [
+        {
+          "translate": "pixelgo_origins.tree.ranger.tailwind.power",
+          "fallback": "Permanent Speed I.",
+          "color": "#FFE9A3",
+          "italic": false
+        },
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "pixelgo_origins.fx.pixelgo_catch_rate",
+          "with": [
+            "5"
+          ],
+          "fallback": "+5%% catch bonus",
+          "color": "#FFE9A3",
+          "italic": false
+        }
+      ]
+    },
+    "extra_description": {
+      "translate": "pixelgo_origins.tree.ranger.tailwind.flavor",
+      "fallback": "The wind always blows your way.",
+      "color": "#8A8A8A",
+      "italic": true
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "pixelmon:escape_rope"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "size": 2,
+    "cost": 3,
+    "required_spent_points": 12,
+    "rewards": [
+      {
+        "type": "neofishcompat:unlock_power",
+        "data": {
+          "power": "pixelgo_origins:ranger_tailwind"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "pixelgo:catch_rate",
+          "value": 5,
+          "operation": "add_value"
+        }
+      }
+    ]
+  }
+}

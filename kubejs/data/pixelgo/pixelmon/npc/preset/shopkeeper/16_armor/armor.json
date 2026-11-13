@@ -1,0 +1,652 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.armor",
+                  "message": "pixelgo.npc.armor.greeting",
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_dialogue",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "items": [
+                    {
+                      "item": {
+                        "id": "minecraft:armor_stand",
+                        "count": 1
+                      },
+                      "buyPrice": 7.5,
+                      "sellPrice": 2.25
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:chainmail_boots",
+                        "count": 1
+                      },
+                      "buyPrice": 65,
+                      "sellPrice": 19.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:chainmail_chestplate",
+                        "count": 1
+                      },
+                      "buyPrice": 120,
+                      "sellPrice": 36
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:chainmail_helmet",
+                        "count": 1
+                      },
+                      "buyPrice": 70,
+                      "sellPrice": 21
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:chainmail_leggings",
+                        "count": 1
+                      },
+                      "buyPrice": 105,
+                      "sellPrice": 31.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:diamond_boots",
+                        "count": 1
+                      },
+                      "buyPrice": 1120,
+                      "sellPrice": 336
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:diamond_chestplate",
+                        "count": 1
+                      },
+                      "buyPrice": 2240,
+                      "sellPrice": 672
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:diamond_helmet",
+                        "count": 1
+                      },
+                      "buyPrice": 1400,
+                      "sellPrice": 420
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:diamond_leggings",
+                        "count": 1
+                      },
+                      "buyPrice": 1960,
+                      "sellPrice": 588
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:golden_boots",
+                        "count": 1
+                      },
+                      "buyPrice": 240,
+                      "sellPrice": 72
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:golden_chestplate",
+                        "count": 1
+                      },
+                      "buyPrice": 480,
+                      "sellPrice": 144
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:golden_helmet",
+                        "count": 1
+                      },
+                      "buyPrice": 300,
+                      "sellPrice": 90
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:golden_leggings",
+                        "count": 1
+                      },
+                      "buyPrice": 420,
+                      "sellPrice": 126
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:iron_boots",
+                        "count": 1
+                      },
+                      "buyPrice": 60,
+                      "sellPrice": 18
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:iron_chestplate",
+                        "count": 1
+                      },
+                      "buyPrice": 120,
+                      "sellPrice": 36
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:iron_helmet",
+                        "count": 1
+                      },
+                      "buyPrice": 75,
+                      "sellPrice": 22.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:iron_leggings",
+                        "count": 1
+                      },
+                      "buyPrice": 105,
+                      "sellPrice": 31.5
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:leather_boots",
+                        "count": 1
+                      },
+                      "buyPrice": 32,
+                      "sellPrice": 9.6
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:leather_helmet",
+                        "count": 1
+                      },
+                      "buyPrice": 40,
+                      "sellPrice": 12
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:leather_leggings",
+                        "count": 1
+                      },
+                      "buyPrice": 56,
+                      "sellPrice": 16.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:leather_chestplate",
+                        "count": 1
+                      },
+                      "buyPrice": 64,
+                      "sellPrice": 19.2
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:netherite_boots",
+                        "count": 1
+                      },
+                      "buyPrice": 3340,
+                      "sellPrice": 1002
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:netherite_chestplate",
+                        "count": 1
+                      },
+                      "buyPrice": 4340,
+                      "sellPrice": 1302
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:netherite_helmet",
+                        "count": 1
+                      },
+                      "buyPrice": 3640,
+                      "sellPrice": 1092
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:netherite_leggings",
+                        "count": 1
+                      },
+                      "buyPrice": 4140,
+                      "sellPrice": 1242
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:shield",
+                        "count": 1
+                      },
+                      "buyPrice": 27,
+                      "sellPrice": 8.1
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:turtle_helmet",
+                        "count": 1
+                      },
+                      "buyPrice": 150,
+                      "sellPrice": 45
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:diamond_horse_armor",
+                        "count": 1
+                      },
+                      "buyPrice": 1000,
+                      "sellPrice": 300
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:golden_horse_armor",
+                        "count": 1
+                      },
+                      "buyPrice": 300,
+                      "sellPrice": 90
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:iron_horse_armor",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:leather_horse_armor",
+                        "count": 1
+                      },
+                      "buyPrice": 56,
+                      "sellPrice": 16.8
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:bolt_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 2000,
+                      "sellPrice": 600
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:coast_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 850,
+                      "sellPrice": 255
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:dune_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 850,
+                      "sellPrice": 255
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:eye_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 1700,
+                      "sellPrice": 510
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:flow_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 2000,
+                      "sellPrice": 600
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:host_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 1700,
+                      "sellPrice": 510
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:raiser_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 1100,
+                      "sellPrice": 330
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:rib_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 1300,
+                      "sellPrice": 390
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:sentry_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 1300,
+                      "sellPrice": 390
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:shaper_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 1100,
+                      "sellPrice": 330
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:silence_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 2200,
+                      "sellPrice": 660
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:snout_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 1300,
+                      "sellPrice": 390
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:spire_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 1700,
+                      "sellPrice": 510
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:tide_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 2200,
+                      "sellPrice": 660
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:vex_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 1700,
+                      "sellPrice": 510
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:ward_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 2200,
+                      "sellPrice": 660
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:wayfinder_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 1100,
+                      "sellPrice": 330
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:wild_armor_trim_smithing_template",
+                        "count": 1
+                      },
+                      "buyPrice": 1300,
+                      "sellPrice": 390
+                    },
+                    {
+                      "item": {
+                        "id": "minecraft:wolf_armor",
+                        "count": 1
+                      },
+                      "buyPrice": 180,
+                      "sellPrice": 54
+                    }
+                  ],
+                  "sellable": true,
+                  "type": "pixelmon:open_shop"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          },
+          {
+            "event": "pixelmon:close_shop",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "pixelgo.npc.armor",
+                  "message": "pixelgo.npc.armor.goodbye",
+                  "fire_close_event": false,
+                  "type": "pixelmon:open_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20,
+      "eyeHeight": 1,
+      "dimensions": {
+        "width": 1,
+        "height": 2
+      },
+      "title": {
+        "translate": "pixelgo.npc.armor",
+        "color": "#00AAAA",
+        "bold": true,
+        "italic": false,
+        "underlined": false
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": true
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "Yuki",
+      "Basile",
+      "Nadia",
+      "Tom",
+      "Hrann",
+      "Zinnia",
+      "Pinea",
+      "Bargas",
+      "Lou",
+      "Maëlle",
+      "Sacha",
+      "Inès"
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman.png",
+            "fallback": "pixelmon:textures/steve/shopman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman2.png",
+            "fallback": "pixelmon:textures/steve/shopman2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman3.png",
+            "fallback": "pixelmon:textures/steve/shopman3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman4.png",
+            "fallback": "pixelmon:textures/steve/shopman4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopman5.png",
+            "fallback": "pixelmon:textures/steve/shopman5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady.png",
+            "fallback": "pixelmon:textures/steve/shoplady.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady2.png",
+            "fallback": "pixelmon:textures/steve/shoplady2.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady3.png",
+            "fallback": "pixelmon:textures/steve/shoplady3.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady4.png",
+            "fallback": "pixelmon:textures/steve/shoplady4.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shoplady5.png",
+            "fallback": "pixelmon:textures/steve/shoplady5.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopgirl.png",
+            "fallback": "pixelmon:textures/steve/shopgirl.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      },
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/shopsecondman.png",
+            "fallback": "pixelmon:textures/steve/shopsecondman.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "ai_provider": {
+    "type": "pixelmon:constant",
+    "value": {
+      "type": "pixelmon:stand_and_look",
+      "look_distance": 5,
+      "swim": false
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "root": {
+    "definition": "root",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "sparring": {
+    "definition": "sparring",
+    "x": -72,
+    "y": -42
+  },
+  "gauntlet": {
+    "definition": "gauntlet",
+    "x": -72,
+    "y": -88
+  },
+  "champion_pace": {
+    "definition": "champion_pace",
+    "x": -72,
+    "y": -134
+  },
+  "exp_mastery": {
+    "definition": "exp_mastery",
+    "x": -72,
+    "y": -184
+  },
+  "protein_diet": {
+    "definition": "protein_diet",
+    "x": 72,
+    "y": -42
+  },
+  "iron_regimen": {
+    "definition": "iron_regimen",
+    "x": 72,
+    "y": -88
+  },
+  "heavy_load": {
+    "definition": "heavy_load",
+    "x": 72,
+    "y": -134
+  },
+  "effort_specialist": {
+    "definition": "effort_specialist",
+    "x": 72,
+    "y": -184
+  },
+  "tough_skin": {
+    "definition": "tough_skin",
+    "x": 0,
+    "y": -50
+  },
+  "hard_hitter": {
+    "definition": "hard_hitter",
+    "x": 0,
+    "y": -96
+  },
+  "unshakable": {
+    "definition": "unshakable",
+    "x": 0,
+    "y": -142
+  },
+  "fighting_spirit": {
+    "definition": "fighting_spirit",
+    "x": 0,
+    "y": -214
+  }
+}

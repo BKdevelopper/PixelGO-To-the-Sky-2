@@ -1,0 +1,15 @@
+#Show the "sell everything" icon on the Pixelmon inventory screen.
+showSellButton = true
+#Horizontal position of the 13x13 icon, relative to the left edge of the inventory panel.
+#The default sits in the free corner between the lure slot, the money bar and the item grid.
+# Default: -7
+# Range: -512 ~ 512
+sellButtonOffsetX = -7
+#Vertical position of the 13x13 icon, relative to the top edge of the inventory panel.
+# Default: 134
+# Range: -512 ~ 512
+sellButtonOffsetY = 134
+#Highlight the items the icon would sell, and list them on it, before anything is sold.
+#With this on, the first click on the icon shows the sale and the second one confirms it.
+#With it off, one click runs /pixelsell all and Pixelmon asks for confirmation in a dialogue.
+showSellPreview = true

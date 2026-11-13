@@ -1,0 +1,42 @@
+{
+  "name": "origins.pixelgo_origins.hiker.name",
+  "description": "origins.pixelgo_origins.hiker.description",
+  "icon": "pixelmon:helix_fossil",
+  "impact": "medium",
+  "order": 8,
+  "powers": [
+    "pixelgo_origins:hiker_fossil_nose",
+    "pixelgo_origins:hiker_rock_breaker",
+    "pixelgo_origins:hiker_sturdy",
+    "pixelgo_origins:hiker_heavy_bones",
+    "pixelgo_origins:hiker_skill_tree"
+  ],
+  "upgrades": [],
+  "tier_powers": [
+    {
+      "tier": 1,
+      "add": [
+        "pixelgo_origins:hiker_evolution_1"
+      ],
+      "remove": []
+    },
+    {
+      "tier": 2,
+      "add": [
+        "pixelgo_origins:hiker_evolution_2"
+      ],
+      "remove": [
+        "pixelgo_origins:hiker_evolution_1"
+      ]
+    },
+    {
+      "tier": 3,
+      "add": [
+        "pixelgo_origins:hiker_evolution_3"
+      ],
+      "remove": [
+        "pixelgo_origins:hiker_evolution_2"
+      ]
+    }
+  ]
+}

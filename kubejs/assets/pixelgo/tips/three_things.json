@@ -1,0 +1,51 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Skyblock",
+    "color": "green",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "The three things you need first: a "
+      },
+      {
+        "text": "cobblestone generator",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": ", a "
+      },
+      {
+        "text": "sieve",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": ", and a "
+      },
+      {
+        "text": "crucible",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": ". The chapter "
+      },
+      {
+        "text": "The beginning",
+        "color": "aqua",
+        "bold": true
+      },
+      {
+        "text": " walks you through all three."
+      }
+    ]
+  },
+  "cycle_time": 8000
+}

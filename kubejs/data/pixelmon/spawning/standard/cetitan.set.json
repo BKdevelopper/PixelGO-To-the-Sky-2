@@ -1,0 +1,25 @@
+{
+  "id": "Cetitan",
+  "spawnInfos": [
+    {
+      "spec": "species:Cetitan",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:snowy_beach",
+          "terralith:glacial_chasm"
+        ]
+      },
+      "rarity": 1
+    }
+  ]
+}

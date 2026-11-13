@@ -1,0 +1,35 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Pokemon",
+    "color": "light_purple",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "The "
+      },
+      {
+        "text": "PokeNav",
+        "color": "green",
+        "bold": true
+      },
+      {
+        "text": " is "
+      },
+      {
+        "text": "/checkspawn",
+        "color": "aqua",
+        "bold": true
+      },
+      {
+        "text": " in your pocket: every Pokemon that can spawn where you stand, with the same percentages and the conditions behind each one."
+      }
+    ]
+  },
+  "cycle_time": 9000
+}

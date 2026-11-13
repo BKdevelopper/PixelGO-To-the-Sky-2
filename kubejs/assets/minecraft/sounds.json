@@ -1,0 +1,28 @@
+{
+  "ui.button.click": {
+    "sounds": [          
+        {
+          "name": "custom/click",
+          "volume": 0.5
+        }	
+    ],
+	"replace": true
+  },
+  "ui.toast.challenge_complete": {
+    "sounds": [
+      "custom/challenge"
+    ],
+  "replace": true
+  },  
+  "pixelgo.pikachu": {
+    "sounds": [
+      "custom/pikachu"
+    ]
+  },  
+  "pixelgo.magikarp": {
+    "sounds": [
+      "custom/magikarp"
+    ]
+  }
+}
+

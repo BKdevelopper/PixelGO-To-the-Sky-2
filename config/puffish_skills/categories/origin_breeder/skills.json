@@ -1,0 +1,68 @@
+{
+  "root": {
+    "definition": "root",
+    "x": 0,
+    "y": 0,
+    "root": true
+  },
+  "incubation": {
+    "definition": "incubation",
+    "x": -72,
+    "y": -42
+  },
+  "brooding": {
+    "definition": "brooding",
+    "x": -72,
+    "y": -88
+  },
+  "nursery": {
+    "definition": "nursery",
+    "x": -72,
+    "y": -134
+  },
+  "hatchery_master": {
+    "definition": "hatchery_master",
+    "x": -72,
+    "y": -184
+  },
+  "lullaby": {
+    "definition": "lullaby",
+    "x": 72,
+    "y": -42
+  },
+  "gentle_touch": {
+    "definition": "gentle_touch",
+    "x": 72,
+    "y": -88
+  },
+  "comfort_food": {
+    "definition": "comfort_food",
+    "x": 72,
+    "y": -134
+  },
+  "best_friends": {
+    "definition": "best_friends",
+    "x": 72,
+    "y": -184
+  },
+  "clean_pens": {
+    "definition": "clean_pens",
+    "x": 0,
+    "y": -50
+  },
+  "family_ties": {
+    "definition": "family_ties",
+    "x": 0,
+    "y": -96
+  },
+  "busy_days": {
+    "definition": "busy_days",
+    "x": 0,
+    "y": -142
+  },
+  "twin_clutch": {
+    "definition": "twin_clutch",
+    "x": 0,
+    "y": -214
+  }
+}

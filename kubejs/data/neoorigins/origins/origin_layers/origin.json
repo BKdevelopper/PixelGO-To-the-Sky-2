@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "order": 1,
+  "name": "origins.layer.origin",
+  "origins": [
+    "pixelgo_origins:ranger",
+    "pixelgo_origins:researcher",
+    "pixelgo_origins:battler",
+    "pixelgo_origins:breeder",
+    "pixelgo_origins:medic",
+    "pixelgo_origins:angler",
+    "pixelgo_origins:botanist",
+    "pixelgo_origins:hiker",
+    "pixelgo_origins:scavenger"
+  ],
+  "allow_random": true,
+  "auto_choose": false,
+  "hidden": false,
+  "enabled": true
+}

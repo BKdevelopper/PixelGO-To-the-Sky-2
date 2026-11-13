@@ -1,0 +1,24 @@
+{
+  "type": "tipsmod:simple",
+  "title": {
+    "text": "Careful",
+    "color": "red",
+    "bold": true,
+    "underlined": true
+  },
+  "text": {
+    "text": "",
+    "color": "gray",
+    "extra": [
+      {
+        "text": "The Upgrade Orb deletes your Pokemon if the roll fails.",
+        "color": "red",
+        "bold": true
+      },
+      {
+        "text": " Not fainted, not sent to the PC. Gone. Use it on something you caught twice."
+      }
+    ]
+  },
+  "cycle_time": 9000
+}

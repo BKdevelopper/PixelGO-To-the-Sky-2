@@ -1,0 +1,717 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "minion",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:diamond_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:emerald_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:quartz_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:obsidian_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:glowstone_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:end_stone_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:blackstone_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:nether_wart_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:sunflower_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:fishing_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:lily_pad_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:rabbit_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:zombie_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:skeleton_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:spider_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:cave_spider_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:creeper_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:slime_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:magma_cube_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:enderman_minion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:4}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:diamond_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:emerald_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:quartz_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:obsidian_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:glowstone_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:end_stone_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:blackstone_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:nether_wart_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:sunflower_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:fishing_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:lily_pad_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:rabbit_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:zombie_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:skeleton_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:spider_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:cave_spider_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:creeper_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:slime_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:magma_cube_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:enderman_minion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:mithril_minion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:netherite_minion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:ghast_minion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:blaze_minion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:revenant_minion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:tarantula_minion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:voidling_minion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:inferno_minion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:mithril_minion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:netherite_minion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:ghast_minion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:blaze_minion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:revenant_minion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:tarantula_minion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:voidling_minion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:inferno_minion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:5}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:mithril_minion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:7}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:netherite_minion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:7}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:ghast_minion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:7}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:blaze_minion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:7}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:revenant_minion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:7}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:tarantula_minion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:7}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:voidling_minion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:7}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pixelgo_minions:inferno_minion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{MinionTier:7}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "pixelgo:minions/t4"
+}

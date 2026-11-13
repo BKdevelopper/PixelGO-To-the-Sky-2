@@ -14,4 +14,5 @@
 Étapes :
 1. `python tools/pixelgo-release/bump_version.py [version]`
 2. Remplir la nouvelle section de `CHANGELOG.md` avec les commits depuis le dernier tag (`git log vX.Y..HEAD`).
-3. Commit `Version X.Y`, tag `vX.Y`, `git push --follow-tags`.
+3. Commit `Version X.Y`, tag annoté `git tag -a vX.Y -m "Version X.Y"`, `git push --follow-tags`.
+- Dépôt : https://github.com/BKdevelopper/PixelGO-To-the-Sky-2 (identifiants dans `.git/credentials`, jamais versionnés).

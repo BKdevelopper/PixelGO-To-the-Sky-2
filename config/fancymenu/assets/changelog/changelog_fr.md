@@ -8,6 +8,7 @@
 - L'osmium brut se cuit au four.
 - Chapitre Légendaires en collection : une quête de capture par Pokémon, grand checkmark au centre.
 - Ultra-Chimères et légendaires de Paldea dans le chapitre Légendaires.
+- Chapitre Baies : une quête par baie, récompenses en pièces.
 
 ## Contenu retiré
 

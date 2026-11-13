@@ -8,6 +8,7 @@
 - Raw osmium can be smelted in a furnace.
 - Legendary chapter as a collection: one catch quest per Pokémon, big checkmark in the middle.
 - Ultra Beasts and Paldea legendaries in the Legendary chapter.
+- Berries chapter: one quest per berry, coin rewards.
 
 ## Removed content
 

@@ -23,6 +23,7 @@ node tools/pixelgo-quests/projecte.mjs   # texts of the hand-made ProjectE chapt
 node tools/pixelgo-quests/creative.mjs   # the whole Creative Items chapter (other.snbt): layout + texts
 node tools/pixelgo-quests/refined.mjs    # the whole Refined Storage chapter (ae2.snbt): layout, rewards + texts
 node tools/pixelgo-quests/legendaries.mjs  # the whole Legendary chapter (sinnoh.snbt): collection rings + checkmark
+node tools/pixelgo-quests/berries.mjs      # the whole Berries chapter (berries.snbt): 78 berries, coin rewards
 ```
 
 `legendaries.mjs` (2026-11-13) owns `chapters/sinnoh.snbt`: one Catch (any) quest per legendary,

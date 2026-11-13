@@ -949,7 +949,7 @@
 		""
 		"&c&lA reroll can go down as well as up.&r &7Do not use it on a Pokémon you are happy with."
 		""
-		"&7Crafted at the workbench, or made in the &a&lSoul Binder&r&7 (Ender IO) - &bJEI&7 has both."
+		"&7Made at the &a&lUltimate Crafting Table&r&7 (Extended Crafting) from one of every berry - &bJEI&7 has the recipe."
 	]
 	quest.12BE887D52761FFE.quest_subtitle: "&7Reroll every IV"
 	quest.12BE887D52761FFE.title: "&a&lRandom IV"
@@ -1043,7 +1043,7 @@
 		""
 		"&c&lA reroll can go down as well as up."
 		""
-		"&7Crafted at the workbench, or made in the &a&lAlloy Smelter&r&7 (Ender IO) - &bJEI&7 has both."
+		"&7Made at the &a&lUltimate Crafting Table&r&7 (Extended Crafting) from one of every berry - &bJEI&7 has the recipe."
 	]
 	quest.151A8682A3D91F7A.quest_subtitle: "&7Reroll every EV"
 	quest.151A8682A3D91F7A.title: "&a&lRandom EV"
@@ -1922,6 +1922,14 @@
 	quest.224E1DB4584BD8F6.quest_subtitle: "&7Red Matter Gem Armor"
 	quest.224E1DB4584BD8F6.title: "&c&lGem Boots"
 	quest.225E1007F1A1FA27.quest_desc: ["{quest.storage.description.13}"]
+	quest.22741A6002E09A63.quest_desc: [
+		"&7Right-click one of your Pokémon to reroll &nall&r&7 of its IVs at random."
+		""
+		"&7Made at the &fUltimate Crafting Table&7 (9x9) from one of &aevery berry&7."
+		"&7Recipe in &6JEI&7."
+	]
+	quest.22741A6002E09A63.quest_subtitle: "&7Reroll every IV"
+	quest.22741A6002E09A63.title: "&a&lRandom IV"
 	quest.22A27B0CA2575FDC.quest_desc: [
 		"&7The tier after the &a&lWooden Cobblestone Generator&r&7: faster, and it holds more."
 		""
@@ -4447,7 +4455,7 @@
 	quest.5186CA03AE8B5D04.quest_desc: [
 		"&7Right-click one of your Pokémon to give it a random size."
 		""
-		"&7Crafted at the workbench, or made in the &a&lSolidifier&r&7 (Cyclic) - &bJEI&7 has both."
+		"&7Made at the &a&lUltimate Crafting Table&r&7 (Extended Crafting) from one of every berry - &bJEI&7 has the recipe."
 	]
 	quest.5186CA03AE8B5D04.quest_subtitle: "&7Tiny, huge, or in between"
 	quest.5186CA03AE8B5D04.title: "&a&lRandom Size"
@@ -4884,6 +4892,14 @@
 	]
 	quest.5DF252D342748189.quest_subtitle: "&7No string without them"
 	quest.5DF252D342748189.title: "&e&lSilkworms"
+	quest.5E1ECF869F05BBEC.quest_desc: [
+		"&7Right-click one of your Pokémon to set it to a random level between &f&l1&r&7 and &f&l100&r&7."
+		""
+		"&7Made at the &fUltimate Crafting Table&7 (9x9) from one of &aevery berry&7."
+		"&7Recipe in &6JEI&7."
+	]
+	quest.5E1ECF869F05BBEC.quest_subtitle: "&7Anywhere from 1 to 100"
+	quest.5E1ECF869F05BBEC.title: "&a&lRandom Level"
 	quest.5E31E8099F86484D.quest_desc: [
 		"&7Beat your first &e&lLeague Champion&r&7, any of them, in any order."
 		""
@@ -5256,6 +5272,14 @@
 	]
 	quest.64A3E7EE96B4CCF5.quest_subtitle: "&7Tier III: faster, and it holds more"
 	quest.64A3E7EE96B4CCF5.title: "&e&lWheat Minion III"
+	quest.64ADE20929C25A7E.quest_desc: [
+		"&7Right-click one of your Pokémon to give it a random size."
+		""
+		"&7Made at the &fUltimate Crafting Table&7 (9x9) from one of &aevery berry&7."
+		"&7Recipe in &6JEI&7."
+	]
+	quest.64ADE20929C25A7E.quest_subtitle: "&7Tiny, huge, or in between"
+	quest.64ADE20929C25A7E.title: "&a&lRandom Size"
 	quest.650DBC148CF5C3D5.quest_desc: [
 		"&7Right-click to feed it and hatch a completely random Pokémon."
 		""
@@ -5610,7 +5634,7 @@
 		""
 		"&c&lIt can send a level 90 back to level 3."
 		""
-		"&7Made in the &a&lEnrichment Chamber&r&7 (Mekanism) - &bJEI&7 has the recipe."
+		"&7Made at the &a&lUltimate Crafting Table&r&7 (Extended Crafting) from one of every berry - &bJEI&7 has the recipe."
 	]
 	quest.6CD5D7AEF33DA2B2.quest_subtitle: "&7Anywhere from 1 to 100"
 	quest.6CD5D7AEF33DA2B2.title: "&a&lRandom Level"
@@ -5860,6 +5884,14 @@
 	quest.7251E341F2C7A624.quest_subtitle: "&bTidal Spire &8- &7Floor 1"
 	quest.7251E341F2C7A624.title: "{quest.arena.title.3}"
 	quest.72AFBBC74975A10E.quest_subtitle: "&aUncommon"
+	quest.72B3CA275E0A96BA.quest_desc: [
+		"&7Right-click one of your Pokémon to reroll &nall&r&7 of its EVs at random."
+		""
+		"&7Made at the &fUltimate Crafting Table&7 (9x9) from one of &aevery berry&7."
+		"&7Recipe in &6JEI&7."
+	]
+	quest.72B3CA275E0A96BA.quest_subtitle: "&7Reroll every EV"
+	quest.72B3CA275E0A96BA.title: "&a&lRandom EV"
 	quest.72BBB1606E9AF386.quest_desc: ["&7Catch rate &bx4&7 on species that evolve with a &5Moon Stone&7 (Nidoran, Clefairy, Jigglypuff, Skitty, Munna...)."]
 	quest.72BBB1606E9AF386.quest_subtitle: "&7Moon Stone family"
 	quest.72BBB1606E9AF386.title: "&5&lMoon Ball"

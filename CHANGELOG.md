@@ -11,3 +11,4 @@
 - Lingot de crystaltine (Extended Crafting) : les 2 étoiles du Nether de la recette remplacées par 2 émeraudes.
 - Quêtes : chapitre Légendaires refait en collection (`tools/pixelgo-quests/legendaries.mjs`) — 108 quêtes de capture (légendaires, fabuleux, oiseaux de Galar, Ultra-Chimères) en anneaux autour d'un grand checkmark final ; quêtes d'objets et d'explications supprimées.
 - Quêtes : nouveau chapitre Baies (`tools/pixelgo-quests/berries.mjs`), même page de collection — 78 baies (toutes celles de Pixelmon), 1 Dime par baie, 10 Poke Coins au checkmark central.
+- Random EV / IV / Level / Size (PixelGO Items) : seul craft = table ultime Extended Crafting, les 78 baies + saphir / rubis / super bonbon / silicium (`35_machines.js`). Anciennes recettes retirées (établi du mod, enrichissement Mekanism, four à alliage et lieur d'âmes Ender IO, solidificateur Cyclic). Quêtes ajoutées au chapitre Créatif, textes du chapitre PixelGO Items mis à jour.

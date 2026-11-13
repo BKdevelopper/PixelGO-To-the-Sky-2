@@ -149,4 +149,13 @@ ServerEvents.recipes(event => {
    *  l'Orbe de Classe ne servirait plus à rien. L'Orbe d'Origine reste.
    * ---------------------------------------------------------------------- */
   rm('neoorigins:orb_of_class')
+
+  /* -------------------------------------------------------------------------
+   *  PIXELGO ITEMS — Random EV / IV / Size (2026-11-14) : recettes d'établi du
+   *  mod retirées, ces objets (et Random Level) se font avec toutes les baies
+   *  à la table ultime (voir 35_machines.js).
+   * ---------------------------------------------------------------------- */
+  rm('pixelgoitems:random_ev')
+  rm('pixelgoitems:random_iv')
+  rm('pixelgoitems:size_randomizer')
 })

@@ -273,6 +273,23 @@ const ROWS = [
       SEE_JEI,
     ],
   })),
+
+  /* ---- y 12.5 : the four random items, made from every berry (2026-11-14) ---- */
+  ...[
+    ['random_ev', 'Random EV', -3.5, 'Reroll every EV', 'reroll &nall&r&7 of its EVs at random'],
+    ['random_iv', 'Random IV', -2, 'Reroll every IV', 'reroll &nall&r&7 of its IVs at random'],
+    ['random_level', 'Random Level', -0.5, 'Anywhere from 1 to 100', 'set it to a random level between &f&l1&r&7 and &f&l100&r&7'],
+    ['size_randomizer', 'Random Size', 1, 'Tiny, huge, or in between', 'give it a random size'],
+  ].map(([n, title, x, subtitle, effect]) => ({
+    key: `pixelgoitems:${n}`, x, y: 12.5,
+    title: `&a&l${title}`, subtitle: `&7${subtitle}`,
+    desc: [
+      `&7Right-click one of your Pokémon to ${effect}.`,
+      '',
+      '&7Made at the &fUltimate Crafting Table&7 (9x9) from one of &aevery berry&7.',
+      SEE_JEI,
+    ],
+  })),
 ];
 
 /* --- read the chapter --------------------------------------------------------- */

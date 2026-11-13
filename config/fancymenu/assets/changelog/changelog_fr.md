@@ -9,6 +9,8 @@
 - Chapitre Légendaires en collection : une quête de capture par Pokémon, grand checkmark au centre.
 - Ultra-Chimères et légendaires de Paldea dans le chapitre Légendaires.
 - Chapitre Baies : une quête par baie, récompenses en pièces.
+- Craft de Random EV, Random IV, Random Level et Random Size à partir de toutes les baies.
+- Random EV, Random IV, Random Level et Random Size dans le chapitre Créatif.
 
 ## Contenu retiré
 
@@ -19,6 +21,7 @@
 - Revente en boutique des objets des Sacs mystère.
 - Étoiles du Nether de la recette du lingot de crystaltine, remplacées par des émeraudes.
 - Quêtes d'objets et d'explications du chapitre Légendaires.
+- Anciens crafts de Random EV, Random IV, Random Level et Random Size.
 
 ## Nouveautés
 

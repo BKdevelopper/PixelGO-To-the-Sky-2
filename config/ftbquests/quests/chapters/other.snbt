@@ -75,10 +75,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"25988304240A1A1C"
-				"7FB062237713AAB4"
-			]
+			dependencies: ["25988304240A1A1C", "7FB062237713AAB4"]
 			id: "63A43957BE762944"
 			rewards: [{
 				id: "4B50AC9C5C848800"
@@ -280,10 +277,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"0796D42523ABE2DB"
-				"63A43957BE762944"
-			]
+			dependencies: ["0796D42523ABE2DB", "63A43957BE762944"]
 			id: "0F8A4ED60CB0EBFD"
 			rewards: [
 				{
@@ -693,6 +687,94 @@
 			}]
 			x: 1.0d
 			y: 10.0d
+		}
+		{
+			id: "72B3CA275E0A96BA"
+			rewards: [{
+				id: "54BCFC093B01A419"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1AE2BDFDDC23C1F2"
+				item: { count: 1, id: "pixelgoitems:random_ev" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			id: "22741A6002E09A63"
+			rewards: [{
+				id: "7694B68713EF88E1"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1EBA57DED589285D"
+				item: { count: 1, id: "pixelgoitems:random_iv" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			id: "5E1ECF869F05BBEC"
+			rewards: [{
+				id: "72879AD311820FB9"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "491A2053877D2E7A"
+				item: { count: 1, id: "pixelgoitems:random_level" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			id: "64ADE20929C25A7E"
+			rewards: [{
+				id: "5A4A50B8F5BC68AD"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7AFB715A43ED5DF0"
+				item: { count: 1, id: "pixelgoitems:size_randomizer" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
 		}
 	]
 }

@@ -13,7 +13,8 @@
  *
  *  2. LES MACHINES ALIMENTENT LE POKÉMON
  *     En retour, les machines deviennent la seule source *déterministe* des
- *     items PixelGO Items (EV / IV / niveau / taille / fossile), jusque-là
+ *     items PixelGO Items (EV / IV par stat, fossile ; les Random EV / IV /
+ *     Level / Size se font aux baies depuis 2026-11-14, voir plus bas), jusque-là
  *     réservés au loot des boîtes et à la boutique. Le joueur est donc poussé
  *     à monter les trois chaînes techniques pour optimiser ses Pokémon.
  *
@@ -128,43 +129,34 @@ ServerEvents.recipes(event => {
     per_tick_usage: false
   }).id('kubejs:mekanism/xs_exp_candy')
 
-  /* --- Chambre d'enrichissement (Mekanism) ------------------------------
-   *  Le super bonbon monte un niveau : enrichi, il en monte un au hasard sur
-   *  toute l'équipe.
+  /* --- Les 4 objets « aléatoires » : toutes les baies (2026-11-14) -------
+   *  Random EV / IV / Level / Size ne se font plus qu'à la table ultime
+   *  d'Extended Crafting (9x9, sans forme) : les 78 baies de Pixelmon (une
+   *  de chaque, ordre de `enums/BerryType`) + un ingrédient propre à
+   *  l'objet. Leurs anciennes recettes (établi du mod, enrichissement
+   *  Mekanism, four à alliage / lieur d'âmes Ender IO, solidificateur
+   *  Cyclic) sont supprimées. Même liste que tools/pixelgo-quests/berries.mjs.
    * -------------------------------------------------------------------- */
-  event.custom({
-    type: 'mekanism:enriching',
-    input: { count: 1, item: 'pixelmon:rare_candy' },
-    output: { count: 1, id: 'pixelgoitems:random_level' }
-  }).id('kubejs:mekanism/random_level')
-
-  /* --- Four à alliage (Ender IO) ----------------------------------------
-   *  Trois vitamines fondues ensemble : on ne sait plus laquelle ressort.
-   * -------------------------------------------------------------------- */
-  event.custom({
-    type: 'enderio:alloy_smelting',
-    energy: 12000,
-    experience: 1.0,
-    inputs: [
-      { count: 1, item: 'pixelmon:hp_up' },
-      { count: 1, item: 'pixelmon:protein' },
-      { count: 1, item: 'pixelmon:carbos' }
-    ],
-    output: { count: 1, id: 'pixelgoitems:random_ev' }
-  }).id('kubejs:enderio/random_ev')
-
-  /* --- Lieur d'âmes (Ender IO) ------------------------------------------
-   *  Palier au-dessus : il faut une fiole d'âme remplie d'un monstre pour
-   *  transformer un item d'EV aléatoire en item d'IV aléatoire.
-   * -------------------------------------------------------------------- */
-  event.custom({
-    type: 'enderio:soul_binding',
-    energy: 100000,
-    experience: 4,
-    input: { item: 'pixelgoitems:random_ev' },
-    mob_category: 'monster',
-    output: { count: 1, id: 'pixelgoitems:random_iv' }
-  }).id('kubejs:enderio/random_iv')
+  const ALL_BERRIES = `cheri chesto pecha rawst aspear leppa oran persim lum sitrus figy wiki
+    mago aguav iapapa razz bluk nanab wepear pinap pomeg kelpsy qualot hondew grepa tamato
+    cornn magost rabuta nomel spelon pamtre watmel durin belue occa passho wacan rindo yache
+    chople kebia shuca coba payapa tanga charti kasib haban colbur babiri chilan roseli liechi
+    ganlon salac petaya apicot lansat starf pumkin drash eggant strib nutpea ginema kuo yago
+    touga niniku topo enigma micle custap jaboca rowap kee maranga`
+    .trim().split(/\s+/).map(b => ({ item: `pixelmon:${b}_berry` }))
+  ;[
+    ['random_ev', { item: 'pixelmon:sapphire' }],
+    ['random_iv', { item: 'pixelmon:ruby' }],
+    ['random_level', { item: 'pixelmon:rare_candy' }],
+    ['size_randomizer', { tag: 'c:silicon' }]
+  ].forEach(([name, extra]) => {
+    event.custom({
+      type: 'extendedcrafting:shapeless_table',
+      tier: 4,
+      ingredients: ALL_BERRIES.concat([extra]),
+      result: { count: 1, id: `pixelgoitems:${name}` }
+    }).id(`kubejs:berries/${name}`)
+  })
 
   /* --- Broyeur (Cyclic) -------------------------------------------------
    *  Le fossile brut se casse au broyeur et livre un fossile au hasard.
@@ -175,22 +167,6 @@ ServerEvents.recipes(event => {
     energy: { ticks: 200, rfpertick: 50 },
     result: { count: 1, id: 'pixelgoitems:random_fossil' }
   }).id('kubejs:cyclic/random_fossil')
-
-  /* --- Solidificateur (Cyclic) ------------------------------------------
-   *  Bonbons + silicium moulés dans l'eau : la taille du Pokémon devient
-   *  imprévisible.
-   * -------------------------------------------------------------------- */
-  event.custom({
-    type: 'cyclic:solidifier',
-    ingredients: [
-      { item: 'pixelmon:rare_candy' },
-      { tag: 'c:silicon' },
-      { item: 'pixelmon:rare_candy' }
-    ],
-    mix: { fluid: 'minecraft:water', amount: 1000 },
-    energy: { rfpertick: 100, ticks: 400 },
-    result: { count: 1, id: 'pixelgoitems:size_randomizer' }
-  }).id('kubejs:cyclic/size_randomizer')
 
   /* =========================================================================
    *  3. LIVRES DES ENCHANTEMENTS MINIONS — tables Extended Crafting

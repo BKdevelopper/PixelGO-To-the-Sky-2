@@ -6,6 +6,8 @@
 - Automatic sieves and hammers in Mystery Bags.
 - Poké Ball bases (wooden, iron, aluminum, silver, platinum) in loot.
 - Raw osmium can be smelted in a furnace.
+- Legendary chapter as a collection: one catch quest per Pokémon, big checkmark in the middle.
+- Ultra Beasts and Paldea legendaries in the Legendary chapter.
 
 ## Removed content
 
@@ -15,6 +17,7 @@
 - Netherite items in Mystery Bags, replaced by their diamond version.
 - Selling Mystery Bag items to shops.
 - Nether Stars in the Crystaltine Ingot recipe, replaced by emeralds.
+- Item and explanation quests of the Legendary chapter.
 
 ## New
 

@@ -22,7 +22,12 @@ node tools/pixelgo-quests/rewards.mjs
 node tools/pixelgo-quests/projecte.mjs   # texts of the hand-made ProjectE chapter
 node tools/pixelgo-quests/creative.mjs   # the whole Creative Items chapter (other.snbt): layout + texts
 node tools/pixelgo-quests/refined.mjs    # the whole Refined Storage chapter (ae2.snbt): layout, rewards + texts
+node tools/pixelgo-quests/legendaries.mjs  # the whole Legendary chapter (sinnoh.snbt): collection rings + checkmark
 ```
+
+`legendaries.mjs` (2026-11-13) owns `chapters/sinnoh.snbt`: one Catch (any) quest per legendary,
+mythical and Ultra Beast (Pixelmon species tags), no text, rings around a big checkmark that needs them all.
+Phione, Pecharunt, Melmetal and Naganadel are left out: no catch can give them. Edit `MONS`, never the snbt.
 
 `refined.mjs` (2026-11-09) owns `chapters/ae2.snbt` the same way, rewards included (coins well under the
 price-guide cost of each craft, Mystery Bags at milestones, EMC Link of Refined Equivalence at the bottom).

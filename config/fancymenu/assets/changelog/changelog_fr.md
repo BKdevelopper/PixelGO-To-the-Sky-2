@@ -6,6 +6,8 @@
 - Tamis et marteaux automatiques dans les Sacs mystère.
 - Bases de Poké Ball (bois, fer, aluminium, argent, platine) dans le loot.
 - L'osmium brut se cuit au four.
+- Chapitre Légendaires en collection : une quête de capture par Pokémon, grand checkmark au centre.
+- Ultra-Chimères et légendaires de Paldea dans le chapitre Légendaires.
 
 ## Contenu retiré
 
@@ -15,6 +17,7 @@
 - Objets en netherite des Sacs mystère, remplacés par leur version en diamant.
 - Revente en boutique des objets des Sacs mystère.
 - Étoiles du Nether de la recette du lingot de crystaltine, remplacées par des émeraudes.
+- Quêtes d'objets et d'explications du chapitre Légendaires.
 
 ## Nouveautés
 

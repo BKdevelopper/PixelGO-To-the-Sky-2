@@ -8,13 +8,17 @@
 
 ## Changelog joueur (FancyMenu)
 
-À chaque ajout ou changement visible en jeu, informer le joueur dans le changelog du menu
-principal, **dans le même commit** :
+À chaque changement, l'indiquer au joueur dans le changelog du menu principal, **dans le même commit** :
 - `config/fancymenu/assets/changelog/changelog_fr.md` **et** `changelog_en.md` (toujours les deux).
-- Infos pratiques pour le joueur : quoi, où le trouver, comment l'utiliser (touche, recette, quête…).
-  Phrases courtes, pas de détails techniques.
-- Rubriques : `## Nouveautés` / `## New`, `## Équilibrage` / `## Balance`,
-  `## Corrections` / `## Fixes`, `## Mods ajoutés` / `## Added mods`, `## Mods retirés` / `## Removed mods`.
+- Uniquement la liste de ce qui a changé, une ligne courte par élément, sans expliquer où le trouver
+  ni comment s'en servir :
+  - `## Contenu ajouté` / `## Added content`
+  - `## Contenu retiré` / `## Removed content`
+  - `## Mods ajoutés` / `## Added mods`
+  - `## Mods retirés` / `## Removed mods`
+  - `## Mods mis à jour` / `## Updated mods` (nom du mod + ancienne -> nouvelle version)
+  - `## Corrections` / `## Fixes` (bug corrigé)
+- N'afficher que les rubriques qui ont au moins une ligne.
 - Remplacer la ligne « Pas encore de nouveautés… » / « Nothing new… » à la première entrée.
 - Le changelog du menu décrit la version en cours (celle de `VERSION`) ; ajouter aussi une ligne dans `CHANGELOG.md`.
 

@@ -15,6 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon_scale: 2.0d
 			id: "15A7C4D0E4FC551C"
 			rewards: [{
 				id: "36F27B1D82ADEA1C"
@@ -27,7 +28,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -37,9 +38,10 @@
 				type: "pixelgoquests:catch_pokemon"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
+			icon_scale: 2.0d
 			id: "3CFB05A546490254"
 			rewards: [{
 				id: "6662CB967B492422"
@@ -52,7 +54,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -61,10 +63,11 @@
 				pokemon: "articuno form:galarian"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.3d
-			y: -2.7d
+			x: 1.74d
+			y: -3.6d
 		}
 		{
+			icon_scale: 2.0d
 			id: "34E86699ED8A9048"
 			rewards: [{
 				id: "5441C3A18A16F331"
@@ -77,7 +80,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -86,10 +89,11 @@
 				pokemon: "Zapdos"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.35d
-			y: -1.87d
+			x: 3.13d
+			y: -2.49d
 		}
 		{
+			icon_scale: 2.0d
 			id: "4AC1D67E1CBCBDBA"
 			rewards: [{
 				id: "205674E3B4438626"
@@ -102,7 +106,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -111,10 +115,11 @@
 				pokemon: "zapdos form:galarian"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.92d
-			y: -0.67d
+			x: 3.9d
+			y: -0.89d
 		}
 		{
+			icon_scale: 2.0d
 			id: "11EF5989BEF68665"
 			rewards: [{
 				id: "48C75F57E99A059A"
@@ -127,7 +132,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -136,10 +141,11 @@
 				pokemon: "Moltres"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.92d
-			y: 0.67d
+			x: 3.9d
+			y: 0.89d
 		}
 		{
+			icon_scale: 2.0d
 			id: "3E0DC17C14EC7B3B"
 			rewards: [{
 				id: "3A4AB6D3F71348F3"
@@ -152,7 +158,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -161,10 +167,11 @@
 				pokemon: "moltres form:galarian"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.35d
-			y: 1.87d
+			x: 3.13d
+			y: 2.49d
 		}
 		{
+			icon_scale: 2.0d
 			id: "78C1271D0678127F"
 			rewards: [{
 				id: "3023EF9811B191ED"
@@ -177,7 +184,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -186,10 +193,11 @@
 				pokemon: "Mewtwo"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.3d
-			y: 2.7d
+			x: 1.74d
+			y: 3.6d
 		}
 		{
+			icon_scale: 2.0d
 			id: "236DFFE69FB14FCF"
 			rewards: [{
 				id: "0E2EF961F1161010"
@@ -202,7 +210,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -212,9 +220,10 @@
 				type: "pixelgoquests:catch_pokemon"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
+			icon_scale: 2.0d
 			id: "446ADC1F39FD1E7A"
 			rewards: [{
 				id: "5FFB1A1C46301B44"
@@ -227,7 +236,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -236,10 +245,11 @@
 				pokemon: "raikou"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.3d
-			y: 2.7d
+			x: -1.74d
+			y: 3.6d
 		}
 		{
+			icon_scale: 2.0d
 			id: "0D8E33B8D44EC6B6"
 			rewards: [{
 				id: "622E076B27D3B60E"
@@ -252,7 +262,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -261,10 +271,11 @@
 				pokemon: "entei"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.35d
-			y: 1.87d
+			x: -3.13d
+			y: 2.49d
 		}
 		{
+			icon_scale: 2.0d
 			id: "68AFC5FFB8F1135A"
 			rewards: [{
 				id: "769EC583B6CF107D"
@@ -277,7 +288,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -286,10 +297,11 @@
 				pokemon: "suicune"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.92d
-			y: 0.67d
+			x: -3.9d
+			y: 0.89d
 		}
 		{
+			icon_scale: 2.0d
 			id: "741AC7FAE1648CB8"
 			rewards: [{
 				id: "32619C368343BE30"
@@ -302,7 +314,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -311,10 +323,11 @@
 				pokemon: "lugia"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.92d
-			y: -0.67d
+			x: -3.9d
+			y: -0.89d
 		}
 		{
+			icon_scale: 2.0d
 			id: "24622BD26E00C800"
 			rewards: [{
 				id: "50753749A74DBE38"
@@ -327,7 +340,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -336,10 +349,11 @@
 				pokemon: "Ho-Oh"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.35d
-			y: -1.87d
+			x: -3.13d
+			y: -2.49d
 		}
 		{
+			icon_scale: 2.0d
 			id: "6272232BBEA603F2"
 			rewards: [{
 				id: "188DAD9D460C56B1"
@@ -352,7 +366,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -361,10 +375,11 @@
 				pokemon: "celebi"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.3d
-			y: -2.7d
+			x: -1.74d
+			y: -3.6d
 		}
 		{
+			icon_scale: 2.0d
 			id: "4539A76A0DC4CC7A"
 			rewards: [{
 				id: "1B95833345B7B1C8"
@@ -377,7 +392,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -387,9 +402,10 @@
 				type: "pixelgoquests:catch_pokemon"
 			}]
 			x: 0.0d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
+			icon_scale: 2.0d
 			id: "0D892A58955035CF"
 			rewards: [{
 				id: "360791AF5FA63429"
@@ -402,7 +418,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -411,10 +427,11 @@
 				pokemon: "regice"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.33d
-			y: -4.3d
+			x: 1.77d
+			y: -5.73d
 		}
 		{
+			icon_scale: 2.0d
 			id: "47CDECCB49A39DAA"
 			rewards: [{
 				id: "283F84E70189BEFF"
@@ -427,7 +444,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -436,10 +453,11 @@
 				pokemon: "registeel"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.53d
-			y: -3.72d
+			x: 3.38d
+			y: -4.96d
 		}
 		{
+			icon_scale: 2.0d
 			id: "5611B52E51CF6BC8"
 			rewards: [{
 				id: "5CB5BD177076F3C3"
@@ -452,7 +470,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -461,10 +479,11 @@
 				pokemon: "latias"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 3.52d
-			y: -2.81d
+			x: 4.69d
+			y: -3.74d
 		}
 		{
+			icon_scale: 2.0d
 			id: "08194BD1B89AA0BE"
 			rewards: [{
 				id: "5A53BBC835E18154"
@@ -477,7 +496,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -486,10 +505,11 @@
 				pokemon: "latios"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 4.19d
-			y: -1.64d
+			x: 5.59d
+			y: -2.19d
 		}
 		{
+			icon_scale: 2.0d
 			id: "2E1AE26E548D99A8"
 			rewards: [{
 				id: "2E7E377CF7A6D7E6"
@@ -502,7 +522,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -511,10 +531,11 @@
 				pokemon: "kyogre"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 4.49d
-			y: -0.34d
+			x: 5.98d
+			y: -0.45d
 		}
 		{
+			icon_scale: 2.0d
 			id: "2043ADF998461C6F"
 			rewards: [{
 				id: "7F2314CE5701D2CB"
@@ -527,7 +548,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -536,10 +557,11 @@
 				pokemon: "groudon"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 4.39d
-			y: 1.0d
+			x: 5.85d
+			y: 1.34d
 		}
 		{
+			icon_scale: 2.0d
 			id: "7B6E0866A5313E35"
 			rewards: [{
 				id: "7C6CE3D57AD77DD9"
@@ -552,7 +574,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -561,10 +583,11 @@
 				pokemon: "rayquaza"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 3.9d
-			y: 2.25d
+			x: 5.2d
+			y: 3.0d
 		}
 		{
+			icon_scale: 2.0d
 			id: "0A99A57DBA8E30D9"
 			rewards: [{
 				id: "5D641362C0E6F93C"
@@ -577,7 +600,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -586,10 +609,11 @@
 				pokemon: "jirachi"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 3.06d
-			y: 3.3d
+			x: 4.08d
+			y: 4.4d
 		}
 		{
+			icon_scale: 2.0d
 			id: "7A0DE075AC983E33"
 			rewards: [{
 				id: "4BA3357D20FB0D18"
@@ -602,7 +626,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -611,10 +635,11 @@
 				pokemon: "deoxys"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.95d
-			y: 4.05d
+			x: 2.6d
+			y: 5.41d
 		}
 		{
+			icon_scale: 2.0d
 			id: "07B04BB2AACB093C"
 			rewards: [{
 				id: "2F7D0EE45AE98FE7"
@@ -627,7 +652,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -636,10 +661,11 @@
 				pokemon: "uxie"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 0.67d
-			y: 4.45d
+			x: 0.89d
+			y: 5.93d
 		}
 		{
+			icon_scale: 2.0d
 			id: "1DC7BF029A4FF19D"
 			rewards: [{
 				id: "37FC2EAAC339F019"
@@ -652,7 +678,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -661,10 +687,11 @@
 				pokemon: "mesprit"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -0.67d
-			y: 4.45d
+			x: -0.89d
+			y: 5.93d
 		}
 		{
+			icon_scale: 2.0d
 			id: "09DB3657A3CC7B35"
 			rewards: [{
 				id: "62AD0299C2E56CFA"
@@ -677,7 +704,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -686,10 +713,11 @@
 				pokemon: "azelf"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.95d
-			y: 4.05d
+			x: -2.6d
+			y: 5.41d
 		}
 		{
+			icon_scale: 2.0d
 			id: "6DA97D3E7CC58DC9"
 			rewards: [{
 				id: "4F7EA60CB9DE7073"
@@ -702,7 +730,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -711,10 +739,11 @@
 				pokemon: "dialga"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -3.06d
-			y: 3.3d
+			x: -4.08d
+			y: 4.4d
 		}
 		{
+			icon_scale: 2.0d
 			id: "77503E7B58FD7CF7"
 			rewards: [{
 				id: "26C9F49A0658DE97"
@@ -727,7 +756,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -736,10 +765,11 @@
 				pokemon: "palkia"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -3.9d
-			y: 2.25d
+			x: -5.2d
+			y: 3.0d
 		}
 		{
+			icon_scale: 2.0d
 			id: "3486C1EC43F9A3E0"
 			rewards: [{
 				id: "5B8E720FDA985337"
@@ -752,7 +782,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -761,10 +791,11 @@
 				pokemon: "heatran"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -4.39d
-			y: 1.0d
+			x: -5.85d
+			y: 1.34d
 		}
 		{
+			icon_scale: 2.0d
 			id: "37399120A5AD0D83"
 			rewards: [{
 				id: "7247C7CAEEA59E2C"
@@ -777,7 +808,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -786,10 +817,11 @@
 				pokemon: "regigigas"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -4.49d
-			y: -0.34d
+			x: -5.98d
+			y: -0.45d
 		}
 		{
+			icon_scale: 2.0d
 			id: "6BC6F14384032825"
 			rewards: [{
 				id: "537DA448DED8DFF2"
@@ -802,7 +834,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -811,10 +843,11 @@
 				pokemon: "giratina"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -4.19d
-			y: -1.64d
+			x: -5.59d
+			y: -2.19d
 		}
 		{
+			icon_scale: 2.0d
 			id: "1849CAE91FB799CF"
 			rewards: [{
 				id: "7375E05FE330AD70"
@@ -827,7 +860,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -836,10 +869,11 @@
 				pokemon: "cresselia"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -3.52d
-			y: -2.81d
+			x: -4.69d
+			y: -3.74d
 		}
 		{
+			icon_scale: 2.0d
 			id: "1717B327C499D584"
 			rewards: [{
 				id: "220417F936491C6C"
@@ -852,7 +886,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -861,10 +895,11 @@
 				pokemon: "Phione"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.53d
-			y: -3.72d
+			x: -3.38d
+			y: -4.96d
 		}
 		{
+			icon_scale: 2.0d
 			id: "55ECACE943067261"
 			rewards: [{
 				id: "47A375CD307C9D1B"
@@ -877,7 +912,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -886,10 +921,11 @@
 				pokemon: "manaphy"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.33d
-			y: -4.3d
+			x: -1.77d
+			y: -5.73d
 		}
 		{
+			icon_scale: 2.0d
 			id: "3EDC2DFCAA5F1C03"
 			rewards: [{
 				id: "0FA67F56CDDA2620"
@@ -902,7 +938,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -912,9 +948,10 @@
 				type: "pixelgoquests:catch_pokemon"
 			}]
 			x: 0.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
+			icon_scale: 2.0d
 			id: "7DD049D13275F13E"
 			rewards: [{
 				id: "3F4A31E5A57AACD6"
@@ -927,7 +964,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -936,10 +973,11 @@
 				pokemon: "shaymin"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.34d
-			y: -5.85d
+			x: 1.78d
+			y: -7.8d
 		}
 		{
+			icon_scale: 2.0d
 			id: "5D393487A04EB9D7"
 			rewards: [{
 				id: "35902C6EA8EA95C2"
@@ -952,7 +990,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -961,10 +999,11 @@
 				pokemon: "arceus"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.6d
-			y: -5.41d
+			x: 3.47d
+			y: -7.21d
 		}
 		{
+			icon_scale: 2.0d
 			id: "508DD4DA20DBDE84"
 			rewards: [{
 				id: "298EB1288A2111AA"
@@ -977,7 +1016,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -986,10 +1025,11 @@
 				pokemon: "victini"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 3.74d
-			y: -4.69d
+			x: 4.99d
+			y: -6.25d
 		}
 		{
+			icon_scale: 2.0d
 			id: "5E80123CA9C2A685"
 			rewards: [{
 				id: "3F46DAB64C383197"
@@ -1002,7 +1042,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1011,10 +1051,11 @@
 				pokemon: "cobalion"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 4.69d
-			y: -3.74d
+			x: 6.25d
+			y: -4.99d
 		}
 		{
+			icon_scale: 2.0d
 			id: "65B09557D0A3B83C"
 			rewards: [{
 				id: "19C76046A7724D5F"
@@ -1027,7 +1068,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1036,10 +1077,11 @@
 				pokemon: "terrakion"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.41d
-			y: -2.6d
+			x: 7.21d
+			y: -3.47d
 		}
 		{
+			icon_scale: 2.0d
 			id: "59DE4602B8E79802"
 			rewards: [{
 				id: "65C3FBC9EED46FB4"
@@ -1052,7 +1094,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1061,10 +1103,11 @@
 				pokemon: "virizion"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.85d
-			y: -1.34d
+			x: 7.8d
+			y: -1.78d
 		}
 		{
+			icon_scale: 2.0d
 			id: "217C11045DFDC846"
 			rewards: [{
 				id: "27ED3975A906C8D2"
@@ -1077,7 +1120,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1086,10 +1129,11 @@
 				pokemon: "tornadus"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
+			icon_scale: 2.0d
 			id: "033B7F71FB554AF7"
 			rewards: [{
 				id: "1D10F5F2FC635BD7"
@@ -1102,7 +1146,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1111,10 +1155,11 @@
 				pokemon: "thundurus"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.85d
-			y: 1.34d
+			x: 7.8d
+			y: 1.78d
 		}
 		{
+			icon_scale: 2.0d
 			id: "5F86FD56E87E0799"
 			rewards: [{
 				id: "0276B28AFCB71C5A"
@@ -1127,7 +1172,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1136,10 +1181,11 @@
 				pokemon: "reshiram"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.41d
-			y: 2.6d
+			x: 7.21d
+			y: 3.47d
 		}
 		{
+			icon_scale: 2.0d
 			id: "0E79EF30A437B244"
 			rewards: [{
 				id: "56E51DF1AD69325D"
@@ -1152,7 +1198,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1161,10 +1207,11 @@
 				pokemon: "zekrom"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 4.69d
-			y: 3.74d
+			x: 6.25d
+			y: 4.99d
 		}
 		{
+			icon_scale: 2.0d
 			id: "622EA22A96FE1983"
 			rewards: [{
 				id: "43C59AB464C2F5F1"
@@ -1177,7 +1224,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1186,10 +1233,11 @@
 				pokemon: "landorus"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 3.74d
-			y: 4.69d
+			x: 4.99d
+			y: 6.25d
 		}
 		{
+			icon_scale: 2.0d
 			id: "331E47FC6753CA77"
 			rewards: [{
 				id: "3478148C55C96BA0"
@@ -1202,7 +1250,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1211,10 +1259,11 @@
 				pokemon: "kyurem"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.6d
-			y: 5.41d
+			x: 3.47d
+			y: 7.21d
 		}
 		{
+			icon_scale: 2.0d
 			id: "7C41A59A02F569DC"
 			rewards: [{
 				id: "5D3F55931FF98D0B"
@@ -1227,7 +1276,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1236,10 +1285,11 @@
 				pokemon: "keldeo"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.34d
-			y: 5.85d
+			x: 1.78d
+			y: 7.8d
 		}
 		{
+			icon_scale: 2.0d
 			id: "6DAD2C4C36112BA4"
 			rewards: [{
 				id: "6AACA07A6F635287"
@@ -1252,7 +1302,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1262,9 +1312,10 @@
 				type: "pixelgoquests:catch_pokemon"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
+			icon_scale: 2.0d
 			id: "050993FE78F65600"
 			rewards: [{
 				id: "1F22929629A03679"
@@ -1277,7 +1328,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1286,10 +1337,11 @@
 				pokemon: "genesect"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.34d
-			y: 5.85d
+			x: -1.78d
+			y: 7.8d
 		}
 		{
+			icon_scale: 2.0d
 			id: "4ACBF930CE9581E9"
 			rewards: [{
 				id: "59B1EC2148433D5F"
@@ -1302,7 +1354,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1311,10 +1363,11 @@
 				pokemon: "xerneas"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.6d
-			y: 5.41d
+			x: -3.47d
+			y: 7.21d
 		}
 		{
+			icon_scale: 2.0d
 			id: "3388BC711410EFD7"
 			rewards: [{
 				id: "412C22558C91777F"
@@ -1327,7 +1380,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1336,10 +1389,11 @@
 				pokemon: "yveltal"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -3.74d
-			y: 4.69d
+			x: -4.99d
+			y: 6.25d
 		}
 		{
+			icon_scale: 2.0d
 			id: "37BE38795C408DA6"
 			rewards: [{
 				id: "46E4ED62B2116397"
@@ -1352,7 +1406,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1361,10 +1415,11 @@
 				pokemon: "zygarde"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -4.69d
-			y: 3.74d
+			x: -6.25d
+			y: 4.99d
 		}
 		{
+			icon_scale: 2.0d
 			id: "10F654305BFC92BE"
 			rewards: [{
 				id: "2A0BC0C7113381FB"
@@ -1377,7 +1432,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1386,10 +1441,11 @@
 				pokemon: "diancie"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.41d
-			y: 2.6d
+			x: -7.21d
+			y: 3.47d
 		}
 		{
+			icon_scale: 2.0d
 			id: "28AF4877B68107D7"
 			rewards: [{
 				id: "69E95174D1E4F8D3"
@@ -1402,7 +1458,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 1b
 				count: 1
@@ -1411,10 +1467,11 @@
 				pokemon: "hoopa"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.85d
-			y: 1.34d
+			x: -7.8d
+			y: 1.78d
 		}
 		{
+			icon_scale: 2.0d
 			id: "09AF90DB34F9C3E2"
 			rewards: [{
 				id: "332812574DA1C6B0"
@@ -1427,7 +1484,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1436,10 +1493,11 @@
 				pokemon: "volcanion"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: 0.0d
 		}
 		{
+			icon_scale: 2.0d
 			id: "693DA731B8063587"
 			rewards: [{
 				id: "229F20FB1000B93A"
@@ -1452,7 +1510,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1461,10 +1519,11 @@
 				pokemon: "TypeNull"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.85d
-			y: -1.34d
+			x: -7.8d
+			y: -1.78d
 		}
 		{
+			icon_scale: 2.0d
 			id: "762D3F11F0F7A959"
 			rewards: [{
 				id: "5104D43853EB9EBC"
@@ -1477,7 +1536,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1486,10 +1545,11 @@
 				pokemon: "Silvally"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.41d
-			y: -2.6d
+			x: -7.21d
+			y: -3.47d
 		}
 		{
+			icon_scale: 2.0d
 			id: "31F64C9795DB6F6D"
 			rewards: [{
 				id: "65BC32AABE50BF9F"
@@ -1502,7 +1562,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1511,10 +1571,11 @@
 				pokemon: "tapukoko"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -4.69d
-			y: -3.74d
+			x: -6.25d
+			y: -4.99d
 		}
 		{
+			icon_scale: 2.0d
 			id: "1A9C0F73E47EEEA4"
 			rewards: [{
 				id: "07611BA8E152BCF7"
@@ -1527,7 +1588,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1536,10 +1597,11 @@
 				pokemon: "tapulele"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -3.74d
-			y: -4.69d
+			x: -4.99d
+			y: -6.25d
 		}
 		{
+			icon_scale: 2.0d
 			id: "03A0697333CD033A"
 			rewards: [{
 				id: "42689FD1CF6A170A"
@@ -1552,7 +1614,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1561,10 +1623,11 @@
 				pokemon: "tapubulu"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.6d
-			y: -5.41d
+			x: -3.47d
+			y: -7.21d
 		}
 		{
+			icon_scale: 2.0d
 			id: "1C3EA4833958200E"
 			rewards: [{
 				id: "7ADA76D41E8174AC"
@@ -1577,7 +1640,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1586,10 +1649,11 @@
 				pokemon: "tapufini"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.34d
-			y: -5.85d
+			x: -1.78d
+			y: -7.8d
 		}
 		{
+			icon_scale: 2.0d
 			id: "5967F015B9C7415C"
 			rewards: [{
 				id: "2F1CE95C3CA70445"
@@ -1602,7 +1666,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1612,9 +1676,10 @@
 				type: "pixelgoquests:catch_pokemon"
 			}]
 			x: 0.0d
-			y: -7.5d
+			y: -10.0d
 		}
 		{
+			icon_scale: 2.0d
 			id: "5A9CF92DA206A309"
 			rewards: [{
 				id: "3A55174BD7871F7E"
@@ -1627,7 +1692,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1636,10 +1701,11 @@
 				pokemon: "cosmoem"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.38d
-			y: -7.37d
+			x: 1.84d
+			y: -9.83d
 		}
 		{
+			icon_scale: 2.0d
 			id: "48C37477DA746427"
 			rewards: [{
 				id: "01C6CE5947A589A2"
@@ -1652,7 +1718,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1661,10 +1727,11 @@
 				pokemon: "solgaleo"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.71d
-			y: -6.99d
+			x: 3.61d
+			y: -9.32d
 		}
 		{
+			icon_scale: 2.0d
 			id: "7CB678547AC73D22"
 			rewards: [{
 				id: "3D940EF3A4C9336D"
@@ -1677,7 +1744,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1686,10 +1753,11 @@
 				pokemon: "Lunala"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 3.95d
-			y: -6.38d
+			x: 5.26d
+			y: -8.5d
 		}
 		{
+			icon_scale: 2.0d
 			id: "5B8C4DCBA96D5608"
 			rewards: [{
 				id: "12D9E701AC4FAD76"
@@ -1702,7 +1770,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1711,10 +1779,11 @@
 				pokemon: "necrozma"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.05d
-			y: -5.54d
+			x: 6.74d
+			y: -7.39d
 		}
 		{
+			icon_scale: 2.0d
 			id: "2A57A10BF965BF46"
 			rewards: [{
 				id: "51C62B86D1DCB4DD"
@@ -1727,7 +1796,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1736,10 +1805,11 @@
 				pokemon: "magearna"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.99d
-			y: -4.52d
+			x: 7.98d
+			y: -6.03d
 		}
 		{
+			icon_scale: 2.0d
 			id: "7939388BECE7EA88"
 			rewards: [{
 				id: "21F485099DBBC936"
@@ -1752,7 +1822,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1761,10 +1831,11 @@
 				pokemon: "Marshadow"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 6.71d
-			y: -3.34d
+			x: 8.95d
+			y: -4.46d
 		}
 		{
+			icon_scale: 2.0d
 			id: "1F7F655DC2AC2E49"
 			rewards: [{
 				id: "7CFA95033145D323"
@@ -1777,7 +1848,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1786,10 +1857,11 @@
 				pokemon: "zeraora"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 7.21d
-			y: -2.05d
+			x: 9.62d
+			y: -2.74d
 		}
 		{
+			icon_scale: 2.0d
 			id: "53CB69838F993AE5"
 			rewards: [{
 				id: "205E1413712B73F9"
@@ -1802,7 +1874,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1811,10 +1883,11 @@
 				pokemon: "meltan"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 7.47d
-			y: -0.69d
+			x: 9.96d
+			y: -0.92d
 		}
 		{
+			icon_scale: 2.0d
 			id: "6D73159A7FF1EF24"
 			rewards: [{
 				id: "3872BC1EB1455E8C"
@@ -1827,7 +1900,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1836,10 +1909,11 @@
 				pokemon: "Melmetal"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 7.47d
-			y: 0.69d
+			x: 9.96d
+			y: 0.92d
 		}
 		{
+			icon_scale: 2.0d
 			id: "4736C26646A40A35"
 			rewards: [{
 				id: "351DF1881EC4E08A"
@@ -1852,7 +1926,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1861,10 +1935,11 @@
 				pokemon: "Zacian"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 7.21d
-			y: 2.05d
+			x: 9.62d
+			y: 2.74d
 		}
 		{
+			icon_scale: 2.0d
 			id: "07C03567C3D3CF58"
 			rewards: [{
 				id: "47DC69503A21C580"
@@ -1877,7 +1952,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1886,10 +1961,11 @@
 				pokemon: "Zamazenta"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 6.71d
-			y: 3.34d
+			x: 8.95d
+			y: 4.46d
 		}
 		{
+			icon_scale: 2.0d
 			id: "4537047EE83C841A"
 			rewards: [{
 				id: "24275668AF3DFE2B"
@@ -1902,7 +1978,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1911,10 +1987,11 @@
 				pokemon: "eternatus"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.99d
-			y: 4.52d
+			x: 7.98d
+			y: 6.03d
 		}
 		{
+			icon_scale: 2.0d
 			id: "6E1C82BF070B12BB"
 			rewards: [{
 				id: "5B2DB8A55E40EE0A"
@@ -1927,7 +2004,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1936,10 +2013,11 @@
 				pokemon: "kubfu"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.05d
-			y: 5.54d
+			x: 6.74d
+			y: 7.39d
 		}
 		{
+			icon_scale: 2.0d
 			id: "737FC1E442C60051"
 			rewards: [{
 				id: "735AFD53F480F8BA"
@@ -1952,7 +2030,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1961,10 +2039,11 @@
 				pokemon: "urshifu"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 3.95d
-			y: 6.38d
+			x: 5.26d
+			y: 8.5d
 		}
 		{
+			icon_scale: 2.0d
 			id: "5D3E461257CC0073"
 			rewards: [{
 				id: "139EFFADF39E96D8"
@@ -1977,7 +2056,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -1986,10 +2065,11 @@
 				pokemon: "zarude"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.71d
-			y: 6.99d
+			x: 3.61d
+			y: 9.32d
 		}
 		{
+			icon_scale: 2.0d
 			id: "769165460827C9BE"
 			rewards: [{
 				id: "3EE130DD1D03B796"
@@ -2002,7 +2082,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2011,10 +2091,11 @@
 				pokemon: "regieleki"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.38d
-			y: 7.37d
+			x: 1.84d
+			y: 9.83d
 		}
 		{
+			icon_scale: 2.0d
 			id: "35C53D010A9A9CB0"
 			rewards: [{
 				id: "121A3B8470B0080C"
@@ -2027,7 +2108,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2037,9 +2118,10 @@
 				type: "pixelgoquests:catch_pokemon"
 			}]
 			x: 0.0d
-			y: 7.5d
+			y: 10.0d
 		}
 		{
+			icon_scale: 2.0d
 			id: "16AD3A3172F26FA7"
 			rewards: [{
 				id: "39FF16C68477D5A9"
@@ -2052,7 +2134,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2061,10 +2143,11 @@
 				pokemon: "glastrier"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.38d
-			y: 7.37d
+			x: -1.84d
+			y: 9.83d
 		}
 		{
+			icon_scale: 2.0d
 			id: "68177583DC276320"
 			rewards: [{
 				id: "2B500F459DF8D1FE"
@@ -2077,7 +2160,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2086,10 +2169,11 @@
 				pokemon: "spectrier"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.71d
-			y: 6.99d
+			x: -3.61d
+			y: 9.32d
 		}
 		{
+			icon_scale: 2.0d
 			id: "30950CDAC4EE97FB"
 			rewards: [{
 				id: "268DD046B68F4220"
@@ -2102,7 +2186,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2111,10 +2195,11 @@
 				pokemon: "calyrex"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -3.95d
-			y: 6.38d
+			x: -5.26d
+			y: 8.5d
 		}
 		{
+			icon_scale: 2.0d
 			id: "6F0FA0941227EBDD"
 			rewards: [{
 				id: "52D852C233E98A20"
@@ -2127,7 +2212,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2136,10 +2221,11 @@
 				pokemon: "enamorus"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.05d
-			y: 5.54d
+			x: -6.74d
+			y: 7.39d
 		}
 		{
+			icon_scale: 2.0d
 			id: "504441E36C715883"
 			rewards: [{
 				id: "03E7A32172BED0C2"
@@ -2152,7 +2238,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2161,10 +2247,11 @@
 				pokemon: "Wo-Chien"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.99d
-			y: 4.52d
+			x: -7.98d
+			y: 6.03d
 		}
 		{
+			icon_scale: 2.0d
 			id: "5AAF152B00D1EBD0"
 			rewards: [{
 				id: "5BE06442BEE7DE0C"
@@ -2177,7 +2264,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2186,10 +2273,11 @@
 				pokemon: "Chien-Pao"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -6.71d
-			y: 3.34d
+			x: -8.95d
+			y: 4.46d
 		}
 		{
+			icon_scale: 2.0d
 			id: "489C22FE8C25F190"
 			rewards: [{
 				id: "15369681732D82A4"
@@ -2202,7 +2290,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2211,10 +2299,11 @@
 				pokemon: "Ting-Lu"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -7.21d
-			y: 2.05d
+			x: -9.62d
+			y: 2.74d
 		}
 		{
+			icon_scale: 2.0d
 			id: "6439807FD1CE1B1F"
 			rewards: [{
 				id: "706B768FE7F4376F"
@@ -2227,7 +2316,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2236,10 +2325,11 @@
 				pokemon: "Chi-Yu"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -7.47d
-			y: 0.69d
+			x: -9.96d
+			y: 0.92d
 		}
 		{
+			icon_scale: 2.0d
 			id: "32B81CD17EE19C51"
 			rewards: [{
 				id: "551B23B689715887"
@@ -2252,7 +2342,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2261,10 +2351,11 @@
 				pokemon: "Koraidon"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -7.47d
-			y: -0.69d
+			x: -9.96d
+			y: -0.92d
 		}
 		{
+			icon_scale: 2.0d
 			id: "2B381F632FD6450A"
 			rewards: [{
 				id: "4CC31CB0D17236B2"
@@ -2277,7 +2368,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2286,10 +2377,11 @@
 				pokemon: "Miraidon"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -7.21d
-			y: -2.05d
+			x: -9.62d
+			y: -2.74d
 		}
 		{
+			icon_scale: 2.0d
 			id: "7020EC6255F8B7AE"
 			rewards: [{
 				id: "305833192B7DAA5B"
@@ -2302,7 +2394,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2311,10 +2403,11 @@
 				pokemon: "Okidogi"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -6.71d
-			y: -3.34d
+			x: -8.95d
+			y: -4.46d
 		}
 		{
+			icon_scale: 2.0d
 			id: "4B541EC40BF22B3A"
 			rewards: [{
 				id: "15AB105CD9631F8A"
@@ -2327,7 +2420,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2336,10 +2429,11 @@
 				pokemon: "Munkidori"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.99d
-			y: -4.52d
+			x: -7.98d
+			y: -6.03d
 		}
 		{
+			icon_scale: 2.0d
 			id: "1BF112D52D866564"
 			rewards: [{
 				id: "4EDE0BA55E4AA74B"
@@ -2352,7 +2446,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2361,10 +2455,11 @@
 				pokemon: "Fezandipiti"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.05d
-			y: -5.54d
+			x: -6.74d
+			y: -7.39d
 		}
 		{
+			icon_scale: 2.0d
 			id: "79E02DADCE4F5A62"
 			rewards: [{
 				id: "17204389F3B79E10"
@@ -2377,7 +2472,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2386,10 +2481,11 @@
 				pokemon: "Ogerpon"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -3.95d
-			y: -6.38d
+			x: -5.26d
+			y: -8.5d
 		}
 		{
+			icon_scale: 2.0d
 			id: "52B4086369B39743"
 			rewards: [{
 				id: "003041F1814955A1"
@@ -2402,7 +2498,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2411,10 +2507,11 @@
 				pokemon: "Terapagos"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.71d
-			y: -6.99d
+			x: -3.61d
+			y: -9.32d
 		}
 		{
+			icon_scale: 2.0d
 			id: "7BD6628C5DFED5CA"
 			rewards: [{
 				id: "275B5DF9E797E923"
@@ -2427,7 +2524,7 @@
 				}
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2436,10 +2533,11 @@
 				pokemon: "Pecharunt"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.38d
-			y: -7.37d
+			x: -1.84d
+			y: -9.83d
 		}
 		{
+			icon_scale: 2.0d
 			id: "0F640B48BF8BD112"
 			rewards: [{
 				id: "4668242A4832722A"
@@ -2452,7 +2550,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2462,9 +2560,10 @@
 				type: "pixelgoquests:catch_pokemon"
 			}]
 			x: 0.0d
-			y: -9.25d
+			y: -12.25d
 		}
 		{
+			icon_scale: 2.0d
 			id: "2F840A30213F45F4"
 			rewards: [{
 				id: "31AC203E2825A569"
@@ -2477,7 +2576,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2486,10 +2585,11 @@
 				pokemon: "Buzzwole"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.0d
-			y: -7.78d
+			x: 6.62d
+			y: -10.31d
 		}
 		{
+			icon_scale: 2.0d
 			id: "3FDA7AA02A06B830"
 			rewards: [{
 				id: "7A2FB8920D83DCE2"
@@ -2502,7 +2602,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2511,10 +2611,11 @@
 				pokemon: "Pheromosa"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 8.41d
-			y: -3.84d
+			x: 11.14d
+			y: -5.09d
 		}
 		{
+			icon_scale: 2.0d
 			id: "703BC293F0FA3D4A"
 			rewards: [{
 				id: "53A1340086762E2E"
@@ -2527,7 +2628,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2536,10 +2637,11 @@
 				pokemon: "Xurkitree"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 9.16d
-			y: 1.32d
+			x: 12.13d
+			y: 1.74d
 		}
 		{
+			icon_scale: 2.0d
 			id: "4E69C08C074F5482"
 			rewards: [{
 				id: "00B6437A2790FACC"
@@ -2552,7 +2654,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2561,10 +2663,11 @@
 				pokemon: "Celesteela"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 6.99d
-			y: 6.06d
+			x: 9.26d
+			y: 8.02d
 		}
 		{
+			icon_scale: 2.0d
 			id: "617C4E7264563B33"
 			rewards: [{
 				id: "358C476885212B52"
@@ -2577,7 +2680,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2586,10 +2689,11 @@
 				pokemon: "Kartana"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.61d
-			y: 8.88d
+			x: 3.45d
+			y: 11.75d
 		}
 		{
+			icon_scale: 2.0d
 			id: "5651EF2C85406C24"
 			rewards: [{
 				id: "1189C0911220D38E"
@@ -2602,7 +2706,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2611,10 +2715,11 @@
 				pokemon: "Guzzlord"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.61d
-			y: 8.88d
+			x: -3.45d
+			y: 11.75d
 		}
 		{
+			icon_scale: 2.0d
 			id: "2B77FFA423115D8F"
 			rewards: [{
 				id: "5325943DAB36845D"
@@ -2627,7 +2732,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2636,10 +2741,11 @@
 				pokemon: "Poipole"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -6.99d
-			y: 6.06d
+			x: -9.26d
+			y: 8.02d
 		}
 		{
+			icon_scale: 2.0d
 			id: "6D28EE6D516D6458"
 			rewards: [{
 				id: "1DAB6622CA55551E"
@@ -2652,7 +2758,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2661,10 +2767,11 @@
 				pokemon: "Naganadel"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -9.16d
-			y: 1.32d
+			x: -12.13d
+			y: 1.74d
 		}
 		{
+			icon_scale: 2.0d
 			id: "15DC6D4C4934C1EC"
 			rewards: [{
 				id: "7DEB2ABAD2DD3C84"
@@ -2677,7 +2784,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2686,10 +2793,11 @@
 				pokemon: "Stakataka"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -8.41d
-			y: -3.84d
+			x: -11.14d
+			y: -5.09d
 		}
 		{
+			icon_scale: 2.0d
 			id: "3DBBD0B808C5191C"
 			rewards: [{
 				id: "6B4CF455D70656DB"
@@ -2702,7 +2810,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "none"
 			tasks: [{
 				catchType: 0b
 				count: 1
@@ -2711,8 +2819,8 @@
 				pokemon: "Blacephalon"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.0d
-			y: -7.78d
+			x: -6.62d
+			y: -10.31d
 		}
 		{
 			dependencies: ["15A7C4D0E4FC551C", "3CFB05A546490254", "34E86699ED8A9048", "4AC1D67E1CBCBDBA", "11EF5989BEF68665", "3E0DC17C14EC7B3B", "78C1271D0678127F", "236DFFE69FB14FCF", "446ADC1F39FD1E7A", "0D8E33B8D44EC6B6", "68AFC5FFB8F1135A", "741AC7FAE1648CB8", "24622BD26E00C800", "6272232BBEA603F2", "4539A76A0DC4CC7A", "0D892A58955035CF", "47CDECCB49A39DAA", "5611B52E51CF6BC8", "08194BD1B89AA0BE", "2E1AE26E548D99A8", "2043ADF998461C6F", "7B6E0866A5313E35", "0A99A57DBA8E30D9", "7A0DE075AC983E33", "07B04BB2AACB093C", "1DC7BF029A4FF19D", "09DB3657A3CC7B35", "6DA97D3E7CC58DC9", "77503E7B58FD7CF7", "3486C1EC43F9A3E0", "37399120A5AD0D83", "6BC6F14384032825", "1849CAE91FB799CF", "1717B327C499D584", "55ECACE943067261", "3EDC2DFCAA5F1C03", "7DD049D13275F13E", "5D393487A04EB9D7", "508DD4DA20DBDE84", "5E80123CA9C2A685", "65B09557D0A3B83C", "59DE4602B8E79802", "217C11045DFDC846", "033B7F71FB554AF7", "5F86FD56E87E0799", "0E79EF30A437B244", "622EA22A96FE1983", "331E47FC6753CA77", "7C41A59A02F569DC", "6DAD2C4C36112BA4", "050993FE78F65600", "4ACBF930CE9581E9", "3388BC711410EFD7", "37BE38795C408DA6", "10F654305BFC92BE", "28AF4877B68107D7", "09AF90DB34F9C3E2", "693DA731B8063587", "762D3F11F0F7A959", "31F64C9795DB6F6D", "1A9C0F73E47EEEA4", "03A0697333CD033A", "1C3EA4833958200E", "5967F015B9C7415C", "5A9CF92DA206A309", "48C37477DA746427", "7CB678547AC73D22", "5B8C4DCBA96D5608", "2A57A10BF965BF46", "7939388BECE7EA88", "1F7F655DC2AC2E49", "53CB69838F993AE5", "6D73159A7FF1EF24", "4736C26646A40A35", "07C03567C3D3CF58", "4537047EE83C841A", "6E1C82BF070B12BB", "737FC1E442C60051", "5D3E461257CC0073", "769165460827C9BE", "35C53D010A9A9CB0", "16AD3A3172F26FA7", "68177583DC276320", "30950CDAC4EE97FB", "6F0FA0941227EBDD", "504441E36C715883", "5AAF152B00D1EBD0", "489C22FE8C25F190", "6439807FD1CE1B1F", "32B81CD17EE19C51", "2B381F632FD6450A", "7020EC6255F8B7AE", "4B541EC40BF22B3A", "1BF112D52D866564", "79E02DADCE4F5A62", "52B4086369B39743", "7BD6628C5DFED5CA", "0F640B48BF8BD112", "2F840A30213F45F4", "3FDA7AA02A06B830", "703BC293F0FA3D4A", "4E69C08C074F5482", "617C4E7264563B33", "5651EF2C85406C24", "2B77FFA423115D8F", "6D28EE6D516D6458", "15DC6D4C4934C1EC", "3DBBD0B808C5191C"]

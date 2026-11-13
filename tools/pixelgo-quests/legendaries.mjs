@@ -4,8 +4,8 @@
  * =============================================================================
  *  Rebuilt on 2026-11-13 as a collection page. This pass owns the whole chapter:
  *  - one "Catch (any)" quest per Pokémon, no text (the task title is enough);
- *  - legendaries + mythicals on four rings in Pokédex order, starting at the
- *    top and going clockwise; Ultra Beasts on an outer ring (hexagons);
+ *  - no frame, sprites at x2; legendaries + mythicals on four rings in Pokédex order, starting at the
+ *    top and going clockwise; Ultra Beasts on an outer ring;
  *  - a big checkmark in the middle that needs the whole collection.
  *
  *  Species list = Pixelmon 9.4.2 tags (data/pixelmon/species/*.json):
@@ -67,8 +67,11 @@ const MONS = [
 ];
 
 /* --- layout ----------------------------------------------------------------------- */
-const RINGS = [3, 4.5, 6, 7.5];   // legendaries + mythicals
-const UB_RING = 9.25;             // Ultra Beasts
+// no frame (shape "none"), sprite drawn at x2 (user's Lugia example, 2026-11-13):
+// rings far enough apart that the big sprites do not overlap
+const ICON_SCALE = 2;
+const RINGS = [4, 6, 8, 10];      // legendaries + mythicals
+const UB_RING = 12.25;            // Ultra Beasts
 const CHECK_SIZE = 3;
 
 /* --- read the chapter --------------------------------------------------------------- */
@@ -183,9 +186,10 @@ placed.forEach(([spec, kind], i) => {
   }
   const [x, y] = pos[i];
   out.push('\t\t{');
+  out.push(`\t\t\ticon_scale: ${fmt(ICON_SCALE)}`);
   out.push(`\t\t\tid: "${id}"`);
   out.push(...(o?.rewards ?? rewardLines(norm(spec), kind === U ? 'tier3' : 'tier4')));
-  out.push(`\t\t\tshape: "${kind === U ? 'hexagon' : 'circle'}"`);
+  out.push('\t\t\tshape: "none"');
   out.push(...tasks);
   out.push(`\t\t\tx: ${fmt(x)}`, `\t\t\ty: ${fmt(y)}`);
   out.push('\t\t}');

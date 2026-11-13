@@ -61,8 +61,8 @@
 				pokemon: "articuno form:galarian"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.39d
-			y: -2.66d
+			x: 1.3d
+			y: -2.7d
 		}
 		{
 			id: "34E86699ED8A9048"
@@ -86,8 +86,8 @@
 				pokemon: "Zapdos"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.47d
-			y: -1.7d
+			x: 2.35d
+			y: -1.87d
 		}
 		{
 			id: "4AC1D67E1CBCBDBA"
@@ -111,8 +111,8 @@
 				pokemon: "zapdos form:galarian"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.98d
-			y: -0.36d
+			x: 2.92d
+			y: -0.67d
 		}
 		{
 			id: "11EF5989BEF68665"
@@ -136,8 +136,8 @@
 				pokemon: "Moltres"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.81d
-			y: 1.06d
+			x: 2.92d
+			y: 0.67d
 		}
 		{
 			id: "3E0DC17C14EC7B3B"
@@ -161,8 +161,8 @@
 				pokemon: "moltres form:galarian"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.99d
-			y: 2.25d
+			x: 2.35d
+			y: 1.87d
 		}
 		{
 			id: "78C1271D0678127F"
@@ -186,8 +186,8 @@
 				pokemon: "Mewtwo"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 0.72d
-			y: 2.91d
+			x: 1.3d
+			y: 2.7d
 		}
 		{
 			id: "236DFFE69FB14FCF"
@@ -211,8 +211,8 @@
 				pokemon: "Mew"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -0.72d
-			y: 2.91d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			id: "446ADC1F39FD1E7A"
@@ -236,8 +236,8 @@
 				pokemon: "raikou"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.99d
-			y: 2.25d
+			x: -1.3d
+			y: 2.7d
 		}
 		{
 			id: "0D8E33B8D44EC6B6"
@@ -261,8 +261,8 @@
 				pokemon: "entei"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.81d
-			y: 1.06d
+			x: -2.35d
+			y: 1.87d
 		}
 		{
 			id: "68AFC5FFB8F1135A"
@@ -286,8 +286,8 @@
 				pokemon: "suicune"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.98d
-			y: -0.36d
+			x: -2.92d
+			y: 0.67d
 		}
 		{
 			id: "741AC7FAE1648CB8"
@@ -311,8 +311,8 @@
 				pokemon: "lugia"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.47d
-			y: -1.7d
+			x: -2.92d
+			y: -0.67d
 		}
 		{
 			id: "24622BD26E00C800"
@@ -336,8 +336,8 @@
 				pokemon: "Ho-Oh"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.39d
-			y: -2.66d
+			x: -2.35d
+			y: -1.87d
 		}
 		{
 			id: "6272232BBEA603F2"
@@ -361,8 +361,8 @@
 				pokemon: "celebi"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: -1.3d
+			y: -2.7d
 		}
 		{
 			id: "4539A76A0DC4CC7A"
@@ -386,8 +386,8 @@
 				pokemon: "regirock"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.39d
-			y: -4.28d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			id: "0D892A58955035CF"
@@ -411,8 +411,8 @@
 				pokemon: "regice"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.65d
-			y: -3.64d
+			x: 1.33d
+			y: -4.3d
 		}
 		{
 			id: "47CDECCB49A39DAA"
@@ -436,8 +436,8 @@
 				pokemon: "registeel"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 3.64d
-			y: -2.65d
+			x: 2.53d
+			y: -3.72d
 		}
 		{
 			id: "5611B52E51CF6BC8"
@@ -461,8 +461,8 @@
 				pokemon: "latias"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 4.28d
-			y: -1.39d
+			x: 3.52d
+			y: -2.81d
 		}
 		{
 			id: "08194BD1B89AA0BE"
@@ -486,8 +486,8 @@
 				pokemon: "latios"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 4.19d
+			y: -1.64d
 		}
 		{
 			id: "2E1AE26E548D99A8"
@@ -511,8 +511,8 @@
 				pokemon: "kyogre"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 4.28d
-			y: 1.39d
+			x: 4.49d
+			y: -0.34d
 		}
 		{
 			id: "2043ADF998461C6F"
@@ -536,8 +536,8 @@
 				pokemon: "groudon"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 3.64d
-			y: 2.65d
+			x: 4.39d
+			y: 1.0d
 		}
 		{
 			id: "7B6E0866A5313E35"
@@ -561,8 +561,8 @@
 				pokemon: "rayquaza"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.65d
-			y: 3.64d
+			x: 3.9d
+			y: 2.25d
 		}
 		{
 			id: "0A99A57DBA8E30D9"
@@ -586,8 +586,8 @@
 				pokemon: "jirachi"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.39d
-			y: 4.28d
+			x: 3.06d
+			y: 3.3d
 		}
 		{
 			id: "7A0DE075AC983E33"
@@ -611,8 +611,8 @@
 				pokemon: "deoxys"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: 1.95d
+			y: 4.05d
 		}
 		{
 			id: "07B04BB2AACB093C"
@@ -636,8 +636,8 @@
 				pokemon: "uxie"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.39d
-			y: 4.28d
+			x: 0.67d
+			y: 4.45d
 		}
 		{
 			id: "1DC7BF029A4FF19D"
@@ -661,8 +661,8 @@
 				pokemon: "mesprit"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.65d
-			y: 3.64d
+			x: -0.67d
+			y: 4.45d
 		}
 		{
 			id: "09DB3657A3CC7B35"
@@ -686,8 +686,8 @@
 				pokemon: "azelf"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -3.64d
-			y: 2.65d
+			x: -1.95d
+			y: 4.05d
 		}
 		{
 			id: "6DA97D3E7CC58DC9"
@@ -711,8 +711,8 @@
 				pokemon: "dialga"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -4.28d
-			y: 1.39d
+			x: -3.06d
+			y: 3.3d
 		}
 		{
 			id: "77503E7B58FD7CF7"
@@ -736,8 +736,8 @@
 				pokemon: "palkia"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -4.5d
-			y: 0.0d
+			x: -3.9d
+			y: 2.25d
 		}
 		{
 			id: "3486C1EC43F9A3E0"
@@ -761,8 +761,8 @@
 				pokemon: "heatran"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -4.28d
-			y: -1.39d
+			x: -4.39d
+			y: 1.0d
 		}
 		{
 			id: "37399120A5AD0D83"
@@ -786,8 +786,8 @@
 				pokemon: "regigigas"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -3.64d
-			y: -2.65d
+			x: -4.49d
+			y: -0.34d
 		}
 		{
 			id: "6BC6F14384032825"
@@ -811,8 +811,8 @@
 				pokemon: "giratina"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.65d
-			y: -3.64d
+			x: -4.19d
+			y: -1.64d
 		}
 		{
 			id: "1849CAE91FB799CF"
@@ -836,8 +836,33 @@
 				pokemon: "cresselia"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.39d
-			y: -4.28d
+			x: -3.52d
+			y: -2.81d
+		}
+		{
+			id: "1717B327C499D584"
+			rewards: [{
+				id: "220417F936491C6C"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				catchType: 0b
+				count: 1
+				id: "0EF4D52714C1F861"
+				invert: false
+				pokemon: "Phione"
+				type: "pixelgoquests:catch_pokemon"
+			}]
+			x: -2.53d
+			y: -3.72d
 		}
 		{
 			id: "55ECACE943067261"
@@ -861,8 +886,8 @@
 				pokemon: "manaphy"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: -1.33d
+			y: -4.3d
 		}
 		{
 			id: "3EDC2DFCAA5F1C03"
@@ -886,8 +911,8 @@
 				pokemon: "darkrai"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.38d
-			y: -5.84d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			id: "7DD049D13275F13E"
@@ -911,8 +936,8 @@
 				pokemon: "shaymin"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.69d
-			y: -5.36d
+			x: 1.34d
+			y: -5.85d
 		}
 		{
 			id: "5D393487A04EB9D7"
@@ -936,8 +961,8 @@
 				pokemon: "arceus"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 3.86d
-			y: -4.6d
+			x: 2.6d
+			y: -5.41d
 		}
 		{
 			id: "508DD4DA20DBDE84"
@@ -961,8 +986,8 @@
 				pokemon: "victini"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 4.81d
-			y: -3.58d
+			x: 3.74d
+			y: -4.69d
 		}
 		{
 			id: "5E80123CA9C2A685"
@@ -986,8 +1011,8 @@
 				pokemon: "cobalion"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.51d
-			y: -2.38d
+			x: 4.69d
+			y: -3.74d
 		}
 		{
 			id: "65B09557D0A3B83C"
@@ -1011,8 +1036,8 @@
 				pokemon: "terrakion"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.91d
-			y: -1.04d
+			x: 5.41d
+			y: -2.6d
 		}
 		{
 			id: "59DE4602B8E79802"
@@ -1036,8 +1061,8 @@
 				pokemon: "virizion"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.99d
-			y: 0.35d
+			x: 5.85d
+			y: -1.34d
 		}
 		{
 			id: "217C11045DFDC846"
@@ -1061,8 +1086,8 @@
 				pokemon: "tornadus"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.75d
-			y: 1.72d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			id: "033B7F71FB554AF7"
@@ -1086,8 +1111,8 @@
 				pokemon: "thundurus"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.2d
-			y: 3.0d
+			x: 5.85d
+			y: 1.34d
 		}
 		{
 			id: "5F86FD56E87E0799"
@@ -1111,8 +1136,8 @@
 				pokemon: "reshiram"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 4.36d
-			y: 4.12d
+			x: 5.41d
+			y: 2.6d
 		}
 		{
 			id: "0E79EF30A437B244"
@@ -1136,8 +1161,8 @@
 				pokemon: "zekrom"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 3.3d
-			y: 5.01d
+			x: 4.69d
+			y: 3.74d
 		}
 		{
 			id: "622EA22A96FE1983"
@@ -1161,8 +1186,8 @@
 				pokemon: "landorus"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.05d
-			y: 5.64d
+			x: 3.74d
+			y: 4.69d
 		}
 		{
 			id: "331E47FC6753CA77"
@@ -1186,8 +1211,8 @@
 				pokemon: "kyurem"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 0.7d
-			y: 5.96d
+			x: 2.6d
+			y: 5.41d
 		}
 		{
 			id: "7C41A59A02F569DC"
@@ -1211,8 +1236,8 @@
 				pokemon: "keldeo"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -0.7d
-			y: 5.96d
+			x: 1.34d
+			y: 5.85d
 		}
 		{
 			id: "6DAD2C4C36112BA4"
@@ -1236,8 +1261,8 @@
 				pokemon: "meloetta"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.05d
-			y: 5.64d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			id: "050993FE78F65600"
@@ -1261,8 +1286,8 @@
 				pokemon: "genesect"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -3.3d
-			y: 5.01d
+			x: -1.34d
+			y: 5.85d
 		}
 		{
 			id: "4ACBF930CE9581E9"
@@ -1286,8 +1311,8 @@
 				pokemon: "xerneas"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -4.36d
-			y: 4.12d
+			x: -2.6d
+			y: 5.41d
 		}
 		{
 			id: "3388BC711410EFD7"
@@ -1311,8 +1336,8 @@
 				pokemon: "yveltal"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.2d
-			y: 3.0d
+			x: -3.74d
+			y: 4.69d
 		}
 		{
 			id: "37BE38795C408DA6"
@@ -1336,8 +1361,8 @@
 				pokemon: "zygarde"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.75d
-			y: 1.72d
+			x: -4.69d
+			y: 3.74d
 		}
 		{
 			id: "10F654305BFC92BE"
@@ -1361,8 +1386,8 @@
 				pokemon: "diancie"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.99d
-			y: 0.35d
+			x: -5.41d
+			y: 2.6d
 		}
 		{
 			id: "28AF4877B68107D7"
@@ -1386,8 +1411,8 @@
 				pokemon: "hoopa"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.91d
-			y: -1.04d
+			x: -5.85d
+			y: 1.34d
 		}
 		{
 			id: "09AF90DB34F9C3E2"
@@ -1411,8 +1436,8 @@
 				pokemon: "volcanion"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.51d
-			y: -2.38d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			id: "693DA731B8063587"
@@ -1436,8 +1461,8 @@
 				pokemon: "TypeNull"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -4.81d
-			y: -3.58d
+			x: -5.85d
+			y: -1.34d
 		}
 		{
 			id: "762D3F11F0F7A959"
@@ -1461,8 +1486,8 @@
 				pokemon: "Silvally"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -3.86d
-			y: -4.6d
+			x: -5.41d
+			y: -2.6d
 		}
 		{
 			id: "31F64C9795DB6F6D"
@@ -1486,8 +1511,8 @@
 				pokemon: "tapukoko"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.69d
-			y: -5.36d
+			x: -4.69d
+			y: -3.74d
 		}
 		{
 			id: "1A9C0F73E47EEEA4"
@@ -1511,8 +1536,8 @@
 				pokemon: "tapulele"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.38d
-			y: -5.84d
+			x: -3.74d
+			y: -4.69d
 		}
 		{
 			id: "03A0697333CD033A"
@@ -1536,8 +1561,8 @@
 				pokemon: "tapubulu"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 0.0d
-			y: -7.5d
+			x: -2.6d
+			y: -5.41d
 		}
 		{
 			id: "1C3EA4833958200E"
@@ -1561,8 +1586,8 @@
 				pokemon: "tapufini"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.38d
-			y: -7.37d
+			x: -1.34d
+			y: -5.85d
 		}
 		{
 			id: "5967F015B9C7415C"
@@ -1586,8 +1611,8 @@
 				pokemon: "cosmog"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.71d
-			y: -6.99d
+			x: 0.0d
+			y: -7.5d
 		}
 		{
 			id: "5A9CF92DA206A309"
@@ -1611,8 +1636,8 @@
 				pokemon: "cosmoem"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 3.95d
-			y: -6.38d
+			x: 1.38d
+			y: -7.37d
 		}
 		{
 			id: "48C37477DA746427"
@@ -1636,8 +1661,8 @@
 				pokemon: "solgaleo"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.05d
-			y: -5.54d
+			x: 2.71d
+			y: -6.99d
 		}
 		{
 			id: "7CB678547AC73D22"
@@ -1661,8 +1686,8 @@
 				pokemon: "Lunala"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.99d
-			y: -4.52d
+			x: 3.95d
+			y: -6.38d
 		}
 		{
 			id: "5B8C4DCBA96D5608"
@@ -1686,8 +1711,8 @@
 				pokemon: "necrozma"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 6.71d
-			y: -3.34d
+			x: 5.05d
+			y: -5.54d
 		}
 		{
 			id: "2A57A10BF965BF46"
@@ -1711,8 +1736,8 @@
 				pokemon: "magearna"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 7.21d
-			y: -2.05d
+			x: 5.99d
+			y: -4.52d
 		}
 		{
 			id: "7939388BECE7EA88"
@@ -1736,8 +1761,8 @@
 				pokemon: "Marshadow"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 7.47d
-			y: -0.69d
+			x: 6.71d
+			y: -3.34d
 		}
 		{
 			id: "1F7F655DC2AC2E49"
@@ -1761,8 +1786,8 @@
 				pokemon: "zeraora"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 7.47d
-			y: 0.69d
+			x: 7.21d
+			y: -2.05d
 		}
 		{
 			id: "53CB69838F993AE5"
@@ -1786,8 +1811,33 @@
 				pokemon: "meltan"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 7.21d
-			y: 2.05d
+			x: 7.47d
+			y: -0.69d
+		}
+		{
+			id: "6D73159A7FF1EF24"
+			rewards: [{
+				id: "3872BC1EB1455E8C"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				catchType: 0b
+				count: 1
+				id: "3C6C8D6A19F38CAC"
+				invert: false
+				pokemon: "Melmetal"
+				type: "pixelgoquests:catch_pokemon"
+			}]
+			x: 7.47d
+			y: 0.69d
 		}
 		{
 			id: "4736C26646A40A35"
@@ -1811,8 +1861,8 @@
 				pokemon: "Zacian"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 6.71d
-			y: 3.34d
+			x: 7.21d
+			y: 2.05d
 		}
 		{
 			id: "07C03567C3D3CF58"
@@ -1836,8 +1886,8 @@
 				pokemon: "Zamazenta"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.99d
-			y: 4.52d
+			x: 6.71d
+			y: 3.34d
 		}
 		{
 			id: "4537047EE83C841A"
@@ -1861,8 +1911,8 @@
 				pokemon: "eternatus"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.05d
-			y: 5.54d
+			x: 5.99d
+			y: 4.52d
 		}
 		{
 			id: "6E1C82BF070B12BB"
@@ -1886,8 +1936,8 @@
 				pokemon: "kubfu"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 3.95d
-			y: 6.38d
+			x: 5.05d
+			y: 5.54d
 		}
 		{
 			id: "737FC1E442C60051"
@@ -1911,8 +1961,8 @@
 				pokemon: "urshifu"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 2.71d
-			y: 6.99d
+			x: 3.95d
+			y: 6.38d
 		}
 		{
 			id: "5D3E461257CC0073"
@@ -1936,8 +1986,8 @@
 				pokemon: "zarude"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 1.38d
-			y: 7.37d
+			x: 2.71d
+			y: 6.99d
 		}
 		{
 			id: "769165460827C9BE"
@@ -1961,8 +2011,8 @@
 				pokemon: "regieleki"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: 1.38d
+			y: 7.37d
 		}
 		{
 			id: "35C53D010A9A9CB0"
@@ -1986,8 +2036,8 @@
 				pokemon: "regidrago"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -1.38d
-			y: 7.37d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			id: "16AD3A3172F26FA7"
@@ -2011,8 +2061,8 @@
 				pokemon: "glastrier"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.71d
-			y: 6.99d
+			x: -1.38d
+			y: 7.37d
 		}
 		{
 			id: "68177583DC276320"
@@ -2036,8 +2086,8 @@
 				pokemon: "spectrier"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -3.95d
-			y: 6.38d
+			x: -2.71d
+			y: 6.99d
 		}
 		{
 			id: "30950CDAC4EE97FB"
@@ -2061,8 +2111,8 @@
 				pokemon: "calyrex"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.05d
-			y: 5.54d
+			x: -3.95d
+			y: 6.38d
 		}
 		{
 			id: "6F0FA0941227EBDD"
@@ -2086,8 +2136,8 @@
 				pokemon: "enamorus"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.99d
-			y: 4.52d
+			x: -5.05d
+			y: 5.54d
 		}
 		{
 			id: "504441E36C715883"
@@ -2111,8 +2161,8 @@
 				pokemon: "Wo-Chien"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -6.71d
-			y: 3.34d
+			x: -5.99d
+			y: 4.52d
 		}
 		{
 			id: "5AAF152B00D1EBD0"
@@ -2136,8 +2186,8 @@
 				pokemon: "Chien-Pao"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -7.21d
-			y: 2.05d
+			x: -6.71d
+			y: 3.34d
 		}
 		{
 			id: "489C22FE8C25F190"
@@ -2161,8 +2211,8 @@
 				pokemon: "Ting-Lu"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -7.47d
-			y: 0.69d
+			x: -7.21d
+			y: 2.05d
 		}
 		{
 			id: "6439807FD1CE1B1F"
@@ -2187,7 +2237,7 @@
 				type: "pixelgoquests:catch_pokemon"
 			}]
 			x: -7.47d
-			y: -0.69d
+			y: 0.69d
 		}
 		{
 			id: "32B81CD17EE19C51"
@@ -2211,8 +2261,8 @@
 				pokemon: "Koraidon"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -7.21d
-			y: -2.05d
+			x: -7.47d
+			y: -0.69d
 		}
 		{
 			id: "2B381F632FD6450A"
@@ -2236,8 +2286,8 @@
 				pokemon: "Miraidon"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -6.71d
-			y: -3.34d
+			x: -7.21d
+			y: -2.05d
 		}
 		{
 			id: "7020EC6255F8B7AE"
@@ -2261,8 +2311,8 @@
 				pokemon: "Okidogi"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.99d
-			y: -4.52d
+			x: -6.71d
+			y: -3.34d
 		}
 		{
 			id: "4B541EC40BF22B3A"
@@ -2286,8 +2336,8 @@
 				pokemon: "Munkidori"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.05d
-			y: -5.54d
+			x: -5.99d
+			y: -4.52d
 		}
 		{
 			id: "1BF112D52D866564"
@@ -2311,8 +2361,8 @@
 				pokemon: "Fezandipiti"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -3.95d
-			y: -6.38d
+			x: -5.05d
+			y: -5.54d
 		}
 		{
 			id: "79E02DADCE4F5A62"
@@ -2336,8 +2386,8 @@
 				pokemon: "Ogerpon"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -2.71d
-			y: -6.99d
+			x: -3.95d
+			y: -6.38d
 		}
 		{
 			id: "52B4086369B39743"
@@ -2359,6 +2409,31 @@
 				id: "7E2491D6D3B53CEF"
 				invert: false
 				pokemon: "Terapagos"
+				type: "pixelgoquests:catch_pokemon"
+			}]
+			x: -2.71d
+			y: -6.99d
+		}
+		{
+			id: "7BD6628C5DFED5CA"
+			rewards: [{
+				id: "275B5DF9E797E923"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier4"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				catchType: 0b
+				count: 1
+				id: "708119DA96AB2B83"
+				invert: false
+				pokemon: "Pecharunt"
 				type: "pixelgoquests:catch_pokemon"
 			}]
 			x: -1.38d
@@ -2411,8 +2486,8 @@
 				pokemon: "Buzzwole"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.44d
-			y: -7.48d
+			x: 5.0d
+			y: -7.78d
 		}
 		{
 			id: "3FDA7AA02A06B830"
@@ -2436,8 +2511,8 @@
 				pokemon: "Pheromosa"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 8.8d
-			y: -2.86d
+			x: 8.41d
+			y: -3.84d
 		}
 		{
 			id: "703BC293F0FA3D4A"
@@ -2461,8 +2536,8 @@
 				pokemon: "Xurkitree"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 8.8d
-			y: 2.86d
+			x: 9.16d
+			y: 1.32d
 		}
 		{
 			id: "4E69C08C074F5482"
@@ -2486,8 +2561,8 @@
 				pokemon: "Celesteela"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 5.44d
-			y: 7.48d
+			x: 6.99d
+			y: 6.06d
 		}
 		{
 			id: "617C4E7264563B33"
@@ -2511,8 +2586,8 @@
 				pokemon: "Kartana"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: 0.0d
-			y: 9.25d
+			x: 2.61d
+			y: 8.88d
 		}
 		{
 			id: "5651EF2C85406C24"
@@ -2536,8 +2611,8 @@
 				pokemon: "Guzzlord"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.44d
-			y: 7.48d
+			x: -2.61d
+			y: 8.88d
 		}
 		{
 			id: "2B77FFA423115D8F"
@@ -2561,8 +2636,33 @@
 				pokemon: "Poipole"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -8.8d
-			y: 2.86d
+			x: -6.99d
+			y: 6.06d
+		}
+		{
+			id: "6D28EE6D516D6458"
+			rewards: [{
+				id: "1DAB6622CA55551E"
+				item: {
+					components: {
+						"treasurebags:bag_type": "pixelgo:tier3"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				catchType: 0b
+				count: 1
+				id: "3512B3C42E8B58C5"
+				invert: false
+				pokemon: "Naganadel"
+				type: "pixelgoquests:catch_pokemon"
+			}]
+			x: -9.16d
+			y: 1.32d
 		}
 		{
 			id: "15DC6D4C4934C1EC"
@@ -2586,8 +2686,8 @@
 				pokemon: "Stakataka"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -8.8d
-			y: -2.86d
+			x: -8.41d
+			y: -3.84d
 		}
 		{
 			id: "3DBBD0B808C5191C"
@@ -2611,11 +2711,11 @@
 				pokemon: "Blacephalon"
 				type: "pixelgoquests:catch_pokemon"
 			}]
-			x: -5.44d
-			y: -7.48d
+			x: -5.0d
+			y: -7.78d
 		}
 		{
-			dependencies: ["15A7C4D0E4FC551C", "3CFB05A546490254", "34E86699ED8A9048", "4AC1D67E1CBCBDBA", "11EF5989BEF68665", "3E0DC17C14EC7B3B", "78C1271D0678127F", "236DFFE69FB14FCF", "446ADC1F39FD1E7A", "0D8E33B8D44EC6B6", "68AFC5FFB8F1135A", "741AC7FAE1648CB8", "24622BD26E00C800", "6272232BBEA603F2", "4539A76A0DC4CC7A", "0D892A58955035CF", "47CDECCB49A39DAA", "5611B52E51CF6BC8", "08194BD1B89AA0BE", "2E1AE26E548D99A8", "2043ADF998461C6F", "7B6E0866A5313E35", "0A99A57DBA8E30D9", "7A0DE075AC983E33", "07B04BB2AACB093C", "1DC7BF029A4FF19D", "09DB3657A3CC7B35", "6DA97D3E7CC58DC9", "77503E7B58FD7CF7", "3486C1EC43F9A3E0", "37399120A5AD0D83", "6BC6F14384032825", "1849CAE91FB799CF", "55ECACE943067261", "3EDC2DFCAA5F1C03", "7DD049D13275F13E", "5D393487A04EB9D7", "508DD4DA20DBDE84", "5E80123CA9C2A685", "65B09557D0A3B83C", "59DE4602B8E79802", "217C11045DFDC846", "033B7F71FB554AF7", "5F86FD56E87E0799", "0E79EF30A437B244", "622EA22A96FE1983", "331E47FC6753CA77", "7C41A59A02F569DC", "6DAD2C4C36112BA4", "050993FE78F65600", "4ACBF930CE9581E9", "3388BC711410EFD7", "37BE38795C408DA6", "10F654305BFC92BE", "28AF4877B68107D7", "09AF90DB34F9C3E2", "693DA731B8063587", "762D3F11F0F7A959", "31F64C9795DB6F6D", "1A9C0F73E47EEEA4", "03A0697333CD033A", "1C3EA4833958200E", "5967F015B9C7415C", "5A9CF92DA206A309", "48C37477DA746427", "7CB678547AC73D22", "5B8C4DCBA96D5608", "2A57A10BF965BF46", "7939388BECE7EA88", "1F7F655DC2AC2E49", "53CB69838F993AE5", "4736C26646A40A35", "07C03567C3D3CF58", "4537047EE83C841A", "6E1C82BF070B12BB", "737FC1E442C60051", "5D3E461257CC0073", "769165460827C9BE", "35C53D010A9A9CB0", "16AD3A3172F26FA7", "68177583DC276320", "30950CDAC4EE97FB", "6F0FA0941227EBDD", "504441E36C715883", "5AAF152B00D1EBD0", "489C22FE8C25F190", "6439807FD1CE1B1F", "32B81CD17EE19C51", "2B381F632FD6450A", "7020EC6255F8B7AE", "4B541EC40BF22B3A", "1BF112D52D866564", "79E02DADCE4F5A62", "52B4086369B39743", "0F640B48BF8BD112", "2F840A30213F45F4", "3FDA7AA02A06B830", "703BC293F0FA3D4A", "4E69C08C074F5482", "617C4E7264563B33", "5651EF2C85406C24", "2B77FFA423115D8F", "15DC6D4C4934C1EC", "3DBBD0B808C5191C"]
+			dependencies: ["15A7C4D0E4FC551C", "3CFB05A546490254", "34E86699ED8A9048", "4AC1D67E1CBCBDBA", "11EF5989BEF68665", "3E0DC17C14EC7B3B", "78C1271D0678127F", "236DFFE69FB14FCF", "446ADC1F39FD1E7A", "0D8E33B8D44EC6B6", "68AFC5FFB8F1135A", "741AC7FAE1648CB8", "24622BD26E00C800", "6272232BBEA603F2", "4539A76A0DC4CC7A", "0D892A58955035CF", "47CDECCB49A39DAA", "5611B52E51CF6BC8", "08194BD1B89AA0BE", "2E1AE26E548D99A8", "2043ADF998461C6F", "7B6E0866A5313E35", "0A99A57DBA8E30D9", "7A0DE075AC983E33", "07B04BB2AACB093C", "1DC7BF029A4FF19D", "09DB3657A3CC7B35", "6DA97D3E7CC58DC9", "77503E7B58FD7CF7", "3486C1EC43F9A3E0", "37399120A5AD0D83", "6BC6F14384032825", "1849CAE91FB799CF", "1717B327C499D584", "55ECACE943067261", "3EDC2DFCAA5F1C03", "7DD049D13275F13E", "5D393487A04EB9D7", "508DD4DA20DBDE84", "5E80123CA9C2A685", "65B09557D0A3B83C", "59DE4602B8E79802", "217C11045DFDC846", "033B7F71FB554AF7", "5F86FD56E87E0799", "0E79EF30A437B244", "622EA22A96FE1983", "331E47FC6753CA77", "7C41A59A02F569DC", "6DAD2C4C36112BA4", "050993FE78F65600", "4ACBF930CE9581E9", "3388BC711410EFD7", "37BE38795C408DA6", "10F654305BFC92BE", "28AF4877B68107D7", "09AF90DB34F9C3E2", "693DA731B8063587", "762D3F11F0F7A959", "31F64C9795DB6F6D", "1A9C0F73E47EEEA4", "03A0697333CD033A", "1C3EA4833958200E", "5967F015B9C7415C", "5A9CF92DA206A309", "48C37477DA746427", "7CB678547AC73D22", "5B8C4DCBA96D5608", "2A57A10BF965BF46", "7939388BECE7EA88", "1F7F655DC2AC2E49", "53CB69838F993AE5", "6D73159A7FF1EF24", "4736C26646A40A35", "07C03567C3D3CF58", "4537047EE83C841A", "6E1C82BF070B12BB", "737FC1E442C60051", "5D3E461257CC0073", "769165460827C9BE", "35C53D010A9A9CB0", "16AD3A3172F26FA7", "68177583DC276320", "30950CDAC4EE97FB", "6F0FA0941227EBDD", "504441E36C715883", "5AAF152B00D1EBD0", "489C22FE8C25F190", "6439807FD1CE1B1F", "32B81CD17EE19C51", "2B381F632FD6450A", "7020EC6255F8B7AE", "4B541EC40BF22B3A", "1BF112D52D866564", "79E02DADCE4F5A62", "52B4086369B39743", "7BD6628C5DFED5CA", "0F640B48BF8BD112", "2F840A30213F45F4", "3FDA7AA02A06B830", "703BC293F0FA3D4A", "4E69C08C074F5482", "617C4E7264563B33", "5651EF2C85406C24", "2B77FFA423115D8F", "6D28EE6D516D6458", "15DC6D4C4934C1EC", "3DBBD0B808C5191C"]
 			hide_dependency_lines: true
 			id: "0AE6E8BC470B66C6"
 			rewards: [{

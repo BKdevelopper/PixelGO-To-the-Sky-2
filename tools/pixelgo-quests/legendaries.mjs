@@ -10,8 +10,8 @@
  *
  *  Species list = Pixelmon 9.4.2 tags (data/pixelmon/species/*.json):
  *  71 `legendary`, 23 `mythical`, 11 `ultrabeast`, plus the 3 Galarian birds.
- *  Left out because no catch can ever give them (no spawn, no SSR ticket):
- *  Phione (egg only), Pecharunt, Melmetal and Naganadel (evolution only).
+ *  Phione (egg only), Pecharunt (no source), Melmetal and Naganadel (evolution
+ *  only) cannot be caught in the pack: kept as catch quests anyway (user, 2026-11-13).
  *
  *  - A quest that already exists is found by its species and KEEPS its id and
  *    rewards (players keep their progress); an old "submit" task becomes a
@@ -47,7 +47,7 @@ const MONS = [
   ['regirock', L], ['regice', L], ['registeel', L], ['latias', L], ['latios', L],
   ['kyogre', L], ['groudon', L], ['rayquaza', L], ['jirachi', M], ['deoxys', M],
   ['uxie', L], ['mesprit', L], ['azelf', L], ['dialga', L], ['palkia', L], ['heatran', L],
-  ['regigigas', L], ['giratina', L], ['cresselia', L], ['manaphy', M], ['darkrai', M],
+  ['regigigas', L], ['giratina', L], ['cresselia', L], ['Phione', M], ['manaphy', M], ['darkrai', M],
   ['shaymin', M], ['arceus', M],
   ['victini', M], ['cobalion', L], ['terrakion', L], ['virizion', L], ['tornadus', L],
   ['thundurus', L], ['reshiram', L], ['zekrom', L], ['landorus', L], ['kyurem', L],
@@ -57,13 +57,13 @@ const MONS = [
   ['tapufini', L], ['cosmog', L], ['cosmoem', L], ['solgaleo', L], ['Lunala', L],
   ['Nihilego', U], ['Buzzwole', U], ['Pheromosa', U], ['Xurkitree', U], ['Celesteela', U],
   ['Kartana', U], ['Guzzlord', U], ['necrozma', L], ['magearna', M], ['Marshadow', M],
-  ['Poipole', U], ['Stakataka', U], ['Blacephalon', U], ['zeraora', M], ['meltan', M],
+  ['Poipole', U], ['Naganadel', U], ['Stakataka', U], ['Blacephalon', U], ['zeraora', M], ['meltan', M], ['Melmetal', M],
   ['Zacian', L], ['Zamazenta', L], ['eternatus', L], ['kubfu', L], ['urshifu', L],
   ['zarude', M], ['regieleki', L], ['regidrago', L], ['glastrier', L], ['spectrier', L],
   ['calyrex', L], ['enamorus', L],
   ['Wo-Chien', L], ['Chien-Pao', L], ['Ting-Lu', L], ['Chi-Yu', L], ['Koraidon', L],
   ['Miraidon', L], ['Okidogi', L], ['Munkidori', L], ['Fezandipiti', L], ['Ogerpon', L],
-  ['Terapagos', L],
+  ['Terapagos', L], ['Pecharunt', M],
 ];
 
 /* --- layout ----------------------------------------------------------------------- */

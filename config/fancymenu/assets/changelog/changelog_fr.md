@@ -10,6 +10,7 @@
 ## Contenu retiré
 
 - Origin Ball retirée du loot.
+- Lingots de netherite du loot, remplacés par 3 à 4 débris de netherite.
 - Objets créatifs retirés des Sacs mystère.
 - Objets en netherite des Sacs mystère, remplacés par leur version en diamant.
 - Revente en boutique des objets des Sacs mystère.

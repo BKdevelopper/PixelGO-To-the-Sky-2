@@ -210,6 +210,9 @@ for (const e of NEW_DROPS) {
   if (hit) { hit.items.push(...e.items); merged++; }
   else { pokedrops.push(e); bySpec.set(e.pokemon, e); }
 }
+// Plus de lingot de netherite dans le loot (2026-11-13, demande) : débris de netherite x3-4.
+for (const e of pokedrops) for (const it of e.items || [])
+  if (it.item === 'minecraft:netherite_ingot') Object.assign(it, { item: 'minecraft:netherite_scrap', min: 3, max: 4 });
 
 // poke chests
 const chests = readBase('pokechestdrops.json');

@@ -14375,9 +14375,9 @@
     "pokemon": "Darkrai",
     "items": [
       {
-        "item": "minecraft:netherite_ingot",
-        "min": 1,
-        "max": 2,
+        "item": "minecraft:netherite_scrap",
+        "min": 3,
+        "max": 4,
         "chance": 1
       },
       {
@@ -21958,8 +21958,8 @@
     "pokemon": "Silvally",
     "items": [
       {
-        "item": "minecraft:netherite_ingot",
-        "min": 2,
+        "item": "minecraft:netherite_scrap",
+        "min": 3,
         "max": 4,
         "chance": 1
       },
@@ -25318,9 +25318,9 @@
         "chance": 1
       },
       {
-        "item": "minecraft:netherite_ingot",
-        "min": 1,
-        "max": 2,
+        "item": "minecraft:netherite_scrap",
+        "min": 3,
+        "max": 4,
         "chance": 0.5
       },
       {
@@ -28834,9 +28834,9 @@
         "chance": 1
       },
       {
-        "item": "minecraft:netherite_ingot",
-        "min": 1,
-        "max": 2,
+        "item": "minecraft:netherite_scrap",
+        "min": 3,
+        "max": 4,
         "chance": 0.5
       },
       {

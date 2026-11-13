@@ -10,6 +10,7 @@
 ## Removed content
 
 - Origin Ball removed from loot.
+- Netherite ingots in loot, replaced by 3 to 4 netherite scrap.
 - Creative items removed from Mystery Bags.
 - Netherite items in Mystery Bags, replaced by their diamond version.
 - Selling Mystery Bag items to shops.

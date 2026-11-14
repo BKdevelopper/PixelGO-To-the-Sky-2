@@ -1,6 +1,7 @@
 {
   "pixelmoninformationjade": {
     "trainer_reveal_team": true,
+    "trader_show_trade": true,
     "pokemon_stats": true,
     "trainer_stats": true,
     "block_usage": true

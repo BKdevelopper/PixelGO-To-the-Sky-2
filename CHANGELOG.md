@@ -2,6 +2,8 @@
 
 ## v3.1 — 2026-11-14
 
+- Île Windhaven réenregistrée (même taille 81x50x81) : maison meublée (mobilier et Pokédolls avec leurs données), minerais, 4 Master Chests cachés à usage unique (graines d'inferium, clé Ultra, totem, livre Harvesting IV), 8 tonneaux vides, 2 Portes de rang E à la place de la Porte de rang C, waystone déplacée.
+- Configs générées par les mises à jour : réservoirs Sophisticated Storage, Jade, InvMove.
 - Sacs mystère : générateurs d'énergie et tamis / marteaux automatiques ajoutés, objets créatifs retirés, objets en netherite passés en diamant, objets non revendables en boutique.
 - Loot : Origin Ball retirée, bases de Poké Ball ajoutées (tables de matériaux de ball).
 - L'osmium brut se cuit au four / haut fourneau.

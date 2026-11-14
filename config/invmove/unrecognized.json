@@ -74,7 +74,10 @@
     "com.kyusama.pixelgoexpedition.client.screen.ExpeditionScreen": true,
     "com.kyusama.pixelgoexpedition.client.screen.PokemonPickerScreen": true,
     "com.pixelmonmod.pixelmon.client.gui.MegaItemScreen": true,
-    "com.kyusama.upgradepokemon.client.UpgradeScreen": true
+    "com.kyusama.upgradepokemon.client.UpgradeScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneEditScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneModifierScreen": true,
+    "com.lothrazar.cyclic.block.generatorfluid.ScreenGeneratorFluid": true
   },
   "hideBackground": {
     "xiaojin.gachaaddiction.client.gui.screen.SlotMachineScreen": true,

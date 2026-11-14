@@ -1,5 +1,8 @@
 ## Added content
 
+- Windhaven island rebuilt: furnished house, Pokédolls, ores.
+- 4 hidden chests on Windhaven island.
+- 2 rank E Gates on Windhaven island.
 - Power generators in Mystery Bags.
 - Automatic sieves and hammers in Mystery Bags.
 - Poké Ball bases (wooden, iron, aluminum, silver, platinum) in loot.
@@ -12,6 +15,7 @@
 
 ## Removed content
 
+- Rank C Gate of Windhaven island.
 - Origin Ball removed from loot.
 - Netherite ingots in loot, replaced by 3 to 4 netherite scrap.
 - Creative items removed from Mystery Bags.

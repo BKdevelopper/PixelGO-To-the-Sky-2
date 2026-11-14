@@ -1,5 +1,8 @@
 ## Contenu ajouté
 
+- Île Windhaven refaite : maison meublée, Pokédolls, minerais.
+- 4 coffres cachés sur l'île Windhaven.
+- 2 Portes de rang E sur l'île Windhaven.
 - Générateurs d'énergie dans les Sacs mystère.
 - Tamis et marteaux automatiques dans les Sacs mystère.
 - Bases de Poké Ball (bois, fer, aluminium, argent, platine) dans le loot.
@@ -12,6 +15,7 @@
 
 ## Contenu retiré
 
+- Porte de rang C de l'île Windhaven.
 - Origin Ball retirée du loot.
 - Lingots de netherite du loot, remplacés par 3 à 4 débris de netherite.
 - Objets créatifs retirés des Sacs mystère.

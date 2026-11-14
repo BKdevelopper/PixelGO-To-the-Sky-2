@@ -1,4 +1,4 @@
-# PixelGO - To the Sky 2 — v3.0 : liste des contenus (232)
+# PixelGO - To the Sky 2 — v3.0 : liste des contenus (234)
 
 | Nom | Dossier | Fichier |
 |---|---|---|
@@ -36,7 +36,7 @@
 | [ColoFixes](https://www.curseforge.com/minecraft/mc-mods/colofixes) | mods | `colofixes-2.4.jar` |
 | [ColorTooltips](https://www.curseforge.com/minecraft/mc-mods/colortooltips) | mods | `colortooltips-1211.3.6.jar` |
 | [Common Capabilities](https://www.curseforge.com/minecraft/mc-mods/common-capabilities) | mods | `commoncapabilities-1.21.1-neoforge-2.11.6.jar` |
-| [Compass to Map: JourneyMap & Explorer's Compass & Nature's Compass Addon](https://www.curseforge.com/minecraft/mc-mods/compass-to-map) | mods | `compass-to-map-journeymap-2.1.1-neoforge-1.21.1.jar` |
+| [Compass to Map: JourneyMap & Explorer's Compass & Nature's Compass Addon](https://www.curseforge.com/minecraft/mc-mods/compass-to-map) *(désactivé)* | mods | `compass-to-map-journeymap-2.1.1-neoforge-1.21.1.jar` |
 | [Configured](https://www.curseforge.com/minecraft/mc-mods/configured) | mods | `configured-neoforge-1.21.1-2.6.3.jar` |
 | [Connected Glass](https://www.curseforge.com/minecraft/mc-mods/connected-glass) | mods | `connectedglass-1.1.14-neoforge-mc1.21.jar` |
 | [Construction Wands Revived](https://www.curseforge.com/minecraft/mc-mods/construction-wands-revived) | mods | `ConstructionWandsRevived-1.21.1-4.0.14-NeoForge.jar` |
@@ -58,11 +58,11 @@
 | [Dynamic Crosshair](https://www.curseforge.com/minecraft/mc-mods/dynamic-crosshair) | mods | `dynamiccrosshair-9.11+1.21.1-neoforge.jar` |
 | [EMC Bridge compat](https://www.curseforge.com/minecraft/mc-mods/emc-bridge-neoforge-1-21-1) | mods | `emcbridge-neoforge-1.21.1-0.6.3.jar` |
 | [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions) | mods | `enchdesc-neoforge-1.21.1-21.1.11.jar` |
-| [Ender IO](https://www.curseforge.com/minecraft/mc-mods/ender-io) | mods | `enderio-8.2.12-beta.jar` |
+| [Ender IO](https://www.curseforge.com/minecraft/mc-mods/ender-io) | mods | `enderio-8.2.13-beta.jar` |
 | [Ender Storage 1.8.+](https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8) | mods | `EnderStorage-1.21.1-2.13.0.191.jar` |
 | [Energy Pots [Botany Pots Addon]](https://www.curseforge.com/minecraft/mc-mods/energy-pots) | mods | `powerpots-1.21.1-1.0.0.jar` |
 | [Entangled](https://www.curseforge.com/minecraft/mc-mods/entangled) | mods | `entangled-1.3.21-neoforge-mc1.21.jar` |
-| [Entity Culling Fabric/Forge](https://www.curseforge.com/minecraft/mc-mods/entityculling) | mods | `entityculling-neoforge-1.11.3-mc1.21.1.jar` |
+| [Entity Culling Fabric/Forge](https://www.curseforge.com/minecraft/mc-mods/entityculling) | mods | `entityculling-neoforge-1.12.1-mc1.21.1.jar` |
 | [Ex Compressum](https://www.curseforge.com/minecraft/mc-mods/ex-compressum) | mods | `excompressum-neoforge-1.21.1-21.1.15.0.jar` |
 | [Ex Deorum](https://www.curseforge.com/minecraft/mc-mods/ex-deorum) | mods | `exdeorum-3.12.jar` |
 | [Explorer's Compass](https://www.curseforge.com/minecraft/mc-mods/explorers-compass) | mods | `ExplorersCompass-1.21.1-3.4.0-neoforge.jar` |
@@ -81,7 +81,7 @@
 | [FLIB](https://www.curseforge.com/minecraft/mc-mods/flib) | mods | `flib-1.21.1-0.2.9.jar` |
 | [Flux Networks](https://www.curseforge.com/minecraft/mc-mods/flux-networks) | mods | `FluxNetworks-1.21.1-8.0.0.jar` |
 | [Forgiving Void](https://www.curseforge.com/minecraft/mc-mods/forgiving-void) | mods | `forgivingvoid-neoforge-1.21.1-21.1.7.jar` |
-| [FTB Chunks (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge) | mods | `ftb-chunks-neoforge-2101.1.23.jar` |
+| [FTB Chunks (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge) | mods | `ftb-chunks-neoforge-2101.1.24.jar` |
 | [FTB Library (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge) | mods | `ftb-library-neoforge-2101.1.39.jar` |
 | [FTB Quests (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge) | mods | `ftb-quests-neoforge-2101.1.38.jar` |
 | [FTB Teams (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge) | mods | `ftb-teams-neoforge-2101.1.12.jar` |
@@ -95,6 +95,7 @@
 | [Handcrafted](https://www.curseforge.com/minecraft/mc-mods/handcrafted) | mods | `handcrafted-neoforge-1.21.1-4.0.3.jar` |
 | [Haven Cobble Generators](https://www.curseforge.com/minecraft/mc-mods/haven-cobble-generators) | mods | `HavenCobbleGenerators-NeoForge-1.21.1-1.1.1.jar` |
 | [Hels Crates](https://www.curseforge.com/minecraft/mc-mods/hels-crates) | mods | `helscrates-1.0.5c.jar` |
+| [Huge Structure Blocks [Fabric & Forge]](https://www.curseforge.com/minecraft/mc-mods/huge-structure-blocks) | mods | `huge-structure-blocks-neoforge-1.1.6.jar` |
 | [Iceberg [Neo/Forge]](https://www.curseforge.com/minecraft/mc-mods/iceberg) | mods | `Iceberg-1.21.1-neoforge-1.3.2.jar` |
 | [ImmediatelyFast](https://www.curseforge.com/minecraft/mc-mods/immediatelyfast) | mods | `ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar` |
 | [Immersive UI](https://www.curseforge.com/minecraft/mc-mods/immersive-ui) | mods | `ImmersiveUI-NEOFORGE-0.3.3+1.21.1.jar` |
@@ -147,19 +148,19 @@
 | [Overworld Mirror](https://www.curseforge.com/minecraft/mc-mods/overworld-mirror) | mods | `overworld_mirror-neoforge-1.21.1-1.8.0.25.jar` |
 | [Packet Fixer](https://www.curseforge.com/minecraft/mc-mods/packet-fixer) | mods | `packetfixer-3.3.1-1.20.5-1.21.X-merged.jar` |
 | [Particle Rain](https://www.curseforge.com/minecraft/mc-mods/particle-rain) | mods | `particlerain-4.0.3-1.21.1-neoforge.jar` |
-| [Particular ✨ Reforged](https://www.curseforge.com/minecraft/mc-mods/particular-reforged) | mods | `particular-1.21.1-NeoForge-1.5.7.jar` |
+| [Particular ✨ Reforged](https://www.curseforge.com/minecraft/mc-mods/particular-reforged) | mods | `particular-1.21.1-NeoForge-1.6.1.jar` |
 | [Pipez](https://www.curseforge.com/minecraft/mc-mods/pipez) | mods | `pipez-neoforge-1.21.1-1.2.31.jar` |
 | [PixelGO - AutoBattle Pixelmon](https://www.curseforge.com/minecraft/mc-mods/pixelgo-autobattle-pixelmon) | mods | `pixelgo_autobattle-1.1.0.jar` |
-| [PixelGO - Backpack (For Pixelmon)](https://www.curseforge.com/minecraft/mc-mods/pixelgo-backpack) | mods | `pixelgobackpack-1.0.0.jar` |
+| [PixelGO - Backpack (For Pixelmon)](https://www.curseforge.com/minecraft/mc-mods/pixelgo-backpack) | mods | `pixelgobackpack-2.0.0.jar` |
 | [PixelGO - Balls (for Pixelmon)](https://www.curseforge.com/minecraft/mc-mods/pixelgo-balls) | mods | `pixelballs-3.0.jar` |
 | [PixelGO - Dimension](https://www.curseforge.com/minecraft/mc-mods/pixelgo-dimension) | mods | `pixelgo_dimension-2.0.0.jar` |
 | [PixelGO - Dungeon (Pixelmon x Solo leveling)](https://www.curseforge.com/minecraft/mc-mods/pixelgo-dungeon-pixelmon-x-solo-leveling) | mods | `pixelgo_dungeon-4.3.jar` |
 | [PixelGO - Enchant x Pixelmon](https://www.curseforge.com/minecraft/mc-mods/pixelgo-enchant-x-pixelmon) | mods | `pixelgo-1.1.jar` |
 | [PixelGO - Expedition (For Pixelmon)](https://www.curseforge.com/minecraft/mc-mods/pixelgo-expedition-for-pixelmon) | mods | `pixelgo_expedition-1.0.0.jar` |
 | [PixelGO - FTB Quest Pixelmon](https://www.curseforge.com/minecraft/mc-mods/pixelgo-quest-pixelmon) | mods | `pixelgoquests-2.0.0.jar` |
-| [PixelGO - Information - Jade (for Pixelmon)](https://www.curseforge.com/minecraft/mc-mods/pixelgo-information-jade-for-pixelmon) | mods | `pixelinformationjade-2.0.0.jar` |
+| [PixelGO - Information - Jade (for Pixelmon)](https://www.curseforge.com/minecraft/mc-mods/pixelgo-information-jade-for-pixelmon) | mods | `pixelinformationjade-3.0.0.jar` |
 | [PixelGO - Items (for Pixelmon)](https://www.curseforge.com/minecraft/mc-mods/pixelgo-items) | mods | `pixelgoitems-4.0.jar` |
-| [PixelGO - Minions (like Hypixel)](https://www.curseforge.com/minecraft/mc-mods/pixelgo-minions-like-hypixel) | mods | `pixelgo_minions-5.0.0.jar` |
+| [PixelGO - Minions (like Hypixel)](https://www.curseforge.com/minecraft/mc-mods/pixelgo-minions-like-hypixel) | mods | `pixelgo_minions-6.0.0.jar` |
 | [PixelGO - NPC (For Pixelmon)](https://www.curseforge.com/minecraft/mc-mods/pixelgo-npc-for-pixelmon) | mods | `pixelgo_npc-1.1.0.jar` |
 | [PixelGO - Pixelmongo](https://www.curseforge.com/minecraft/mc-mods/pixelgo-pixelmongo) | mods | `pixelmongo-2.0.0.jar` |
 | [PixelGO - Radar Pixelmon](https://www.curseforge.com/minecraft/mc-mods/pixelgo-radar-pixelmon) | mods | `pixelgo_radar-1.0.jar` |
@@ -170,6 +171,7 @@
 | [PixelGO - Specs (for Pixelmon)](https://www.curseforge.com/minecraft/mc-mods/pixelgo-specs) | mods | `pixelspecs-1.0.1.jar` |
 | [PixelGO - Your team die, you die - Pixelmon](https://www.curseforge.com/minecraft/mc-mods/pixelgo-your-team-die-you-die-pixelmon) | mods | `pixelgoyourteamdieyoudie-2.0.jar` |
 | [PixelGO – Battle Tower ( Pixelmon )](https://www.curseforge.com/minecraft/mc-mods/pixelgo-battle-tower) | mods | `pixelgobattletower-1.21.1-2.0.jar` |
+| [PixelGO – JourneyMap x Pixelmon](https://www.curseforge.com/minecraft/mc-mods/pixelgo-journeymap-pixelmon) | mods | `pixelgo_journeymap-1.0.0.jar` |
 | [Pixelmon](https://www.curseforge.com/minecraft/mc-mods/pixelmon) | mods | `Pixelmon-1.21.1-9.4.2-universal.jar` |
 | [Pixelmon Legendary Dens](https://www.curseforge.com/minecraft/mc-mods/pixelmon-legendary-dens) | mods | `pixelmon_extra_dens-1.0.0-neoforge-1.21.1.jar` |
 | [Pixelmon Pokenav](https://www.curseforge.com/minecraft/mc-mods/pixelmon-pokenav) | mods | `pixelnav-2.0.jar` |
@@ -194,7 +196,7 @@
 | [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility) | mods | `rftoolsutility-1.21-7.0.13.jar` |
 | [Rhino](https://www.curseforge.com/minecraft/mc-mods/rhino) | mods | `rhino-2101.2.7-build.85.jar` |
 | [Searchables](https://www.curseforge.com/minecraft/mc-mods/searchables) | mods | `Searchables-neoforge-1.21.1-1.0.2.jar` |
-| [ShatterLib \| OctoLib](https://www.curseforge.com/minecraft/mc-mods/shatterbyte-lib) | mods | `OctoLib-NEOFORGE-0.6.3-1.21.jar` |
+| [ShatterLib \| OctoLib](https://www.curseforge.com/minecraft/mc-mods/shatterbyte-lib) | mods | `OctoLib-NEOFORGE-0.6.3.2-1.21.jar` |
 | [Silent Lib (silentlib)](https://www.curseforge.com/minecraft/mc-mods/silent-lib) | mods | `silent-lib-1.21.1-neoforge-10.6.0.jar` |
 | [Simple Storage Network](https://www.curseforge.com/minecraft/mc-mods/simple-storage-network) | mods | `storagenetwork-1.21.1-1.13.2.jar` |
 | [Skyblock Builder](https://www.curseforge.com/minecraft/mc-mods/skyblock-builder) | mods | `SkyblockBuilder-21.1.31.jar` |
@@ -204,8 +206,8 @@
 | [Sodium Shadowy Path Blocks (SSPB)](https://www.curseforge.com/minecraft/mc-mods/sodium-shadowy-path-blocks) | mods | `sodium-shadowy-path-blocks-neoforge-4.1.0.jar` |
 | [Sooty Chimneys](https://www.curseforge.com/minecraft/mc-mods/sooty-chimneys) | mods | `sootychimneys-neoforge-1.3.5.jar` |
 | [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks) | mods | `sophisticatedbackpacks-1.21.1-3.26.21.2249.jar` |
-| [Sophisticated Core](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core) | mods | `sophisticatedcore-1.21.1-1.5.33.2470.jar` |
-| [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage) | mods | `sophisticatedstorage-1.21.1-1.6.17.2224.jar` |
+| [Sophisticated Core](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core) | mods | `sophisticatedcore-1.21.1-1.5.35.2473.jar` |
+| [Sophisticated Storage](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage) | mods | `sophisticatedstorage-1.21.1-1.6.18.2229.jar` |
 | [Sound Physics Remastered](https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered) | mods | `sound-physics-remastered-neoforge-1.21.1-1.5.2.jar` |
 | [spark](https://www.curseforge.com/minecraft/mc-mods/spark) | mods | `spark-1.10.124-neoforge.jar` |
 | [Squat Grow (Shift / Twerk to grow plants)](https://www.curseforge.com/minecraft/mc-mods/squat-grow) | mods | `squatgrow-neoforge-21.1.4+mc1.21.1.jar` |

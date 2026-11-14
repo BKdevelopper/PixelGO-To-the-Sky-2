@@ -51,6 +51,7 @@
 - **Controls cleaned up**: PixelGO menus and origin skills moved to **Alt**, **P** opens the Pokénav. *Updating an old install? Reset your controls.*
 - PixelGO window title and icon.
 - Leftover example files removed.
+- PixelGO - JourneyMap x Pixelmon did not load (conflict with PixelGO Enchant).
 
 ## Mods added
 
@@ -71,3 +72,7 @@
 - **Inventory Pets**.
 - **ProjectExpansion** (EMC generation).
 - **RFTools Storage**.
+
+## Updated mods
+
+- **PixelGO - JourneyMap x Pixelmon**: 1.0.0 -> 1.0.1.

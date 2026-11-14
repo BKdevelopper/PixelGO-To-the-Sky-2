@@ -29,7 +29,7 @@ B:game_intro_ignore_animation_loops = 'true';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '';
 S:custom_window_icon_32 = 'config/fancymenu/assets/window_icon_32.png';
-S:custom_window_title = 'PixelGO - To the Sky 2 : v3.2';
+S:custom_window_title = 'PixelGO - To the Sky 2 : v3.1';
 S:custom_window_icon_16 = 'config/fancymenu/assets/window_icon_16.png';
 
 

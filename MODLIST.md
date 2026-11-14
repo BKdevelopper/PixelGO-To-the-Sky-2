@@ -1,4 +1,4 @@
-# PixelGO - To the Sky 2 — v3.2 : liste des contenus (234)
+# PixelGO - To the Sky 2 — v3.1 : liste des contenus (234)
 
 | Nom | Dossier | Fichier |
 |---|---|---|

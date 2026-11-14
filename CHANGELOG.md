@@ -1,9 +1,5 @@
 # Changelog — PixelGO - To the Sky 2
 
-## v3.2 — 2026-11-14
-
-- 
-
 ## v3.1 — 2026-11-14
 
 - Île Windhaven réenregistrée (même taille 81x50x81) : maison meublée (mobilier et Pokédolls avec leurs données), minerais, 4 Master Chests cachés à usage unique (graines d'inferium, clé Ultra, totem, livre Harvesting IV), 8 tonneaux vides, 2 Portes de rang E à la place de la Porte de rang C, waystone déplacée.

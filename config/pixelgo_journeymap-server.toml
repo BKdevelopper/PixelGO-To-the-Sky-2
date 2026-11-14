@@ -1,0 +1,14 @@
+#Send the position of raid dens (Max Raids / Tera Raids) to players that have PixelGO installed.
+syncRaids = true
+#Send the position of PokéStops to players that have PixelGO installed.
+syncPokestops = true
+#Send the position of Poké Loot to players that have PixelGO installed.
+syncPokeloot = true
+#Also send hidden Poké Loot (the ones meant to be found with the Dowsing Machine).
+syncHiddenPokeloot = false
+#Send the position of open Ultra Wormholes to players that have PixelGO installed.
+syncWormholes = true
+#How often (in ticks) raid states are refreshed and changes are sent to players. 20 ticks = 1 second.
+# Default: 40
+# Range: 10 ~ 1200
+refreshTicks = 40

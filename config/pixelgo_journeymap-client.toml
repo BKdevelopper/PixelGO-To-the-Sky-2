@@ -1,0 +1,42 @@
+[npc]
+	#Show Pixelmon NPCs on the map with the head of their skin, at the same size as Pokémon sprites.
+	showNpcHeads = true
+
+[markers]
+	#Show Max Raids (Dynamax raid dens) on the map.
+	showMaxRaids = true
+	#Show Tera Raids on the map.
+	showTeraRaids = true
+	#Also show raid dens that currently have no raid.
+	showEmptyDens = false
+	#Show PokéStops on the map.
+	showPokestops = true
+	#Show Poké Loot on the map (with the icon of their Poké Ball).
+	showPokeloot = true
+	#Also show hidden Poké Loot (the ones meant to be found with the Dowsing Machine).
+	#On a server, this also requires 'syncHiddenPokeloot' in the server config.
+	showHiddenPokeloot = false
+	#Show Ultra Wormholes on the map while they are open.
+	showWormholes = true
+	#Use the sprite of the raid boss as raid marker instead of the raid icon.
+	raidBossSprite = false
+	#Write a short label (raid boss name, 'PokéStop', ...) under the markers.
+	showLabels = false
+
+[sizes]
+	#Size of raid markers on the map, in pixels.
+	# Default: 32
+	# Range: 8 ~ 96
+	raidSize = 32
+	#Size of PokéStop markers on the map, in pixels (multiples of 16 look sharpest).
+	# Default: 32
+	# Range: 8 ~ 96
+	pokestopSize = 32
+	#Size of Poké Loot markers on the map, in pixels (multiples of 16 look sharpest).
+	# Default: 24
+	# Range: 8 ~ 96
+	pokelootSize = 24
+	#Size of Ultra Wormhole markers on the map, in pixels.
+	# Default: 48
+	# Range: 8 ~ 128
+	wormholeSize = 48

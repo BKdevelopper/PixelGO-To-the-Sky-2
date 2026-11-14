@@ -23,13 +23,19 @@
 
 ## Added mods
 
-- **Compass to Map** (re-enabled).
+- **PixelGO - JourneyMap x Pixelmon**: JourneyMap map with Pixelmon info.
+- **Huge Structure Blocks**: large structure blocks.
 
 ## Updated mods
 
-- **PixelGO - JourneyMap x Pixelmon**: 1.0.0 -> 1.0.1.
 - **Architectury API**: 13.0.11 -> 13.0.12.
-
-## Fixes
-
-- PixelGO - JourneyMap x Pixelmon did not load (conflict with PixelGO Enchant).
+- **Ender IO**: 8.2.12-beta -> 8.2.13-beta.
+- **Entity Culling**: 1.11.3 -> 1.12.1.
+- **FTB Chunks**: 2101.1.23 -> 2101.1.24.
+- **Particular Reforged**: 1.5.7 -> 1.6.1.
+- **PixelGO - Backpack**: 1.0.0 -> 2.0.0.
+- **PixelGO - Information - Jade**: 2.0.0 -> 3.0.0.
+- **PixelGO - Minions**: 5.0.0 -> 6.0.0.
+- **ShatterLib / OctoLib**: 0.6.3 -> 0.6.3.2.
+- **Sophisticated Core**: 1.5.33 -> 1.5.35.
+- **Sophisticated Storage**: 1.6.17 -> 1.6.18.

@@ -1,5 +1,9 @@
 # Changelog — PixelGO - To the Sky 2
 
+## v3.1 — 2026-11-14
+
+- Architectury API 13.0.11 -> 13.0.12, Compass to Map réactivé.
+
 ## v3.0
 
 - Version de départ du dépôt GitHub.

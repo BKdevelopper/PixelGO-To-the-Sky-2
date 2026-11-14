@@ -1,4 +1,4 @@
-# PixelGO - To the Sky 2 — v3.0 : liste des contenus (234)
+# PixelGO - To the Sky 2 — v3.1 : liste des contenus (234)
 
 | Nom | Dossier | Fichier |
 |---|---|---|
@@ -8,7 +8,7 @@
 | [Ambient Environment](https://www.curseforge.com/minecraft/mc-mods/ambient-environment) | mods | `AmbientEnvironment-neoforge-1.21.1-18.0.0.2.jar` |
 | [Another Furniture](https://www.curseforge.com/minecraft/mc-mods/another-furniture) | mods | `another_furniture-neoforge-4.0.3.jar` |
 | [AppleSkin](https://www.curseforge.com/minecraft/mc-mods/appleskin) | mods | `appleskin-neoforge-mc1.21-3.0.9.jar` |
-| [Architectury API](https://www.curseforge.com/minecraft/mc-mods/architectury-api) | mods | `architectury-13.0.11-neoforge.jar` |
+| [Architectury API](https://www.curseforge.com/minecraft/mc-mods/architectury-api) | mods | `architectury-13.0.12-neoforge.jar` |
 | [Athena](https://www.curseforge.com/minecraft/mc-mods/athena) | mods | `athena-neoforge-1.21.1-4.0.6.jar` |
 | [ATi Structures](https://www.curseforge.com/minecraft/mc-mods/ati-structures) | mods | `ATi Structures V1.4.6.jar` |
 | [Auth Me](https://www.curseforge.com/minecraft/mc-mods/auth-me) | mods | `authme-neoforge-9.0.1+1.21.1.jar` |
@@ -36,7 +36,7 @@
 | [ColoFixes](https://www.curseforge.com/minecraft/mc-mods/colofixes) | mods | `colofixes-2.4.jar` |
 | [ColorTooltips](https://www.curseforge.com/minecraft/mc-mods/colortooltips) | mods | `colortooltips-1211.3.6.jar` |
 | [Common Capabilities](https://www.curseforge.com/minecraft/mc-mods/common-capabilities) | mods | `commoncapabilities-1.21.1-neoforge-2.11.6.jar` |
-| [Compass to Map: JourneyMap & Explorer's Compass & Nature's Compass Addon](https://www.curseforge.com/minecraft/mc-mods/compass-to-map) *(désactivé)* | mods | `compass-to-map-journeymap-2.1.1-neoforge-1.21.1.jar` |
+| [Compass to Map: JourneyMap & Explorer's Compass & Nature's Compass Addon](https://www.curseforge.com/minecraft/mc-mods/compass-to-map) | mods | `compass-to-map-journeymap-2.1.1-neoforge-1.21.1.jar` |
 | [Configured](https://www.curseforge.com/minecraft/mc-mods/configured) | mods | `configured-neoforge-1.21.1-2.6.3.jar` |
 | [Connected Glass](https://www.curseforge.com/minecraft/mc-mods/connected-glass) | mods | `connectedglass-1.1.14-neoforge-mc1.21.jar` |
 | [Construction Wands Revived](https://www.curseforge.com/minecraft/mc-mods/construction-wands-revived) | mods | `ConstructionWandsRevived-1.21.1-4.0.14-NeoForge.jar` |
@@ -171,7 +171,7 @@
 | [PixelGO - Specs (for Pixelmon)](https://www.curseforge.com/minecraft/mc-mods/pixelgo-specs) | mods | `pixelspecs-1.0.1.jar` |
 | [PixelGO - Your team die, you die - Pixelmon](https://www.curseforge.com/minecraft/mc-mods/pixelgo-your-team-die-you-die-pixelmon) | mods | `pixelgoyourteamdieyoudie-2.0.jar` |
 | [PixelGO – Battle Tower ( Pixelmon )](https://www.curseforge.com/minecraft/mc-mods/pixelgo-battle-tower) | mods | `pixelgobattletower-1.21.1-2.0.jar` |
-| [PixelGO – JourneyMap x Pixelmon](https://www.curseforge.com/minecraft/mc-mods/pixelgo-journeymap-pixelmon) | mods | `pixelgo_journeymap-1.0.0.jar` |
+| [PixelGO – JourneyMap x Pixelmon](https://www.curseforge.com/minecraft/mc-mods/pixelgo-journeymap-pixelmon) | mods | `pixelgo_journeymap-1.0.1.jar` |
 | [Pixelmon](https://www.curseforge.com/minecraft/mc-mods/pixelmon) | mods | `Pixelmon-1.21.1-9.4.2-universal.jar` |
 | [Pixelmon Legendary Dens](https://www.curseforge.com/minecraft/mc-mods/pixelmon-legendary-dens) | mods | `pixelmon_extra_dens-1.0.0-neoforge-1.21.1.jar` |
 | [Pixelmon Pokenav](https://www.curseforge.com/minecraft/mc-mods/pixelmon-pokenav) | mods | `pixelnav-2.0.jar` |

@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "PixelGO - To the Sky 2",
-  "version": "3.0",
+  "version": "3.1",
   "author": "Bilal",
   "files": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 8492726,
+      "fileID": 9608861,
       "required": true
     },
     {
@@ -187,7 +187,7 @@
     {
       "projectID": 1537959,
       "fileID": 9542565,
-      "required": false
+      "required": true
     },
     {
       "projectID": 457570,
@@ -861,7 +861,7 @@
     },
     {
       "projectID": 1803357,
-      "fileID": 9598975,
+      "fileID": 9611530,
       "required": true
     },
     {

@@ -27,10 +27,17 @@
 - `/updatemodpack` -> version mineure suivante (3.0 -> 3.1).
 - `/updatemodpack 4` -> version 4.0 (`/updatemodpack 4.2` -> 4.2).
 
+Le contenu du dossier au moment de `/updatemodpack` est la version qui se termine (celle de `VERSION`) ;
+tout ce qui change ensuite appartient à la nouvelle version.
+
 Étapes :
-1. `python tools/pixelgo-release/bump_version.py [version]` : change la version partout dans FancyMenu
+1. Clôturer la version en cours (A.B) : tout ce qui est en attente est commité (vérifier les changements
+   de mods avec `minecraftinstance.json` / `MODLIST.md` depuis le tag précédent et les porter au changelog),
+   `git status` propre, puis tag annoté `git tag -a vA.B -m "Version A.B"` sur ce commit et `git push --follow-tags`.
+2. `python tools/pixelgo-release/bump_version.py [version]` : change la version partout dans FancyMenu
    (titre de la fenêtre `config/fancymenu/options.txt`, titre du changelog `pixelgo.menu.changelog_title`
    en fr/en), archive le changelog du menu dans `docs/changelogs/<ancienne version>/` et le remet à zéro.
-2. Vérifier : `grep -rn "v<ancienne version>" config/fancymenu/options.txt kubejs/assets/pixelgo/lang` ne doit rien renvoyer.
-3. Commit `Version X.Y`, tag annoté `git tag -a vX.Y -m "Version X.Y"`, `git push --follow-tags`.
+   (`python` = `%LOCALAPPDATA%\Programs\Python\Python313\python.exe`, l'alias Windows ouvre le Store.)
+3. Vérifier : `grep -rn "v<ancienne version>" config/fancymenu/options.txt kubejs/assets/pixelgo/lang` ne doit rien renvoyer.
+4. Commit `Version X.Y` (sans tag : `vX.Y` sera posé à la clôture de X.Y), `git push`.
 - Dépôt : https://github.com/BKdevelopper/PixelGO-To-the-Sky-2 (identifiants dans `.git/credentials`, jamais versionnés).

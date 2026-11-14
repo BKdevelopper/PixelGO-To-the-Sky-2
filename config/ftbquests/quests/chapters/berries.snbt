@@ -16,7 +16,10 @@
 			id: "58272E79FFF4ADE8"
 			rewards: [{
 				id: "7EAEAA749DDA6C5D"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -33,7 +36,10 @@
 			id: "7C7661AB88531E85"
 			rewards: [{
 				id: "743A86381A53B296"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -50,7 +56,10 @@
 			id: "7D5339B2CF556A3E"
 			rewards: [{
 				id: "36BF2DE73B121A2E"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -67,7 +76,10 @@
 			id: "559BC64700A60A4F"
 			rewards: [{
 				id: "26D907B07797687A"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -84,7 +96,10 @@
 			id: "29B6C48F3B0674A4"
 			rewards: [{
 				id: "0F3EAE504DDA7439"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -101,7 +116,10 @@
 			id: "169B66FE473F3F22"
 			rewards: [{
 				id: "1C9E4DC04ABA80C9"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -118,7 +136,10 @@
 			id: "0FB69B8CB7528433"
 			rewards: [{
 				id: "321C33C04C266844"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -135,7 +156,10 @@
 			id: "0C725AEC19F39331"
 			rewards: [{
 				id: "23A9DDAE2464D997"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -152,7 +176,10 @@
 			id: "7D2E691E1148FB19"
 			rewards: [{
 				id: "03B16D2DF28308D5"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -169,7 +196,10 @@
 			id: "087C62016800CE22"
 			rewards: [{
 				id: "7010A25B19564EB1"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -186,7 +216,10 @@
 			id: "373CD189869D6082"
 			rewards: [{
 				id: "6919C88F03E58751"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -203,7 +236,10 @@
 			id: "7213B4CE95B65EB8"
 			rewards: [{
 				id: "041A4FB86959362E"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -220,7 +256,10 @@
 			id: "3113C15F23BF8F23"
 			rewards: [{
 				id: "4C8E62A0BE8CDD98"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -237,7 +276,10 @@
 			id: "015EE009981CCFDB"
 			rewards: [{
 				id: "7CB6C9BD480C1B4E"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -254,7 +296,10 @@
 			id: "039662243EFDB77C"
 			rewards: [{
 				id: "6C55EB5A7EE497C5"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -271,7 +316,10 @@
 			id: "339B645EB7F8BD24"
 			rewards: [{
 				id: "08DD339321660D13"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -288,7 +336,10 @@
 			id: "4CD5DE0717A04233"
 			rewards: [{
 				id: "7100F29ECF2927EA"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -305,7 +356,10 @@
 			id: "2EAFB9D9784386EB"
 			rewards: [{
 				id: "5EF85F64B358B311"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -322,7 +376,10 @@
 			id: "310D71D613D92C05"
 			rewards: [{
 				id: "62DC595DE4FC32D6"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -339,7 +396,10 @@
 			id: "234BA378713CF26C"
 			rewards: [{
 				id: "427341D86BF824FA"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -356,7 +416,10 @@
 			id: "48E13E4AD914BD5F"
 			rewards: [{
 				id: "37495B42AF735E3A"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -373,7 +436,10 @@
 			id: "4A941D0A50EC9AC0"
 			rewards: [{
 				id: "3D270DAA5F73D523"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -390,7 +456,10 @@
 			id: "2765D20ED242ED71"
 			rewards: [{
 				id: "5E434DCA3D31F121"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -407,7 +476,10 @@
 			id: "723E5D5E12D94A87"
 			rewards: [{
 				id: "2AAB9BF1D87A446A"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -424,7 +496,10 @@
 			id: "6ED8471DDEE61414"
 			rewards: [{
 				id: "3EA5965F1F739908"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -441,7 +516,10 @@
 			id: "7E2741B9CCCAFB7B"
 			rewards: [{
 				id: "61DF11964C2CF421"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -458,7 +536,10 @@
 			id: "2E27DF4B4A5AC3EE"
 			rewards: [{
 				id: "0E0F1EA5EBFA9A46"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -475,7 +556,10 @@
 			id: "7A5FBF70C2BCCB06"
 			rewards: [{
 				id: "28F8266FBF515697"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -492,7 +576,10 @@
 			id: "7240A5D6F1E178DC"
 			rewards: [{
 				id: "379DCE56A39392CC"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -509,7 +596,10 @@
 			id: "0C78611349F320B1"
 			rewards: [{
 				id: "3C70D602C1EBCCC9"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -526,7 +616,10 @@
 			id: "6D935B73E93C412E"
 			rewards: [{
 				id: "24296C9477F6CCC5"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -543,7 +636,10 @@
 			id: "43F9E5FE7C3A1683"
 			rewards: [{
 				id: "1B2A15B0B115AFC2"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -560,7 +656,10 @@
 			id: "6E7BBEF321AF5077"
 			rewards: [{
 				id: "6421735BB94DCF39"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -577,7 +676,10 @@
 			id: "4EEB3D90C9CC6B89"
 			rewards: [{
 				id: "54C84B5414DE08D5"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -594,7 +696,10 @@
 			id: "6CD07964DE533273"
 			rewards: [{
 				id: "2D34BB94FB5EE8E8"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -611,7 +716,10 @@
 			id: "4C0EC350F234BCC2"
 			rewards: [{
 				id: "51BDA62284CD2B15"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -628,7 +736,10 @@
 			id: "5C853455E0C6AEA6"
 			rewards: [{
 				id: "3E1582AD3CFE505D"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -645,7 +756,10 @@
 			id: "39EA1B9BC56115F6"
 			rewards: [{
 				id: "327D78E4A8FE2E85"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -662,7 +776,10 @@
 			id: "30FB8C90F09E5829"
 			rewards: [{
 				id: "61349D8235499431"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -679,7 +796,10 @@
 			id: "0C2D5DD2AB7C86FB"
 			rewards: [{
 				id: "47C95F2ABD63DB9C"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -696,7 +816,10 @@
 			id: "12AC0801B20842BC"
 			rewards: [{
 				id: "4E482CDB15F1CB5B"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -713,7 +836,10 @@
 			id: "790F4306BA4B189E"
 			rewards: [{
 				id: "1D8BA6A375AE9850"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -730,7 +856,10 @@
 			id: "7DFA507D8E3E936A"
 			rewards: [{
 				id: "277F31FB3F59DE0A"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -747,7 +876,10 @@
 			id: "5EE0211636E5149E"
 			rewards: [{
 				id: "51C9077B50B18455"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -764,7 +896,10 @@
 			id: "1AF62E4A8AA0C29A"
 			rewards: [{
 				id: "3F868B9F27FF43F5"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -781,7 +916,10 @@
 			id: "0999F5989191549F"
 			rewards: [{
 				id: "69D1BD8DD8FCEA4A"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -798,7 +936,10 @@
 			id: "529FF6F2819C5775"
 			rewards: [{
 				id: "5F439B65F5CCC30D"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -815,7 +956,10 @@
 			id: "5157C45F80358D4D"
 			rewards: [{
 				id: "437C25332A3702F2"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -832,7 +976,10 @@
 			id: "4DD0470CDA4F81C1"
 			rewards: [{
 				id: "2D1DDCF4336EF89E"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -849,7 +996,10 @@
 			id: "122496C051127FAB"
 			rewards: [{
 				id: "27150E57C9FC4A13"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -866,7 +1016,10 @@
 			id: "7720A7F13D72B503"
 			rewards: [{
 				id: "420F373601E426F5"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -883,7 +1036,10 @@
 			id: "196FA9BDF06A720E"
 			rewards: [{
 				id: "2BB479F3F632F669"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -900,7 +1056,10 @@
 			id: "28AC57BB7171F8FE"
 			rewards: [{
 				id: "6C3C98592126AC9B"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -917,7 +1076,10 @@
 			id: "074B7C9FD5EA39F3"
 			rewards: [{
 				id: "43BD764A5FCB3B92"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -934,7 +1096,10 @@
 			id: "7D050E2EC9CF921B"
 			rewards: [{
 				id: "2630C081CADA219B"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -951,7 +1116,10 @@
 			id: "731B3607829D1213"
 			rewards: [{
 				id: "2057D6750C8FEAA6"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -968,7 +1136,10 @@
 			id: "73EC59F878883D44"
 			rewards: [{
 				id: "1E05F348D9C77438"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -985,7 +1156,10 @@
 			id: "71C8004A71C76FA5"
 			rewards: [{
 				id: "40DE97E44123B7B2"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1002,7 +1176,10 @@
 			id: "2F0F26CDCD353621"
 			rewards: [{
 				id: "0E0B2EDD5A114577"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1019,7 +1196,10 @@
 			id: "460DADABAB886BE6"
 			rewards: [{
 				id: "53862D77BFA5C6C0"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1036,7 +1216,10 @@
 			id: "36CF7B1FB6C33375"
 			rewards: [{
 				id: "7D380D912C146E41"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1053,7 +1236,10 @@
 			id: "3C9380090A8BFAB8"
 			rewards: [{
 				id: "6717DA0B38AC3890"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1070,7 +1256,10 @@
 			id: "765FA573D227CC5B"
 			rewards: [{
 				id: "391FF8B425D296C4"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1087,7 +1276,10 @@
 			id: "4F9DD2331E41E20E"
 			rewards: [{
 				id: "7F3E86E90FA068C1"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1104,7 +1296,10 @@
 			id: "520E20CE44D0A0E7"
 			rewards: [{
 				id: "3F0F0CB0C92B966B"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1121,7 +1316,10 @@
 			id: "432AFCAD2DBF534A"
 			rewards: [{
 				id: "3D566C876F23ED16"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1138,7 +1336,10 @@
 			id: "58286AA7A71CB15E"
 			rewards: [{
 				id: "43D4CAA09D579F1F"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1155,7 +1356,10 @@
 			id: "0BF9A41D475569C3"
 			rewards: [{
 				id: "565801F41FBAF06A"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1172,7 +1376,10 @@
 			id: "52F3AB80762079E0"
 			rewards: [{
 				id: "5955B40C49EF4068"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1189,7 +1396,10 @@
 			id: "4007FA3079EB43AE"
 			rewards: [{
 				id: "1214F86F94C4EE8C"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1206,7 +1416,10 @@
 			id: "69499EAF43CE3731"
 			rewards: [{
 				id: "5ADEF7AD991552BA"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1223,7 +1436,10 @@
 			id: "69509ECAAED673BE"
 			rewards: [{
 				id: "7CE222DCBCABC353"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1240,7 +1456,10 @@
 			id: "5CAAD18CEFC880C8"
 			rewards: [{
 				id: "368B9F1F7B5337BB"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1257,7 +1476,10 @@
 			id: "131FB620FAC559D7"
 			rewards: [{
 				id: "0A7D57D0AACE4A29"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1274,7 +1496,10 @@
 			id: "62319065F728DAD9"
 			rewards: [{
 				id: "63265821A7D33A0A"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1291,7 +1516,10 @@
 			id: "6104B5F5BC70EE0C"
 			rewards: [{
 				id: "2FFBA14D11D54A83"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1308,7 +1536,10 @@
 			id: "1FFE7DD1F30BC82B"
 			rewards: [{
 				id: "0DE8942A7AB29F3A"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1325,7 +1556,10 @@
 			id: "4BFDD4D831AF8A7C"
 			rewards: [{
 				id: "61ADBEC0EF3462DA"
-				item: { count: 1, id: "pokeblocks:dime" }
+				item: {
+					count: 1
+					id: "pokeblocks:dime"
+				}
 				type: "item"
 			}]
 			shape: "none"
@@ -1338,13 +1572,95 @@
 			y: -9.75d
 		}
 		{
-			dependencies: ["58272E79FFF4ADE8", "7C7661AB88531E85", "7D5339B2CF556A3E", "559BC64700A60A4F", "29B6C48F3B0674A4", "169B66FE473F3F22", "0FB69B8CB7528433", "0C725AEC19F39331", "7D2E691E1148FB19", "087C62016800CE22", "373CD189869D6082", "7213B4CE95B65EB8", "3113C15F23BF8F23", "015EE009981CCFDB", "039662243EFDB77C", "339B645EB7F8BD24", "4CD5DE0717A04233", "2EAFB9D9784386EB", "310D71D613D92C05", "234BA378713CF26C", "48E13E4AD914BD5F", "4A941D0A50EC9AC0", "2765D20ED242ED71", "723E5D5E12D94A87", "6ED8471DDEE61414", "7E2741B9CCCAFB7B", "2E27DF4B4A5AC3EE", "7A5FBF70C2BCCB06", "7240A5D6F1E178DC", "0C78611349F320B1", "6D935B73E93C412E", "43F9E5FE7C3A1683", "6E7BBEF321AF5077", "4EEB3D90C9CC6B89", "6CD07964DE533273", "4C0EC350F234BCC2", "5C853455E0C6AEA6", "39EA1B9BC56115F6", "30FB8C90F09E5829", "0C2D5DD2AB7C86FB", "12AC0801B20842BC", "790F4306BA4B189E", "7DFA507D8E3E936A", "5EE0211636E5149E", "1AF62E4A8AA0C29A", "0999F5989191549F", "529FF6F2819C5775", "5157C45F80358D4D", "4DD0470CDA4F81C1", "122496C051127FAB", "7720A7F13D72B503", "196FA9BDF06A720E", "28AC57BB7171F8FE", "074B7C9FD5EA39F3", "7D050E2EC9CF921B", "731B3607829D1213", "73EC59F878883D44", "71C8004A71C76FA5", "2F0F26CDCD353621", "460DADABAB886BE6", "36CF7B1FB6C33375", "3C9380090A8BFAB8", "765FA573D227CC5B", "4F9DD2331E41E20E", "520E20CE44D0A0E7", "432AFCAD2DBF534A", "58286AA7A71CB15E", "0BF9A41D475569C3", "52F3AB80762079E0", "4007FA3079EB43AE", "69499EAF43CE3731", "69509ECAAED673BE", "5CAAD18CEFC880C8", "131FB620FAC559D7", "62319065F728DAD9", "6104B5F5BC70EE0C", "1FFE7DD1F30BC82B", "4BFDD4D831AF8A7C"]
+			dependencies: [
+				"58272E79FFF4ADE8"
+				"7C7661AB88531E85"
+				"7D5339B2CF556A3E"
+				"559BC64700A60A4F"
+				"29B6C48F3B0674A4"
+				"169B66FE473F3F22"
+				"0FB69B8CB7528433"
+				"0C725AEC19F39331"
+				"7D2E691E1148FB19"
+				"087C62016800CE22"
+				"373CD189869D6082"
+				"7213B4CE95B65EB8"
+				"3113C15F23BF8F23"
+				"015EE009981CCFDB"
+				"039662243EFDB77C"
+				"339B645EB7F8BD24"
+				"4CD5DE0717A04233"
+				"2EAFB9D9784386EB"
+				"310D71D613D92C05"
+				"234BA378713CF26C"
+				"48E13E4AD914BD5F"
+				"4A941D0A50EC9AC0"
+				"2765D20ED242ED71"
+				"723E5D5E12D94A87"
+				"6ED8471DDEE61414"
+				"7E2741B9CCCAFB7B"
+				"2E27DF4B4A5AC3EE"
+				"7A5FBF70C2BCCB06"
+				"7240A5D6F1E178DC"
+				"0C78611349F320B1"
+				"6D935B73E93C412E"
+				"43F9E5FE7C3A1683"
+				"6E7BBEF321AF5077"
+				"4EEB3D90C9CC6B89"
+				"6CD07964DE533273"
+				"4C0EC350F234BCC2"
+				"5C853455E0C6AEA6"
+				"39EA1B9BC56115F6"
+				"30FB8C90F09E5829"
+				"0C2D5DD2AB7C86FB"
+				"12AC0801B20842BC"
+				"790F4306BA4B189E"
+				"7DFA507D8E3E936A"
+				"5EE0211636E5149E"
+				"1AF62E4A8AA0C29A"
+				"0999F5989191549F"
+				"529FF6F2819C5775"
+				"5157C45F80358D4D"
+				"4DD0470CDA4F81C1"
+				"122496C051127FAB"
+				"7720A7F13D72B503"
+				"196FA9BDF06A720E"
+				"28AC57BB7171F8FE"
+				"074B7C9FD5EA39F3"
+				"7D050E2EC9CF921B"
+				"731B3607829D1213"
+				"73EC59F878883D44"
+				"71C8004A71C76FA5"
+				"2F0F26CDCD353621"
+				"460DADABAB886BE6"
+				"36CF7B1FB6C33375"
+				"3C9380090A8BFAB8"
+				"765FA573D227CC5B"
+				"4F9DD2331E41E20E"
+				"520E20CE44D0A0E7"
+				"432AFCAD2DBF534A"
+				"58286AA7A71CB15E"
+				"0BF9A41D475569C3"
+				"52F3AB80762079E0"
+				"4007FA3079EB43AE"
+				"69499EAF43CE3731"
+				"69509ECAAED673BE"
+				"5CAAD18CEFC880C8"
+				"131FB620FAC559D7"
+				"62319065F728DAD9"
+				"6104B5F5BC70EE0C"
+				"1FFE7DD1F30BC82B"
+				"4BFDD4D831AF8A7C"
+			]
 			hide_dependency_lines: true
 			id: "7EAA9CC17106420C"
 			rewards: [{
 				count: 10
 				id: "12CE5443A5071506"
-				item: { count: 1, id: "pokeblocks:poke_coin" }
+				item: {
+					count: 1
+					id: "pokeblocks:poke_coin"
+				}
 				type: "item"
 			}]
 			shape: "gear"

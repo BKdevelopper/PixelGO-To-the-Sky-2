@@ -1,5 +1,6 @@
 [
   {"version":2},
-  {"recipe":["pixelgo_minions:jei/minion/cobblestone_1",{"category":"misc","type":"pixelgo_minions:enchanted"}],"recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
-  {"recipe":["pixelgo_minions:jei/minion/cobblestone_12",{"category":"misc","type":"pixelgo_minions:enchanted"}],"recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+  {"ingredient":{"id":"minecraft:cobblestone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:chest"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"extendedcrafting:crystaltine_ingot","recipeType":"extendedcrafting:elite_crafting","bookmarkType":"RECIPE"}
 ]

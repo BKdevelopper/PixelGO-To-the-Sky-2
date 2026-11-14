@@ -138,9 +138,9 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:elder_guardian": true
 			"pixelmon:pixelmon": true
 			"minecraft:drowned": true
+			"minecraft:elder_guardian": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
